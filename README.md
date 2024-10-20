@@ -1,4 +1,4 @@
-# [ghp.hiedacamellia.org](https://ghp.hiedacamellia.org/)
+# HiedaCamellia Documentation
 
 ## [ProjectStack](https://ghp.hiedacamellia.org/ProjectStack/Docs/index.html)
 
