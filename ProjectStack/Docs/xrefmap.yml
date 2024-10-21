@@ -653,96 +653,96 @@ references:
   commentId: N:ProjectStack.Common.Recipe
   fullName: ProjectStack.Common.Recipe
   nameWithType: ProjectStack.Common.Recipe
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe
-  name: CardMateMatchRecipe
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html
-  commentId: T:ProjectStack.Common.Recipe.CardMateMatchRecipe
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe
-  nameWithType: CardMateMatchRecipe
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)
-  name: CardMateMatchRecipe(IList<CardMeta>, IList<CardMeta>, bool)
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe__ctor_System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Boolean_
-  commentId: M:ProjectStack.Common.Recipe.CardMateMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe
+  name: CardMetaMatchRecipe
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html
+  commentId: T:ProjectStack.Common.Recipe.CardMetaMatchRecipe
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe
+  nameWithType: CardMetaMatchRecipe
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)
+  name: CardMetaMatchRecipe(IList<CardMeta>, IList<CardMeta>, bool)
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe__ctor_System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Boolean_
+  commentId: M:ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)
   name.vb: New(IList(Of CardMeta), IList(Of CardMeta), Boolean)
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.CardMateMatchRecipe(System.Collections.Generic.IList<ProjectStack.Common.Card.CardMeta>, System.Collections.Generic.IList<ProjectStack.Common.Card.CardMeta>, bool)
-  fullName.vb: ProjectStack.Common.Recipe.CardMateMatchRecipe.New(System.Collections.Generic.IList(Of ProjectStack.Common.Card.CardMeta), System.Collections.Generic.IList(Of ProjectStack.Common.Card.CardMeta), Boolean)
-  nameWithType: CardMateMatchRecipe.CardMateMatchRecipe(IList<CardMeta>, IList<CardMeta>, bool)
-  nameWithType.vb: CardMateMatchRecipe.New(IList(Of CardMeta), IList(Of CardMeta), Boolean)
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.#ctor*
-  name: CardMateMatchRecipe
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe__ctor_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMateMatchRecipe.#ctor
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardMetaMatchRecipe(System.Collections.Generic.IList<ProjectStack.Common.Card.CardMeta>, System.Collections.Generic.IList<ProjectStack.Common.Card.CardMeta>, bool)
+  fullName.vb: ProjectStack.Common.Recipe.CardMetaMatchRecipe.New(System.Collections.Generic.IList(Of ProjectStack.Common.Card.CardMeta), System.Collections.Generic.IList(Of ProjectStack.Common.Card.CardMeta), Boolean)
+  nameWithType: CardMetaMatchRecipe.CardMetaMatchRecipe(IList<CardMeta>, IList<CardMeta>, bool)
+  nameWithType.vb: CardMetaMatchRecipe.New(IList(Of CardMeta), IList(Of CardMeta), Boolean)
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor*
+  name: CardMetaMatchRecipe
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.CardMateMatchRecipe
-  fullName.vb: ProjectStack.Common.Recipe.CardMateMatchRecipe.New
-  nameWithType: CardMateMatchRecipe.CardMateMatchRecipe
-  nameWithType.vb: CardMateMatchRecipe.New
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardMetaMatchRecipe
+  fullName.vb: ProjectStack.Common.Recipe.CardMetaMatchRecipe.New
+  nameWithType: CardMetaMatchRecipe.CardMetaMatchRecipe
+  nameWithType.vb: CardMetaMatchRecipe.New
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
   name: CardViewCount
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_CardViewCount
-  commentId: P:ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount
-  nameWithType: CardMateMatchRecipe.CardViewCount
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount*
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_CardViewCount
+  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
+  nameWithType: CardMetaMatchRecipe.CardViewCount
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount*
   name: CardViewCount
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_CardViewCount_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_CardViewCount_
+  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount
-  nameWithType: CardMateMatchRecipe.CardViewCount
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
+  nameWithType: CardMetaMatchRecipe.CardViewCount
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
   name: Execute(ICardStack)
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_Execute_ProjectStack_Common_Card_ICardStack_
-  commentId: M:ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
-  nameWithType: CardMateMatchRecipe.Execute(ICardStack)
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute*
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_Execute_ProjectStack_Common_Card_ICardStack_
+  commentId: M:ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
+  nameWithType: CardMetaMatchRecipe.Execute(ICardStack)
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute*
   name: Execute
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_Execute_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_Execute_
+  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute
-  nameWithType: CardMateMatchRecipe.Execute
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute
+  nameWithType: CardMetaMatchRecipe.Execute
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
   name: IsNeedOrder
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_IsNeedOrder
-  commentId: P:ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder
-  nameWithType: CardMateMatchRecipe.IsNeedOrder
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder*
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_IsNeedOrder
+  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
+  nameWithType: CardMetaMatchRecipe.IsNeedOrder
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder*
   name: IsNeedOrder
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_IsNeedOrder_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_IsNeedOrder_
+  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder
-  nameWithType: CardMateMatchRecipe.IsNeedOrder
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
+  nameWithType: CardMetaMatchRecipe.IsNeedOrder
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
   name: ProducedCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_ProducedCardMetas
-  commentId: P:ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas
-  nameWithType: CardMateMatchRecipe.ProducedCardMetas
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas*
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_ProducedCardMetas
+  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
+  nameWithType: CardMetaMatchRecipe.ProducedCardMetas
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas*
   name: ProducedCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_ProducedCardMetas_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_ProducedCardMetas_
+  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas
-  nameWithType: CardMateMatchRecipe.ProducedCardMetas
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
+  nameWithType: CardMetaMatchRecipe.ProducedCardMetas
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
   name: RequiredCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_RequiredCardMetas
-  commentId: P:ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas
-  nameWithType: CardMateMatchRecipe.RequiredCardMetas
-- uid: ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas*
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_RequiredCardMetas
+  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
+  nameWithType: CardMetaMatchRecipe.RequiredCardMetas
+- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas*
   name: RequiredCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMateMatchRecipe.html#ProjectStack_Common_Recipe_CardMateMatchRecipe_RequiredCardMetas_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas
+  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_RequiredCardMetas_
+  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas
-  nameWithType: CardMateMatchRecipe.RequiredCardMetas
+  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
+  nameWithType: CardMetaMatchRecipe.RequiredCardMetas
 - uid: ProjectStack.Common.Recipe.IRecipe
   name: IRecipe
   href: api/ProjectStack.Common.Recipe.IRecipe.html
@@ -781,6 +781,57 @@ references:
   commentId: T:ProjectStack.Common.Recipe.IRecipeInput
   fullName: ProjectStack.Common.Recipe.IRecipeInput
   nameWithType: IRecipeInput
+- uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper
+  name: RecipeRegistrationHelper
+  href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html
+  commentId: T:ProjectStack.Common.Recipe.RecipeRegistrationHelper
+  fullName: ProjectStack.Common.Recipe.RecipeRegistrationHelper
+  nameWithType: RecipeRegistrationHelper
+- uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: RecipeRegistrationHelper(IServiceCollection)
+  href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html#ProjectStack_Common_Recipe_RecipeRegistrationHelper__ctor_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:ProjectStack.Common.Recipe.RecipeRegistrationHelper.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: New(IServiceCollection)
+  fullName: ProjectStack.Common.Recipe.RecipeRegistrationHelper.RecipeRegistrationHelper(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName.vb: ProjectStack.Common.Recipe.RecipeRegistrationHelper.New(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: RecipeRegistrationHelper.RecipeRegistrationHelper(IServiceCollection)
+  nameWithType.vb: RecipeRegistrationHelper.New(IServiceCollection)
+- uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper.#ctor*
+  name: RecipeRegistrationHelper
+  href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html#ProjectStack_Common_Recipe_RecipeRegistrationHelper__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeRegistrationHelper.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Common.Recipe.RecipeRegistrationHelper.RecipeRegistrationHelper
+  fullName.vb: ProjectStack.Common.Recipe.RecipeRegistrationHelper.New
+  nameWithType: RecipeRegistrationHelper.RecipeRegistrationHelper
+  nameWithType.vb: RecipeRegistrationHelper.New
+- uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add(ProjectStack.Common.Recipe.IRecipe)
+  name: Add(IRecipe)
+  href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html#ProjectStack_Common_Recipe_RecipeRegistrationHelper_Add_ProjectStack_Common_Recipe_IRecipe_
+  commentId: M:ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add(ProjectStack.Common.Recipe.IRecipe)
+  fullName: ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add(ProjectStack.Common.Recipe.IRecipe)
+  nameWithType: RecipeRegistrationHelper.Add(IRecipe)
+- uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add*
+  name: Add
+  href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html#ProjectStack_Common_Recipe_RecipeRegistrationHelper_Add_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add
+  nameWithType: RecipeRegistrationHelper.Add
+- uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper.End
+  name: End()
+  href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html#ProjectStack_Common_Recipe_RecipeRegistrationHelper_End
+  commentId: M:ProjectStack.Common.Recipe.RecipeRegistrationHelper.End
+  fullName: ProjectStack.Common.Recipe.RecipeRegistrationHelper.End()
+  nameWithType: RecipeRegistrationHelper.End()
+- uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper.End*
+  name: End
+  href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html#ProjectStack_Common_Recipe_RecipeRegistrationHelper_End_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeRegistrationHelper.End
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.RecipeRegistrationHelper.End
+  nameWithType: RecipeRegistrationHelper.End
 - uid: ProjectStack.Common.Recipe.RecipeResult
   name: RecipeResult
   href: api/ProjectStack.Common.Recipe.RecipeResult.html
@@ -941,6 +992,12 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.CardStack
   nameWithType: Card.CardStack
+- uid: ProjectStack.Component.Card.CardStackChanged
+  name: CardStackChanged
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_CardStackChanged
+  commentId: E:ProjectStack.Component.Card.CardStackChanged
+  fullName: ProjectStack.Component.Card.CardStackChanged
+  nameWithType: Card.CardStackChanged
 - uid: ProjectStack.Component.Card.CharacterBody
   name: CharacterBody
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_CharacterBody
@@ -1207,6 +1264,12 @@ references:
   commentId: F:ProjectStack.Component.Card.MethodName.OnCardAreaExited
   fullName: ProjectStack.Component.Card.MethodName.OnCardAreaExited
   nameWithType: Card.MethodName.OnCardAreaExited
+- uid: ProjectStack.Component.Card.MethodName.OnCardStackChanged
+  name: OnCardStackChanged
+  href: api/ProjectStack.Component.Card.MethodName.html#ProjectStack_Component_Card_MethodName_OnCardStackChanged
+  commentId: F:ProjectStack.Component.Card.MethodName.OnCardStackChanged
+  fullName: ProjectStack.Component.Card.MethodName.OnCardStackChanged
+  nameWithType: Card.MethodName.OnCardStackChanged
 - uid: ProjectStack.Component.Card.MethodName.OnMouseEntered
   name: OnMouseEntered
   href: api/ProjectStack.Component.Card.MethodName.html#ProjectStack_Component_Card_MethodName_OnMouseEntered
@@ -1325,6 +1388,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.OnCardAreaExited
   nameWithType: Card.OnCardAreaExited
+- uid: ProjectStack.Component.Card.OnCardStackChanged
+  name: OnCardStackChanged()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardStackChanged
+  commentId: M:ProjectStack.Component.Card.OnCardStackChanged
+  fullName: ProjectStack.Component.Card.OnCardStackChanged()
+  nameWithType: Card.OnCardStackChanged()
+- uid: ProjectStack.Component.Card.OnCardStackChanged*
+  name: OnCardStackChanged
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardStackChanged_
+  commentId: Overload:ProjectStack.Component.Card.OnCardStackChanged
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.OnCardStackChanged
+  nameWithType: Card.OnCardStackChanged
 - uid: ProjectStack.Component.Card.OnDrag
   name: OnDrag
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnDrag
@@ -1516,6 +1592,12 @@ references:
   commentId: F:ProjectStack.Component.Card.PropertyName._game
   fullName: ProjectStack.Component.Card.PropertyName._game
   nameWithType: Card.PropertyName._game
+- uid: ProjectStack.Component.Card.PropertyName._isExecutingRecipe
+  name: _isExecutingRecipe
+  href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName__isExecutingRecipe
+  commentId: F:ProjectStack.Component.Card.PropertyName._isExecutingRecipe
+  fullName: ProjectStack.Component.Card.PropertyName._isExecutingRecipe
+  nameWithType: Card.PropertyName._isExecutingRecipe
 - uid: ProjectStack.Component.Card.PropertyName._isRoot
   name: _isRoot
   href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName__isRoot
@@ -2588,6 +2670,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.ServiceCollectionExtension.RegisterCardMetas
   nameWithType: ServiceCollectionExtension.RegisterCardMetas
+- uid: ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: RegisterRecipes(IServiceCollection)
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_RegisterRecipes_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: ServiceCollectionExtension.RegisterRecipes(IServiceCollection)
+- uid: ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes*
+  name: RegisterRecipes
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_RegisterRecipes_
+  commentId: Overload:ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes
+  isSpec: "True"
+  fullName: ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes
+  nameWithType: ServiceCollectionExtension.RegisterRecipes
 - uid: ProjectStack.Core.ServiceCollectionExtension.RegisterTextureLoader(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name: RegisterTextureLoader(IServiceCollection)
   href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_RegisterTextureLoader_Microsoft_Extensions_DependencyInjection_IServiceCollection_
@@ -2844,6 +2939,19 @@ references:
   commentId: T:ProjectStack.Game.PropertyName
   fullName: ProjectStack.Game.PropertyName
   nameWithType: Game.PropertyName
+- uid: ProjectStack.Game.Recipes
+  name: Recipes
+  href: api/ProjectStack.Game.html#ProjectStack_Game_Recipes
+  commentId: P:ProjectStack.Game.Recipes
+  fullName: ProjectStack.Game.Recipes
+  nameWithType: Game.Recipes
+- uid: ProjectStack.Game.Recipes*
+  name: Recipes
+  href: api/ProjectStack.Game.html#ProjectStack_Game_Recipes_
+  commentId: Overload:ProjectStack.Game.Recipes
+  isSpec: "True"
+  fullName: ProjectStack.Game.Recipes
+  nameWithType: Game.Recipes
 - uid: ProjectStack.Game.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
   name: RestoreGodotObjectData(GodotSerializationInfo)
   href: api/ProjectStack.Game.html#ProjectStack_Game_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_

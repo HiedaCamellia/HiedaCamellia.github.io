@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>IRecipe 接口
+      <title>RecipeRegistrationHelper 类
  | ProjectStack </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="IRecipe 接口
+      <meta name="title" content="RecipeRegistrationHelper 类
  | ProjectStack ">
       
       
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/HiedaCamellia/ProjectStack/new/main/apiSpec/new?filename=ProjectStack_Common_Recipe_IRecipe.md&amp;value=---%0Auid%3A%20ProjectStack.Common.Recipe.IRecipe%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/HiedaCamellia/ProjectStack/new/main/apiSpec/new?filename=ProjectStack_Common_Recipe_RecipeRegistrationHelper.md&amp;value=---%0Auid%3A%20ProjectStack.Common.Recipe.RecipeRegistrationHelper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="本文内容">
       <meta name="loc:searchResultsCount" content="找到{count}个“{query}”的搜索结果">
       <meta name="loc:searchNoResults" content="没有找到“{query}”的搜索结果">
@@ -86,13 +86,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ProjectStack.Common.Recipe.IRecipe">
+        <article data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper">
 
 
 
-  <h1 id="ProjectStack_Common_Recipe_IRecipe" data-uid="ProjectStack.Common.Recipe.IRecipe" class="text-break">
-IRecipe 接口
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ProjectStack_Common_Recipe_RecipeRegistrationHelper" data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper" class="text-break">
+RecipeRegistrationHelper 类
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/RecipeRegistrationHelper.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -104,12 +104,19 @@ IRecipe 接口
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IRecipe</code></pre>
+    <pre><code class="lang-csharp hljs">public class RecipeRegistrationHelper</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>继承</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RecipeRegistrationHelper</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -119,34 +126,33 @@ IRecipe 接口
 
 
 
-  <h2 class="section" id="properties">属性
+  <h2 class="section" id="constructors">构造函数
 </h2>
 
 
-  <a id="ProjectStack_Common_Recipe_IRecipe_CardViewCount_" data-uid="ProjectStack.Common.Recipe.IRecipe.CardViewCount*"></a>
+  <a id="ProjectStack_Common_Recipe_RecipeRegistrationHelper__ctor_" data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper.#ctor*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_IRecipe_CardViewCount" data-uid="ProjectStack.Common.Recipe.IRecipe.CardViewCount">
-  CardViewCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Common_Recipe_RecipeRegistrationHelper__ctor_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+  RecipeRegistrationHelper(IServiceCollection)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/RecipeRegistrationHelper.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>配方需要检查的卡牌数量。为<code>null</code>时表示不确定。</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">uint? CardViewCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public RecipeRegistrationHelper(IServiceCollection services)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">属性值</h4>
+  <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
 
 
 
@@ -159,33 +165,61 @@ IRecipe 接口
 </h2>
 
 
-  <a id="ProjectStack_Common_Recipe_IRecipe_Execute_" data-uid="ProjectStack.Common.Recipe.IRecipe.Execute*"></a>
+  <a id="ProjectStack_Common_Recipe_RecipeRegistrationHelper_Add_" data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_IRecipe_Execute_ProjectStack_Common_Card_ICardStack_" data-uid="ProjectStack.Common.Recipe.IRecipe.Execute(ProjectStack.Common.Card.ICardStack)">
-  Execute(ICardStack)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Common_Recipe_RecipeRegistrationHelper_Add_ProjectStack_Common_Recipe_IRecipe_" data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper.Add(ProjectStack.Common.Recipe.IRecipe)">
+  Add(IRecipe)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/RecipeRegistrationHelper.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>计算配方结果。</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">RecipeResult Execute(ICardStack cardStack)</code></pre>
+    <pre><code class="lang-csharp hljs">public RecipeRegistrationHelper Add(IRecipe recipe)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>cardStack</code> <a class="xref" href="ProjectStack.Common.Card.ICardStack.html">ICardStack</a></dt>
-    <dd><p>需要进行计算的卡堆</p>
-</dd>
+    <dt><code>recipe</code> <a class="xref" href="ProjectStack.Common.Recipe.IRecipe.html">IRecipe</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ProjectStack.Common.Recipe.RecipeResult.html">RecipeResult</a></dt>
-    <dd><p>配方输出</p>
-</dd>
+    <dt><a class="xref" href="ProjectStack.Common.Recipe.RecipeRegistrationHelper.html">RecipeRegistrationHelper</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Recipe_RecipeRegistrationHelper_End_" data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper.End*"></a>
+
+  <h3 id="ProjectStack_Common_Recipe_RecipeRegistrationHelper_End" data-uid="ProjectStack.Common.Recipe.RecipeRegistrationHelper.End">
+  End()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/RecipeRegistrationHelper.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServiceCollection End()</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -202,7 +236,7 @@ IRecipe 接口
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L5" class="edit-link">编辑本文</a>
+          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/RecipeRegistrationHelper.cs/#L6" class="edit-link">编辑本文</a>
         </div>
 
 

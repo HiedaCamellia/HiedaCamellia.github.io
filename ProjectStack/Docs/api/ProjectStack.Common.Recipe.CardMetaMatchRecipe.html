@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>CardMateMatchRecipe 类
+      <title>CardMetaMatchRecipe 类
  | ProjectStack </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="CardMateMatchRecipe 类
+      <meta name="title" content="CardMetaMatchRecipe 类
  | ProjectStack ">
       
       
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/HiedaCamellia/ProjectStack/new/main/apiSpec/new?filename=ProjectStack_Common_Recipe_CardMateMatchRecipe.md&amp;value=---%0Auid%3A%20ProjectStack.Common.Recipe.CardMateMatchRecipe%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/HiedaCamellia/ProjectStack/new/main/apiSpec/new?filename=ProjectStack_Common_Recipe_CardMetaMatchRecipe.md&amp;value=---%0Auid%3A%20ProjectStack.Common.Recipe.CardMetaMatchRecipe%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="本文内容">
       <meta name="loc:searchResultsCount" content="找到{count}个“{query}”的搜索结果">
       <meta name="loc:searchNoResults" content="没有找到“{query}”的搜索结果">
@@ -86,13 +86,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe">
+        <article data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe">
 
 
 
-  <h1 id="ProjectStack_Common_Recipe_CardMateMatchRecipe" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe" class="text-break">
-CardMateMatchRecipe 类
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ProjectStack_Common_Recipe_CardMetaMatchRecipe" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe" class="text-break">
+CardMetaMatchRecipe 类
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -104,7 +104,7 @@ CardMateMatchRecipe 类
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class CardMateMatchRecipe : IRecipe</code></pre>
+    <pre><code class="lang-csharp hljs">public class CardMetaMatchRecipe : IRecipe</code></pre>
   </div>
 
 
@@ -114,7 +114,7 @@ CardMateMatchRecipe 类
     <dt>继承</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">CardMateMatchRecipe</span></div>
+      <div><span class="xref">CardMetaMatchRecipe</span></div>
     </dd>
   </dl>
 
@@ -136,18 +136,18 @@ CardMateMatchRecipe 类
 </h2>
 
 
-  <a id="ProjectStack_Common_Recipe_CardMateMatchRecipe__ctor_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.#ctor*"></a>
+  <a id="ProjectStack_Common_Recipe_CardMetaMatchRecipe__ctor_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_CardMateMatchRecipe__ctor_System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Boolean_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)">
-  CardMateMatchRecipe(IList&lt;CardMeta&gt;, IList&lt;CardMeta&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Common_Recipe_CardMetaMatchRecipe__ctor_System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Boolean_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)">
+  CardMetaMatchRecipe(IList&lt;CardMeta&gt;, IList&lt;CardMeta&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CardMateMatchRecipe(IList&lt;CardMeta&gt; requiredCardMetas, IList&lt;CardMeta&gt; producedCardMetas, bool isNeedOrder = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public CardMetaMatchRecipe(IList&lt;CardMeta&gt; requiredCardMetas, IList&lt;CardMeta&gt; producedCardMetas, bool isNeedOrder = false)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
@@ -175,11 +175,11 @@ CardMateMatchRecipe 类
 </h2>
 
 
-  <a id="ProjectStack_Common_Recipe_CardMateMatchRecipe_CardViewCount_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount*"></a>
+  <a id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_CardViewCount_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_CardMateMatchRecipe_CardViewCount" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.CardViewCount">
+  <h3 id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_CardViewCount" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount">
   CardViewCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>配方需要检查的卡牌数量。为<code>null</code>时表示不确定。</p>
@@ -207,11 +207,11 @@ CardMateMatchRecipe 类
 
 
 
-  <a id="ProjectStack_Common_Recipe_CardMateMatchRecipe_IsNeedOrder_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder*"></a>
+  <a id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_IsNeedOrder_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_CardMateMatchRecipe_IsNeedOrder" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.IsNeedOrder">
+  <h3 id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_IsNeedOrder" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder">
   IsNeedOrder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -238,11 +238,11 @@ CardMateMatchRecipe 类
 
 
 
-  <a id="ProjectStack_Common_Recipe_CardMateMatchRecipe_ProducedCardMetas_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas*"></a>
+  <a id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_ProducedCardMetas_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_CardMateMatchRecipe_ProducedCardMetas" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.ProducedCardMetas">
+  <h3 id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_ProducedCardMetas" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas">
   ProducedCardMetas
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -269,11 +269,11 @@ CardMateMatchRecipe 类
 
 
 
-  <a id="ProjectStack_Common_Recipe_CardMateMatchRecipe_RequiredCardMetas_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas*"></a>
+  <a id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_RequiredCardMetas_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_CardMateMatchRecipe_RequiredCardMetas" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.RequiredCardMetas">
+  <h3 id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_RequiredCardMetas" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas">
   RequiredCardMetas
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -304,11 +304,11 @@ CardMateMatchRecipe 类
 </h2>
 
 
-  <a id="ProjectStack_Common_Recipe_CardMateMatchRecipe_Execute_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute*"></a>
+  <a id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_Execute_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute*"></a>
 
-  <h3 id="ProjectStack_Common_Recipe_CardMateMatchRecipe_Execute_ProjectStack_Common_Card_ICardStack_" data-uid="ProjectStack.Common.Recipe.CardMateMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)">
+  <h3 id="ProjectStack_Common_Recipe_CardMetaMatchRecipe_Execute_ProjectStack_Common_Card_ICardStack_" data-uid="ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)">
   Execute(ICardStack)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>计算配方结果。</p>
@@ -347,7 +347,7 @@ CardMateMatchRecipe 类
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/IRecipe.cs/#L23" class="edit-link">编辑本文</a>
+          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Recipe/CardMetaMatchRecipe.cs/#L11" class="edit-link">编辑本文</a>
         </div>
 
 
