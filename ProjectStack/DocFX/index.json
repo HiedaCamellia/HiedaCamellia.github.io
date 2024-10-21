@@ -69,6 +69,11 @@
     "title": "ProjectStack.Common.Card 命名空间 | ProjectStack",
     "keywords": "ProjectStack.Common.Card 命名空间 类 CardMeta CardMetaRegistrationHelper CardStack 接口 ICardStack"
   },
+  "api/ProjectStack.Common.Recipe.AbstractRecipe-1.html": {
+    "href": "api/ProjectStack.Common.Recipe.AbstractRecipe-1.html",
+    "title": "AbstractRecipe<TRecipeInput> 类 | ProjectStack",
+    "keywords": "AbstractRecipe<TRecipeInput> 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public abstract class AbstractRecipe<TRecipeInput> 类型参数 TRecipeInput 继承 object AbstractRecipe<TRecipeInput> 方法 Assmble(TRecipeInput, JsonObject) public abstract RecipeOutput Assmble(TRecipeInput recipeInput, JsonObject ntj) 参数 recipeInput TRecipeInput ntj JsonObject 返回 RecipeOutput Matchs(TRecipeInput, JsonObject) public abstract bool Matchs(TRecipeInput recipeInput, JsonObject ntj) 参数 recipeInput TRecipeInput ntj JsonObject 返回 bool Type() public abstract ResourceLocation Type() 返回 ResourceLocation"
+  },
   "api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html": {
     "href": "api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html",
     "title": "CardMetaMatchRecipe 类 | ProjectStack",
@@ -84,6 +89,16 @@
     "title": "IRecipeInput 接口 | ProjectStack",
     "keywords": "IRecipeInput 接口 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public interface IRecipeInput"
   },
+  "api/ProjectStack.Common.Recipe.RecipeInput.html": {
+    "href": "api/ProjectStack.Common.Recipe.RecipeInput.html",
+    "title": "RecipeInput 类 | ProjectStack",
+    "keywords": "RecipeInput 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public abstract record RecipeInput 继承 object RecipeInput Derived ScriptRecipeInput 方法 Assemble(Card) public abstract Card Assemble(Card card) 参数 card Card 返回 Card IsMatch(Card) public abstract bool IsMatch(Card card) 参数 card Card 返回 bool"
+  },
+  "api/ProjectStack.Common.Recipe.RecipeOutput.html": {
+    "href": "api/ProjectStack.Common.Recipe.RecipeOutput.html",
+    "title": "RecipeOutput 类 | ProjectStack",
+    "keywords": "RecipeOutput 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public record RecipeOutput 继承 object RecipeOutput 构造函数 RecipeOutput(List<Card>, JsonObject) public RecipeOutput(List<Card> Cards, JsonObject Ntj) 参数 Cards List<Card> Ntj JsonObject 属性 Cards public List<Card> Cards { get; init; } 属性值 List<Card> Ntj public JsonObject Ntj { get; init; } 属性值 JsonObject"
+  },
   "api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html": {
     "href": "api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html",
     "title": "RecipeRegistrationHelper 类 | ProjectStack",
@@ -94,10 +109,45 @@
     "title": "RecipeResult 类 | ProjectStack",
     "keywords": "RecipeResult 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public record RecipeResult 继承 object RecipeResult 构造函数 RecipeResult(bool, IEnumerable<Card>, IEnumerable<Card>) public RecipeResult(bool IsMatch, IEnumerable<Card> ConsumedCards, IEnumerable<Card> ProducedCards) 参数 IsMatch bool ConsumedCards IEnumerable<Card> ProducedCards IEnumerable<Card> 属性 ConsumedCards public IEnumerable<Card> ConsumedCards { get; init; } 属性值 IEnumerable<Card> IsMatch public bool IsMatch { get; init; } 属性值 bool ProducedCards public IEnumerable<Card> ProducedCards { get; init; } 属性值 IEnumerable<Card>"
   },
+  "api/ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.html": {
+    "href": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.html",
+    "title": "ScriptRecipeInput.ScriptContext 类 | ProjectStack",
+    "keywords": "ScriptRecipeInput.ScriptContext 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public class ScriptRecipeInput.ScriptContext 继承 object ScriptRecipeInput.ScriptContext 字段 card public Card card 字段值 Card"
+  },
+  "api/ProjectStack.Common.Recipe.ScriptRecipeInput.html": {
+    "href": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.html",
+    "title": "ScriptRecipeInput 类 | ProjectStack",
+    "keywords": "ScriptRecipeInput 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public record ScriptRecipeInput : RecipeInput 继承 object RecipeInput ScriptRecipeInput 构造函数 ScriptRecipeInput() public ScriptRecipeInput() 属性 AssembleScript public string AssembleScript { get; init; } 属性值 string AssembleScriptRunner public ScriptRunner<Card> AssembleScriptRunner { get; } 属性值 ScriptRunner<Card> MatchScript public string MatchScript { get; init; } 属性值 string MatchScriptRunner public ScriptRunner<bool> MatchScriptRunner { get; } 属性值 ScriptRunner<bool> 方法 Assemble(Card) public override Card Assemble(Card card) 参数 card Card 返回 Card IsMatch(Card) public override bool IsMatch(Card card) 参数 card Card 返回 bool"
+  },
+  "api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html": {
+    "href": "api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html",
+    "title": "SimpleRecipe.Ingredient 类 | ProjectStack",
+    "keywords": "SimpleRecipe.Ingredient 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public record SimpleRecipe.Ingredient 继承 object SimpleRecipe.Ingredient 构造函数 Ingredient(ResourceLocation, int, bool) public Ingredient(ResourceLocation CardId, int Quantity, bool Consumed) 参数 CardId ResourceLocation Quantity int Consumed bool 属性 CardId public ResourceLocation CardId { get; init; } 属性值 ResourceLocation Consumed public bool Consumed { get; init; } 属性值 bool Quantity public int Quantity { get; init; } 属性值 int"
+  },
+  "api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html": {
+    "href": "api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html",
+    "title": "SimpleRecipe.Product 类 | ProjectStack",
+    "keywords": "SimpleRecipe.Product 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll public record SimpleRecipe.Product 继承 object SimpleRecipe.Product 构造函数 Product(ResourceLocation, int) public Product(ResourceLocation CardId, int Quantity) 参数 CardId ResourceLocation Quantity int 属性 CardId public ResourceLocation CardId { get; init; } 属性值 ResourceLocation Quantity public int Quantity { get; init; } 属性值 int"
+  },
+  "api/ProjectStack.Common.Recipe.SimpleRecipe.html": {
+    "href": "api/ProjectStack.Common.Recipe.SimpleRecipe.html",
+    "title": "SimpleRecipe 类 | ProjectStack",
+    "keywords": "SimpleRecipe 类 命名空间 ProjectStack.Common.Recipe 程序集 ProjectStack.dll 表示配方的数据结构 public record SimpleRecipe 继承 object SimpleRecipe 构造函数 SimpleRecipe(ResourceLocation, string, string, float, IImmutableList<Ingredient>, IImmutableList<Product>) 表示配方的数据结构 public SimpleRecipe(ResourceLocation Id, string Name, string Description, float Production, IImmutableList<SimpleRecipe.Ingredient> Ingredients, IImmutableList<SimpleRecipe.Product> Products) 参数 Id ResourceLocation 配方标识符 Name string Description string Production float 生产力消耗 Ingredients IImmutableList<SimpleRecipe.Ingredient> 原料 Products IImmutableList<SimpleRecipe.Product> 产品 属性 Description public string Description { get; init; } 属性值 string Id 配方标识符 public ResourceLocation Id { get; init; } 属性值 ResourceLocation Ingredients 原料 public IImmutableList<SimpleRecipe.Ingredient> Ingredients { get; init; } 属性值 IImmutableList<SimpleRecipe.Ingredient> Name public string Name { get; init; } 属性值 string Production 生产力消耗 public float Production { get; init; } 属性值 float Products 产品 public IImmutableList<SimpleRecipe.Product> Products { get; init; } 属性值 IImmutableList<SimpleRecipe.Product> 方法 SatisfactionCheck(IImmutableList<CardMeta>) public bool SatisfactionCheck(IImmutableList<CardMeta> cards) 参数 cards IImmutableList<CardMeta> 返回 bool"
+  },
   "api/ProjectStack.Common.Recipe.html": {
     "href": "api/ProjectStack.Common.Recipe.html",
     "title": "ProjectStack.Common.Recipe 命名空间 | ProjectStack",
-    "keywords": "ProjectStack.Common.Recipe 命名空间 类 CardMetaMatchRecipe RecipeRegistrationHelper RecipeResult 接口 IRecipe IRecipeInput"
+    "keywords": "ProjectStack.Common.Recipe 命名空间 类 AbstractRecipe<TRecipeInput> CardMetaMatchRecipe RecipeInput RecipeOutput RecipeRegistrationHelper RecipeResult ScriptRecipeInput ScriptRecipeInput.ScriptContext SimpleRecipe 表示配方的数据结构 SimpleRecipe.Ingredient SimpleRecipe.Product 接口 IRecipe IRecipeInput"
+  },
+  "api/ProjectStack.Common.ResourceLocation.html": {
+    "href": "api/ProjectStack.Common.ResourceLocation.html",
+    "title": "ResourceLocation 类 | ProjectStack",
+    "keywords": "ResourceLocation 类 命名空间 ProjectStack.Common 程序集 ProjectStack.dll public record ResourceLocation 继承 object ResourceLocation 构造函数 ResourceLocation(string, string) public ResourceLocation(string Namespace, string Path) 参数 Namespace string Path string 属性 EMPTY public static ResourceLocation EMPTY { get; } 属性值 ResourceLocation GetNamespace public string GetNamespace { get; } 属性值 string GetPath public string GetPath { get; } 属性值 string Namespace public string Namespace { get; init; } 属性值 string Path public string Path { get; init; } 属性值 string 方法 DefaultNamespaceAndPath(string) public static ResourceLocation DefaultNamespaceAndPath(string path) 参数 path string 返回 ResourceLocation FromNamespaceAndPath(string, string) public static ResourceLocation FromNamespaceAndPath(string @namespace, string path) 参数 namespace string path string 返回 ResourceLocation GetResLoc() public string GetResLoc() 返回 string GetResLocWithPath(string) public string GetResLocWithPath(string p) 参数 p string 返回 string GetResLocWithoutPrefix(string) public string GetResLocWithoutPrefix(string p) 参数 p string 返回 string Parse(string) public static ResourceLocation Parse(string fullPath) 参数 fullPath string 返回 ResourceLocation ToString() Returns a string that represents the current object. public override string ToString() 返回 string A string that represents the current object."
+  },
+  "api/ProjectStack.Common.html": {
+    "href": "api/ProjectStack.Common.html",
+    "title": "ProjectStack.Common 命名空间 | ProjectStack",
+    "keywords": "ProjectStack.Common 命名空间 类 ResourceLocation"
   },
   "api/ProjectStack.Component.Card.MetatypeMetadata.html": {
     "href": "api/ProjectStack.Component.Card.MetatypeMetadata.html",
@@ -303,61 +353,6 @@
     "href": "api/ProjectStack.html",
     "title": "ProjectStack 命名空间 | ProjectStack",
     "keywords": "ProjectStack 命名空间 类 CardTest Game Game.MetatypeMetadata Game.MethodName Cached StringNames for the methods contained in this class, for fast lookup. Game.PropertyName Cached StringNames for the properties and fields contained in this class, for fast lookup. Game.SignalName Cached StringNames for the signals contained in this class, for fast lookup. Main Main.MethodName Cached StringNames for the methods contained in this class, for fast lookup. Main.PropertyName Cached StringNames for the properties and fields contained in this class, for fast lookup. Main.SignalName Cached StringNames for the signals contained in this class, for fast lookup."
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html",
-    "title": "AbstractRecipe<TRecipeInput> 类 | ProjectStack",
-    "keywords": "AbstractRecipe<TRecipeInput> 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll public abstract class AbstractRecipe<TRecipeInput> 类型参数 TRecipeInput 继承 object AbstractRecipe<TRecipeInput> 方法 Assmble(TRecipeInput, JsonObject) public abstract RecipeOutput Assmble(TRecipeInput recipeInput, JsonObject ntj) 参数 recipeInput TRecipeInput ntj JsonObject 返回 RecipeOutput Matchs(TRecipeInput, JsonObject) public abstract bool Matchs(TRecipeInput recipeInput, JsonObject ntj) 参数 recipeInput TRecipeInput ntj JsonObject 返回 bool Type() public abstract ResourceLocation Type() 返回 ResourceLocation"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html",
-    "title": "RecipeInput 类 | ProjectStack",
-    "keywords": "RecipeInput 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll public abstract record RecipeInput 继承 object RecipeInput Derived ScriptRecipeInput 方法 Assemble(Card) public abstract Card Assemble(Card card) 参数 card Card 返回 Card IsMatch(Card) public abstract bool IsMatch(Card card) 参数 card Card 返回 bool"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html",
-    "title": "RecipeOutput 类 | ProjectStack",
-    "keywords": "RecipeOutput 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll public record RecipeOutput 继承 object RecipeOutput 构造函数 RecipeOutput(List<Card>, JsonObject) public RecipeOutput(List<Card> Cards, JsonObject Ntj) 参数 Cards List<Card> Ntj JsonObject 属性 Cards public List<Card> Cards { get; init; } 属性值 List<Card> Ntj public JsonObject Ntj { get; init; } 属性值 JsonObject"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.html",
-    "title": "ScriptRecipeInput.ScriptContext 类 | ProjectStack",
-    "keywords": "ScriptRecipeInput.ScriptContext 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll public class ScriptRecipeInput.ScriptContext 继承 object ScriptRecipeInput.ScriptContext 字段 card public Card card 字段值 Card"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html",
-    "title": "ScriptRecipeInput 类 | ProjectStack",
-    "keywords": "ScriptRecipeInput 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll public record ScriptRecipeInput : RecipeInput 继承 object RecipeInput ScriptRecipeInput 构造函数 ScriptRecipeInput() public ScriptRecipeInput() 属性 AssembleScript public string AssembleScript { get; init; } 属性值 string AssembleScriptRunner public ScriptRunner<Card> AssembleScriptRunner { get; } 属性值 ScriptRunner<Card> MatchScript public string MatchScript { get; init; } 属性值 string MatchScriptRunner public ScriptRunner<bool> MatchScriptRunner { get; } 属性值 ScriptRunner<bool> 方法 Assemble(Card) public override Card Assemble(Card card) 参数 card Card 返回 Card IsMatch(Card) public override bool IsMatch(Card card) 参数 card Card 返回 bool"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html",
-    "title": "SimpleRecipe.Ingredient 类 | ProjectStack",
-    "keywords": "SimpleRecipe.Ingredient 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll public record SimpleRecipe.Ingredient 继承 object SimpleRecipe.Ingredient 构造函数 Ingredient(ResourceLocation, int, bool) public Ingredient(ResourceLocation CardId, int Quantity, bool Consumed) 参数 CardId ResourceLocation Quantity int Consumed bool 属性 CardId public ResourceLocation CardId { get; init; } 属性值 ResourceLocation Consumed public bool Consumed { get; init; } 属性值 bool Quantity public int Quantity { get; init; } 属性值 int"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html",
-    "title": "SimpleRecipe.Product 类 | ProjectStack",
-    "keywords": "SimpleRecipe.Product 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll public record SimpleRecipe.Product 继承 object SimpleRecipe.Product 构造函数 Product(ResourceLocation, int) public Product(ResourceLocation CardId, int Quantity) 参数 CardId ResourceLocation Quantity int 属性 CardId public ResourceLocation CardId { get; init; } 属性值 ResourceLocation Quantity public int Quantity { get; init; } 属性值 int"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html",
-    "title": "SimpleRecipe 类 | ProjectStack",
-    "keywords": "SimpleRecipe 类 命名空间 ProjectStack.src.scripts.Common.Recipe 程序集 ProjectStack.dll 表示配方的数据结构 public record SimpleRecipe 继承 object SimpleRecipe 构造函数 SimpleRecipe(ResourceLocation, string, string, float, IImmutableList<Ingredient>, IImmutableList<Product>) 表示配方的数据结构 public SimpleRecipe(ResourceLocation Id, string Name, string Description, float Production, IImmutableList<SimpleRecipe.Ingredient> Ingredients, IImmutableList<SimpleRecipe.Product> Products) 参数 Id ResourceLocation 配方标识符 Name string Description string Production float 生产力消耗 Ingredients IImmutableList<SimpleRecipe.Ingredient> 原料 Products IImmutableList<SimpleRecipe.Product> 产品 属性 Description public string Description { get; init; } 属性值 string Id 配方标识符 public ResourceLocation Id { get; init; } 属性值 ResourceLocation Ingredients 原料 public IImmutableList<SimpleRecipe.Ingredient> Ingredients { get; init; } 属性值 IImmutableList<SimpleRecipe.Ingredient> Name public string Name { get; init; } 属性值 string Production 生产力消耗 public float Production { get; init; } 属性值 float Products 产品 public IImmutableList<SimpleRecipe.Product> Products { get; init; } 属性值 IImmutableList<SimpleRecipe.Product> 方法 SatisfactionCheck(IImmutableList<CardMeta>) public bool SatisfactionCheck(IImmutableList<CardMeta> cards) 参数 cards IImmutableList<CardMeta> 返回 bool"
-  },
-  "api/ProjectStack.src.scripts.Common.Recipe.html": {
-    "href": "api/ProjectStack.src.scripts.Common.Recipe.html",
-    "title": "ProjectStack.src.scripts.Common.Recipe 命名空间 | ProjectStack",
-    "keywords": "ProjectStack.src.scripts.Common.Recipe 命名空间 类 AbstractRecipe<TRecipeInput> RecipeInput RecipeOutput ScriptRecipeInput ScriptRecipeInput.ScriptContext SimpleRecipe 表示配方的数据结构 SimpleRecipe.Ingredient SimpleRecipe.Product"
-  },
-  "api/ProjectStack.src.scripts.Common.ResourceLocation.html": {
-    "href": "api/ProjectStack.src.scripts.Common.ResourceLocation.html",
-    "title": "ResourceLocation 类 | ProjectStack",
-    "keywords": "ResourceLocation 类 命名空间 ProjectStack.src.scripts.Common 程序集 ProjectStack.dll public record ResourceLocation 继承 object ResourceLocation 构造函数 ResourceLocation(string, string) public ResourceLocation(string Namespace, string Path) 参数 Namespace string Path string 属性 EMPTY public static ResourceLocation EMPTY { get; } 属性值 ResourceLocation GetNamespace public string GetNamespace { get; } 属性值 string GetPath public string GetPath { get; } 属性值 string Namespace public string Namespace { get; init; } 属性值 string Path public string Path { get; init; } 属性值 string 方法 DefaultNamespaceAndPath(string) public static ResourceLocation DefaultNamespaceAndPath(string path) 参数 path string 返回 ResourceLocation FromNamespaceAndPath(string, string) public static ResourceLocation FromNamespaceAndPath(string @namespace, string path) 参数 namespace string path string 返回 ResourceLocation GetResLoc() public string GetResLoc() 返回 string GetResLocWithPath(string) public string GetResLocWithPath(string p) 参数 p string 返回 string GetResLocWithoutPrefix(string) public string GetResLocWithoutPrefix(string p) 参数 p string 返回 string Parse(string) public static ResourceLocation Parse(string fullPath) 参数 fullPath string 返回 ResourceLocation ToString() Returns a string that represents the current object. public override string ToString() 返回 string A string that represents the current object."
-  },
-  "api/ProjectStack.src.scripts.Common.html": {
-    "href": "api/ProjectStack.src.scripts.Common.html",
-    "title": "ProjectStack.src.scripts.Common 命名空间 | ProjectStack",
-    "keywords": "ProjectStack.src.scripts.Common 命名空间 类 ResourceLocation"
   },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",

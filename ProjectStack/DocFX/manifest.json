@@ -152,6 +152,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.AbstractRecipe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.AbstractRecipe-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.yml",
       "output": {
         ".html": {
@@ -182,6 +192,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.RecipeInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.RecipeInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.RecipeOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.RecipeOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.yml",
       "output": {
         ".html": {
@@ -202,10 +232,80 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Common.Recipe.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectStack.Common.Recipe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.ResourceLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.ResourceLocation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.html"
         }
       },
       "version": ""
@@ -606,116 +706,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectStack.Util.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.Recipe.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.Recipe.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.ResourceLocation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.ResourceLocation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.src.scripts.Common.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.src.scripts.Common.html"
         }
       },
       "version": ""

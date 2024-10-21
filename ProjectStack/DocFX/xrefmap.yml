@@ -109,11 +109,11 @@ references:
   commentId: T:ProjectStack.Command.CommandAdapter
   fullName: ProjectStack.Command.CommandAdapter
   nameWithType: CommandAdapter
-- uid: ProjectStack.Command.CommandAdapter.CreateNewCard(ProjectStack.src.scripts.Common.ResourceLocation)
+- uid: ProjectStack.Command.CommandAdapter.CreateNewCard(ProjectStack.Common.ResourceLocation)
   name: CreateNewCard(ResourceLocation)
-  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CreateNewCard_ProjectStack_src_scripts_Common_ResourceLocation_
-  commentId: M:ProjectStack.Command.CommandAdapter.CreateNewCard(ProjectStack.src.scripts.Common.ResourceLocation)
-  fullName: ProjectStack.Command.CommandAdapter.CreateNewCard(ProjectStack.src.scripts.Common.ResourceLocation)
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CreateNewCard_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Command.CommandAdapter.CreateNewCard(ProjectStack.Common.ResourceLocation)
+  fullName: ProjectStack.Command.CommandAdapter.CreateNewCard(ProjectStack.Common.ResourceLocation)
   nameWithType: CommandAdapter.CreateNewCard(ResourceLocation)
 - uid: ProjectStack.Command.CommandAdapter.CreateNewCard(System.String)
   name: CreateNewCard(string)
@@ -131,13 +131,13 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Command.CommandAdapter.CreateNewCard
   nameWithType: CommandAdapter.CreateNewCard
-- uid: ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List{ProjectStack.src.scripts.Common.ResourceLocation})
+- uid: ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List{ProjectStack.Common.ResourceLocation})
   name: CreateNewCardStack(List<ResourceLocation>)
-  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CreateNewCardStack_System_Collections_Generic_List_ProjectStack_src_scripts_Common_ResourceLocation__
-  commentId: M:ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List{ProjectStack.src.scripts.Common.ResourceLocation})
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CreateNewCardStack_System_Collections_Generic_List_ProjectStack_Common_ResourceLocation__
+  commentId: M:ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List{ProjectStack.Common.ResourceLocation})
   name.vb: CreateNewCardStack(List(Of ResourceLocation))
-  fullName: ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List<ProjectStack.src.scripts.Common.ResourceLocation>)
-  fullName.vb: ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List(Of ProjectStack.src.scripts.Common.ResourceLocation))
+  fullName: ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List<ProjectStack.Common.ResourceLocation>)
+  fullName.vb: ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.Collections.Generic.List(Of ProjectStack.Common.ResourceLocation))
   nameWithType: CommandAdapter.CreateNewCardStack(List<ResourceLocation>)
   nameWithType.vb: CommandAdapter.CreateNewCardStack(List(Of ResourceLocation))
 - uid: ProjectStack.Command.CommandAdapter.CreateNewCardStack(System.String[])
@@ -156,11 +156,11 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Command.CommandAdapter.CreateNewCardStack
   nameWithType: CommandAdapter.CreateNewCardStack
-- uid: ProjectStack.Command.CommandAdapter.GetCardMate(ProjectStack.src.scripts.Common.ResourceLocation)
+- uid: ProjectStack.Command.CommandAdapter.GetCardMate(ProjectStack.Common.ResourceLocation)
   name: GetCardMate(ResourceLocation)
-  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_GetCardMate_ProjectStack_src_scripts_Common_ResourceLocation_
-  commentId: M:ProjectStack.Command.CommandAdapter.GetCardMate(ProjectStack.src.scripts.Common.ResourceLocation)
-  fullName: ProjectStack.Command.CommandAdapter.GetCardMate(ProjectStack.src.scripts.Common.ResourceLocation)
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_GetCardMate_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Command.CommandAdapter.GetCardMate(ProjectStack.Common.ResourceLocation)
+  fullName: ProjectStack.Command.CommandAdapter.GetCardMate(ProjectStack.Common.ResourceLocation)
   nameWithType: CommandAdapter.GetCardMate(ResourceLocation)
 - uid: ProjectStack.Command.CommandAdapter.GetCardMate(System.String)
   name: GetCardMate(string)
@@ -440,6 +440,12 @@ references:
   commentId: T:ProjectStack.Command.CommandAdapter.SignalName
   fullName: ProjectStack.Command.CommandAdapter.SignalName
   nameWithType: CommandAdapter.SignalName
+- uid: ProjectStack.Common
+  name: ProjectStack.Common
+  href: api/ProjectStack.Common.html
+  commentId: N:ProjectStack.Common
+  fullName: ProjectStack.Common
+  nameWithType: ProjectStack.Common
 - uid: ProjectStack.Common.Card
   name: ProjectStack.Common.Card
   href: api/ProjectStack.Common.Card.html
@@ -452,13 +458,13 @@ references:
   commentId: T:ProjectStack.Common.Card.CardMeta
   fullName: ProjectStack.Common.Card.CardMeta
   nameWithType: CardMeta
-- uid: ProjectStack.Common.Card.CardMeta.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.String,System.String,ProjectStack.src.scripts.Common.ResourceLocation)
+- uid: ProjectStack.Common.Card.CardMeta.#ctor(ProjectStack.Common.ResourceLocation,System.String,System.String,ProjectStack.Common.ResourceLocation)
   name: CardMeta(ResourceLocation, string, string, ResourceLocation)
-  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta__ctor_ProjectStack_src_scripts_Common_ResourceLocation_System_String_System_String_ProjectStack_src_scripts_Common_ResourceLocation_
-  commentId: M:ProjectStack.Common.Card.CardMeta.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.String,System.String,ProjectStack.src.scripts.Common.ResourceLocation)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta__ctor_ProjectStack_Common_ResourceLocation_System_String_System_String_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Common.Card.CardMeta.#ctor(ProjectStack.Common.ResourceLocation,System.String,System.String,ProjectStack.Common.ResourceLocation)
   name.vb: New(ResourceLocation, String, String, ResourceLocation)
-  fullName: ProjectStack.Common.Card.CardMeta.CardMeta(ProjectStack.src.scripts.Common.ResourceLocation, string, string, ProjectStack.src.scripts.Common.ResourceLocation)
-  fullName.vb: ProjectStack.Common.Card.CardMeta.New(ProjectStack.src.scripts.Common.ResourceLocation, String, String, ProjectStack.src.scripts.Common.ResourceLocation)
+  fullName: ProjectStack.Common.Card.CardMeta.CardMeta(ProjectStack.Common.ResourceLocation, string, string, ProjectStack.Common.ResourceLocation)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.New(ProjectStack.Common.ResourceLocation, String, String, ProjectStack.Common.ResourceLocation)
   nameWithType: CardMeta.CardMeta(ResourceLocation, string, string, ResourceLocation)
   nameWithType.vb: CardMeta.New(ResourceLocation, String, String, ResourceLocation)
 - uid: ProjectStack.Common.Card.CardMeta.#ctor*
@@ -653,6 +659,66 @@ references:
   commentId: N:ProjectStack.Common.Recipe
   fullName: ProjectStack.Common.Recipe
   nameWithType: ProjectStack.Common.Recipe
+- uid: ProjectStack.Common.Recipe.AbstractRecipe`1
+  name: AbstractRecipe<TRecipeInput>
+  href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html
+  commentId: T:ProjectStack.Common.Recipe.AbstractRecipe`1
+  name.vb: AbstractRecipe(Of TRecipeInput)
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput)
+  nameWithType: AbstractRecipe<TRecipeInput>
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput)
+- uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Assmble(`0,System.Text.Json.Nodes.JsonObject)
+  name: Assmble(TRecipeInput, JsonObject)
+  href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Assmble__0_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ProjectStack.Common.Recipe.AbstractRecipe`1.Assmble(`0,System.Text.Json.Nodes.JsonObject)
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Assmble(TRecipeInput, System.Text.Json.Nodes.JsonObject)
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Assmble(TRecipeInput, System.Text.Json.Nodes.JsonObject)
+  nameWithType: AbstractRecipe<TRecipeInput>.Assmble(TRecipeInput, JsonObject)
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Assmble(TRecipeInput, JsonObject)
+- uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Assmble*
+  name: Assmble
+  href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Assmble_
+  commentId: Overload:ProjectStack.Common.Recipe.AbstractRecipe`1.Assmble
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Assmble
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Assmble
+  nameWithType: AbstractRecipe<TRecipeInput>.Assmble
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Assmble
+- uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Matchs(`0,System.Text.Json.Nodes.JsonObject)
+  name: Matchs(TRecipeInput, JsonObject)
+  href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Matchs__0_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ProjectStack.Common.Recipe.AbstractRecipe`1.Matchs(`0,System.Text.Json.Nodes.JsonObject)
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Matchs(TRecipeInput, System.Text.Json.Nodes.JsonObject)
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Matchs(TRecipeInput, System.Text.Json.Nodes.JsonObject)
+  nameWithType: AbstractRecipe<TRecipeInput>.Matchs(TRecipeInput, JsonObject)
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Matchs(TRecipeInput, JsonObject)
+- uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Matchs*
+  name: Matchs
+  href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Matchs_
+  commentId: Overload:ProjectStack.Common.Recipe.AbstractRecipe`1.Matchs
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Matchs
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Matchs
+  nameWithType: AbstractRecipe<TRecipeInput>.Matchs
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Matchs
+- uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Type
+  name: Type()
+  href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Type
+  commentId: M:ProjectStack.Common.Recipe.AbstractRecipe`1.Type
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Type()
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Type()
+  nameWithType: AbstractRecipe<TRecipeInput>.Type()
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Type()
+- uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Type*
+  name: Type
+  href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Type_
+  commentId: Overload:ProjectStack.Common.Recipe.AbstractRecipe`1.Type
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Type
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Type
+  nameWithType: AbstractRecipe<TRecipeInput>.Type
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Type
 - uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe
   name: CardMetaMatchRecipe
   href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html
@@ -781,6 +847,89 @@ references:
   commentId: T:ProjectStack.Common.Recipe.IRecipeInput
   fullName: ProjectStack.Common.Recipe.IRecipeInput
   nameWithType: IRecipeInput
+- uid: ProjectStack.Common.Recipe.RecipeInput
+  name: RecipeInput
+  href: api/ProjectStack.Common.Recipe.RecipeInput.html
+  commentId: T:ProjectStack.Common.Recipe.RecipeInput
+  fullName: ProjectStack.Common.Recipe.RecipeInput
+  nameWithType: RecipeInput
+- uid: ProjectStack.Common.Recipe.RecipeInput.Assemble(ProjectStack.Component.Card)
+  name: Assemble(Card)
+  href: api/ProjectStack.Common.Recipe.RecipeInput.html#ProjectStack_Common_Recipe_RecipeInput_Assemble_ProjectStack_Component_Card_
+  commentId: M:ProjectStack.Common.Recipe.RecipeInput.Assemble(ProjectStack.Component.Card)
+  fullName: ProjectStack.Common.Recipe.RecipeInput.Assemble(ProjectStack.Component.Card)
+  nameWithType: RecipeInput.Assemble(Card)
+- uid: ProjectStack.Common.Recipe.RecipeInput.Assemble*
+  name: Assemble
+  href: api/ProjectStack.Common.Recipe.RecipeInput.html#ProjectStack_Common_Recipe_RecipeInput_Assemble_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeInput.Assemble
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.RecipeInput.Assemble
+  nameWithType: RecipeInput.Assemble
+- uid: ProjectStack.Common.Recipe.RecipeInput.IsMatch(ProjectStack.Component.Card)
+  name: IsMatch(Card)
+  href: api/ProjectStack.Common.Recipe.RecipeInput.html#ProjectStack_Common_Recipe_RecipeInput_IsMatch_ProjectStack_Component_Card_
+  commentId: M:ProjectStack.Common.Recipe.RecipeInput.IsMatch(ProjectStack.Component.Card)
+  fullName: ProjectStack.Common.Recipe.RecipeInput.IsMatch(ProjectStack.Component.Card)
+  nameWithType: RecipeInput.IsMatch(Card)
+- uid: ProjectStack.Common.Recipe.RecipeInput.IsMatch*
+  name: IsMatch
+  href: api/ProjectStack.Common.Recipe.RecipeInput.html#ProjectStack_Common_Recipe_RecipeInput_IsMatch_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeInput.IsMatch
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.RecipeInput.IsMatch
+  nameWithType: RecipeInput.IsMatch
+- uid: ProjectStack.Common.Recipe.RecipeOutput
+  name: RecipeOutput
+  href: api/ProjectStack.Common.Recipe.RecipeOutput.html
+  commentId: T:ProjectStack.Common.Recipe.RecipeOutput
+  fullName: ProjectStack.Common.Recipe.RecipeOutput
+  nameWithType: RecipeOutput
+- uid: ProjectStack.Common.Recipe.RecipeOutput.#ctor(System.Collections.Generic.List{ProjectStack.Component.Card},System.Text.Json.Nodes.JsonObject)
+  name: RecipeOutput(List<Card>, JsonObject)
+  href: api/ProjectStack.Common.Recipe.RecipeOutput.html#ProjectStack_Common_Recipe_RecipeOutput__ctor_System_Collections_Generic_List_ProjectStack_Component_Card__System_Text_Json_Nodes_JsonObject_
+  commentId: M:ProjectStack.Common.Recipe.RecipeOutput.#ctor(System.Collections.Generic.List{ProjectStack.Component.Card},System.Text.Json.Nodes.JsonObject)
+  name.vb: New(List(Of Card), JsonObject)
+  fullName: ProjectStack.Common.Recipe.RecipeOutput.RecipeOutput(System.Collections.Generic.List<ProjectStack.Component.Card>, System.Text.Json.Nodes.JsonObject)
+  fullName.vb: ProjectStack.Common.Recipe.RecipeOutput.New(System.Collections.Generic.List(Of ProjectStack.Component.Card), System.Text.Json.Nodes.JsonObject)
+  nameWithType: RecipeOutput.RecipeOutput(List<Card>, JsonObject)
+  nameWithType.vb: RecipeOutput.New(List(Of Card), JsonObject)
+- uid: ProjectStack.Common.Recipe.RecipeOutput.#ctor*
+  name: RecipeOutput
+  href: api/ProjectStack.Common.Recipe.RecipeOutput.html#ProjectStack_Common_Recipe_RecipeOutput__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeOutput.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Common.Recipe.RecipeOutput.RecipeOutput
+  fullName.vb: ProjectStack.Common.Recipe.RecipeOutput.New
+  nameWithType: RecipeOutput.RecipeOutput
+  nameWithType.vb: RecipeOutput.New
+- uid: ProjectStack.Common.Recipe.RecipeOutput.Cards
+  name: Cards
+  href: api/ProjectStack.Common.Recipe.RecipeOutput.html#ProjectStack_Common_Recipe_RecipeOutput_Cards
+  commentId: P:ProjectStack.Common.Recipe.RecipeOutput.Cards
+  fullName: ProjectStack.Common.Recipe.RecipeOutput.Cards
+  nameWithType: RecipeOutput.Cards
+- uid: ProjectStack.Common.Recipe.RecipeOutput.Cards*
+  name: Cards
+  href: api/ProjectStack.Common.Recipe.RecipeOutput.html#ProjectStack_Common_Recipe_RecipeOutput_Cards_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeOutput.Cards
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.RecipeOutput.Cards
+  nameWithType: RecipeOutput.Cards
+- uid: ProjectStack.Common.Recipe.RecipeOutput.Ntj
+  name: Ntj
+  href: api/ProjectStack.Common.Recipe.RecipeOutput.html#ProjectStack_Common_Recipe_RecipeOutput_Ntj
+  commentId: P:ProjectStack.Common.Recipe.RecipeOutput.Ntj
+  fullName: ProjectStack.Common.Recipe.RecipeOutput.Ntj
+  nameWithType: RecipeOutput.Ntj
+- uid: ProjectStack.Common.Recipe.RecipeOutput.Ntj*
+  name: Ntj
+  href: api/ProjectStack.Common.Recipe.RecipeOutput.html#ProjectStack_Common_Recipe_RecipeOutput_Ntj_
+  commentId: Overload:ProjectStack.Common.Recipe.RecipeOutput.Ntj
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.RecipeOutput.Ntj
+  nameWithType: RecipeOutput.Ntj
 - uid: ProjectStack.Common.Recipe.RecipeRegistrationHelper
   name: RecipeRegistrationHelper
   href: api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html
@@ -896,6 +1045,551 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Common.Recipe.RecipeResult.ProducedCards
   nameWithType: RecipeResult.ProducedCards
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput
+  name: ScriptRecipeInput
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html
+  commentId: T:ProjectStack.Common.Recipe.ScriptRecipeInput
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput
+  nameWithType: ScriptRecipeInput
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.#ctor
+  name: ScriptRecipeInput()
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput__ctor
+  commentId: M:ProjectStack.Common.Recipe.ScriptRecipeInput.#ctor
+  name.vb: New()
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptRecipeInput()
+  fullName.vb: ProjectStack.Common.Recipe.ScriptRecipeInput.New()
+  nameWithType: ScriptRecipeInput.ScriptRecipeInput()
+  nameWithType.vb: ScriptRecipeInput.New()
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.#ctor*
+  name: ScriptRecipeInput
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.ScriptRecipeInput.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptRecipeInput
+  fullName.vb: ProjectStack.Common.Recipe.ScriptRecipeInput.New
+  nameWithType: ScriptRecipeInput.ScriptRecipeInput
+  nameWithType.vb: ScriptRecipeInput.New
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.Assemble(ProjectStack.Component.Card)
+  name: Assemble(Card)
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_Assemble_ProjectStack_Component_Card_
+  commentId: M:ProjectStack.Common.Recipe.ScriptRecipeInput.Assemble(ProjectStack.Component.Card)
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.Assemble(ProjectStack.Component.Card)
+  nameWithType: ScriptRecipeInput.Assemble(Card)
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.Assemble*
+  name: Assemble
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_Assemble_
+  commentId: Overload:ProjectStack.Common.Recipe.ScriptRecipeInput.Assemble
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.Assemble
+  nameWithType: ScriptRecipeInput.Assemble
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScript
+  name: AssembleScript
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_AssembleScript
+  commentId: P:ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScript
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScript
+  nameWithType: ScriptRecipeInput.AssembleScript
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScript*
+  name: AssembleScript
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_AssembleScript_
+  commentId: Overload:ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScript
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScript
+  nameWithType: ScriptRecipeInput.AssembleScript
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
+  name: AssembleScriptRunner
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_AssembleScriptRunner
+  commentId: P:ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
+  nameWithType: ScriptRecipeInput.AssembleScriptRunner
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner*
+  name: AssembleScriptRunner
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_AssembleScriptRunner_
+  commentId: Overload:ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
+  nameWithType: ScriptRecipeInput.AssembleScriptRunner
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.IsMatch(ProjectStack.Component.Card)
+  name: IsMatch(Card)
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_IsMatch_ProjectStack_Component_Card_
+  commentId: M:ProjectStack.Common.Recipe.ScriptRecipeInput.IsMatch(ProjectStack.Component.Card)
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.IsMatch(ProjectStack.Component.Card)
+  nameWithType: ScriptRecipeInput.IsMatch(Card)
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.IsMatch*
+  name: IsMatch
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_IsMatch_
+  commentId: Overload:ProjectStack.Common.Recipe.ScriptRecipeInput.IsMatch
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.IsMatch
+  nameWithType: ScriptRecipeInput.IsMatch
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScript
+  name: MatchScript
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_MatchScript
+  commentId: P:ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScript
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScript
+  nameWithType: ScriptRecipeInput.MatchScript
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScript*
+  name: MatchScript
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_MatchScript_
+  commentId: Overload:ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScript
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScript
+  nameWithType: ScriptRecipeInput.MatchScript
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
+  name: MatchScriptRunner
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_MatchScriptRunner
+  commentId: P:ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
+  nameWithType: ScriptRecipeInput.MatchScriptRunner
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScriptRunner*
+  name: MatchScriptRunner
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.html#ProjectStack_Common_Recipe_ScriptRecipeInput_MatchScriptRunner_
+  commentId: Overload:ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
+  nameWithType: ScriptRecipeInput.MatchScriptRunner
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext
+  name: ScriptRecipeInput.ScriptContext
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.html
+  commentId: T:ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext
+  nameWithType: ScriptRecipeInput.ScriptContext
+- uid: ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.card
+  name: card
+  href: api/ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.html#ProjectStack_Common_Recipe_ScriptRecipeInput_ScriptContext_card
+  commentId: F:ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.card
+  fullName: ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.card
+  nameWithType: ScriptRecipeInput.ScriptContext.card
+- uid: ProjectStack.Common.Recipe.SimpleRecipe
+  name: SimpleRecipe
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html
+  commentId: T:ProjectStack.Common.Recipe.SimpleRecipe
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe
+  nameWithType: SimpleRecipe
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.#ctor(ProjectStack.Common.ResourceLocation,System.String,System.String,System.Single,System.Collections.Immutable.IImmutableList{ProjectStack.Common.Recipe.SimpleRecipe.Ingredient},System.Collections.Immutable.IImmutableList{ProjectStack.Common.Recipe.SimpleRecipe.Product})
+  name: SimpleRecipe(ResourceLocation, string, string, float, IImmutableList<Ingredient>, IImmutableList<Product>)
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe__ctor_ProjectStack_Common_ResourceLocation_System_String_System_String_System_Single_System_Collections_Immutable_IImmutableList_ProjectStack_Common_Recipe_SimpleRecipe_Ingredient__System_Collections_Immutable_IImmutableList_ProjectStack_Common_Recipe_SimpleRecipe_Product__
+  commentId: M:ProjectStack.Common.Recipe.SimpleRecipe.#ctor(ProjectStack.Common.ResourceLocation,System.String,System.String,System.Single,System.Collections.Immutable.IImmutableList{ProjectStack.Common.Recipe.SimpleRecipe.Ingredient},System.Collections.Immutable.IImmutableList{ProjectStack.Common.Recipe.SimpleRecipe.Product})
+  name.vb: New(ResourceLocation, String, String, Single, IImmutableList(Of Ingredient), IImmutableList(Of Product))
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.SimpleRecipe(ProjectStack.Common.ResourceLocation, string, string, float, System.Collections.Immutable.IImmutableList<ProjectStack.Common.Recipe.SimpleRecipe.Ingredient>, System.Collections.Immutable.IImmutableList<ProjectStack.Common.Recipe.SimpleRecipe.Product>)
+  fullName.vb: ProjectStack.Common.Recipe.SimpleRecipe.New(ProjectStack.Common.ResourceLocation, String, String, Single, System.Collections.Immutable.IImmutableList(Of ProjectStack.Common.Recipe.SimpleRecipe.Ingredient), System.Collections.Immutable.IImmutableList(Of ProjectStack.Common.Recipe.SimpleRecipe.Product))
+  nameWithType: SimpleRecipe.SimpleRecipe(ResourceLocation, string, string, float, IImmutableList<SimpleRecipe.Ingredient>, IImmutableList<SimpleRecipe.Product>)
+  nameWithType.vb: SimpleRecipe.New(ResourceLocation, String, String, Single, IImmutableList(Of SimpleRecipe.Ingredient), IImmutableList(Of SimpleRecipe.Product))
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.#ctor*
+  name: SimpleRecipe
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.SimpleRecipe
+  fullName.vb: ProjectStack.Common.Recipe.SimpleRecipe.New
+  nameWithType: SimpleRecipe.SimpleRecipe
+  nameWithType.vb: SimpleRecipe.New
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Description
+  name: Description
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Description
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Description
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Description
+  nameWithType: SimpleRecipe.Description
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Description*
+  name: Description
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Description_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Description
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Description
+  nameWithType: SimpleRecipe.Description
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Id
+  name: Id
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Id
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Id
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Id
+  nameWithType: SimpleRecipe.Id
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Id*
+  name: Id
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Id_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Id
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Id
+  nameWithType: SimpleRecipe.Id
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient
+  name: SimpleRecipe.Ingredient
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html
+  commentId: T:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient
+  nameWithType: SimpleRecipe.Ingredient
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.#ctor(ProjectStack.Common.ResourceLocation,System.Int32,System.Boolean)
+  name: Ingredient(ResourceLocation, int, bool)
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient__ctor_ProjectStack_Common_ResourceLocation_System_Int32_System_Boolean_
+  commentId: M:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.#ctor(ProjectStack.Common.ResourceLocation,System.Int32,System.Boolean)
+  name.vb: New(ResourceLocation, Integer, Boolean)
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Ingredient(ProjectStack.Common.ResourceLocation, int, bool)
+  fullName.vb: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.New(ProjectStack.Common.ResourceLocation, Integer, Boolean)
+  nameWithType: SimpleRecipe.Ingredient.Ingredient(ResourceLocation, int, bool)
+  nameWithType.vb: SimpleRecipe.Ingredient.New(ResourceLocation, Integer, Boolean)
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.#ctor*
+  name: Ingredient
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Ingredient
+  fullName.vb: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.New
+  nameWithType: SimpleRecipe.Ingredient.Ingredient
+  nameWithType.vb: SimpleRecipe.Ingredient.New
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.CardId
+  name: CardId
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient_CardId
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.CardId
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.CardId
+  nameWithType: SimpleRecipe.Ingredient.CardId
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.CardId*
+  name: CardId
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient_CardId_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.CardId
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.CardId
+  nameWithType: SimpleRecipe.Ingredient.CardId
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Consumed
+  name: Consumed
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient_Consumed
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Consumed
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Consumed
+  nameWithType: SimpleRecipe.Ingredient.Consumed
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Consumed*
+  name: Consumed
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient_Consumed_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Consumed
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Consumed
+  nameWithType: SimpleRecipe.Ingredient.Consumed
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Quantity
+  name: Quantity
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient_Quantity
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Quantity
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Quantity
+  nameWithType: SimpleRecipe.Ingredient.Quantity
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Quantity*
+  name: Quantity
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredient_Quantity_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Quantity
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.Quantity
+  nameWithType: SimpleRecipe.Ingredient.Quantity
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredients
+  name: Ingredients
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredients
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Ingredients
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredients
+  nameWithType: SimpleRecipe.Ingredients
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Ingredients*
+  name: Ingredients
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Ingredients_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Ingredients
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Ingredients
+  nameWithType: SimpleRecipe.Ingredients
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Name
+  name: Name
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Name
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Name
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Name
+  nameWithType: SimpleRecipe.Name
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Name*
+  name: Name
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Name_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Name
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Name
+  nameWithType: SimpleRecipe.Name
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Product
+  name: SimpleRecipe.Product
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html
+  commentId: T:ProjectStack.Common.Recipe.SimpleRecipe.Product
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Product
+  nameWithType: SimpleRecipe.Product
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Product.#ctor(ProjectStack.Common.ResourceLocation,System.Int32)
+  name: Product(ResourceLocation, int)
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_Common_Recipe_SimpleRecipe_Product__ctor_ProjectStack_Common_ResourceLocation_System_Int32_
+  commentId: M:ProjectStack.Common.Recipe.SimpleRecipe.Product.#ctor(ProjectStack.Common.ResourceLocation,System.Int32)
+  name.vb: New(ResourceLocation, Integer)
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Product.Product(ProjectStack.Common.ResourceLocation, int)
+  fullName.vb: ProjectStack.Common.Recipe.SimpleRecipe.Product.New(ProjectStack.Common.ResourceLocation, Integer)
+  nameWithType: SimpleRecipe.Product.Product(ResourceLocation, int)
+  nameWithType.vb: SimpleRecipe.Product.New(ResourceLocation, Integer)
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Product.#ctor*
+  name: Product
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_Common_Recipe_SimpleRecipe_Product__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Product.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Product.Product
+  fullName.vb: ProjectStack.Common.Recipe.SimpleRecipe.Product.New
+  nameWithType: SimpleRecipe.Product.Product
+  nameWithType.vb: SimpleRecipe.Product.New
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Product.CardId
+  name: CardId
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_Common_Recipe_SimpleRecipe_Product_CardId
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Product.CardId
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Product.CardId
+  nameWithType: SimpleRecipe.Product.CardId
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Product.CardId*
+  name: CardId
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_Common_Recipe_SimpleRecipe_Product_CardId_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Product.CardId
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Product.CardId
+  nameWithType: SimpleRecipe.Product.CardId
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Product.Quantity
+  name: Quantity
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_Common_Recipe_SimpleRecipe_Product_Quantity
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Product.Quantity
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Product.Quantity
+  nameWithType: SimpleRecipe.Product.Quantity
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Product.Quantity*
+  name: Quantity
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_Common_Recipe_SimpleRecipe_Product_Quantity_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Product.Quantity
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Product.Quantity
+  nameWithType: SimpleRecipe.Product.Quantity
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Production
+  name: Production
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Production
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Production
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Production
+  nameWithType: SimpleRecipe.Production
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Production*
+  name: Production
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Production_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Production
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Production
+  nameWithType: SimpleRecipe.Production
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Products
+  name: Products
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Products
+  commentId: P:ProjectStack.Common.Recipe.SimpleRecipe.Products
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Products
+  nameWithType: SimpleRecipe.Products
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.Products*
+  name: Products
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_Products_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.Products
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.Products
+  nameWithType: SimpleRecipe.Products
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList{ProjectStack.Common.Card.CardMeta})
+  name: SatisfactionCheck(IImmutableList<CardMeta>)
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_SatisfactionCheck_System_Collections_Immutable_IImmutableList_ProjectStack_Common_Card_CardMeta__
+  commentId: M:ProjectStack.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList{ProjectStack.Common.Card.CardMeta})
+  name.vb: SatisfactionCheck(IImmutableList(Of CardMeta))
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList<ProjectStack.Common.Card.CardMeta>)
+  fullName.vb: ProjectStack.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList(Of ProjectStack.Common.Card.CardMeta))
+  nameWithType: SimpleRecipe.SatisfactionCheck(IImmutableList<CardMeta>)
+  nameWithType.vb: SimpleRecipe.SatisfactionCheck(IImmutableList(Of CardMeta))
+- uid: ProjectStack.Common.Recipe.SimpleRecipe.SatisfactionCheck*
+  name: SatisfactionCheck
+  href: api/ProjectStack.Common.Recipe.SimpleRecipe.html#ProjectStack_Common_Recipe_SimpleRecipe_SatisfactionCheck_
+  commentId: Overload:ProjectStack.Common.Recipe.SimpleRecipe.SatisfactionCheck
+  isSpec: "True"
+  fullName: ProjectStack.Common.Recipe.SimpleRecipe.SatisfactionCheck
+  nameWithType: SimpleRecipe.SatisfactionCheck
+- uid: ProjectStack.Common.ResourceLocation
+  name: ResourceLocation
+  href: api/ProjectStack.Common.ResourceLocation.html
+  commentId: T:ProjectStack.Common.ResourceLocation
+  fullName: ProjectStack.Common.ResourceLocation
+  nameWithType: ResourceLocation
+- uid: ProjectStack.Common.ResourceLocation.#ctor(System.String,System.String)
+  name: ResourceLocation(string, string)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation__ctor_System_String_System_String_
+  commentId: M:ProjectStack.Common.ResourceLocation.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: ProjectStack.Common.ResourceLocation.ResourceLocation(string, string)
+  fullName.vb: ProjectStack.Common.ResourceLocation.New(String, String)
+  nameWithType: ResourceLocation.ResourceLocation(string, string)
+  nameWithType.vb: ResourceLocation.New(String, String)
+- uid: ProjectStack.Common.ResourceLocation.#ctor*
+  name: ResourceLocation
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation__ctor_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Common.ResourceLocation.ResourceLocation
+  fullName.vb: ProjectStack.Common.ResourceLocation.New
+  nameWithType: ResourceLocation.ResourceLocation
+  nameWithType.vb: ResourceLocation.New
+- uid: ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath(System.String)
+  name: DefaultNamespaceAndPath(string)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_DefaultNamespaceAndPath_System_String_
+  commentId: M:ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath(System.String)
+  name.vb: DefaultNamespaceAndPath(String)
+  fullName: ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath(string)
+  fullName.vb: ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath(String)
+  nameWithType: ResourceLocation.DefaultNamespaceAndPath(string)
+  nameWithType.vb: ResourceLocation.DefaultNamespaceAndPath(String)
+- uid: ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath*
+  name: DefaultNamespaceAndPath
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_DefaultNamespaceAndPath_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath
+  nameWithType: ResourceLocation.DefaultNamespaceAndPath
+- uid: ProjectStack.Common.ResourceLocation.EMPTY
+  name: EMPTY
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_EMPTY
+  commentId: P:ProjectStack.Common.ResourceLocation.EMPTY
+  fullName: ProjectStack.Common.ResourceLocation.EMPTY
+  nameWithType: ResourceLocation.EMPTY
+- uid: ProjectStack.Common.ResourceLocation.EMPTY*
+  name: EMPTY
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_EMPTY_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.EMPTY
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.EMPTY
+  nameWithType: ResourceLocation.EMPTY
+- uid: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(System.String,System.String)
+  name: FromNamespaceAndPath(string, string)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_FromNamespaceAndPath_System_String_System_String_
+  commentId: M:ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(System.String,System.String)
+  name.vb: FromNamespaceAndPath(String, String)
+  fullName: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(string, string)
+  fullName.vb: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(String, String)
+  nameWithType: ResourceLocation.FromNamespaceAndPath(string, string)
+  nameWithType.vb: ResourceLocation.FromNamespaceAndPath(String, String)
+- uid: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath*
+  name: FromNamespaceAndPath
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_FromNamespaceAndPath_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.FromNamespaceAndPath
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath
+  nameWithType: ResourceLocation.FromNamespaceAndPath
+- uid: ProjectStack.Common.ResourceLocation.GetNamespace
+  name: GetNamespace
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetNamespace
+  commentId: P:ProjectStack.Common.ResourceLocation.GetNamespace
+  fullName: ProjectStack.Common.ResourceLocation.GetNamespace
+  nameWithType: ResourceLocation.GetNamespace
+- uid: ProjectStack.Common.ResourceLocation.GetNamespace*
+  name: GetNamespace
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetNamespace_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.GetNamespace
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.GetNamespace
+  nameWithType: ResourceLocation.GetNamespace
+- uid: ProjectStack.Common.ResourceLocation.GetPath
+  name: GetPath
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetPath
+  commentId: P:ProjectStack.Common.ResourceLocation.GetPath
+  fullName: ProjectStack.Common.ResourceLocation.GetPath
+  nameWithType: ResourceLocation.GetPath
+- uid: ProjectStack.Common.ResourceLocation.GetPath*
+  name: GetPath
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetPath_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.GetPath
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.GetPath
+  nameWithType: ResourceLocation.GetPath
+- uid: ProjectStack.Common.ResourceLocation.GetResLoc
+  name: GetResLoc()
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetResLoc
+  commentId: M:ProjectStack.Common.ResourceLocation.GetResLoc
+  fullName: ProjectStack.Common.ResourceLocation.GetResLoc()
+  nameWithType: ResourceLocation.GetResLoc()
+- uid: ProjectStack.Common.ResourceLocation.GetResLoc*
+  name: GetResLoc
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetResLoc_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.GetResLoc
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.GetResLoc
+  nameWithType: ResourceLocation.GetResLoc
+- uid: ProjectStack.Common.ResourceLocation.GetResLocWithPath(System.String)
+  name: GetResLocWithPath(string)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetResLocWithPath_System_String_
+  commentId: M:ProjectStack.Common.ResourceLocation.GetResLocWithPath(System.String)
+  name.vb: GetResLocWithPath(String)
+  fullName: ProjectStack.Common.ResourceLocation.GetResLocWithPath(string)
+  fullName.vb: ProjectStack.Common.ResourceLocation.GetResLocWithPath(String)
+  nameWithType: ResourceLocation.GetResLocWithPath(string)
+  nameWithType.vb: ResourceLocation.GetResLocWithPath(String)
+- uid: ProjectStack.Common.ResourceLocation.GetResLocWithPath*
+  name: GetResLocWithPath
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetResLocWithPath_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.GetResLocWithPath
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.GetResLocWithPath
+  nameWithType: ResourceLocation.GetResLocWithPath
+- uid: ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix(System.String)
+  name: GetResLocWithoutPrefix(string)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetResLocWithoutPrefix_System_String_
+  commentId: M:ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix(System.String)
+  name.vb: GetResLocWithoutPrefix(String)
+  fullName: ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix(string)
+  fullName.vb: ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix(String)
+  nameWithType: ResourceLocation.GetResLocWithoutPrefix(string)
+  nameWithType.vb: ResourceLocation.GetResLocWithoutPrefix(String)
+- uid: ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix*
+  name: GetResLocWithoutPrefix
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetResLocWithoutPrefix_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix
+  nameWithType: ResourceLocation.GetResLocWithoutPrefix
+- uid: ProjectStack.Common.ResourceLocation.Namespace
+  name: Namespace
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Namespace
+  commentId: P:ProjectStack.Common.ResourceLocation.Namespace
+  fullName: ProjectStack.Common.ResourceLocation.Namespace
+  nameWithType: ResourceLocation.Namespace
+- uid: ProjectStack.Common.ResourceLocation.Namespace*
+  name: Namespace
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Namespace_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.Namespace
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.Namespace
+  nameWithType: ResourceLocation.Namespace
+- uid: ProjectStack.Common.ResourceLocation.Parse(System.String)
+  name: Parse(string)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Parse_System_String_
+  commentId: M:ProjectStack.Common.ResourceLocation.Parse(System.String)
+  name.vb: Parse(String)
+  fullName: ProjectStack.Common.ResourceLocation.Parse(string)
+  fullName.vb: ProjectStack.Common.ResourceLocation.Parse(String)
+  nameWithType: ResourceLocation.Parse(string)
+  nameWithType.vb: ResourceLocation.Parse(String)
+- uid: ProjectStack.Common.ResourceLocation.Parse*
+  name: Parse
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Parse_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.Parse
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.Parse
+  nameWithType: ResourceLocation.Parse
+- uid: ProjectStack.Common.ResourceLocation.Path
+  name: Path
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Path
+  commentId: P:ProjectStack.Common.ResourceLocation.Path
+  fullName: ProjectStack.Common.ResourceLocation.Path
+  nameWithType: ResourceLocation.Path
+- uid: ProjectStack.Common.ResourceLocation.Path*
+  name: Path
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Path_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.Path
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.Path
+  nameWithType: ResourceLocation.Path
+- uid: ProjectStack.Common.ResourceLocation.ToString
+  name: ToString()
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_ToString
+  commentId: M:ProjectStack.Common.ResourceLocation.ToString
+  fullName: ProjectStack.Common.ResourceLocation.ToString()
+  nameWithType: ResourceLocation.ToString()
+- uid: ProjectStack.Common.ResourceLocation.ToString*
+  name: ToString
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_ToString_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.ToString
+  isSpec: "True"
+  fullName: ProjectStack.Common.ResourceLocation.ToString
+  nameWithType: ResourceLocation.ToString
 - uid: ProjectStack.Component
   name: ProjectStack.Component
   href: api/ProjectStack.Component.html
@@ -3495,703 +4189,3 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Util.FileSystemHelper.GetAllFilesInDirectory
   nameWithType: FileSystemHelper.GetAllFilesInDirectory
-- uid: ProjectStack.src.scripts.Common
-  name: ProjectStack.src.scripts.Common
-  href: api/ProjectStack.src.scripts.Common.html
-  commentId: N:ProjectStack.src.scripts.Common
-  fullName: ProjectStack.src.scripts.Common
-  nameWithType: ProjectStack.src.scripts.Common
-- uid: ProjectStack.src.scripts.Common.Recipe
-  name: ProjectStack.src.scripts.Common.Recipe
-  href: api/ProjectStack.src.scripts.Common.Recipe.html
-  commentId: N:ProjectStack.src.scripts.Common.Recipe
-  fullName: ProjectStack.src.scripts.Common.Recipe
-  nameWithType: ProjectStack.src.scripts.Common.Recipe
-- uid: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1
-  name: AbstractRecipe<TRecipeInput>
-  href: api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1
-  name.vb: AbstractRecipe(Of TRecipeInput)
-  fullName: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe<TRecipeInput>
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe(Of TRecipeInput)
-  nameWithType: AbstractRecipe<TRecipeInput>
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput)
-- uid: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Assmble(`0,System.Text.Json.Nodes.JsonObject)
-  name: Assmble(TRecipeInput, JsonObject)
-  href: api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html#ProjectStack_src_scripts_Common_Recipe_AbstractRecipe_1_Assmble__0_System_Text_Json_Nodes_JsonObject_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Assmble(`0,System.Text.Json.Nodes.JsonObject)
-  fullName: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe<TRecipeInput>.Assmble(TRecipeInput, System.Text.Json.Nodes.JsonObject)
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe(Of TRecipeInput).Assmble(TRecipeInput, System.Text.Json.Nodes.JsonObject)
-  nameWithType: AbstractRecipe<TRecipeInput>.Assmble(TRecipeInput, JsonObject)
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Assmble(TRecipeInput, JsonObject)
-- uid: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Assmble*
-  name: Assmble
-  href: api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html#ProjectStack_src_scripts_Common_Recipe_AbstractRecipe_1_Assmble_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Assmble
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe<TRecipeInput>.Assmble
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe(Of TRecipeInput).Assmble
-  nameWithType: AbstractRecipe<TRecipeInput>.Assmble
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Assmble
-- uid: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Matchs(`0,System.Text.Json.Nodes.JsonObject)
-  name: Matchs(TRecipeInput, JsonObject)
-  href: api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html#ProjectStack_src_scripts_Common_Recipe_AbstractRecipe_1_Matchs__0_System_Text_Json_Nodes_JsonObject_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Matchs(`0,System.Text.Json.Nodes.JsonObject)
-  fullName: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe<TRecipeInput>.Matchs(TRecipeInput, System.Text.Json.Nodes.JsonObject)
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe(Of TRecipeInput).Matchs(TRecipeInput, System.Text.Json.Nodes.JsonObject)
-  nameWithType: AbstractRecipe<TRecipeInput>.Matchs(TRecipeInput, JsonObject)
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Matchs(TRecipeInput, JsonObject)
-- uid: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Matchs*
-  name: Matchs
-  href: api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html#ProjectStack_src_scripts_Common_Recipe_AbstractRecipe_1_Matchs_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Matchs
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe<TRecipeInput>.Matchs
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe(Of TRecipeInput).Matchs
-  nameWithType: AbstractRecipe<TRecipeInput>.Matchs
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Matchs
-- uid: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Type
-  name: Type()
-  href: api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html#ProjectStack_src_scripts_Common_Recipe_AbstractRecipe_1_Type
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Type
-  fullName: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe<TRecipeInput>.Type()
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe(Of TRecipeInput).Type()
-  nameWithType: AbstractRecipe<TRecipeInput>.Type()
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Type()
-- uid: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Type*
-  name: Type
-  href: api/ProjectStack.src.scripts.Common.Recipe.AbstractRecipe-1.html#ProjectStack_src_scripts_Common_Recipe_AbstractRecipe_1_Type_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.AbstractRecipe`1.Type
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe<TRecipeInput>.Type
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.AbstractRecipe(Of TRecipeInput).Type
-  nameWithType: AbstractRecipe<TRecipeInput>.Type
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Type
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeInput
-  name: RecipeInput
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.RecipeInput
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeInput
-  nameWithType: RecipeInput
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeInput.Assemble(ProjectStack.Component.Card)
-  name: Assemble(Card)
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html#ProjectStack_src_scripts_Common_Recipe_RecipeInput_Assemble_ProjectStack_Component_Card_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.RecipeInput.Assemble(ProjectStack.Component.Card)
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeInput.Assemble(ProjectStack.Component.Card)
-  nameWithType: RecipeInput.Assemble(Card)
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeInput.Assemble*
-  name: Assemble
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html#ProjectStack_src_scripts_Common_Recipe_RecipeInput_Assemble_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.RecipeInput.Assemble
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeInput.Assemble
-  nameWithType: RecipeInput.Assemble
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeInput.IsMatch(ProjectStack.Component.Card)
-  name: IsMatch(Card)
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html#ProjectStack_src_scripts_Common_Recipe_RecipeInput_IsMatch_ProjectStack_Component_Card_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.RecipeInput.IsMatch(ProjectStack.Component.Card)
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeInput.IsMatch(ProjectStack.Component.Card)
-  nameWithType: RecipeInput.IsMatch(Card)
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeInput.IsMatch*
-  name: IsMatch
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeInput.html#ProjectStack_src_scripts_Common_Recipe_RecipeInput_IsMatch_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.RecipeInput.IsMatch
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeInput.IsMatch
-  nameWithType: RecipeInput.IsMatch
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeOutput
-  name: RecipeOutput
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.RecipeOutput
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeOutput
-  nameWithType: RecipeOutput
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.#ctor(System.Collections.Generic.List{ProjectStack.Component.Card},System.Text.Json.Nodes.JsonObject)
-  name: RecipeOutput(List<Card>, JsonObject)
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html#ProjectStack_src_scripts_Common_Recipe_RecipeOutput__ctor_System_Collections_Generic_List_ProjectStack_Component_Card__System_Text_Json_Nodes_JsonObject_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.RecipeOutput.#ctor(System.Collections.Generic.List{ProjectStack.Component.Card},System.Text.Json.Nodes.JsonObject)
-  name.vb: New(List(Of Card), JsonObject)
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.RecipeOutput(System.Collections.Generic.List<ProjectStack.Component.Card>, System.Text.Json.Nodes.JsonObject)
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.New(System.Collections.Generic.List(Of ProjectStack.Component.Card), System.Text.Json.Nodes.JsonObject)
-  nameWithType: RecipeOutput.RecipeOutput(List<Card>, JsonObject)
-  nameWithType.vb: RecipeOutput.New(List(Of Card), JsonObject)
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.#ctor*
-  name: RecipeOutput
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html#ProjectStack_src_scripts_Common_Recipe_RecipeOutput__ctor_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.RecipeOutput.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.RecipeOutput
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.New
-  nameWithType: RecipeOutput.RecipeOutput
-  nameWithType.vb: RecipeOutput.New
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Cards
-  name: Cards
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html#ProjectStack_src_scripts_Common_Recipe_RecipeOutput_Cards
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Cards
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Cards
-  nameWithType: RecipeOutput.Cards
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Cards*
-  name: Cards
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html#ProjectStack_src_scripts_Common_Recipe_RecipeOutput_Cards_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Cards
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Cards
-  nameWithType: RecipeOutput.Cards
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Ntj
-  name: Ntj
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html#ProjectStack_src_scripts_Common_Recipe_RecipeOutput_Ntj
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Ntj
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Ntj
-  nameWithType: RecipeOutput.Ntj
-- uid: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Ntj*
-  name: Ntj
-  href: api/ProjectStack.src.scripts.Common.Recipe.RecipeOutput.html#ProjectStack_src_scripts_Common_Recipe_RecipeOutput_Ntj_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Ntj
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.RecipeOutput.Ntj
-  nameWithType: RecipeOutput.Ntj
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput
-  name: ScriptRecipeInput
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput
-  nameWithType: ScriptRecipeInput
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.#ctor
-  name: ScriptRecipeInput()
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput__ctor
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.#ctor
-  name.vb: New()
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptRecipeInput()
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.New()
-  nameWithType: ScriptRecipeInput.ScriptRecipeInput()
-  nameWithType.vb: ScriptRecipeInput.New()
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.#ctor*
-  name: ScriptRecipeInput
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput__ctor_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptRecipeInput
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.New
-  nameWithType: ScriptRecipeInput.ScriptRecipeInput
-  nameWithType.vb: ScriptRecipeInput.New
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.Assemble(ProjectStack.Component.Card)
-  name: Assemble(Card)
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_Assemble_ProjectStack_Component_Card_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.Assemble(ProjectStack.Component.Card)
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.Assemble(ProjectStack.Component.Card)
-  nameWithType: ScriptRecipeInput.Assemble(Card)
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.Assemble*
-  name: Assemble
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_Assemble_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.Assemble
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.Assemble
-  nameWithType: ScriptRecipeInput.Assemble
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScript
-  name: AssembleScript
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_AssembleScript
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScript
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScript
-  nameWithType: ScriptRecipeInput.AssembleScript
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScript*
-  name: AssembleScript
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_AssembleScript_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScript
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScript
-  nameWithType: ScriptRecipeInput.AssembleScript
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
-  name: AssembleScriptRunner
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_AssembleScriptRunner
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
-  nameWithType: ScriptRecipeInput.AssembleScriptRunner
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner*
-  name: AssembleScriptRunner
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_AssembleScriptRunner_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.AssembleScriptRunner
-  nameWithType: ScriptRecipeInput.AssembleScriptRunner
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.IsMatch(ProjectStack.Component.Card)
-  name: IsMatch(Card)
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_IsMatch_ProjectStack_Component_Card_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.IsMatch(ProjectStack.Component.Card)
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.IsMatch(ProjectStack.Component.Card)
-  nameWithType: ScriptRecipeInput.IsMatch(Card)
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.IsMatch*
-  name: IsMatch
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_IsMatch_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.IsMatch
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.IsMatch
-  nameWithType: ScriptRecipeInput.IsMatch
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScript
-  name: MatchScript
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_MatchScript
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScript
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScript
-  nameWithType: ScriptRecipeInput.MatchScript
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScript*
-  name: MatchScript
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_MatchScript_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScript
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScript
-  nameWithType: ScriptRecipeInput.MatchScript
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
-  name: MatchScriptRunner
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_MatchScriptRunner
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
-  nameWithType: ScriptRecipeInput.MatchScriptRunner
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScriptRunner*
-  name: MatchScriptRunner
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_MatchScriptRunner_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.MatchScriptRunner
-  nameWithType: ScriptRecipeInput.MatchScriptRunner
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext
-  name: ScriptRecipeInput.ScriptContext
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext
-  nameWithType: ScriptRecipeInput.ScriptContext
-- uid: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.card
-  name: card
-  href: api/ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.html#ProjectStack_src_scripts_Common_Recipe_ScriptRecipeInput_ScriptContext_card
-  commentId: F:ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.card
-  fullName: ProjectStack.src.scripts.Common.Recipe.ScriptRecipeInput.ScriptContext.card
-  nameWithType: ScriptRecipeInput.ScriptContext.card
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe
-  name: SimpleRecipe
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe
-  nameWithType: SimpleRecipe
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.String,System.String,System.Single,System.Collections.Immutable.IImmutableList{ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient},System.Collections.Immutable.IImmutableList{ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product})
-  name: SimpleRecipe(ResourceLocation, string, string, float, IImmutableList<Ingredient>, IImmutableList<Product>)
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe__ctor_ProjectStack_src_scripts_Common_ResourceLocation_System_String_System_String_System_Single_System_Collections_Immutable_IImmutableList_ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient__System_Collections_Immutable_IImmutableList_ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Product__
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.String,System.String,System.Single,System.Collections.Immutable.IImmutableList{ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient},System.Collections.Immutable.IImmutableList{ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product})
-  name.vb: New(ResourceLocation, String, String, Single, IImmutableList(Of Ingredient), IImmutableList(Of Product))
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SimpleRecipe(ProjectStack.src.scripts.Common.ResourceLocation, string, string, float, System.Collections.Immutable.IImmutableList<ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient>, System.Collections.Immutable.IImmutableList<ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product>)
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.New(ProjectStack.src.scripts.Common.ResourceLocation, String, String, Single, System.Collections.Immutable.IImmutableList(Of ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient), System.Collections.Immutable.IImmutableList(Of ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product))
-  nameWithType: SimpleRecipe.SimpleRecipe(ResourceLocation, string, string, float, IImmutableList<SimpleRecipe.Ingredient>, IImmutableList<SimpleRecipe.Product>)
-  nameWithType.vb: SimpleRecipe.New(ResourceLocation, String, String, Single, IImmutableList(Of SimpleRecipe.Ingredient), IImmutableList(Of SimpleRecipe.Product))
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.#ctor*
-  name: SimpleRecipe
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe__ctor_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SimpleRecipe
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.New
-  nameWithType: SimpleRecipe.SimpleRecipe
-  nameWithType.vb: SimpleRecipe.New
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Description
-  name: Description
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Description
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Description
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Description
-  nameWithType: SimpleRecipe.Description
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Description*
-  name: Description
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Description_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Description
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Description
-  nameWithType: SimpleRecipe.Description
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Id
-  name: Id
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Id
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Id
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Id
-  nameWithType: SimpleRecipe.Id
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Id*
-  name: Id
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Id_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Id
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Id
-  nameWithType: SimpleRecipe.Id
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient
-  name: SimpleRecipe.Ingredient
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient
-  nameWithType: SimpleRecipe.Ingredient
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.Int32,System.Boolean)
-  name: Ingredient(ResourceLocation, int, bool)
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient__ctor_ProjectStack_src_scripts_Common_ResourceLocation_System_Int32_System_Boolean_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.Int32,System.Boolean)
-  name.vb: New(ResourceLocation, Integer, Boolean)
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Ingredient(ProjectStack.src.scripts.Common.ResourceLocation, int, bool)
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.New(ProjectStack.src.scripts.Common.ResourceLocation, Integer, Boolean)
-  nameWithType: SimpleRecipe.Ingredient.Ingredient(ResourceLocation, int, bool)
-  nameWithType.vb: SimpleRecipe.Ingredient.New(ResourceLocation, Integer, Boolean)
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.#ctor*
-  name: Ingredient
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient__ctor_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Ingredient
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.New
-  nameWithType: SimpleRecipe.Ingredient.Ingredient
-  nameWithType.vb: SimpleRecipe.Ingredient.New
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.CardId
-  name: CardId
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient_CardId
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.CardId
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.CardId
-  nameWithType: SimpleRecipe.Ingredient.CardId
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.CardId*
-  name: CardId
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient_CardId_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.CardId
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.CardId
-  nameWithType: SimpleRecipe.Ingredient.CardId
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Consumed
-  name: Consumed
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient_Consumed
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Consumed
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Consumed
-  nameWithType: SimpleRecipe.Ingredient.Consumed
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Consumed*
-  name: Consumed
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient_Consumed_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Consumed
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Consumed
-  nameWithType: SimpleRecipe.Ingredient.Consumed
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Quantity
-  name: Quantity
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient_Quantity
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Quantity
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Quantity
-  nameWithType: SimpleRecipe.Ingredient.Quantity
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Quantity*
-  name: Quantity
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredient_Quantity_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Quantity
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredient.Quantity
-  nameWithType: SimpleRecipe.Ingredient.Quantity
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredients
-  name: Ingredients
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredients
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredients
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredients
-  nameWithType: SimpleRecipe.Ingredients
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredients*
-  name: Ingredients
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Ingredients_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredients
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Ingredients
-  nameWithType: SimpleRecipe.Ingredients
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Name
-  name: Name
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Name
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Name
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Name
-  nameWithType: SimpleRecipe.Name
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Name*
-  name: Name
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Name_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Name
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Name
-  nameWithType: SimpleRecipe.Name
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product
-  name: SimpleRecipe.Product
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html
-  commentId: T:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product
-  nameWithType: SimpleRecipe.Product
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.Int32)
-  name: Product(ResourceLocation, int)
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Product__ctor_ProjectStack_src_scripts_Common_ResourceLocation_System_Int32_
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.#ctor(ProjectStack.src.scripts.Common.ResourceLocation,System.Int32)
-  name.vb: New(ResourceLocation, Integer)
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Product(ProjectStack.src.scripts.Common.ResourceLocation, int)
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.New(ProjectStack.src.scripts.Common.ResourceLocation, Integer)
-  nameWithType: SimpleRecipe.Product.Product(ResourceLocation, int)
-  nameWithType.vb: SimpleRecipe.Product.New(ResourceLocation, Integer)
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.#ctor*
-  name: Product
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Product__ctor_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Product
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.New
-  nameWithType: SimpleRecipe.Product.Product
-  nameWithType.vb: SimpleRecipe.Product.New
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.CardId
-  name: CardId
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Product_CardId
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.CardId
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.CardId
-  nameWithType: SimpleRecipe.Product.CardId
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.CardId*
-  name: CardId
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Product_CardId_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.CardId
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.CardId
-  nameWithType: SimpleRecipe.Product.CardId
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Quantity
-  name: Quantity
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Product_Quantity
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Quantity
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Quantity
-  nameWithType: SimpleRecipe.Product.Quantity
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Quantity*
-  name: Quantity
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Product_Quantity_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Quantity
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Product.Quantity
-  nameWithType: SimpleRecipe.Product.Quantity
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Production
-  name: Production
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Production
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Production
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Production
-  nameWithType: SimpleRecipe.Production
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Production*
-  name: Production
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Production_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Production
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Production
-  nameWithType: SimpleRecipe.Production
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Products
-  name: Products
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Products
-  commentId: P:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Products
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Products
-  nameWithType: SimpleRecipe.Products
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Products*
-  name: Products
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_Products_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Products
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.Products
-  nameWithType: SimpleRecipe.Products
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList{ProjectStack.Common.Card.CardMeta})
-  name: SatisfactionCheck(IImmutableList<CardMeta>)
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_SatisfactionCheck_System_Collections_Immutable_IImmutableList_ProjectStack_Common_Card_CardMeta__
-  commentId: M:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList{ProjectStack.Common.Card.CardMeta})
-  name.vb: SatisfactionCheck(IImmutableList(Of CardMeta))
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList<ProjectStack.Common.Card.CardMeta>)
-  fullName.vb: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SatisfactionCheck(System.Collections.Immutable.IImmutableList(Of ProjectStack.Common.Card.CardMeta))
-  nameWithType: SimpleRecipe.SatisfactionCheck(IImmutableList<CardMeta>)
-  nameWithType.vb: SimpleRecipe.SatisfactionCheck(IImmutableList(Of CardMeta))
-- uid: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SatisfactionCheck*
-  name: SatisfactionCheck
-  href: api/ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.html#ProjectStack_src_scripts_Common_Recipe_SimpleRecipe_SatisfactionCheck_
-  commentId: Overload:ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SatisfactionCheck
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.Recipe.SimpleRecipe.SatisfactionCheck
-  nameWithType: SimpleRecipe.SatisfactionCheck
-- uid: ProjectStack.src.scripts.Common.ResourceLocation
-  name: ResourceLocation
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html
-  commentId: T:ProjectStack.src.scripts.Common.ResourceLocation
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation
-  nameWithType: ResourceLocation
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.#ctor(System.String,System.String)
-  name: ResourceLocation(string, string)
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation__ctor_System_String_System_String_
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.ResourceLocation(string, string)
-  fullName.vb: ProjectStack.src.scripts.Common.ResourceLocation.New(String, String)
-  nameWithType: ResourceLocation.ResourceLocation(string, string)
-  nameWithType.vb: ResourceLocation.New(String, String)
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.#ctor*
-  name: ResourceLocation
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation__ctor_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.ResourceLocation
-  fullName.vb: ProjectStack.src.scripts.Common.ResourceLocation.New
-  nameWithType: ResourceLocation.ResourceLocation
-  nameWithType.vb: ResourceLocation.New
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.DefaultNamespaceAndPath(System.String)
-  name: DefaultNamespaceAndPath(string)
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_DefaultNamespaceAndPath_System_String_
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.DefaultNamespaceAndPath(System.String)
-  name.vb: DefaultNamespaceAndPath(String)
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.DefaultNamespaceAndPath(string)
-  fullName.vb: ProjectStack.src.scripts.Common.ResourceLocation.DefaultNamespaceAndPath(String)
-  nameWithType: ResourceLocation.DefaultNamespaceAndPath(string)
-  nameWithType.vb: ResourceLocation.DefaultNamespaceAndPath(String)
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.DefaultNamespaceAndPath*
-  name: DefaultNamespaceAndPath
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_DefaultNamespaceAndPath_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.DefaultNamespaceAndPath
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.DefaultNamespaceAndPath
-  nameWithType: ResourceLocation.DefaultNamespaceAndPath
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.EMPTY
-  name: EMPTY
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_EMPTY
-  commentId: P:ProjectStack.src.scripts.Common.ResourceLocation.EMPTY
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.EMPTY
-  nameWithType: ResourceLocation.EMPTY
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.EMPTY*
-  name: EMPTY
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_EMPTY_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.EMPTY
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.EMPTY
-  nameWithType: ResourceLocation.EMPTY
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.FromNamespaceAndPath(System.String,System.String)
-  name: FromNamespaceAndPath(string, string)
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_FromNamespaceAndPath_System_String_System_String_
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.FromNamespaceAndPath(System.String,System.String)
-  name.vb: FromNamespaceAndPath(String, String)
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.FromNamespaceAndPath(string, string)
-  fullName.vb: ProjectStack.src.scripts.Common.ResourceLocation.FromNamespaceAndPath(String, String)
-  nameWithType: ResourceLocation.FromNamespaceAndPath(string, string)
-  nameWithType.vb: ResourceLocation.FromNamespaceAndPath(String, String)
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.FromNamespaceAndPath*
-  name: FromNamespaceAndPath
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_FromNamespaceAndPath_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.FromNamespaceAndPath
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.FromNamespaceAndPath
-  nameWithType: ResourceLocation.FromNamespaceAndPath
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetNamespace
-  name: GetNamespace
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetNamespace
-  commentId: P:ProjectStack.src.scripts.Common.ResourceLocation.GetNamespace
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetNamespace
-  nameWithType: ResourceLocation.GetNamespace
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetNamespace*
-  name: GetNamespace
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetNamespace_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.GetNamespace
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetNamespace
-  nameWithType: ResourceLocation.GetNamespace
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetPath
-  name: GetPath
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetPath
-  commentId: P:ProjectStack.src.scripts.Common.ResourceLocation.GetPath
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetPath
-  nameWithType: ResourceLocation.GetPath
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetPath*
-  name: GetPath
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetPath_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.GetPath
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetPath
-  nameWithType: ResourceLocation.GetPath
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetResLoc
-  name: GetResLoc()
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetResLoc
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.GetResLoc
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetResLoc()
-  nameWithType: ResourceLocation.GetResLoc()
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetResLoc*
-  name: GetResLoc
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetResLoc_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.GetResLoc
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetResLoc
-  nameWithType: ResourceLocation.GetResLoc
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithPath(System.String)
-  name: GetResLocWithPath(string)
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetResLocWithPath_System_String_
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithPath(System.String)
-  name.vb: GetResLocWithPath(String)
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithPath(string)
-  fullName.vb: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithPath(String)
-  nameWithType: ResourceLocation.GetResLocWithPath(string)
-  nameWithType.vb: ResourceLocation.GetResLocWithPath(String)
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithPath*
-  name: GetResLocWithPath
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetResLocWithPath_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithPath
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithPath
-  nameWithType: ResourceLocation.GetResLocWithPath
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithoutPrefix(System.String)
-  name: GetResLocWithoutPrefix(string)
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetResLocWithoutPrefix_System_String_
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithoutPrefix(System.String)
-  name.vb: GetResLocWithoutPrefix(String)
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithoutPrefix(string)
-  fullName.vb: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithoutPrefix(String)
-  nameWithType: ResourceLocation.GetResLocWithoutPrefix(string)
-  nameWithType.vb: ResourceLocation.GetResLocWithoutPrefix(String)
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithoutPrefix*
-  name: GetResLocWithoutPrefix
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_GetResLocWithoutPrefix_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithoutPrefix
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.GetResLocWithoutPrefix
-  nameWithType: ResourceLocation.GetResLocWithoutPrefix
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.Namespace
-  name: Namespace
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_Namespace
-  commentId: P:ProjectStack.src.scripts.Common.ResourceLocation.Namespace
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.Namespace
-  nameWithType: ResourceLocation.Namespace
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.Namespace*
-  name: Namespace
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_Namespace_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.Namespace
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.Namespace
-  nameWithType: ResourceLocation.Namespace
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.Parse(System.String)
-  name: Parse(string)
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_Parse_System_String_
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.Parse(System.String)
-  name.vb: Parse(String)
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.Parse(string)
-  fullName.vb: ProjectStack.src.scripts.Common.ResourceLocation.Parse(String)
-  nameWithType: ResourceLocation.Parse(string)
-  nameWithType.vb: ResourceLocation.Parse(String)
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.Parse*
-  name: Parse
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_Parse_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.Parse
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.Parse
-  nameWithType: ResourceLocation.Parse
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.Path
-  name: Path
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_Path
-  commentId: P:ProjectStack.src.scripts.Common.ResourceLocation.Path
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.Path
-  nameWithType: ResourceLocation.Path
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.Path*
-  name: Path
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_Path_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.Path
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.Path
-  nameWithType: ResourceLocation.Path
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.ToString
-  name: ToString()
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_ToString
-  commentId: M:ProjectStack.src.scripts.Common.ResourceLocation.ToString
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.ToString()
-  nameWithType: ResourceLocation.ToString()
-- uid: ProjectStack.src.scripts.Common.ResourceLocation.ToString*
-  name: ToString
-  href: api/ProjectStack.src.scripts.Common.ResourceLocation.html#ProjectStack_src_scripts_Common_ResourceLocation_ToString_
-  commentId: Overload:ProjectStack.src.scripts.Common.ResourceLocation.ToString
-  isSpec: "True"
-  fullName: ProjectStack.src.scripts.Common.ResourceLocation.ToString
-  nameWithType: ResourceLocation.ToString
