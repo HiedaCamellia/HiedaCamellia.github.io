@@ -1252,6 +1252,12 @@ references:
   commentId: F:ProjectStack.Component.Card.MethodName.AddCard2Group
   fullName: ProjectStack.Component.Card.MethodName.AddCard2Group
   nameWithType: Card.MethodName.AddCard2Group
+- uid: ProjectStack.Component.Card.MethodName.CardMotion
+  name: CardMotion
+  href: api/ProjectStack.Component.Card.MethodName.html#ProjectStack_Component_Card_MethodName_CardMotion
+  commentId: F:ProjectStack.Component.Card.MethodName.CardMotion
+  fullName: ProjectStack.Component.Card.MethodName.CardMotion
+  nameWithType: Card.MethodName.CardMotion
 - uid: ProjectStack.Component.Card.MethodName.OnCardAreaEntered
   name: OnCardAreaEntered
   href: api/ProjectStack.Component.Card.MethodName.html#ProjectStack_Component_Card_MethodName_OnCardAreaEntered
@@ -1550,6 +1556,12 @@ references:
   commentId: F:ProjectStack.Component.Card.PropertyName.RootCard
   fullName: ProjectStack.Component.Card.PropertyName.RootCard
   nameWithType: Card.PropertyName.RootCard
+- uid: ProjectStack.Component.Card.PropertyName.TargetPosition
+  name: TargetPosition
+  href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName_TargetPosition
+  commentId: F:ProjectStack.Component.Card.PropertyName.TargetPosition
+  fullName: ProjectStack.Component.Card.PropertyName.TargetPosition
+  nameWithType: Card.PropertyName.TargetPosition
 - uid: ProjectStack.Component.Card.PropertyName.TextureRect
   name: TextureRect
   href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName_TextureRect
@@ -1622,6 +1634,12 @@ references:
   commentId: F:ProjectStack.Component.Card.PropertyName._ready2Group
   fullName: ProjectStack.Component.Card.PropertyName._ready2Group
   nameWithType: Card.PropertyName._ready2Group
+- uid: ProjectStack.Component.Card.PropertyName._targetPosition
+  name: _targetPosition
+  href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName__targetPosition
+  commentId: F:ProjectStack.Component.Card.PropertyName._targetPosition
+  fullName: ProjectStack.Component.Card.PropertyName._targetPosition
+  nameWithType: Card.PropertyName._targetPosition
 - uid: ProjectStack.Component.Card.PropertyName._textureRect
   name: _textureRect
   href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName__textureRect
@@ -1812,6 +1830,19 @@ references:
   commentId: T:ProjectStack.Component.Card.SignalName
   fullName: ProjectStack.Component.Card.SignalName
   nameWithType: Card.SignalName
+- uid: ProjectStack.Component.Card.TargetPosition
+  name: TargetPosition
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_TargetPosition
+  commentId: P:ProjectStack.Component.Card.TargetPosition
+  fullName: ProjectStack.Component.Card.TargetPosition
+  nameWithType: Card.TargetPosition
+- uid: ProjectStack.Component.Card.TargetPosition*
+  name: TargetPosition
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_TargetPosition_
+  commentId: Overload:ProjectStack.Component.Card.TargetPosition
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.TargetPosition
+  nameWithType: Card.TargetPosition
 - uid: ProjectStack.Component.Card.TaskNotifier
   name: Card.TaskNotifier
   href: api/ProjectStack.Component.Card.TaskNotifier.html
