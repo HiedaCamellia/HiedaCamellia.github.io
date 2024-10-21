@@ -1024,6 +1024,12 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.CurrentStack
   nameWithType: Card.CurrentStack
+- uid: ProjectStack.Component.Card.ForceMotion
+  name: ForceMotion
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_ForceMotion
+  commentId: F:ProjectStack.Component.Card.ForceMotion
+  fullName: ProjectStack.Component.Card.ForceMotion
+  nameWithType: Card.ForceMotion
 - uid: ProjectStack.Component.Card.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
   name: GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
@@ -1056,6 +1062,12 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.HasGodotClassMethod
   nameWithType: Card.HasGodotClassMethod
+- uid: ProjectStack.Component.Card.InMoveing
+  name: InMoveing
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_InMoveing
+  commentId: F:ProjectStack.Component.Card.InMoveing
+  fullName: ProjectStack.Component.Card.InMoveing
+  nameWithType: Card.InMoveing
 - uid: ProjectStack.Component.Card.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
   name: InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__
@@ -1526,6 +1538,18 @@ references:
   commentId: F:ProjectStack.Component.Card.PropertyName.CharacterBody
   fullName: ProjectStack.Component.Card.PropertyName.CharacterBody
   nameWithType: Card.PropertyName.CharacterBody
+- uid: ProjectStack.Component.Card.PropertyName.ForceMotion
+  name: ForceMotion
+  href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName_ForceMotion
+  commentId: F:ProjectStack.Component.Card.PropertyName.ForceMotion
+  fullName: ProjectStack.Component.Card.PropertyName.ForceMotion
+  nameWithType: Card.PropertyName.ForceMotion
+- uid: ProjectStack.Component.Card.PropertyName.InMoveing
+  name: InMoveing
+  href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName_InMoveing
+  commentId: F:ProjectStack.Component.Card.PropertyName.InMoveing
+  fullName: ProjectStack.Component.Card.PropertyName.InMoveing
+  nameWithType: Card.PropertyName.InMoveing
 - uid: ProjectStack.Component.Card.PropertyName.IsRoot
   name: IsRoot
   href: api/ProjectStack.Component.Card.PropertyName.html#ProjectStack_Component_Card_PropertyName_IsRoot
