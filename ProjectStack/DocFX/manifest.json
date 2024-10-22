@@ -42,46 +42,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Command.CommandAdapter.MetatypeMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Command.CommandAdapter.MetatypeMetadata.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Command.CommandAdapter.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Command.CommandAdapter.MethodName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Command.CommandAdapter.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Command.CommandAdapter.PropertyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Command.CommandAdapter.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Command.CommandAdapter.SignalName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Command.CommandAdapter.yml",
       "output": {
         ".html": {
@@ -312,46 +272,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.Card.MetatypeMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.Card.MetatypeMetadata.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.Card.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.Card.MethodName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.Card.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.Card.PropertyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.Card.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.Card.SignalName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Component.Card.TaskNotifier-1.yml",
       "output": {
         ".html": {
@@ -376,46 +296,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectStack.Component.Card.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.InfoTab.MetatypeMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.InfoTab.MetatypeMetadata.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.InfoTab.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.InfoTab.MethodName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.InfoTab.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.InfoTab.PropertyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Component.InfoTab.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Component.InfoTab.SignalName.html"
         }
       },
       "version": ""
@@ -462,36 +342,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.CardMgr.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Core.CardMgr.MethodName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.CardMgr.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Core.CardMgr.PropertyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.CardMgr.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Core.CardMgr.SignalName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Core.CardMgr.yml",
       "output": {
         ".html": {
@@ -522,46 +372,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Game.MetatypeMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Game.MetatypeMetadata.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Game.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Game.MethodName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Game.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Game.PropertyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Game.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Game.SignalName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Game.yml",
       "output": {
         ".html": {
@@ -572,70 +382,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Launcher.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Launcher.MethodName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Launcher.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Launcher.PropertyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Launcher.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Launcher.SignalName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Launcher.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectStack.Launcher.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Main.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Main.MethodName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Main.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Main.PropertyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Main.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Main.SignalName.html"
         }
       },
       "version": ""
