@@ -2000,6 +2000,12 @@ references:
   commentId: F:ProjectStack.Component.Card.MethodName.OnReady
   fullName: ProjectStack.Component.Card.MethodName.OnReady
   nameWithType: Card.MethodName.OnReady
+- uid: ProjectStack.Component.Card.MethodName.RefreshPickabe
+  name: RefreshPickabe
+  href: api/ProjectStack.Component.Card.MethodName.html#ProjectStack_Component_Card_MethodName_RefreshPickabe
+  commentId: F:ProjectStack.Component.Card.MethodName.RefreshPickabe
+  fullName: ProjectStack.Component.Card.MethodName.RefreshPickabe
+  nameWithType: Card.MethodName.RefreshPickabe
 - uid: ProjectStack.Component.Card.MethodName.RefreshTexture
   name: RefreshTexture
   href: api/ProjectStack.Component.Card.MethodName.html#ProjectStack_Component_Card_MethodName_RefreshTexture
