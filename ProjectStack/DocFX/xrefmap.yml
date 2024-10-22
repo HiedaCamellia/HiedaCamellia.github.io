@@ -3775,6 +3775,107 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Game._Notification
   nameWithType: Game._Notification
+- uid: ProjectStack.Launcher
+  name: Launcher
+  href: api/ProjectStack.Launcher.html
+  commentId: T:ProjectStack.Launcher
+  fullName: ProjectStack.Launcher
+  nameWithType: Launcher
+- uid: ProjectStack.Launcher.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name: HasGodotClassMethod(in godot_string_name)
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__
+  commentId: M:ProjectStack.Launcher.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name.vb: HasGodotClassMethod(godot_string_name)
+  fullName: ProjectStack.Launcher.HasGodotClassMethod(in Godot.NativeInterop.godot_string_name)
+  fullName.vb: ProjectStack.Launcher.HasGodotClassMethod(Godot.NativeInterop.godot_string_name)
+  nameWithType: Launcher.HasGodotClassMethod(in godot_string_name)
+  nameWithType.vb: Launcher.HasGodotClassMethod(godot_string_name)
+- uid: ProjectStack.Launcher.HasGodotClassMethod*
+  name: HasGodotClassMethod
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_HasGodotClassMethod_
+  commentId: Overload:ProjectStack.Launcher.HasGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.Launcher.HasGodotClassMethod
+  nameWithType: Launcher.HasGodotClassMethod
+- uid: ProjectStack.Launcher.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name: InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Launcher.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name.vb: InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+  fullName: ProjectStack.Launcher.InvokeGodotClassMethod(in Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Launcher.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant)
+  nameWithType: Launcher.InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  nameWithType.vb: Launcher.InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+- uid: ProjectStack.Launcher.InvokeGodotClassMethod*
+  name: InvokeGodotClassMethod
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_InvokeGodotClassMethod_
+  commentId: Overload:ProjectStack.Launcher.InvokeGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.Launcher.InvokeGodotClassMethod
+  nameWithType: Launcher.InvokeGodotClassMethod
+- uid: ProjectStack.Launcher.MethodName
+  name: Launcher.MethodName
+  href: api/ProjectStack.Launcher.MethodName.html
+  commentId: T:ProjectStack.Launcher.MethodName
+  fullName: ProjectStack.Launcher.MethodName
+  nameWithType: Launcher.MethodName
+- uid: ProjectStack.Launcher.MethodName._Ready
+  name: _Ready
+  href: api/ProjectStack.Launcher.MethodName.html#ProjectStack_Launcher_MethodName__Ready
+  commentId: F:ProjectStack.Launcher.MethodName._Ready
+  fullName: ProjectStack.Launcher.MethodName._Ready
+  nameWithType: Launcher.MethodName._Ready
+- uid: ProjectStack.Launcher.PropertyName
+  name: Launcher.PropertyName
+  href: api/ProjectStack.Launcher.PropertyName.html
+  commentId: T:ProjectStack.Launcher.PropertyName
+  fullName: ProjectStack.Launcher.PropertyName
+  nameWithType: Launcher.PropertyName
+- uid: ProjectStack.Launcher.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: RestoreGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Launcher.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Launcher.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: Launcher.RestoreGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Launcher.RestoreGodotObjectData*
+  name: RestoreGodotObjectData
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_RestoreGodotObjectData_
+  commentId: Overload:ProjectStack.Launcher.RestoreGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Launcher.RestoreGodotObjectData
+  nameWithType: Launcher.RestoreGodotObjectData
+- uid: ProjectStack.Launcher.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: SaveGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Launcher.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Launcher.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: Launcher.SaveGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Launcher.SaveGodotObjectData*
+  name: SaveGodotObjectData
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher_SaveGodotObjectData_
+  commentId: Overload:ProjectStack.Launcher.SaveGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Launcher.SaveGodotObjectData
+  nameWithType: Launcher.SaveGodotObjectData
+- uid: ProjectStack.Launcher.SignalName
+  name: Launcher.SignalName
+  href: api/ProjectStack.Launcher.SignalName.html
+  commentId: T:ProjectStack.Launcher.SignalName
+  fullName: ProjectStack.Launcher.SignalName
+  nameWithType: Launcher.SignalName
+- uid: ProjectStack.Launcher._Ready
+  name: _Ready()
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher__Ready
+  commentId: M:ProjectStack.Launcher._Ready
+  fullName: ProjectStack.Launcher._Ready()
+  nameWithType: Launcher._Ready()
+- uid: ProjectStack.Launcher._Ready*
+  name: _Ready
+  href: api/ProjectStack.Launcher.html#ProjectStack_Launcher__Ready_
+  commentId: Overload:ProjectStack.Launcher._Ready
+  isSpec: "True"
+  fullName: ProjectStack.Launcher._Ready
+  nameWithType: Launcher._Ready
 - uid: ProjectStack.Main
   name: Main
   href: api/ProjectStack.Main.html

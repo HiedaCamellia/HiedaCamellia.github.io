@@ -572,6 +572,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Launcher.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Launcher.MethodName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Launcher.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Launcher.PropertyName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Launcher.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Launcher.SignalName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Launcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Main.MethodName.yml",
       "output": {
         ".html": {
