@@ -1575,6 +1575,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.GetGodotClassPropertyValue
   nameWithType: Card.GetGodotClassPropertyValue
+- uid: ProjectStack.Component.Card.GetNearestSameCard(ProjectStack.Component.Card)
+  name: GetNearestSameCard(Card)
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetNearestSameCard_ProjectStack_Component_Card_
+  commentId: M:ProjectStack.Component.Card.GetNearestSameCard(ProjectStack.Component.Card)
+  fullName: ProjectStack.Component.Card.GetNearestSameCard(ProjectStack.Component.Card)
+  nameWithType: Card.GetNearestSameCard(Card)
+- uid: ProjectStack.Component.Card.GetNearestSameCard*
+  name: GetNearestSameCard
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetNearestSameCard_
+  commentId: Overload:ProjectStack.Component.Card.GetNearestSameCard
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.GetNearestSameCard
+  nameWithType: Card.GetNearestSameCard
 - uid: ProjectStack.Component.Card.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
   name: HasGodotClassMethod(in godot_string_name)
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__
