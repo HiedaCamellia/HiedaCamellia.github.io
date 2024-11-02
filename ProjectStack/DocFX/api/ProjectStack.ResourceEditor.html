@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>InfoTab 类
+      <title>ResourceEditor 类
  | ProjectStack </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="InfoTab 类
+      <meta name="title" content="ResourceEditor 类
  | ProjectStack ">
       
       <meta name="description" content="Base class for all UI-related nodes.  features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change. For more information on Godot&#39;s UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you&#39;ll need a mix of UI elements that inherit from  and  nodes.    User Interface nodes and input  Godot propagates input events via viewports. Each  is responsible for propagating s to their child nodes. As the  is a , this already happens automatically for all UI elements in your game. Input events are propagated through the  from the root node to all child nodes by calling . For UI elements specifically, it makes more sense to override the virtual method , which filters out unrelated input events, such as by checking z-order, , focus, or if the event was inside of the control&#39;s bounding box. Call  so no other node receives the event. Once you accept an input, it becomes handled so  will not process it. Only one  node can be in focus. Only the node in focus will receive events. To get the focus, call .  nodes lose focus when another node grabs it, or if you hide the node in focus. Sets  to  to tell a  node to ignore mouse or touch events. You&#39;ll need it if you place an icon on top of a button.     resources change the Control&#39;s appearance. If you change the  on a  node, it affects all of its children. To override some of the theme&#39;s parameters, call one of the add_theme_*_override methods, like . You can override the theme with the Inspector.    Note: Theme items are not properties. This means you can&#39;t access their values using  and . Instead, use the get_theme_* and add_theme_*_override methods provided by this class.">
@@ -86,17 +86,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ProjectStack.Component.InfoTab">
+        <article data-uid="ProjectStack.ResourceEditor">
 
 
 
-  <h1 id="ProjectStack_Component_InfoTab" data-uid="ProjectStack.Component.InfoTab" class="text-break">
-InfoTab 类
+  <h1 id="ProjectStack_ResourceEditor" data-uid="ProjectStack.ResourceEditor" class="text-break">
+ResourceEditor 类
   
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>命名空间</dt><dd><a class="xref" href="ProjectStack.html">ProjectStack</a>.<a class="xref" href="ProjectStack.Component.html">Component</a></dd></dl>
+    <dl><dt>命名空间</dt><dd><a class="xref" href="ProjectStack.html">ProjectStack</a></dd></dl>
   <dl><dt>程序集</dt><dd>ProjectStack.dll</dd></dl>
   </div>
 
@@ -120,8 +120,8 @@ InfoTab 类
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ObservableObject]
 [Meta(new Type[] { typeof(IAutoNode) })]
-[ScriptPath(&quot;res://src/scripts/Component/InfoTab.cs&quot;)]
-public class InfoTab : Control</code></pre>
+[ScriptPath(&quot;res://src/ResourceEditor.cs&quot;)]
+public class ResourceEditor : Control</code></pre>
   </div>
 
 
@@ -135,7 +135,7 @@ public class InfoTab : Control</code></pre>
       <div><span class="xref">Node</span></div>
       <div><span class="xref">CanvasItem</span></div>
       <div><span class="xref">Control</span></div>
-      <div><span class="xref">InfoTab</span></div>
+      <div><span class="xref">ResourceEditor</span></div>
     </dd>
   </dl>
 
@@ -151,9 +151,40 @@ public class InfoTab : Control</code></pre>
 </h2>
 
 
-  <a id="ProjectStack_Component_InfoTab_Metatype_" data-uid="ProjectStack.Component.InfoTab.Metatype*"></a>
+  <a id="ProjectStack_ResourceEditor_Game_" data-uid="ProjectStack.ResourceEditor.Game*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_Metatype" data-uid="ProjectStack.Component.InfoTab.Metatype">
+  <h3 id="ProjectStack_ResourceEditor_Game" data-uid="ProjectStack.ResourceEditor.Game">
+  Game
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Game Game { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ProjectStack.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_ResourceEditor_Metatype_" data-uid="ProjectStack.ResourceEditor.Metatype*"></a>
+
+  <h3 id="ProjectStack_ResourceEditor_Metatype" data-uid="ProjectStack.ResourceEditor.Metatype">
   Metatype
   
   </h3>
@@ -183,9 +214,9 @@ public class InfoTab : Control</code></pre>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_MixinState_" data-uid="ProjectStack.Component.InfoTab.MixinState*"></a>
+  <a id="ProjectStack_ResourceEditor_MixinState_" data-uid="ProjectStack.ResourceEditor.MixinState*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_MixinState" data-uid="ProjectStack.Component.InfoTab.MixinState">
+  <h3 id="ProjectStack_ResourceEditor_MixinState" data-uid="ProjectStack.ResourceEditor.MixinState">
   MixinState
   
   </h3>
@@ -216,13 +247,75 @@ additional instance state in this blackboard.</p>
 
 
 
+  <a id="ProjectStack_ResourceEditor_ResourceTypeList_" data-uid="ProjectStack.ResourceEditor.ResourceTypeList*"></a>
+
+  <h3 id="ProjectStack_ResourceEditor_ResourceTypeList" data-uid="ProjectStack.ResourceEditor.ResourceTypeList">
+  ResourceTypeList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemList ResourceTypeList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ItemList</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_ResourceEditor_ResourceTypes_" data-uid="ProjectStack.ResourceEditor.ResourceTypes*"></a>
+
+  <h3 id="ProjectStack_ResourceEditor_ResourceTypes" data-uid="ProjectStack.ResourceEditor.ResourceTypes">
+  ResourceTypes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; ResourceTypes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">方法
 </h2>
 
 
-  <a id="ProjectStack_Component_InfoTab_GetGodotClassPropertyValue_" data-uid="ProjectStack.Component.InfoTab.GetGodotClassPropertyValue*"></a>
+  <a id="ProjectStack_ResourceEditor_GetGodotClassPropertyValue_" data-uid="ProjectStack.ResourceEditor.GetGodotClassPropertyValue*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Component.InfoTab.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+  <h3 id="ProjectStack_ResourceEditor_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.ResourceEditor.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
   GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
   
   </h3>
@@ -264,9 +357,9 @@ Do not call or override this method.</p>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_HasGodotClassMethod_" data-uid="ProjectStack.Component.InfoTab.HasGodotClassMethod*"></a>
+  <a id="ProjectStack_ResourceEditor_HasGodotClassMethod_" data-uid="ProjectStack.ResourceEditor.HasGodotClassMethod*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__" data-uid="ProjectStack.Component.InfoTab.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+  <h3 id="ProjectStack_ResourceEditor_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__" data-uid="ProjectStack.ResourceEditor.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
   HasGodotClassMethod(in godot_string_name)
   
   </h3>
@@ -304,9 +397,9 @@ Do not call or override this method.</p>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_InvokeGodotClassMethod_" data-uid="ProjectStack.Component.InfoTab.InvokeGodotClassMethod*"></a>
+  <a id="ProjectStack_ResourceEditor_InvokeGodotClassMethod_" data-uid="ProjectStack.ResourceEditor.InvokeGodotClassMethod*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Component.InfoTab.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+  <h3 id="ProjectStack_ResourceEditor_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.ResourceEditor.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
   InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
   
   </h3>
@@ -350,48 +443,14 @@ Do not call or override this method.</p>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_OnProcess_" data-uid="ProjectStack.Component.InfoTab.OnProcess*"></a>
+  <a id="ProjectStack_ResourceEditor_OnPropertyChanged_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanged*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_OnProcess_System_Double_" data-uid="ProjectStack.Component.InfoTab.OnProcess(System.Double)">
-  OnProcess(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Component/InfoTab.cs/#L46"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Notification received from the tree every rendered frame when
-<span class="xref">Godot.Node.IsPhysicsProcessing()</span> returns true.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnProcess(double delta)</code></pre>
-  </div>
-
-  <h4 class="section">参数</h4>
-  <dl class="parameters">
-    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd><p>Time since the last process update, in seconds.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ProjectStack_Component_InfoTab_OnPropertyChanged_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanged*"></a>
-
-  <h3 id="ProjectStack_Component_InfoTab_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+  <h3 id="ProjectStack_ResourceEditor_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
   OnPropertyChanged(PropertyChangedEventArgs)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.</p>
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -417,14 +476,14 @@ Do not call or override this method.</p>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_OnPropertyChanged_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanged*"></a>
+  <a id="ProjectStack_ResourceEditor_OnPropertyChanged_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanged*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_OnPropertyChanged_System_String_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanged(System.String)">
+  <h3 id="ProjectStack_ResourceEditor_OnPropertyChanged_System_String_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanged(System.String)">
   OnPropertyChanged(string?)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.</p>
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -450,14 +509,14 @@ Do not call or override this method.</p>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_OnPropertyChanging_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanging*"></a>
+  <a id="ProjectStack_ResourceEditor_OnPropertyChanging_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanging*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_OnPropertyChanging_System_ComponentModel_PropertyChangingEventArgs_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)">
+  <h3 id="ProjectStack_ResourceEditor_OnPropertyChanging_System_ComponentModel_PropertyChangingEventArgs_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)">
   OnPropertyChanging(PropertyChangingEventArgs)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event.</p>
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -483,14 +542,14 @@ Do not call or override this method.</p>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_OnPropertyChanging_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanging*"></a>
+  <a id="ProjectStack_ResourceEditor_OnPropertyChanging_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanging*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_OnPropertyChanging_System_String_" data-uid="ProjectStack.Component.InfoTab.OnPropertyChanging(System.String)">
+  <h3 id="ProjectStack_ResourceEditor_OnPropertyChanging_System_String_" data-uid="ProjectStack.ResourceEditor.OnPropertyChanging(System.String)">
   OnPropertyChanging(string?)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event.</p>
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -516,36 +575,9 @@ Do not call or override this method.</p>
 
 
 
-  <a id="ProjectStack_Component_InfoTab_OnReady_" data-uid="ProjectStack.Component.InfoTab.OnReady*"></a>
+  <a id="ProjectStack_ResourceEditor_RestoreGodotObjectData_" data-uid="ProjectStack.ResourceEditor.RestoreGodotObjectData*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_OnReady" data-uid="ProjectStack.Component.InfoTab.OnReady">
-  OnReady()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Component/InfoTab.cs/#L59"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Notification received when the node is ready.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnReady()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ProjectStack_Component_InfoTab_RestoreGodotObjectData_" data-uid="ProjectStack.Component.InfoTab.RestoreGodotObjectData*"></a>
-
-  <h3 id="ProjectStack_Component_InfoTab_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_" data-uid="ProjectStack.Component.InfoTab.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+  <h3 id="ProjectStack_ResourceEditor_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_" data-uid="ProjectStack.ResourceEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
   RestoreGodotObjectData(GodotSerializationInfo)
   
   </h3>
@@ -578,9 +610,9 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SaveGodotObjectData_" data-uid="ProjectStack.Component.InfoTab.SaveGodotObjectData*"></a>
+  <a id="ProjectStack_ResourceEditor_SaveGodotObjectData_" data-uid="ProjectStack.ResourceEditor.SaveGodotObjectData*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_" data-uid="ProjectStack.Component.InfoTab.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+  <h3 id="ProjectStack_ResourceEditor_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_" data-uid="ProjectStack.ResourceEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
   SaveGodotObjectData(GodotSerializationInfo)
   
   </h3>
@@ -613,73 +645,29 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetGodotClassPropertyValue_" data-uid="ProjectStack.Component.InfoTab.SetGodotClassPropertyValue*"></a>
+  <a id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Component.InfoTab.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
-  SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Set the value of a property contained in this class.
-This method is used by Godot to assign property values.
-Do not call or override this method.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override bool SetGodotClassPropertyValue(in godot_string_name name, in godot_variant value)</code></pre>
-  </div>
-
-  <h4 class="section">参数</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <span class="xref">godot_string_name</span></dt>
-    <dd><p>Name of the property to set.</p>
-</dd>
-    <dt><code>value</code> <span class="xref">godot_variant</span></dt>
-    <dd><p>Value to set the property to if it was found.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">返回</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if a property with the given name was found.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion*"></a>
-
-  <h3 id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_ProjectStack_Component_InfoTab_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion(ProjectStack.Component.InfoTab.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)">
   SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, Action&lt;Task?&gt;, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
-field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a>
-event, updates the field and then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.
-This method is just like <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_ProjectStack_Component_InfoTab_TaskNotifier__System_Threading_Tasks_Task_System_String_">SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)</a>,
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
+This method is just like <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_String_">SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)</a>,
 with the difference being an extra <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action&lt;T&gt;</a> parameter with a callback being invoked
 either immediately, if the new task has already completed or is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, or upon completion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion(ref InfoTab.TaskNotifier? taskNotifier, Task? newValue, Action&lt;Task?&gt; callback, string? propertyName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion(ref ResourceEditor.TaskNotifier? taskNotifier, Task? newValue, Action&lt;Task?&gt; callback, string? propertyName = null)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Component.InfoTab.html">InfoTab</a>.<a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier.html">TaskNotifier</a></dt>
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">TaskNotifier</a></dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
     <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
@@ -706,31 +694,31 @@ either immediately, if the new task has already completed or is <a href="https:/
 
 
 
-  <h4 class="section" id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_ProjectStack_Component_InfoTab_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String__remarks">备注</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> events are not raised
+  <h4 class="section" id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised
 if the current and new value for the target property are the same.</p>
 </div>
 
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion*"></a>
+  <a id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_ProjectStack_Component_InfoTab_TaskNotifier__System_Threading_Tasks_Task_System_String_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion(ProjectStack.Component.InfoTab.TaskNotifier@,System.Threading.Tasks.Task,System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_String_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier@,System.Threading.Tasks.Task,System.String)">
   SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
-field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a>
-event, updates the field and then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.
-The behavior mirrors that of <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
+The behavior mirrors that of <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
 this method will also monitor the new value of the property (a generic <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>) and will also
-raise the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
+raise the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
 This can be used to update bindings observing that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> or any of its properties.
-This method and its overload specifically rely on the <a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier.html">InfoTab.TaskNotifier</a> type, which needs
+This method and its overload specifically rely on the <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">ResourceEditor.TaskNotifier</a> type, which needs
 to be used in the backing field for the target <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> property. The field doesn't need to be
-initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier.html">InfoTab.TaskNotifier</a>
+initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">ResourceEditor.TaskNotifier</a>
 type also includes an implicit operator, so it can be assigned to any <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> instance directly.
 Here is a sample property declaration using this method:</p>
 <pre><code class="lang-csharp">private TaskNotifier myTask;
@@ -744,12 +732,12 @@ public Task MyTask
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion(ref InfoTab.TaskNotifier? taskNotifier, Task? newValue, string? propertyName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion(ref ResourceEditor.TaskNotifier? taskNotifier, Task? newValue, string? propertyName = null)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Component.InfoTab.html">InfoTab</a>.<a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier.html">TaskNotifier</a></dt>
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">TaskNotifier</a></dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
     <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
@@ -773,8 +761,8 @@ public Task MyTask
 
 
 
-  <h4 class="section" id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_ProjectStack_Component_InfoTab_TaskNotifier__System_Threading_Tasks_Task_System_String__remarks">备注</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> events are not raised if the current
+  <h4 class="section" id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised if the current
 and new value for the target property are the same. The return value being <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> only
 indicates that the new value being assigned to <code class="paramref">taskNotifier</code> is different than the previous one,
 and it does not mean the new <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> instance passed as argument is in any particular state.</p>
@@ -783,29 +771,29 @@ and it does not mean the new <a class="xref" href="https://learn.microsoft.com/d
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion*"></a>
+  <a id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Component_InfoTab_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Component.InfoTab.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.ResourceEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)">
   SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, Action&lt;Task&lt;T&gt;?&gt;, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
-field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a>
-event, updates the field and then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.
-This method is just like <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Component_InfoTab_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_">SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, string?)</a>,
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
+This method is just like <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_">SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, string?)</a>,
 with the difference being an extra <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action&lt;T&gt;</a> parameter with a callback being invoked
 either immediately, if the new task has already completed or is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, or upon completion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref InfoTab.TaskNotifier&lt;T&gt;? taskNotifier, Task&lt;T&gt;? newValue, Action&lt;Task&lt;T&gt;?&gt; callback, string? propertyName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref ResourceEditor.TaskNotifier&lt;T&gt;? taskNotifier, Task&lt;T&gt;? newValue, Action&lt;Task&lt;T&gt;?&gt; callback, string? propertyName = null)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Component.InfoTab.html">InfoTab</a>.<a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
     <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
@@ -838,31 +826,31 @@ either immediately, if the new task has already completed or is <a href="https:/
 
 
 
-  <h4 class="section" id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Component_InfoTab_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String__remarks">备注</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> events are not raised
+  <h4 class="section" id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised
 if the current and new value for the target property are the same.</p>
 </div>
 
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion*"></a>
+  <a id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Component_InfoTab_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_" data-uid="ProjectStack.Component.InfoTab.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Component.InfoTab.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_" data-uid="ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.ResourceEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)">
   SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
-field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a>
-event, updates the field and then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.
-The behavior mirrors that of <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
+The behavior mirrors that of <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
 this method will also monitor the new value of the property (a generic <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>) and will also
-raise the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
+raise the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
 This can be used to update bindings observing that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> or any of its properties.
-This method and its overload specifically rely on the <a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier-1.html">InfoTab.TaskNotifier&lt;T&gt;</a> type, which needs
+This method and its overload specifically rely on the <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">ResourceEditor.TaskNotifier&lt;T&gt;</a> type, which needs
 to be used in the backing field for the target <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> property. The field doesn't need to be
-initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier-1.html">InfoTab.TaskNotifier&lt;T&gt;</a>
+initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">ResourceEditor.TaskNotifier&lt;T&gt;</a>
 type also includes an implicit operator, so it can be assigned to any <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> instance directly.
 Here is a sample property declaration using this method:</p>
 <pre><code class="lang-csharp">private TaskNotifier&lt;int&gt; myTask;
@@ -876,12 +864,12 @@ public Task&lt;int&gt; MyTask
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref InfoTab.TaskNotifier&lt;T&gt;? taskNotifier, Task&lt;T&gt;? newValue, string? propertyName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref ResourceEditor.TaskNotifier&lt;T&gt;? taskNotifier, Task&lt;T&gt;? newValue, string? propertyName = null)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Component.InfoTab.html">InfoTab</a>.<a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
     <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
@@ -911,8 +899,8 @@ public Task&lt;int&gt; MyTask
 
 
 
-  <h4 class="section" id="ProjectStack_Component_InfoTab_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Component_InfoTab_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String__remarks">备注</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> events are not raised if the current
+  <h4 class="section" id="ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised if the current
 and new value for the target property are the same. The return value being <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> only
 indicates that the new value being assigned to <code class="paramref">taskNotifier</code> is different than the previous one,
 and it does not mean the new <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task&lt;TResult&gt;</a> instance passed as argument is in any particular state.</p>
@@ -921,21 +909,21 @@ and it does not mean the new <a class="xref" href="https://learn.microsoft.com/d
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetProperty_" data-uid="ProjectStack.Component.InfoTab.SetProperty*"></a>
+  <a id="ProjectStack_ResourceEditor_SetProperty_" data-uid="ProjectStack.ResourceEditor.SetProperty*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetProperty__1___0___0_System_Action___0__System_String_" data-uid="ProjectStack.Component.InfoTab.SetProperty``1(``0,``0,System.Action{``0},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetProperty__1___0___0_System_Action___0__System_String_" data-uid="ProjectStack.ResourceEditor.SetProperty``1(``0,``0,System.Action{``0},System.String)">
   SetProperty&lt;T&gt;(T, T, Action&lt;T&gt;, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
-raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event, updates the property with the new
-value, then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.
-This overload is much less efficient than <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a> and it
+raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
+This overload is much less efficient than <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a> and it
 should only be used when the former is not viable (eg. when the target property being
 updated does not directly expose a backing field that can be passed by reference).
 For performance reasons, it is recommended to use a stateful callback if possible through
-the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__2___1___1___0_System_Action___0___1__System_String_">SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)</a> whenever possible
+the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__2___1___1___0_System_Action___0___1__System_String_">SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)</a> whenever possible
 instead of this overload, as that will allow the C# compiler to cache the input callback and
 reduce the memory allocations. More info on that overload are available in the related XML
 docs. This overload is here for completeness and in cases where that is not applicable.</p>
@@ -981,25 +969,25 @@ docs. This overload is here for completeness and in cases where that is not appl
 
 
 
-  <h4 class="section" id="ProjectStack_Component_InfoTab_SetProperty__1___0___0_System_Action___0__System_String__remarks">备注</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> events are not raised
+  <h4 class="section" id="ProjectStack_ResourceEditor_SetProperty__1___0___0_System_Action___0__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised
 if the current and new value for the target property are the same.</p>
 </div>
 
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetProperty_" data-uid="ProjectStack.Component.InfoTab.SetProperty*"></a>
+  <a id="ProjectStack_ResourceEditor_SetProperty_" data-uid="ProjectStack.ResourceEditor.SetProperty*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetProperty__1___0___0_System_Collections_Generic_IEqualityComparer___0__System_Action___0__System_String_" data-uid="ProjectStack.Component.InfoTab.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetProperty__1___0___0_System_Collections_Generic_IEqualityComparer___0__System_Action___0__System_String_" data-uid="ProjectStack.ResourceEditor.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)">
   SetProperty&lt;T&gt;(T, T, IEqualityComparer&lt;T&gt;, Action&lt;T&gt;, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
-raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event, updates the property with the new
-value, then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.
-See additional notes about this overload in <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0___0_System_Action___0__System_String_">SetProperty&lt;T&gt;(T, T, Action&lt;T&gt;, string?)</a>.</p>
+raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
+See additional notes about this overload in <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0___0_System_Action___0__System_String_">SetProperty&lt;T&gt;(T, T, Action&lt;T&gt;, string?)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1049,17 +1037,17 @@ See additional notes about this overload in <a class="xref" href="ProjectStack.C
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetProperty_" data-uid="ProjectStack.Component.InfoTab.SetProperty*"></a>
+  <a id="ProjectStack_ResourceEditor_SetProperty_" data-uid="ProjectStack.ResourceEditor.SetProperty*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_Collections_Generic_IEqualityComparer___0__System_String_" data-uid="ProjectStack.Component.InfoTab.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetProperty__1___0____0_System_Collections_Generic_IEqualityComparer___0__System_String_" data-uid="ProjectStack.ResourceEditor.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)">
   SetProperty&lt;T&gt;(ref T, T, IEqualityComparer&lt;T&gt;, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
-raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event, updates the property with the new
-value, then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.
-See additional notes about this overload in <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>.</p>
+raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
+See additional notes about this overload in <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1106,16 +1094,16 @@ See additional notes about this overload in <a class="xref" href="ProjectStack.C
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetProperty_" data-uid="ProjectStack.Component.InfoTab.SetProperty*"></a>
+  <a id="ProjectStack_ResourceEditor_SetProperty_" data-uid="ProjectStack.ResourceEditor.SetProperty*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_" data-uid="ProjectStack.Component.InfoTab.SetProperty``1(``0@,``0,System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_" data-uid="ProjectStack.ResourceEditor.SetProperty``1(``0@,``0,System.String)">
   SetProperty&lt;T&gt;(ref T, T, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
-raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event, updates the property with the new
-value, then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event.</p>
+raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1155,26 +1143,26 @@ value, then raises the <a class="xref" href="ProjectStack.Component.InfoTab.html
 
 
 
-  <h4 class="section" id="ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String__remarks">备注</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> events are not raised
+  <h4 class="section" id="ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised
 if the current and new value for the target property are the same.</p>
 </div>
 
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetProperty_" data-uid="ProjectStack.Component.InfoTab.SetProperty*"></a>
+  <a id="ProjectStack_ResourceEditor_SetProperty_" data-uid="ProjectStack.ResourceEditor.SetProperty*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetProperty__2___1___1_System_Collections_Generic_IEqualityComparer___1____0_System_Action___0___1__System_String_" data-uid="ProjectStack.Component.InfoTab.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetProperty__2___1___1_System_Collections_Generic_IEqualityComparer___1____0_System_Action___0___1__System_String_" data-uid="ProjectStack.ResourceEditor.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)">
   SetProperty&lt;TModel, T&gt;(T, T, IEqualityComparer&lt;T&gt;, TModel, Action&lt;TModel, T&gt;, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given nested property. If the value has changed,
-raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event, updates the property and then raises the
-<a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event. The behavior mirrors that of <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>,
+raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event, updates the property and then raises the
+<a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event. The behavior mirrors that of <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>,
 with the difference being that this method is used to relay properties from a wrapped model in the
-current instance. See additional notes about this overload in <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__2___1___1___0_System_Action___0___1__System_String_">SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)</a>.</p>
+current instance. See additional notes about this overload in <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__2___1___1___0_System_Action___0___1__System_String_">SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1230,16 +1218,16 @@ current instance. See additional notes about this overload in <a class="xref" hr
 
 
 
-  <a id="ProjectStack_Component_InfoTab_SetProperty_" data-uid="ProjectStack.Component.InfoTab.SetProperty*"></a>
+  <a id="ProjectStack_ResourceEditor_SetProperty_" data-uid="ProjectStack.ResourceEditor.SetProperty*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab_SetProperty__2___1___1___0_System_Action___0___1__System_String_" data-uid="ProjectStack.Component.InfoTab.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)">
+  <h3 id="ProjectStack_ResourceEditor_SetProperty__2___1___1___0_System_Action___0___1__System_String_" data-uid="ProjectStack.ResourceEditor.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)">
   SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current and new values for a given nested property. If the value has changed,
-raises the <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> event, updates the property and then raises the
-<a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> event. The behavior mirrors that of <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>,
+raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> event, updates the property and then raises the
+<a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event. The behavior mirrors that of <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>,
 with the difference being that this method is used to relay properties from a wrapped model in the
 current instance. This type is useful when creating wrapping, bindable objects that operate over
 models that lack support for notification (eg. for CRUD operations).
@@ -1268,7 +1256,7 @@ public class BindablePerson
 }</code></pre>
 <p>This way we can then use the wrapping object in our application, and all those &quot;proxy&quot; properties will
 also raise notifications when changed. Note that this method is not meant to be a replacement for
-<a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, and it should only be used when relaying properties to a model that
+<a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, and it should only be used when relaying properties to a model that
 doesn't support notifications, and only if you can't implement notifications to that model directly (eg. by having
 it inherit from ObservableObject). The syntax relies on passing the target model and a stateless callback
 to allow the C# compiler to cache the function, which results in much better performance and no memory usage.</p>
@@ -1320,19 +1308,19 @@ to allow the C# compiler to cache the function, which results in much better per
 
 
 
-  <h4 class="section" id="ProjectStack_Component_InfoTab_SetProperty__2___1___1___0_System_Action___0___1__System_String__remarks">备注</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Component.InfoTab.html#ProjectStack_Component_InfoTab_PropertyChanged">PropertyChanged</a> events are not
+  <h4 class="section" id="ProjectStack_ResourceEditor_SetProperty__2___1___1___0_System_Action___0___1__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not
 raised if the current and new value for the target property are the same.</p>
 </div>
 
 
 
 
-  <a id="ProjectStack_Component_InfoTab__Notification_" data-uid="ProjectStack.Component.InfoTab._Notification*"></a>
+  <a id="ProjectStack_ResourceEditor__Notification_" data-uid="ProjectStack.ResourceEditor._Notification*"></a>
 
-  <h3 id="ProjectStack_Component_InfoTab__Notification_System_Int32_" data-uid="ProjectStack.Component.InfoTab._Notification(System.Int32)">
+  <h3 id="ProjectStack_ResourceEditor__Notification_System_Int32_" data-uid="ProjectStack.ResourceEditor._Notification(System.Int32)">
   _Notification(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Component/InfoTab.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the object receives a notification, which can be identified in <code class="paramref">what</code> by comparing it with a constant. See also <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Notification(int, bool)</a>.</p>
@@ -1371,12 +1359,79 @@ raised if the current and new value for the target property are the same.</p>
 
 
 
+  <a id="ProjectStack_ResourceEditor__Process_" data-uid="ProjectStack.ResourceEditor._Process*"></a>
+
+  <h3 id="ProjectStack_ResourceEditor__Process_System_Double_" data-uid="ProjectStack.ResourceEditor._Process(System.Double)">
+  _Process(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called during the processing step of the main loop. Processing happens at every frame and as fast as possible, so the <code class="paramref">delta</code> time since the previous frame is not constant. <code class="paramref">delta</code> is in seconds.</p>
+<p>It is only called if processing is enabled, which is done automatically if this method is overridden, and can be toggled with <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">SetProcess(bool)</a>.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationProcess</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>.</p>
+<p>
+  <b>Note:</b> This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void _Process(double delta)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_ResourceEditor__Ready_" data-uid="ProjectStack.ResourceEditor._Ready*"></a>
+
+  <h3 id="ProjectStack_ResourceEditor__Ready" data-uid="ProjectStack.ResourceEditor._Ready">
+  _Ready()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the node is "ready", i.e. when both the node and its children have entered the scene tree. If the node has children, their <span class="xref">Godot.Node._Ready()</span> callbacks get triggered first, and the parent node will receive the ready notification afterwards.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationReady</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>. See also the <code>@onready</code> annotation for variables.</p>
+<p>Usually used for initialization. For even earlier initialization, <span class="xref">Godot.GodotObject.GodotObject()</span> may be used. See also <span class="xref">Godot.Node._EnterTree()</span>.</p>
+<p>
+  <b>Note:</b> This method may be called only once for each node. After removing a node from the scene tree and adding it again, <span class="xref">Godot.Node._Ready()</span> will <b>not</b> be called a second time. This can be bypassed by requesting another call with <span class="xref">Godot.Node.RequestReady()</span>, which may be called anywhere before adding the node again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void _Ready()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="events">事件
 </h2>
 
 
 
-  <h3 id="ProjectStack_Component_InfoTab_PropertyChanged" data-uid="ProjectStack.Component.InfoTab.PropertyChanged">
+  <h3 id="ProjectStack_ResourceEditor_PropertyChanged" data-uid="ProjectStack.ResourceEditor.PropertyChanged">
   PropertyChanged
   
   </h3>
@@ -1407,7 +1462,7 @@ raised if the current and new value for the target property are the same.</p>
 
 
 
-  <h3 id="ProjectStack_Component_InfoTab_PropertyChanging" data-uid="ProjectStack.Component.InfoTab.PropertyChanging">
+  <h3 id="ProjectStack_ResourceEditor_PropertyChanging" data-uid="ProjectStack.ResourceEditor.PropertyChanging">
   PropertyChanging
   
   </h3>

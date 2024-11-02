@@ -109,6 +109,19 @@ references:
   commentId: T:ProjectStack.Command.CommandAdapter
   fullName: ProjectStack.Command.CommandAdapter
   nameWithType: CommandAdapter
+- uid: ProjectStack.Command.CommandAdapter.CloseEditor
+  name: CloseEditor()
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CloseEditor
+  commentId: M:ProjectStack.Command.CommandAdapter.CloseEditor
+  fullName: ProjectStack.Command.CommandAdapter.CloseEditor()
+  nameWithType: CommandAdapter.CloseEditor()
+- uid: ProjectStack.Command.CommandAdapter.CloseEditor*
+  name: CloseEditor
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CloseEditor_
+  commentId: Overload:ProjectStack.Command.CommandAdapter.CloseEditor
+  isSpec: "True"
+  fullName: ProjectStack.Command.CommandAdapter.CloseEditor
+  nameWithType: CommandAdapter.CloseEditor
 - uid: ProjectStack.Command.CommandAdapter.CreateNewCard(ProjectStack.Common.ResourceLocation)
   name: CreateNewCard(ResourceLocation)
   href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CreateNewCard_ProjectStack_Common_ResourceLocation_
@@ -249,6 +262,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Command.CommandAdapter.MixinState
   nameWithType: CommandAdapter.MixinState
+- uid: ProjectStack.Command.CommandAdapter.OpenEditor
+  name: OpenEditor()
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_OpenEditor
+  commentId: M:ProjectStack.Command.CommandAdapter.OpenEditor
+  fullName: ProjectStack.Command.CommandAdapter.OpenEditor()
+  nameWithType: CommandAdapter.OpenEditor()
+- uid: ProjectStack.Command.CommandAdapter.OpenEditor*
+  name: OpenEditor
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_OpenEditor_
+  commentId: Overload:ProjectStack.Command.CommandAdapter.OpenEditor
+  isSpec: "True"
+  fullName: ProjectStack.Command.CommandAdapter.OpenEditor
+  nameWithType: CommandAdapter.OpenEditor
 - uid: ProjectStack.Command.CommandAdapter.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
   name: RestoreGodotObjectData(GodotSerializationInfo)
   href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
@@ -2649,6 +2675,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.ServiceCollectionExtension.RegisterCardMetas
   nameWithType: ServiceCollectionExtension.RegisterCardMetas
+- uid: ProjectStack.Core.ServiceCollectionExtension.RegisterEditors(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: RegisterEditors(IServiceCollection)
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_RegisterEditors_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:ProjectStack.Core.ServiceCollectionExtension.RegisterEditors(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: ProjectStack.Core.ServiceCollectionExtension.RegisterEditors(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: ServiceCollectionExtension.RegisterEditors(IServiceCollection)
+- uid: ProjectStack.Core.ServiceCollectionExtension.RegisterEditors*
+  name: RegisterEditors
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_RegisterEditors_
+  commentId: Overload:ProjectStack.Core.ServiceCollectionExtension.RegisterEditors
+  isSpec: "True"
+  fullName: ProjectStack.Core.ServiceCollectionExtension.RegisterEditors
+  nameWithType: ServiceCollectionExtension.RegisterEditors
 - uid: ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name: RegisterRecipes(IServiceCollection)
   href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_RegisterRecipes_Microsoft_Extensions_DependencyInjection_IServiceCollection_
@@ -2675,6 +2714,631 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.ServiceCollectionExtension.RegisterTextureLoader
   nameWithType: ServiceCollectionExtension.RegisterTextureLoader
+- uid: ProjectStack.Editor
+  name: ProjectStack.Editor
+  href: api/ProjectStack.Editor.html
+  commentId: N:ProjectStack.Editor
+  fullName: ProjectStack.Editor
+  nameWithType: ProjectStack.Editor
+- uid: ProjectStack.Editor.CardMetaEditor
+  name: CardMetaEditor
+  href: api/ProjectStack.Editor.CardMetaEditor.html
+  commentId: T:ProjectStack.Editor.CardMetaEditor
+  fullName: ProjectStack.Editor.CardMetaEditor
+  nameWithType: CardMetaEditor
+- uid: ProjectStack.Editor.CardMetaEditor.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name: GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Editor.CardMetaEditor.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name.vb: GetGodotClassPropertyValue(godot_string_name, godot_variant)
+  fullName: ProjectStack.Editor.CardMetaEditor.GetGodotClassPropertyValue(in Godot.NativeInterop.godot_string_name, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Editor.CardMetaEditor.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.godot_variant)
+  nameWithType: CardMetaEditor.GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  nameWithType.vb: CardMetaEditor.GetGodotClassPropertyValue(godot_string_name, godot_variant)
+- uid: ProjectStack.Editor.CardMetaEditor.GetGodotClassPropertyValue*
+  name: GetGodotClassPropertyValue
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_GetGodotClassPropertyValue_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.GetGodotClassPropertyValue
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.GetGodotClassPropertyValue
+  nameWithType: CardMetaEditor.GetGodotClassPropertyValue
+- uid: ProjectStack.Editor.CardMetaEditor.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name: HasGodotClassMethod(in godot_string_name)
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__
+  commentId: M:ProjectStack.Editor.CardMetaEditor.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name.vb: HasGodotClassMethod(godot_string_name)
+  fullName: ProjectStack.Editor.CardMetaEditor.HasGodotClassMethod(in Godot.NativeInterop.godot_string_name)
+  fullName.vb: ProjectStack.Editor.CardMetaEditor.HasGodotClassMethod(Godot.NativeInterop.godot_string_name)
+  nameWithType: CardMetaEditor.HasGodotClassMethod(in godot_string_name)
+  nameWithType.vb: CardMetaEditor.HasGodotClassMethod(godot_string_name)
+- uid: ProjectStack.Editor.CardMetaEditor.HasGodotClassMethod*
+  name: HasGodotClassMethod
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_HasGodotClassMethod_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.HasGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.HasGodotClassMethod
+  nameWithType: CardMetaEditor.HasGodotClassMethod
+- uid: ProjectStack.Editor.CardMetaEditor.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name: InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Editor.CardMetaEditor.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name.vb: InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+  fullName: ProjectStack.Editor.CardMetaEditor.InvokeGodotClassMethod(in Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Editor.CardMetaEditor.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant)
+  nameWithType: CardMetaEditor.InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  nameWithType.vb: CardMetaEditor.InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+- uid: ProjectStack.Editor.CardMetaEditor.InvokeGodotClassMethod*
+  name: InvokeGodotClassMethod
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_InvokeGodotClassMethod_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.InvokeGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.InvokeGodotClassMethod
+  nameWithType: CardMetaEditor.InvokeGodotClassMethod
+- uid: ProjectStack.Editor.CardMetaEditor.Metatype
+  name: Metatype
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_Metatype
+  commentId: P:ProjectStack.Editor.CardMetaEditor.Metatype
+  fullName: ProjectStack.Editor.CardMetaEditor.Metatype
+  nameWithType: CardMetaEditor.Metatype
+- uid: ProjectStack.Editor.CardMetaEditor.Metatype*
+  name: Metatype
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_Metatype_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.Metatype
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.Metatype
+  nameWithType: CardMetaEditor.Metatype
+- uid: ProjectStack.Editor.CardMetaEditor.MixinState
+  name: MixinState
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_MixinState
+  commentId: P:ProjectStack.Editor.CardMetaEditor.MixinState
+  fullName: ProjectStack.Editor.CardMetaEditor.MixinState
+  nameWithType: CardMetaEditor.MixinState
+- uid: ProjectStack.Editor.CardMetaEditor.MixinState*
+  name: MixinState
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_MixinState_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.MixinState
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.MixinState
+  nameWithType: CardMetaEditor.MixinState
+- uid: ProjectStack.Editor.CardMetaEditor.NameList
+  name: NameList
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_NameList
+  commentId: P:ProjectStack.Editor.CardMetaEditor.NameList
+  fullName: ProjectStack.Editor.CardMetaEditor.NameList
+  nameWithType: CardMetaEditor.NameList
+- uid: ProjectStack.Editor.CardMetaEditor.NameList*
+  name: NameList
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_NameList_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.NameList
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.NameList
+  nameWithType: CardMetaEditor.NameList
+- uid: ProjectStack.Editor.CardMetaEditor.OnReady
+  name: OnReady()
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_OnReady
+  commentId: M:ProjectStack.Editor.CardMetaEditor.OnReady
+  fullName: ProjectStack.Editor.CardMetaEditor.OnReady()
+  nameWithType: CardMetaEditor.OnReady()
+- uid: ProjectStack.Editor.CardMetaEditor.OnReady*
+  name: OnReady
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_OnReady_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.OnReady
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.OnReady
+  nameWithType: CardMetaEditor.OnReady
+- uid: ProjectStack.Editor.CardMetaEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: RestoreGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Editor.CardMetaEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Editor.CardMetaEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: CardMetaEditor.RestoreGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Editor.CardMetaEditor.RestoreGodotObjectData*
+  name: RestoreGodotObjectData
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_RestoreGodotObjectData_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.RestoreGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.RestoreGodotObjectData
+  nameWithType: CardMetaEditor.RestoreGodotObjectData
+- uid: ProjectStack.Editor.CardMetaEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: SaveGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Editor.CardMetaEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Editor.CardMetaEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: CardMetaEditor.SaveGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Editor.CardMetaEditor.SaveGodotObjectData*
+  name: SaveGodotObjectData
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor_SaveGodotObjectData_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor.SaveGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor.SaveGodotObjectData
+  nameWithType: CardMetaEditor.SaveGodotObjectData
+- uid: ProjectStack.Editor.CardMetaEditor._Notification(System.Int32)
+  name: _Notification(int)
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor__Notification_System_Int32_
+  commentId: M:ProjectStack.Editor.CardMetaEditor._Notification(System.Int32)
+  name.vb: _Notification(Integer)
+  fullName: ProjectStack.Editor.CardMetaEditor._Notification(int)
+  fullName.vb: ProjectStack.Editor.CardMetaEditor._Notification(Integer)
+  nameWithType: CardMetaEditor._Notification(int)
+  nameWithType.vb: CardMetaEditor._Notification(Integer)
+- uid: ProjectStack.Editor.CardMetaEditor._Notification*
+  name: _Notification
+  href: api/ProjectStack.Editor.CardMetaEditor.html#ProjectStack_Editor_CardMetaEditor__Notification_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditor._Notification
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditor._Notification
+  nameWithType: CardMetaEditor._Notification
+- uid: ProjectStack.Editor.CardMetaEditorModel
+  name: CardMetaEditorModel
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html
+  commentId: T:ProjectStack.Editor.CardMetaEditorModel
+  fullName: ProjectStack.Editor.CardMetaEditorModel
+  nameWithType: CardMetaEditorModel
+- uid: ProjectStack.Editor.CardMetaEditorModel.#ctor(System.Collections.ObjectModel.ObservableCollection{ProjectStack.Common.Card.CardMeta})
+  name: CardMetaEditorModel(ObservableCollection<CardMeta>)
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel__ctor_System_Collections_ObjectModel_ObservableCollection_ProjectStack_Common_Card_CardMeta__
+  commentId: M:ProjectStack.Editor.CardMetaEditorModel.#ctor(System.Collections.ObjectModel.ObservableCollection{ProjectStack.Common.Card.CardMeta})
+  name.vb: New(ObservableCollection(Of CardMeta))
+  fullName: ProjectStack.Editor.CardMetaEditorModel.CardMetaEditorModel(System.Collections.ObjectModel.ObservableCollection<ProjectStack.Common.Card.CardMeta>)
+  fullName.vb: ProjectStack.Editor.CardMetaEditorModel.New(System.Collections.ObjectModel.ObservableCollection(Of ProjectStack.Common.Card.CardMeta))
+  nameWithType: CardMetaEditorModel.CardMetaEditorModel(ObservableCollection<CardMeta>)
+  nameWithType.vb: CardMetaEditorModel.New(ObservableCollection(Of CardMeta))
+- uid: ProjectStack.Editor.CardMetaEditorModel.#ctor*
+  name: CardMetaEditorModel
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel__ctor_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditorModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Editor.CardMetaEditorModel.CardMetaEditorModel
+  fullName.vb: ProjectStack.Editor.CardMetaEditorModel.New
+  nameWithType: CardMetaEditorModel.CardMetaEditorModel
+  nameWithType.vb: CardMetaEditorModel.New
+- uid: ProjectStack.Editor.CardMetaEditorModel.CardMetas
+  name: CardMetas
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel_CardMetas
+  commentId: P:ProjectStack.Editor.CardMetaEditorModel.CardMetas
+  fullName: ProjectStack.Editor.CardMetaEditorModel.CardMetas
+  nameWithType: CardMetaEditorModel.CardMetas
+- uid: ProjectStack.Editor.CardMetaEditorModel.CardMetas*
+  name: CardMetas
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel_CardMetas_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditorModel.CardMetas
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditorModel.CardMetas
+  nameWithType: CardMetaEditorModel.CardMetas
+- uid: ProjectStack.Editor.CardMetaEditorModel.ResourceIds
+  name: ResourceIds
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel_ResourceIds
+  commentId: P:ProjectStack.Editor.CardMetaEditorModel.ResourceIds
+  fullName: ProjectStack.Editor.CardMetaEditorModel.ResourceIds
+  nameWithType: CardMetaEditorModel.ResourceIds
+- uid: ProjectStack.Editor.CardMetaEditorModel.ResourceIds*
+  name: ResourceIds
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel_ResourceIds_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditorModel.ResourceIds
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditorModel.ResourceIds
+  nameWithType: CardMetaEditorModel.ResourceIds
+- uid: ProjectStack.Editor.CardMetaEditorModel.SelectedResourceIdIndex
+  name: SelectedResourceIdIndex
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel_SelectedResourceIdIndex
+  commentId: P:ProjectStack.Editor.CardMetaEditorModel.SelectedResourceIdIndex
+  fullName: ProjectStack.Editor.CardMetaEditorModel.SelectedResourceIdIndex
+  nameWithType: CardMetaEditorModel.SelectedResourceIdIndex
+- uid: ProjectStack.Editor.CardMetaEditorModel.SelectedResourceIdIndex*
+  name: SelectedResourceIdIndex
+  href: api/ProjectStack.Editor.CardMetaEditorModel.html#ProjectStack_Editor_CardMetaEditorModel_SelectedResourceIdIndex_
+  commentId: Overload:ProjectStack.Editor.CardMetaEditorModel.SelectedResourceIdIndex
+  isSpec: "True"
+  fullName: ProjectStack.Editor.CardMetaEditorModel.SelectedResourceIdIndex
+  nameWithType: CardMetaEditorModel.SelectedResourceIdIndex
+- uid: ProjectStack.Editor.EditorRegistrationHelper
+  name: EditorRegistrationHelper
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html
+  commentId: T:ProjectStack.Editor.EditorRegistrationHelper
+  fullName: ProjectStack.Editor.EditorRegistrationHelper
+  nameWithType: EditorRegistrationHelper
+- uid: ProjectStack.Editor.EditorRegistrationHelper.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: EditorRegistrationHelper(IServiceCollection)
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html#ProjectStack_Editor_EditorRegistrationHelper__ctor_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:ProjectStack.Editor.EditorRegistrationHelper.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: New(IServiceCollection)
+  fullName: ProjectStack.Editor.EditorRegistrationHelper.EditorRegistrationHelper(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName.vb: ProjectStack.Editor.EditorRegistrationHelper.New(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: EditorRegistrationHelper.EditorRegistrationHelper(IServiceCollection)
+  nameWithType.vb: EditorRegistrationHelper.New(IServiceCollection)
+- uid: ProjectStack.Editor.EditorRegistrationHelper.#ctor*
+  name: EditorRegistrationHelper
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html#ProjectStack_Editor_EditorRegistrationHelper__ctor_
+  commentId: Overload:ProjectStack.Editor.EditorRegistrationHelper.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Editor.EditorRegistrationHelper.EditorRegistrationHelper
+  fullName.vb: ProjectStack.Editor.EditorRegistrationHelper.New
+  nameWithType: EditorRegistrationHelper.EditorRegistrationHelper
+  nameWithType.vb: EditorRegistrationHelper.New
+- uid: ProjectStack.Editor.EditorRegistrationHelper.Add(System.String,ProjectStack.Editor.ISingleTypeEditorModel,Godot.PackedScene)
+  name: Add(string, ISingleTypeEditorModel, PackedScene)
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html#ProjectStack_Editor_EditorRegistrationHelper_Add_System_String_ProjectStack_Editor_ISingleTypeEditorModel_Godot_PackedScene_
+  commentId: M:ProjectStack.Editor.EditorRegistrationHelper.Add(System.String,ProjectStack.Editor.ISingleTypeEditorModel,Godot.PackedScene)
+  name.vb: Add(String, ISingleTypeEditorModel, PackedScene)
+  fullName: ProjectStack.Editor.EditorRegistrationHelper.Add(string, ProjectStack.Editor.ISingleTypeEditorModel, Godot.PackedScene)
+  fullName.vb: ProjectStack.Editor.EditorRegistrationHelper.Add(String, ProjectStack.Editor.ISingleTypeEditorModel, Godot.PackedScene)
+  nameWithType: EditorRegistrationHelper.Add(string, ISingleTypeEditorModel, PackedScene)
+  nameWithType.vb: EditorRegistrationHelper.Add(String, ISingleTypeEditorModel, PackedScene)
+- uid: ProjectStack.Editor.EditorRegistrationHelper.Add(System.String,System.Func{ProjectStack.Editor.ISingleTypeEditorModel},Godot.PackedScene)
+  name: Add(string, Func<ISingleTypeEditorModel>, PackedScene)
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html#ProjectStack_Editor_EditorRegistrationHelper_Add_System_String_System_Func_ProjectStack_Editor_ISingleTypeEditorModel__Godot_PackedScene_
+  commentId: M:ProjectStack.Editor.EditorRegistrationHelper.Add(System.String,System.Func{ProjectStack.Editor.ISingleTypeEditorModel},Godot.PackedScene)
+  name.vb: Add(String, Func(Of ISingleTypeEditorModel), PackedScene)
+  fullName: ProjectStack.Editor.EditorRegistrationHelper.Add(string, System.Func<ProjectStack.Editor.ISingleTypeEditorModel>, Godot.PackedScene)
+  fullName.vb: ProjectStack.Editor.EditorRegistrationHelper.Add(String, System.Func(Of ProjectStack.Editor.ISingleTypeEditorModel), Godot.PackedScene)
+  nameWithType: EditorRegistrationHelper.Add(string, Func<ISingleTypeEditorModel>, PackedScene)
+  nameWithType.vb: EditorRegistrationHelper.Add(String, Func(Of ISingleTypeEditorModel), PackedScene)
+- uid: ProjectStack.Editor.EditorRegistrationHelper.Add*
+  name: Add
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html#ProjectStack_Editor_EditorRegistrationHelper_Add_
+  commentId: Overload:ProjectStack.Editor.EditorRegistrationHelper.Add
+  isSpec: "True"
+  fullName: ProjectStack.Editor.EditorRegistrationHelper.Add
+  nameWithType: EditorRegistrationHelper.Add
+- uid: ProjectStack.Editor.EditorRegistrationHelper.End
+  name: End()
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html#ProjectStack_Editor_EditorRegistrationHelper_End
+  commentId: M:ProjectStack.Editor.EditorRegistrationHelper.End
+  fullName: ProjectStack.Editor.EditorRegistrationHelper.End()
+  nameWithType: EditorRegistrationHelper.End()
+- uid: ProjectStack.Editor.EditorRegistrationHelper.End*
+  name: End
+  href: api/ProjectStack.Editor.EditorRegistrationHelper.html#ProjectStack_Editor_EditorRegistrationHelper_End_
+  commentId: Overload:ProjectStack.Editor.EditorRegistrationHelper.End
+  isSpec: "True"
+  fullName: ProjectStack.Editor.EditorRegistrationHelper.End
+  nameWithType: EditorRegistrationHelper.End
+- uid: ProjectStack.Editor.IEditorModel
+  name: IEditorModel
+  href: api/ProjectStack.Editor.IEditorModel.html
+  commentId: T:ProjectStack.Editor.IEditorModel
+  fullName: ProjectStack.Editor.IEditorModel
+  nameWithType: IEditorModel
+- uid: ProjectStack.Editor.IEditorModel.GetSingleTypeEditorModel(System.String)
+  name: GetSingleTypeEditorModel(string)
+  href: api/ProjectStack.Editor.IEditorModel.html#ProjectStack_Editor_IEditorModel_GetSingleTypeEditorModel_System_String_
+  commentId: M:ProjectStack.Editor.IEditorModel.GetSingleTypeEditorModel(System.String)
+  name.vb: GetSingleTypeEditorModel(String)
+  fullName: ProjectStack.Editor.IEditorModel.GetSingleTypeEditorModel(string)
+  fullName.vb: ProjectStack.Editor.IEditorModel.GetSingleTypeEditorModel(String)
+  nameWithType: IEditorModel.GetSingleTypeEditorModel(string)
+  nameWithType.vb: IEditorModel.GetSingleTypeEditorModel(String)
+- uid: ProjectStack.Editor.IEditorModel.GetSingleTypeEditorModel*
+  name: GetSingleTypeEditorModel
+  href: api/ProjectStack.Editor.IEditorModel.html#ProjectStack_Editor_IEditorModel_GetSingleTypeEditorModel_
+  commentId: Overload:ProjectStack.Editor.IEditorModel.GetSingleTypeEditorModel
+  isSpec: "True"
+  fullName: ProjectStack.Editor.IEditorModel.GetSingleTypeEditorModel
+  nameWithType: IEditorModel.GetSingleTypeEditorModel
+- uid: ProjectStack.Editor.IEditorModel.ResourceTypes
+  name: ResourceTypes
+  href: api/ProjectStack.Editor.IEditorModel.html#ProjectStack_Editor_IEditorModel_ResourceTypes
+  commentId: P:ProjectStack.Editor.IEditorModel.ResourceTypes
+  fullName: ProjectStack.Editor.IEditorModel.ResourceTypes
+  nameWithType: IEditorModel.ResourceTypes
+- uid: ProjectStack.Editor.IEditorModel.ResourceTypes*
+  name: ResourceTypes
+  href: api/ProjectStack.Editor.IEditorModel.html#ProjectStack_Editor_IEditorModel_ResourceTypes_
+  commentId: Overload:ProjectStack.Editor.IEditorModel.ResourceTypes
+  isSpec: "True"
+  fullName: ProjectStack.Editor.IEditorModel.ResourceTypes
+  nameWithType: IEditorModel.ResourceTypes
+- uid: ProjectStack.Editor.IEditorModel.SelectedResourceType
+  name: SelectedResourceType
+  href: api/ProjectStack.Editor.IEditorModel.html#ProjectStack_Editor_IEditorModel_SelectedResourceType
+  commentId: P:ProjectStack.Editor.IEditorModel.SelectedResourceType
+  fullName: ProjectStack.Editor.IEditorModel.SelectedResourceType
+  nameWithType: IEditorModel.SelectedResourceType
+- uid: ProjectStack.Editor.IEditorModel.SelectedResourceType*
+  name: SelectedResourceType
+  href: api/ProjectStack.Editor.IEditorModel.html#ProjectStack_Editor_IEditorModel_SelectedResourceType_
+  commentId: Overload:ProjectStack.Editor.IEditorModel.SelectedResourceType
+  isSpec: "True"
+  fullName: ProjectStack.Editor.IEditorModel.SelectedResourceType
+  nameWithType: IEditorModel.SelectedResourceType
+- uid: ProjectStack.Editor.ISingleTypeEditorModel
+  name: ISingleTypeEditorModel
+  href: api/ProjectStack.Editor.ISingleTypeEditorModel.html
+  commentId: T:ProjectStack.Editor.ISingleTypeEditorModel
+  fullName: ProjectStack.Editor.ISingleTypeEditorModel
+  nameWithType: ISingleTypeEditorModel
+- uid: ProjectStack.Editor.ISingleTypeEditorModel.ResourceIds
+  name: ResourceIds
+  href: api/ProjectStack.Editor.ISingleTypeEditorModel.html#ProjectStack_Editor_ISingleTypeEditorModel_ResourceIds
+  commentId: P:ProjectStack.Editor.ISingleTypeEditorModel.ResourceIds
+  fullName: ProjectStack.Editor.ISingleTypeEditorModel.ResourceIds
+  nameWithType: ISingleTypeEditorModel.ResourceIds
+- uid: ProjectStack.Editor.ISingleTypeEditorModel.ResourceIds*
+  name: ResourceIds
+  href: api/ProjectStack.Editor.ISingleTypeEditorModel.html#ProjectStack_Editor_ISingleTypeEditorModel_ResourceIds_
+  commentId: Overload:ProjectStack.Editor.ISingleTypeEditorModel.ResourceIds
+  isSpec: "True"
+  fullName: ProjectStack.Editor.ISingleTypeEditorModel.ResourceIds
+  nameWithType: ISingleTypeEditorModel.ResourceIds
+- uid: ProjectStack.Editor.ISingleTypeEditorModel.SelectedResourceIdIndex
+  name: SelectedResourceIdIndex
+  href: api/ProjectStack.Editor.ISingleTypeEditorModel.html#ProjectStack_Editor_ISingleTypeEditorModel_SelectedResourceIdIndex
+  commentId: P:ProjectStack.Editor.ISingleTypeEditorModel.SelectedResourceIdIndex
+  fullName: ProjectStack.Editor.ISingleTypeEditorModel.SelectedResourceIdIndex
+  nameWithType: ISingleTypeEditorModel.SelectedResourceIdIndex
+- uid: ProjectStack.Editor.ISingleTypeEditorModel.SelectedResourceIdIndex*
+  name: SelectedResourceIdIndex
+  href: api/ProjectStack.Editor.ISingleTypeEditorModel.html#ProjectStack_Editor_ISingleTypeEditorModel_SelectedResourceIdIndex_
+  commentId: Overload:ProjectStack.Editor.ISingleTypeEditorModel.SelectedResourceIdIndex
+  isSpec: "True"
+  fullName: ProjectStack.Editor.ISingleTypeEditorModel.SelectedResourceIdIndex
+  nameWithType: ISingleTypeEditorModel.SelectedResourceIdIndex
+- uid: ProjectStack.Editor.SingleTypeEditor
+  name: SingleTypeEditor
+  href: api/ProjectStack.Editor.SingleTypeEditor.html
+  commentId: T:ProjectStack.Editor.SingleTypeEditor
+  fullName: ProjectStack.Editor.SingleTypeEditor
+  nameWithType: SingleTypeEditor
+- uid: ProjectStack.Editor.SingleTypeEditor.Model
+  name: Model
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_Model
+  commentId: P:ProjectStack.Editor.SingleTypeEditor.Model
+  fullName: ProjectStack.Editor.SingleTypeEditor.Model
+  nameWithType: SingleTypeEditor.Model
+- uid: ProjectStack.Editor.SingleTypeEditor.Model*
+  name: Model
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_Model_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.Model
+  isSpec: "True"
+  fullName: ProjectStack.Editor.SingleTypeEditor.Model
+  nameWithType: SingleTypeEditor.Model
+- uid: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  fullName: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType: SingleTypeEditor.OnPropertyChanged(PropertyChangedEventArgs)
+- uid: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged(System.String)
+  name: OnPropertyChanged(string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_OnPropertyChanged_System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged(System.String)
+  name.vb: OnPropertyChanged(String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged(string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged(String)
+  nameWithType: SingleTypeEditor.OnPropertyChanged(string?)
+  nameWithType.vb: SingleTypeEditor.OnPropertyChanged(String)
+- uid: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_OnPropertyChanged_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged
+  isSpec: "True"
+  fullName: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanged
+  nameWithType: SingleTypeEditor.OnPropertyChanged
+- uid: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  name: OnPropertyChanging(PropertyChangingEventArgs)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_OnPropertyChanging_System_ComponentModel_PropertyChangingEventArgs_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  fullName: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  nameWithType: SingleTypeEditor.OnPropertyChanging(PropertyChangingEventArgs)
+- uid: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging(System.String)
+  name: OnPropertyChanging(string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_OnPropertyChanging_System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging(System.String)
+  name.vb: OnPropertyChanging(String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging(string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging(String)
+  nameWithType: SingleTypeEditor.OnPropertyChanging(string?)
+  nameWithType.vb: SingleTypeEditor.OnPropertyChanging(String)
+- uid: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging*
+  name: OnPropertyChanging
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_OnPropertyChanging_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging
+  isSpec: "True"
+  fullName: ProjectStack.Editor.SingleTypeEditor.OnPropertyChanging
+  nameWithType: SingleTypeEditor.OnPropertyChanging
+- uid: ProjectStack.Editor.SingleTypeEditor.PropertyChanged
+  name: PropertyChanged
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_PropertyChanged
+  commentId: E:ProjectStack.Editor.SingleTypeEditor.PropertyChanged
+  fullName: ProjectStack.Editor.SingleTypeEditor.PropertyChanged
+  nameWithType: SingleTypeEditor.PropertyChanged
+- uid: ProjectStack.Editor.SingleTypeEditor.PropertyChanging
+  name: PropertyChanging
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_PropertyChanging
+  commentId: E:ProjectStack.Editor.SingleTypeEditor.PropertyChanging
+  fullName: ProjectStack.Editor.SingleTypeEditor.PropertyChanging
+  nameWithType: SingleTypeEditor.PropertyChanging
+- uid: ProjectStack.Editor.SingleTypeEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: RestoreGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Editor.SingleTypeEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: SingleTypeEditor.RestoreGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Editor.SingleTypeEditor.RestoreGodotObjectData*
+  name: RestoreGodotObjectData
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_RestoreGodotObjectData_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.RestoreGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Editor.SingleTypeEditor.RestoreGodotObjectData
+  nameWithType: SingleTypeEditor.RestoreGodotObjectData
+- uid: ProjectStack.Editor.SingleTypeEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: SaveGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: SingleTypeEditor.SaveGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Editor.SingleTypeEditor.SaveGodotObjectData*
+  name: SaveGodotObjectData
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SaveGodotObjectData_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.SaveGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Editor.SingleTypeEditor.SaveGodotObjectData
+  nameWithType: SingleTypeEditor.SaveGodotObjectData
+- uid: ProjectStack.Editor.SingleTypeEditor.SetProperty*
+  name: SetProperty
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetProperty_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.SetProperty
+  isSpec: "True"
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetProperty
+  nameWithType: SingleTypeEditor.SetProperty
+- uid: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.Editor.SingleTypeEditor.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)
+  name: SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, Action<Task?>, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_Editor_SingleTypeEditor_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.Editor.SingleTypeEditor.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(TaskNotifier, Task, Action(Of Task), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ref ProjectStack.Editor.SingleTypeEditor.TaskNotifier?, System.Threading.Tasks.Task?, System.Action<System.Threading.Tasks.Task?>, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.Editor.SingleTypeEditor.TaskNotifier, System.Threading.Tasks.Task, System.Action(Of System.Threading.Tasks.Task), String)
+  nameWithType: SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ref SingleTypeEditor.TaskNotifier?, Task?, Action<Task?>, string?)
+  nameWithType.vb: SingleTypeEditor.SetPropertyAndNotifyOnCompletion(SingleTypeEditor.TaskNotifier, Task, Action(Of Task), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.Editor.SingleTypeEditor.TaskNotifier@,System.Threading.Tasks.Task,System.String)
+  name: SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_Editor_SingleTypeEditor_TaskNotifier__System_Threading_Tasks_Task_System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.Editor.SingleTypeEditor.TaskNotifier@,System.Threading.Tasks.Task,System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(TaskNotifier, Task, String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ref ProjectStack.Editor.SingleTypeEditor.TaskNotifier?, System.Threading.Tasks.Task?, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.Editor.SingleTypeEditor.TaskNotifier, System.Threading.Tasks.Task, String)
+  nameWithType: SingleTypeEditor.SetPropertyAndNotifyOnCompletion(ref SingleTypeEditor.TaskNotifier?, Task?, string?)
+  nameWithType.vb: SingleTypeEditor.SetPropertyAndNotifyOnCompletion(SingleTypeEditor.TaskNotifier, Task, String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion*
+  name: SetPropertyAndNotifyOnCompletion
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetPropertyAndNotifyOnCompletion_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion
+  isSpec: "True"
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion
+  nameWithType: SingleTypeEditor.SetPropertyAndNotifyOnCompletion
+- uid: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Editor.SingleTypeEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)
+  name: SetPropertyAndNotifyOnCompletion<T>(ref TaskNotifier<T>?, Task<T>?, Action<Task<T>?>, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Editor_SingleTypeEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Editor.SingleTypeEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(Of T)(TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion<T>(ref ProjectStack.Editor.SingleTypeEditor.TaskNotifier<T>?, System.Threading.Tasks.Task<T>?, System.Action<System.Threading.Tasks.Task<T>?>, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(Of T)(ProjectStack.Editor.SingleTypeEditor.TaskNotifier(Of T), System.Threading.Tasks.Task(Of T), System.Action(Of System.Threading.Tasks.Task(Of T)), String)
+  nameWithType: SingleTypeEditor.SetPropertyAndNotifyOnCompletion<T>(ref SingleTypeEditor.TaskNotifier<T>?, Task<T>?, Action<Task<T>?>, string?)
+  nameWithType.vb: SingleTypeEditor.SetPropertyAndNotifyOnCompletion(Of T)(SingleTypeEditor.TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Editor.SingleTypeEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)
+  name: SetPropertyAndNotifyOnCompletion<T>(ref TaskNotifier<T>?, Task<T>?, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Editor_SingleTypeEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Editor.SingleTypeEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(Of T)(TaskNotifier(Of T), Task(Of T), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion<T>(ref ProjectStack.Editor.SingleTypeEditor.TaskNotifier<T>?, System.Threading.Tasks.Task<T>?, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetPropertyAndNotifyOnCompletion(Of T)(ProjectStack.Editor.SingleTypeEditor.TaskNotifier(Of T), System.Threading.Tasks.Task(Of T), String)
+  nameWithType: SingleTypeEditor.SetPropertyAndNotifyOnCompletion<T>(ref SingleTypeEditor.TaskNotifier<T>?, Task<T>?, string?)
+  nameWithType.vb: SingleTypeEditor.SetPropertyAndNotifyOnCompletion(Of T)(SingleTypeEditor.TaskNotifier(Of T), Task(Of T), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0,``0,System.Action{``0},System.String)
+  name: SetProperty<T>(T, T, Action<T>, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetProperty__1___0___0_System_Action___0__System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0,``0,System.Action{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, Action(Of T), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetProperty<T>(T, T, System.Action<T>, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetProperty(Of T)(T, T, System.Action(Of T), String)
+  nameWithType: SingleTypeEditor.SetProperty<T>(T, T, Action<T>, string?)
+  nameWithType.vb: SingleTypeEditor.SetProperty(Of T)(T, T, Action(Of T), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)
+  name: SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetProperty__1___0___0_System_Collections_Generic_IEqualityComparer___0__System_Action___0__System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, IEqualityComparer(Of T), Action(Of T), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetProperty<T>(T, T, System.Collections.Generic.IEqualityComparer<T>, System.Action<T>, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetProperty(Of T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), System.Action(Of T), String)
+  nameWithType: SingleTypeEditor.SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string?)
+  nameWithType.vb: SingleTypeEditor.SetProperty(Of T)(T, T, IEqualityComparer(Of T), Action(Of T), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)
+  name: SetProperty<T>(ref T, T, IEqualityComparer<T>, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetProperty__1___0____0_System_Collections_Generic_IEqualityComparer___0__System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, IEqualityComparer(Of T), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetProperty<T>(ref T, T, System.Collections.Generic.IEqualityComparer<T>, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetProperty(Of T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), String)
+  nameWithType: SingleTypeEditor.SetProperty<T>(ref T, T, IEqualityComparer<T>, string?)
+  nameWithType.vb: SingleTypeEditor.SetProperty(Of T)(T, T, IEqualityComparer(Of T), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0@,``0,System.String)
+  name: SetProperty<T>(ref T, T, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetProperty__1___0____0_System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetProperty``1(``0@,``0,System.String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetProperty<T>(ref T, T, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetProperty(Of T)(T, T, String)
+  nameWithType: SingleTypeEditor.SetProperty<T>(ref T, T, string?)
+  nameWithType.vb: SingleTypeEditor.SetProperty(Of T)(T, T, String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)
+  name: SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetProperty__2___1___1_System_Collections_Generic_IEqualityComparer___1____0_System_Action___0___1__System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)
+  name.vb: SetProperty(Of TModel, T)(T, T, IEqualityComparer(Of T), TModel, Action(Of TModel, T), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetProperty<TModel, T>(T, T, System.Collections.Generic.IEqualityComparer<T>, TModel, System.Action<TModel, T>, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetProperty(Of TModel, T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), TModel, System.Action(Of TModel, T), String)
+  nameWithType: SingleTypeEditor.SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string?)
+  nameWithType.vb: SingleTypeEditor.SetProperty(Of TModel, T)(T, T, IEqualityComparer(Of T), TModel, Action(Of TModel, T), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)
+  name: SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor_SetProperty__2___1___1___0_System_Action___0___1__System_String_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)
+  name.vb: SetProperty(Of TModel, T)(T, T, TModel, Action(Of TModel, T), String)
+  fullName: ProjectStack.Editor.SingleTypeEditor.SetProperty<TModel, T>(T, T, TModel, System.Action<TModel, T>, string?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.SetProperty(Of TModel, T)(T, T, TModel, System.Action(Of TModel, T), String)
+  nameWithType: SingleTypeEditor.SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string?)
+  nameWithType.vb: SingleTypeEditor.SetProperty(Of TModel, T)(T, T, TModel, Action(Of TModel, T), String)
+- uid: ProjectStack.Editor.SingleTypeEditor.TaskNotifier
+  name: SingleTypeEditor.TaskNotifier
+  href: api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier.html
+  commentId: T:ProjectStack.Editor.SingleTypeEditor.TaskNotifier
+  fullName: ProjectStack.Editor.SingleTypeEditor.TaskNotifier
+  nameWithType: SingleTypeEditor.TaskNotifier
+- uid: ProjectStack.Editor.SingleTypeEditor.TaskNotifier.op_Implicit(ProjectStack.Editor.SingleTypeEditor.TaskNotifier)~System.Threading.Tasks.Task
+  name: implicit operator Task?(TaskNotifier?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier.html#ProjectStack_Editor_SingleTypeEditor_TaskNotifier_op_Implicit_ProjectStack_Editor_SingleTypeEditor_TaskNotifier__System_Threading_Tasks_Task
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.TaskNotifier.op_Implicit(ProjectStack.Editor.SingleTypeEditor.TaskNotifier)~System.Threading.Tasks.Task
+  name.vb: CType(TaskNotifier)
+  fullName: ProjectStack.Editor.SingleTypeEditor.TaskNotifier.implicit operator System.Threading.Tasks.Task?(ProjectStack.Editor.SingleTypeEditor.TaskNotifier?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.TaskNotifier.CType(ProjectStack.Editor.SingleTypeEditor.TaskNotifier)
+  nameWithType: SingleTypeEditor.TaskNotifier.implicit operator Task?(SingleTypeEditor.TaskNotifier?)
+  nameWithType.vb: SingleTypeEditor.TaskNotifier.CType(SingleTypeEditor.TaskNotifier)
+- uid: ProjectStack.Editor.SingleTypeEditor.TaskNotifier.op_Implicit*
+  name: implicit operator
+  href: api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier.html#ProjectStack_Editor_SingleTypeEditor_TaskNotifier_op_Implicit_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.TaskNotifier.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectStack.Editor.SingleTypeEditor.TaskNotifier.implicit operator
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.TaskNotifier.CType
+  nameWithType: SingleTypeEditor.TaskNotifier.implicit operator
+  nameWithType.vb: SingleTypeEditor.TaskNotifier.CType
+- uid: ProjectStack.Editor.SingleTypeEditor.TaskNotifier`1
+  name: SingleTypeEditor.TaskNotifier<T>
+  href: api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier-1.html
+  commentId: T:ProjectStack.Editor.SingleTypeEditor.TaskNotifier`1
+  name.vb: SingleTypeEditor.TaskNotifier(Of T)
+  fullName: ProjectStack.Editor.SingleTypeEditor.TaskNotifier<T>
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.TaskNotifier(Of T)
+  nameWithType: SingleTypeEditor.TaskNotifier<T>
+  nameWithType.vb: SingleTypeEditor.TaskNotifier(Of T)
+- uid: ProjectStack.Editor.SingleTypeEditor.TaskNotifier`1.op_Implicit(ProjectStack.Editor.SingleTypeEditor.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}
+  name: implicit operator Task<T>?(TaskNotifier<T>?)
+  href: api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier-1.html#ProjectStack_Editor_SingleTypeEditor_TaskNotifier_1_op_Implicit_ProjectStack_Editor_SingleTypeEditor_TaskNotifier__0___System_Threading_Tasks_Task__0_
+  commentId: M:ProjectStack.Editor.SingleTypeEditor.TaskNotifier`1.op_Implicit(ProjectStack.Editor.SingleTypeEditor.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}
+  name.vb: CType(TaskNotifier(Of T))
+  fullName: ProjectStack.Editor.SingleTypeEditor.TaskNotifier<T>.implicit operator System.Threading.Tasks.Task<T>?(ProjectStack.Editor.SingleTypeEditor.TaskNotifier<T>?)
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.TaskNotifier(Of T).CType(ProjectStack.Editor.SingleTypeEditor.TaskNotifier(Of T))
+  nameWithType: SingleTypeEditor.TaskNotifier<T>.implicit operator Task<T>?(SingleTypeEditor.TaskNotifier<T>?)
+  nameWithType.vb: SingleTypeEditor.TaskNotifier(Of T).CType(SingleTypeEditor.TaskNotifier(Of T))
+- uid: ProjectStack.Editor.SingleTypeEditor.TaskNotifier`1.op_Implicit*
+  name: implicit operator
+  href: api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier-1.html#ProjectStack_Editor_SingleTypeEditor_TaskNotifier_1_op_Implicit_
+  commentId: Overload:ProjectStack.Editor.SingleTypeEditor.TaskNotifier`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectStack.Editor.SingleTypeEditor.TaskNotifier<T>.implicit operator
+  fullName.vb: ProjectStack.Editor.SingleTypeEditor.TaskNotifier(Of T).CType
+  nameWithType: SingleTypeEditor.TaskNotifier<T>.implicit operator
+  nameWithType.vb: SingleTypeEditor.TaskNotifier(Of T).CType
+- uid: ProjectStack.Editor.SingleTypeEditor._model
+  name: _model
+  href: api/ProjectStack.Editor.SingleTypeEditor.html#ProjectStack_Editor_SingleTypeEditor__model
+  commentId: F:ProjectStack.Editor.SingleTypeEditor._model
+  fullName: ProjectStack.Editor.SingleTypeEditor._model
+  nameWithType: SingleTypeEditor._model
 - uid: ProjectStack.Game
   name: Game
   href: api/ProjectStack.Game.html
@@ -2726,6 +3390,63 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Game.InvokeGodotClassMethod
   nameWithType: Game.InvokeGodotClassMethod
+- uid: ProjectStack.Game.LoadingProgressChanged
+  name: LoadingProgressChanged
+  href: api/ProjectStack.Game.html#ProjectStack_Game_LoadingProgressChanged
+  commentId: E:ProjectStack.Game.LoadingProgressChanged
+  fullName: ProjectStack.Game.LoadingProgressChanged
+  nameWithType: Game.LoadingProgressChanged
+- uid: ProjectStack.Game.LoadingProgressChangedEventArgs
+  name: Game.LoadingProgressChangedEventArgs
+  href: api/ProjectStack.Game.LoadingProgressChangedEventArgs.html
+  commentId: T:ProjectStack.Game.LoadingProgressChangedEventArgs
+  fullName: ProjectStack.Game.LoadingProgressChangedEventArgs
+  nameWithType: Game.LoadingProgressChangedEventArgs
+- uid: ProjectStack.Game.LoadingProgressChangedEventArgs.#ctor(System.Single,System.String)
+  name: LoadingProgressChangedEventArgs(float, string)
+  href: api/ProjectStack.Game.LoadingProgressChangedEventArgs.html#ProjectStack_Game_LoadingProgressChangedEventArgs__ctor_System_Single_System_String_
+  commentId: M:ProjectStack.Game.LoadingProgressChangedEventArgs.#ctor(System.Single,System.String)
+  name.vb: New(Single, String)
+  fullName: ProjectStack.Game.LoadingProgressChangedEventArgs.LoadingProgressChangedEventArgs(float, string)
+  fullName.vb: ProjectStack.Game.LoadingProgressChangedEventArgs.New(Single, String)
+  nameWithType: Game.LoadingProgressChangedEventArgs.LoadingProgressChangedEventArgs(float, string)
+  nameWithType.vb: Game.LoadingProgressChangedEventArgs.New(Single, String)
+- uid: ProjectStack.Game.LoadingProgressChangedEventArgs.#ctor*
+  name: LoadingProgressChangedEventArgs
+  href: api/ProjectStack.Game.LoadingProgressChangedEventArgs.html#ProjectStack_Game_LoadingProgressChangedEventArgs__ctor_
+  commentId: Overload:ProjectStack.Game.LoadingProgressChangedEventArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectStack.Game.LoadingProgressChangedEventArgs.LoadingProgressChangedEventArgs
+  fullName.vb: ProjectStack.Game.LoadingProgressChangedEventArgs.New
+  nameWithType: Game.LoadingProgressChangedEventArgs.LoadingProgressChangedEventArgs
+  nameWithType.vb: Game.LoadingProgressChangedEventArgs.New
+- uid: ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName
+  name: CurrentTaskName
+  href: api/ProjectStack.Game.LoadingProgressChangedEventArgs.html#ProjectStack_Game_LoadingProgressChangedEventArgs_CurrentTaskName
+  commentId: P:ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName
+  fullName: ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName
+  nameWithType: Game.LoadingProgressChangedEventArgs.CurrentTaskName
+- uid: ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName*
+  name: CurrentTaskName
+  href: api/ProjectStack.Game.LoadingProgressChangedEventArgs.html#ProjectStack_Game_LoadingProgressChangedEventArgs_CurrentTaskName_
+  commentId: Overload:ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName
+  isSpec: "True"
+  fullName: ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName
+  nameWithType: Game.LoadingProgressChangedEventArgs.CurrentTaskName
+- uid: ProjectStack.Game.LoadingProgressChangedEventArgs.Progress
+  name: Progress
+  href: api/ProjectStack.Game.LoadingProgressChangedEventArgs.html#ProjectStack_Game_LoadingProgressChangedEventArgs_Progress
+  commentId: P:ProjectStack.Game.LoadingProgressChangedEventArgs.Progress
+  fullName: ProjectStack.Game.LoadingProgressChangedEventArgs.Progress
+  nameWithType: Game.LoadingProgressChangedEventArgs.Progress
+- uid: ProjectStack.Game.LoadingProgressChangedEventArgs.Progress*
+  name: Progress
+  href: api/ProjectStack.Game.LoadingProgressChangedEventArgs.html#ProjectStack_Game_LoadingProgressChangedEventArgs_Progress_
+  commentId: Overload:ProjectStack.Game.LoadingProgressChangedEventArgs.Progress
+  isSpec: "True"
+  fullName: ProjectStack.Game.LoadingProgressChangedEventArgs.Progress
+  nameWithType: Game.LoadingProgressChangedEventArgs.Progress
 - uid: ProjectStack.Game.Metatype
   name: Metatype
   href: api/ProjectStack.Game.html#ProjectStack_Game_Metatype
@@ -3085,6 +3806,409 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Resource.TextureLoader.End
   nameWithType: TextureLoader.End
+- uid: ProjectStack.ResourceEditor
+  name: ResourceEditor
+  href: api/ProjectStack.ResourceEditor.html
+  commentId: T:ProjectStack.ResourceEditor
+  fullName: ProjectStack.ResourceEditor
+  nameWithType: ResourceEditor
+- uid: ProjectStack.ResourceEditor.Game
+  name: Game
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_Game
+  commentId: P:ProjectStack.ResourceEditor.Game
+  fullName: ProjectStack.ResourceEditor.Game
+  nameWithType: ResourceEditor.Game
+- uid: ProjectStack.ResourceEditor.Game*
+  name: Game
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_Game_
+  commentId: Overload:ProjectStack.ResourceEditor.Game
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.Game
+  nameWithType: ResourceEditor.Game
+- uid: ProjectStack.ResourceEditor.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name: GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.ResourceEditor.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name.vb: GetGodotClassPropertyValue(godot_string_name, godot_variant)
+  fullName: ProjectStack.ResourceEditor.GetGodotClassPropertyValue(in Godot.NativeInterop.godot_string_name, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.ResourceEditor.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.godot_variant)
+  nameWithType: ResourceEditor.GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  nameWithType.vb: ResourceEditor.GetGodotClassPropertyValue(godot_string_name, godot_variant)
+- uid: ProjectStack.ResourceEditor.GetGodotClassPropertyValue*
+  name: GetGodotClassPropertyValue
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_GetGodotClassPropertyValue_
+  commentId: Overload:ProjectStack.ResourceEditor.GetGodotClassPropertyValue
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.GetGodotClassPropertyValue
+  nameWithType: ResourceEditor.GetGodotClassPropertyValue
+- uid: ProjectStack.ResourceEditor.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name: HasGodotClassMethod(in godot_string_name)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__
+  commentId: M:ProjectStack.ResourceEditor.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name.vb: HasGodotClassMethod(godot_string_name)
+  fullName: ProjectStack.ResourceEditor.HasGodotClassMethod(in Godot.NativeInterop.godot_string_name)
+  fullName.vb: ProjectStack.ResourceEditor.HasGodotClassMethod(Godot.NativeInterop.godot_string_name)
+  nameWithType: ResourceEditor.HasGodotClassMethod(in godot_string_name)
+  nameWithType.vb: ResourceEditor.HasGodotClassMethod(godot_string_name)
+- uid: ProjectStack.ResourceEditor.HasGodotClassMethod*
+  name: HasGodotClassMethod
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_HasGodotClassMethod_
+  commentId: Overload:ProjectStack.ResourceEditor.HasGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.HasGodotClassMethod
+  nameWithType: ResourceEditor.HasGodotClassMethod
+- uid: ProjectStack.ResourceEditor.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name: InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.ResourceEditor.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name.vb: InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+  fullName: ProjectStack.ResourceEditor.InvokeGodotClassMethod(in Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.ResourceEditor.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant)
+  nameWithType: ResourceEditor.InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  nameWithType.vb: ResourceEditor.InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+- uid: ProjectStack.ResourceEditor.InvokeGodotClassMethod*
+  name: InvokeGodotClassMethod
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_InvokeGodotClassMethod_
+  commentId: Overload:ProjectStack.ResourceEditor.InvokeGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.InvokeGodotClassMethod
+  nameWithType: ResourceEditor.InvokeGodotClassMethod
+- uid: ProjectStack.ResourceEditor.Metatype
+  name: Metatype
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_Metatype
+  commentId: P:ProjectStack.ResourceEditor.Metatype
+  fullName: ProjectStack.ResourceEditor.Metatype
+  nameWithType: ResourceEditor.Metatype
+- uid: ProjectStack.ResourceEditor.Metatype*
+  name: Metatype
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_Metatype_
+  commentId: Overload:ProjectStack.ResourceEditor.Metatype
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.Metatype
+  nameWithType: ResourceEditor.Metatype
+- uid: ProjectStack.ResourceEditor.MixinState
+  name: MixinState
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_MixinState
+  commentId: P:ProjectStack.ResourceEditor.MixinState
+  fullName: ProjectStack.ResourceEditor.MixinState
+  nameWithType: ResourceEditor.MixinState
+- uid: ProjectStack.ResourceEditor.MixinState*
+  name: MixinState
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_MixinState_
+  commentId: Overload:ProjectStack.ResourceEditor.MixinState
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.MixinState
+  nameWithType: ResourceEditor.MixinState
+- uid: ProjectStack.ResourceEditor.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_
+  commentId: M:ProjectStack.ResourceEditor.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  fullName: ProjectStack.ResourceEditor.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType: ResourceEditor.OnPropertyChanged(PropertyChangedEventArgs)
+- uid: ProjectStack.ResourceEditor.OnPropertyChanged(System.String)
+  name: OnPropertyChanged(string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_OnPropertyChanged_System_String_
+  commentId: M:ProjectStack.ResourceEditor.OnPropertyChanged(System.String)
+  name.vb: OnPropertyChanged(String)
+  fullName: ProjectStack.ResourceEditor.OnPropertyChanged(string?)
+  fullName.vb: ProjectStack.ResourceEditor.OnPropertyChanged(String)
+  nameWithType: ResourceEditor.OnPropertyChanged(string?)
+  nameWithType.vb: ResourceEditor.OnPropertyChanged(String)
+- uid: ProjectStack.ResourceEditor.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_OnPropertyChanged_
+  commentId: Overload:ProjectStack.ResourceEditor.OnPropertyChanged
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.OnPropertyChanged
+  nameWithType: ResourceEditor.OnPropertyChanged
+- uid: ProjectStack.ResourceEditor.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  name: OnPropertyChanging(PropertyChangingEventArgs)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_OnPropertyChanging_System_ComponentModel_PropertyChangingEventArgs_
+  commentId: M:ProjectStack.ResourceEditor.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  fullName: ProjectStack.ResourceEditor.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  nameWithType: ResourceEditor.OnPropertyChanging(PropertyChangingEventArgs)
+- uid: ProjectStack.ResourceEditor.OnPropertyChanging(System.String)
+  name: OnPropertyChanging(string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_OnPropertyChanging_System_String_
+  commentId: M:ProjectStack.ResourceEditor.OnPropertyChanging(System.String)
+  name.vb: OnPropertyChanging(String)
+  fullName: ProjectStack.ResourceEditor.OnPropertyChanging(string?)
+  fullName.vb: ProjectStack.ResourceEditor.OnPropertyChanging(String)
+  nameWithType: ResourceEditor.OnPropertyChanging(string?)
+  nameWithType.vb: ResourceEditor.OnPropertyChanging(String)
+- uid: ProjectStack.ResourceEditor.OnPropertyChanging*
+  name: OnPropertyChanging
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_OnPropertyChanging_
+  commentId: Overload:ProjectStack.ResourceEditor.OnPropertyChanging
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.OnPropertyChanging
+  nameWithType: ResourceEditor.OnPropertyChanging
+- uid: ProjectStack.ResourceEditor.PropertyChanged
+  name: PropertyChanged
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged
+  commentId: E:ProjectStack.ResourceEditor.PropertyChanged
+  fullName: ProjectStack.ResourceEditor.PropertyChanged
+  nameWithType: ResourceEditor.PropertyChanged
+- uid: ProjectStack.ResourceEditor.PropertyChanging
+  name: PropertyChanging
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging
+  commentId: E:ProjectStack.ResourceEditor.PropertyChanging
+  fullName: ProjectStack.ResourceEditor.PropertyChanging
+  nameWithType: ResourceEditor.PropertyChanging
+- uid: ProjectStack.ResourceEditor.ResourceTypeList
+  name: ResourceTypeList
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_ResourceTypeList
+  commentId: P:ProjectStack.ResourceEditor.ResourceTypeList
+  fullName: ProjectStack.ResourceEditor.ResourceTypeList
+  nameWithType: ResourceEditor.ResourceTypeList
+- uid: ProjectStack.ResourceEditor.ResourceTypeList*
+  name: ResourceTypeList
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_ResourceTypeList_
+  commentId: Overload:ProjectStack.ResourceEditor.ResourceTypeList
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.ResourceTypeList
+  nameWithType: ResourceEditor.ResourceTypeList
+- uid: ProjectStack.ResourceEditor.ResourceTypes
+  name: ResourceTypes
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_ResourceTypes
+  commentId: P:ProjectStack.ResourceEditor.ResourceTypes
+  fullName: ProjectStack.ResourceEditor.ResourceTypes
+  nameWithType: ResourceEditor.ResourceTypes
+- uid: ProjectStack.ResourceEditor.ResourceTypes*
+  name: ResourceTypes
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_ResourceTypes_
+  commentId: Overload:ProjectStack.ResourceEditor.ResourceTypes
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.ResourceTypes
+  nameWithType: ResourceEditor.ResourceTypes
+- uid: ProjectStack.ResourceEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: RestoreGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.ResourceEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.ResourceEditor.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: ResourceEditor.RestoreGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.ResourceEditor.RestoreGodotObjectData*
+  name: RestoreGodotObjectData
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_RestoreGodotObjectData_
+  commentId: Overload:ProjectStack.ResourceEditor.RestoreGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.RestoreGodotObjectData
+  nameWithType: ResourceEditor.RestoreGodotObjectData
+- uid: ProjectStack.ResourceEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: SaveGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.ResourceEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.ResourceEditor.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: ResourceEditor.SaveGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.ResourceEditor.SaveGodotObjectData*
+  name: SaveGodotObjectData
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SaveGodotObjectData_
+  commentId: Overload:ProjectStack.ResourceEditor.SaveGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.SaveGodotObjectData
+  nameWithType: ResourceEditor.SaveGodotObjectData
+- uid: ProjectStack.ResourceEditor.SetProperty*
+  name: SetProperty
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty_
+  commentId: Overload:ProjectStack.ResourceEditor.SetProperty
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.SetProperty
+  nameWithType: ResourceEditor.SetProperty
+- uid: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)
+  name: SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, Action<Task?>, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(TaskNotifier, Task, Action(Of Task), String)
+  fullName: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ref ProjectStack.ResourceEditor.TaskNotifier?, System.Threading.Tasks.Task?, System.Action<System.Threading.Tasks.Task?>, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier, System.Threading.Tasks.Task, System.Action(Of System.Threading.Tasks.Task), String)
+  nameWithType: ResourceEditor.SetPropertyAndNotifyOnCompletion(ref ResourceEditor.TaskNotifier?, Task?, Action<Task?>, string?)
+  nameWithType.vb: ResourceEditor.SetPropertyAndNotifyOnCompletion(ResourceEditor.TaskNotifier, Task, Action(Of Task), String)
+- uid: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier@,System.Threading.Tasks.Task,System.String)
+  name: SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier@,System.Threading.Tasks.Task,System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(TaskNotifier, Task, String)
+  fullName: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ref ProjectStack.ResourceEditor.TaskNotifier?, System.Threading.Tasks.Task?, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(ProjectStack.ResourceEditor.TaskNotifier, System.Threading.Tasks.Task, String)
+  nameWithType: ResourceEditor.SetPropertyAndNotifyOnCompletion(ref ResourceEditor.TaskNotifier?, Task?, string?)
+  nameWithType.vb: ResourceEditor.SetPropertyAndNotifyOnCompletion(ResourceEditor.TaskNotifier, Task, String)
+- uid: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion*
+  name: SetPropertyAndNotifyOnCompletion
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_
+  commentId: Overload:ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion
+  nameWithType: ResourceEditor.SetPropertyAndNotifyOnCompletion
+- uid: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.ResourceEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)
+  name: SetPropertyAndNotifyOnCompletion<T>(ref TaskNotifier<T>?, Task<T>?, Action<Task<T>?>, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.ResourceEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(Of T)(TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
+  fullName: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion<T>(ref ProjectStack.ResourceEditor.TaskNotifier<T>?, System.Threading.Tasks.Task<T>?, System.Action<System.Threading.Tasks.Task<T>?>, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(Of T)(ProjectStack.ResourceEditor.TaskNotifier(Of T), System.Threading.Tasks.Task(Of T), System.Action(Of System.Threading.Tasks.Task(Of T)), String)
+  nameWithType: ResourceEditor.SetPropertyAndNotifyOnCompletion<T>(ref ResourceEditor.TaskNotifier<T>?, Task<T>?, Action<Task<T>?>, string?)
+  nameWithType.vb: ResourceEditor.SetPropertyAndNotifyOnCompletion(Of T)(ResourceEditor.TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
+- uid: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.ResourceEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)
+  name: SetPropertyAndNotifyOnCompletion<T>(ref TaskNotifier<T>?, Task<T>?, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion``1(ProjectStack.ResourceEditor.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(Of T)(TaskNotifier(Of T), Task(Of T), String)
+  fullName: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion<T>(ref ProjectStack.ResourceEditor.TaskNotifier<T>?, System.Threading.Tasks.Task<T>?, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetPropertyAndNotifyOnCompletion(Of T)(ProjectStack.ResourceEditor.TaskNotifier(Of T), System.Threading.Tasks.Task(Of T), String)
+  nameWithType: ResourceEditor.SetPropertyAndNotifyOnCompletion<T>(ref ResourceEditor.TaskNotifier<T>?, Task<T>?, string?)
+  nameWithType.vb: ResourceEditor.SetPropertyAndNotifyOnCompletion(Of T)(ResourceEditor.TaskNotifier(Of T), Task(Of T), String)
+- uid: ProjectStack.ResourceEditor.SetProperty``1(``0,``0,System.Action{``0},System.String)
+  name: SetProperty<T>(T, T, Action<T>, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0___0_System_Action___0__System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetProperty``1(``0,``0,System.Action{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, Action(Of T), String)
+  fullName: ProjectStack.ResourceEditor.SetProperty<T>(T, T, System.Action<T>, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetProperty(Of T)(T, T, System.Action(Of T), String)
+  nameWithType: ResourceEditor.SetProperty<T>(T, T, Action<T>, string?)
+  nameWithType.vb: ResourceEditor.SetProperty(Of T)(T, T, Action(Of T), String)
+- uid: ProjectStack.ResourceEditor.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)
+  name: SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0___0_System_Collections_Generic_IEqualityComparer___0__System_Action___0__System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, IEqualityComparer(Of T), Action(Of T), String)
+  fullName: ProjectStack.ResourceEditor.SetProperty<T>(T, T, System.Collections.Generic.IEqualityComparer<T>, System.Action<T>, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetProperty(Of T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), System.Action(Of T), String)
+  nameWithType: ResourceEditor.SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string?)
+  nameWithType.vb: ResourceEditor.SetProperty(Of T)(T, T, IEqualityComparer(Of T), Action(Of T), String)
+- uid: ProjectStack.ResourceEditor.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)
+  name: SetProperty<T>(ref T, T, IEqualityComparer<T>, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_Collections_Generic_IEqualityComparer___0__System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, IEqualityComparer(Of T), String)
+  fullName: ProjectStack.ResourceEditor.SetProperty<T>(ref T, T, System.Collections.Generic.IEqualityComparer<T>, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetProperty(Of T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), String)
+  nameWithType: ResourceEditor.SetProperty<T>(ref T, T, IEqualityComparer<T>, string?)
+  nameWithType.vb: ResourceEditor.SetProperty(Of T)(T, T, IEqualityComparer(Of T), String)
+- uid: ProjectStack.ResourceEditor.SetProperty``1(``0@,``0,System.String)
+  name: SetProperty<T>(ref T, T, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetProperty``1(``0@,``0,System.String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  fullName: ProjectStack.ResourceEditor.SetProperty<T>(ref T, T, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetProperty(Of T)(T, T, String)
+  nameWithType: ResourceEditor.SetProperty<T>(ref T, T, string?)
+  nameWithType.vb: ResourceEditor.SetProperty(Of T)(T, T, String)
+- uid: ProjectStack.ResourceEditor.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)
+  name: SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__2___1___1_System_Collections_Generic_IEqualityComparer___1____0_System_Action___0___1__System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)
+  name.vb: SetProperty(Of TModel, T)(T, T, IEqualityComparer(Of T), TModel, Action(Of TModel, T), String)
+  fullName: ProjectStack.ResourceEditor.SetProperty<TModel, T>(T, T, System.Collections.Generic.IEqualityComparer<T>, TModel, System.Action<TModel, T>, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetProperty(Of TModel, T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), TModel, System.Action(Of TModel, T), String)
+  nameWithType: ResourceEditor.SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string?)
+  nameWithType.vb: ResourceEditor.SetProperty(Of TModel, T)(T, T, IEqualityComparer(Of T), TModel, Action(Of TModel, T), String)
+- uid: ProjectStack.ResourceEditor.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)
+  name: SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string?)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__2___1___1___0_System_Action___0___1__System_String_
+  commentId: M:ProjectStack.ResourceEditor.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)
+  name.vb: SetProperty(Of TModel, T)(T, T, TModel, Action(Of TModel, T), String)
+  fullName: ProjectStack.ResourceEditor.SetProperty<TModel, T>(T, T, TModel, System.Action<TModel, T>, string?)
+  fullName.vb: ProjectStack.ResourceEditor.SetProperty(Of TModel, T)(T, T, TModel, System.Action(Of TModel, T), String)
+  nameWithType: ResourceEditor.SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string?)
+  nameWithType.vb: ResourceEditor.SetProperty(Of TModel, T)(T, T, TModel, Action(Of TModel, T), String)
+- uid: ProjectStack.ResourceEditor.TaskNotifier
+  name: ResourceEditor.TaskNotifier
+  href: api/ProjectStack.ResourceEditor.TaskNotifier.html
+  commentId: T:ProjectStack.ResourceEditor.TaskNotifier
+  fullName: ProjectStack.ResourceEditor.TaskNotifier
+  nameWithType: ResourceEditor.TaskNotifier
+- uid: ProjectStack.ResourceEditor.TaskNotifier.op_Implicit(ProjectStack.ResourceEditor.TaskNotifier)~System.Threading.Tasks.Task
+  name: implicit operator Task?(TaskNotifier?)
+  href: api/ProjectStack.ResourceEditor.TaskNotifier.html#ProjectStack_ResourceEditor_TaskNotifier_op_Implicit_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task
+  commentId: M:ProjectStack.ResourceEditor.TaskNotifier.op_Implicit(ProjectStack.ResourceEditor.TaskNotifier)~System.Threading.Tasks.Task
+  name.vb: CType(TaskNotifier)
+  fullName: ProjectStack.ResourceEditor.TaskNotifier.implicit operator System.Threading.Tasks.Task?(ProjectStack.ResourceEditor.TaskNotifier?)
+  fullName.vb: ProjectStack.ResourceEditor.TaskNotifier.CType(ProjectStack.ResourceEditor.TaskNotifier)
+  nameWithType: ResourceEditor.TaskNotifier.implicit operator Task?(ResourceEditor.TaskNotifier?)
+  nameWithType.vb: ResourceEditor.TaskNotifier.CType(ResourceEditor.TaskNotifier)
+- uid: ProjectStack.ResourceEditor.TaskNotifier.op_Implicit*
+  name: implicit operator
+  href: api/ProjectStack.ResourceEditor.TaskNotifier.html#ProjectStack_ResourceEditor_TaskNotifier_op_Implicit_
+  commentId: Overload:ProjectStack.ResourceEditor.TaskNotifier.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectStack.ResourceEditor.TaskNotifier.implicit operator
+  fullName.vb: ProjectStack.ResourceEditor.TaskNotifier.CType
+  nameWithType: ResourceEditor.TaskNotifier.implicit operator
+  nameWithType.vb: ResourceEditor.TaskNotifier.CType
+- uid: ProjectStack.ResourceEditor.TaskNotifier`1
+  name: ResourceEditor.TaskNotifier<T>
+  href: api/ProjectStack.ResourceEditor.TaskNotifier-1.html
+  commentId: T:ProjectStack.ResourceEditor.TaskNotifier`1
+  name.vb: ResourceEditor.TaskNotifier(Of T)
+  fullName: ProjectStack.ResourceEditor.TaskNotifier<T>
+  fullName.vb: ProjectStack.ResourceEditor.TaskNotifier(Of T)
+  nameWithType: ResourceEditor.TaskNotifier<T>
+  nameWithType.vb: ResourceEditor.TaskNotifier(Of T)
+- uid: ProjectStack.ResourceEditor.TaskNotifier`1.op_Implicit(ProjectStack.ResourceEditor.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}
+  name: implicit operator Task<T>?(TaskNotifier<T>?)
+  href: api/ProjectStack.ResourceEditor.TaskNotifier-1.html#ProjectStack_ResourceEditor_TaskNotifier_1_op_Implicit_ProjectStack_ResourceEditor_TaskNotifier__0___System_Threading_Tasks_Task__0_
+  commentId: M:ProjectStack.ResourceEditor.TaskNotifier`1.op_Implicit(ProjectStack.ResourceEditor.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}
+  name.vb: CType(TaskNotifier(Of T))
+  fullName: ProjectStack.ResourceEditor.TaskNotifier<T>.implicit operator System.Threading.Tasks.Task<T>?(ProjectStack.ResourceEditor.TaskNotifier<T>?)
+  fullName.vb: ProjectStack.ResourceEditor.TaskNotifier(Of T).CType(ProjectStack.ResourceEditor.TaskNotifier(Of T))
+  nameWithType: ResourceEditor.TaskNotifier<T>.implicit operator Task<T>?(ResourceEditor.TaskNotifier<T>?)
+  nameWithType.vb: ResourceEditor.TaskNotifier(Of T).CType(ResourceEditor.TaskNotifier(Of T))
+- uid: ProjectStack.ResourceEditor.TaskNotifier`1.op_Implicit*
+  name: implicit operator
+  href: api/ProjectStack.ResourceEditor.TaskNotifier-1.html#ProjectStack_ResourceEditor_TaskNotifier_1_op_Implicit_
+  commentId: Overload:ProjectStack.ResourceEditor.TaskNotifier`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectStack.ResourceEditor.TaskNotifier<T>.implicit operator
+  fullName.vb: ProjectStack.ResourceEditor.TaskNotifier(Of T).CType
+  nameWithType: ResourceEditor.TaskNotifier<T>.implicit operator
+  nameWithType.vb: ResourceEditor.TaskNotifier(Of T).CType
+- uid: ProjectStack.ResourceEditor._Notification(System.Int32)
+  name: _Notification(int)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor__Notification_System_Int32_
+  commentId: M:ProjectStack.ResourceEditor._Notification(System.Int32)
+  name.vb: _Notification(Integer)
+  fullName: ProjectStack.ResourceEditor._Notification(int)
+  fullName.vb: ProjectStack.ResourceEditor._Notification(Integer)
+  nameWithType: ResourceEditor._Notification(int)
+  nameWithType.vb: ResourceEditor._Notification(Integer)
+- uid: ProjectStack.ResourceEditor._Notification*
+  name: _Notification
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor__Notification_
+  commentId: Overload:ProjectStack.ResourceEditor._Notification
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor._Notification
+  nameWithType: ResourceEditor._Notification
+- uid: ProjectStack.ResourceEditor._Process(System.Double)
+  name: _Process(double)
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor__Process_System_Double_
+  commentId: M:ProjectStack.ResourceEditor._Process(System.Double)
+  name.vb: _Process(Double)
+  fullName: ProjectStack.ResourceEditor._Process(double)
+  fullName.vb: ProjectStack.ResourceEditor._Process(Double)
+  nameWithType: ResourceEditor._Process(double)
+  nameWithType.vb: ResourceEditor._Process(Double)
+- uid: ProjectStack.ResourceEditor._Process*
+  name: _Process
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor__Process_
+  commentId: Overload:ProjectStack.ResourceEditor._Process
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor._Process
+  nameWithType: ResourceEditor._Process
+- uid: ProjectStack.ResourceEditor._Ready
+  name: _Ready()
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor__Ready
+  commentId: M:ProjectStack.ResourceEditor._Ready
+  fullName: ProjectStack.ResourceEditor._Ready()
+  nameWithType: ResourceEditor._Ready()
+- uid: ProjectStack.ResourceEditor._Ready*
+  name: _Ready
+  href: api/ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor__Ready_
+  commentId: Overload:ProjectStack.ResourceEditor._Ready
+  isSpec: "True"
+  fullName: ProjectStack.ResourceEditor._Ready
+  nameWithType: ResourceEditor._Ready
 - uid: ProjectStack.UserInterface
   name: ProjectStack.UserInterface
   href: api/ProjectStack.UserInterface.html
@@ -3155,6 +4279,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.UserInterface.HoveredItemInfoDisplay.HoveredItems
   nameWithType: HoveredItemInfoDisplay.HoveredItems
+- uid: ProjectStack.UserInterface.HoveredItemInfoDisplay.Update
+  name: Update()
+  href: api/ProjectStack.UserInterface.HoveredItemInfoDisplay.html#ProjectStack_UserInterface_HoveredItemInfoDisplay_Update
+  commentId: M:ProjectStack.UserInterface.HoveredItemInfoDisplay.Update
+  fullName: ProjectStack.UserInterface.HoveredItemInfoDisplay.Update()
+  nameWithType: HoveredItemInfoDisplay.Update()
+- uid: ProjectStack.UserInterface.HoveredItemInfoDisplay.Update*
+  name: Update
+  href: api/ProjectStack.UserInterface.HoveredItemInfoDisplay.html#ProjectStack_UserInterface_HoveredItemInfoDisplay_Update_
+  commentId: Overload:ProjectStack.UserInterface.HoveredItemInfoDisplay.Update
+  isSpec: "True"
+  fullName: ProjectStack.UserInterface.HoveredItemInfoDisplay.Update
+  nameWithType: HoveredItemInfoDisplay.Update
 - uid: ProjectStack.UserInterface.HoveredItemInfoDisplayRegistrationHelper
   name: HoveredItemInfoDisplayRegistrationHelper
   href: api/ProjectStack.UserInterface.HoveredItemInfoDisplayRegistrationHelper.html

@@ -372,6 +372,106 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.CardMetaEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.CardMetaEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.CardMetaEditorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.CardMetaEditorModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.EditorRegistrationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.EditorRegistrationHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.IEditorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.IEditorModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.ISingleTypeEditorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.ISingleTypeEditorModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.SingleTypeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.SingleTypeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Game.LoadingProgressChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Game.LoadingProgressChangedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Game.yml",
       "output": {
         ".html": {
@@ -436,6 +536,36 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectStack.Resource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.ResourceEditor.TaskNotifier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.ResourceEditor.TaskNotifier-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.ResourceEditor.TaskNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.ResourceEditor.TaskNotifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.ResourceEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.ResourceEditor.html"
         }
       },
       "version": ""

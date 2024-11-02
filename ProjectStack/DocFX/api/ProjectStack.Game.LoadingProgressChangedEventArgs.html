@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>CardMetaRegistrationHelper 类
+      <title>Game.LoadingProgressChangedEventArgs 类
  | ProjectStack </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="CardMetaRegistrationHelper 类
+      <meta name="title" content="Game.LoadingProgressChangedEventArgs 类
  | ProjectStack ">
       
       
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/HiedaCamellia/ProjectStack/new/main/apiSpec/new?filename=ProjectStack_Common_Card_CardMetaRegistrationHelper.md&amp;value=---%0Auid%3A%20ProjectStack.Common.Card.CardMetaRegistrationHelper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/HiedaCamellia/ProjectStack/new/main/apiSpec/new?filename=ProjectStack_Game_LoadingProgressChangedEventArgs.md&amp;value=---%0Auid%3A%20ProjectStack.Game.LoadingProgressChangedEventArgs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="本文内容">
       <meta name="loc:searchResultsCount" content="找到{count}个“{query}”的搜索结果">
       <meta name="loc:searchNoResults" content="没有找到“{query}”的搜索结果">
@@ -86,17 +86,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper">
+        <article data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs">
 
 
 
-  <h1 id="ProjectStack_Common_Card_CardMetaRegistrationHelper" data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper" class="text-break">
-CardMetaRegistrationHelper 类
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMetaRegistrationHelper.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ProjectStack_Game_LoadingProgressChangedEventArgs" data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs" class="text-break">
+Game.LoadingProgressChangedEventArgs 类
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>命名空间</dt><dd><a class="xref" href="ProjectStack.html">ProjectStack</a>.<a class="xref" href="ProjectStack.Common.html">Common</a>.<a class="xref" href="ProjectStack.Common.Card.html">Card</a></dd></dl>
+    <dl><dt>命名空间</dt><dd><a class="xref" href="ProjectStack.html">ProjectStack</a></dd></dl>
   <dl><dt>程序集</dt><dd>ProjectStack.dll</dd></dl>
   </div>
 
@@ -104,7 +104,7 @@ CardMetaRegistrationHelper 类
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CardMetaRegistrationHelper</code></pre>
+    <pre><code class="lang-csharp hljs">public class Game.LoadingProgressChangedEventArgs : EventArgs</code></pre>
   </div>
 
 
@@ -114,7 +114,8 @@ CardMetaRegistrationHelper 类
     <dt>继承</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">CardMetaRegistrationHelper</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></div>
+      <div><span class="xref">Game.LoadingProgressChangedEventArgs</span></div>
     </dd>
   </dl>
 
@@ -130,23 +131,25 @@ CardMetaRegistrationHelper 类
 </h2>
 
 
-  <a id="ProjectStack_Common_Card_CardMetaRegistrationHelper__ctor_" data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper.#ctor*"></a>
+  <a id="ProjectStack_Game_LoadingProgressChangedEventArgs__ctor_" data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs.#ctor*"></a>
 
-  <h3 id="ProjectStack_Common_Card_CardMetaRegistrationHelper__ctor_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
-  CardMetaRegistrationHelper(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMetaRegistrationHelper.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Game_LoadingProgressChangedEventArgs__ctor_System_Single_System_String_" data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs.#ctor(System.Single,System.String)">
+  LoadingProgressChangedEventArgs(float, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CardMetaRegistrationHelper(IServiceCollection services)</code></pre>
+    <pre><code class="lang-csharp hljs">public LoadingProgressChangedEventArgs(float progress, string currentTaskName)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dt><code>progress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>currentTaskName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -161,35 +164,34 @@ CardMetaRegistrationHelper 类
 
 
 
-  <h2 class="section" id="methods">方法
+  <h2 class="section" id="properties">属性
 </h2>
 
 
-  <a id="ProjectStack_Common_Card_CardMetaRegistrationHelper_Add_" data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper.Add*"></a>
+  <a id="ProjectStack_Game_LoadingProgressChangedEventArgs_CurrentTaskName_" data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName*"></a>
 
-  <h3 id="ProjectStack_Common_Card_CardMetaRegistrationHelper_Add_ProjectStack_Common_Card_CardMeta_" data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper.Add(ProjectStack.Common.Card.CardMeta)">
-  Add(CardMeta)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMetaRegistrationHelper.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Game_LoadingProgressChangedEventArgs_CurrentTaskName" data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs.CurrentTaskName">
+  CurrentTaskName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CardMetaRegistrationHelper Add(CardMeta cardMeta)</code></pre>
+    <pre><code class="lang-csharp hljs">public string CurrentTaskName { get; }</code></pre>
   </div>
 
-  <h4 class="section">参数</h4>
+
+
+
+
+  <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><code>cardMeta</code> <a class="xref" href="ProjectStack.Common.Card.CardMeta.html">CardMeta</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">返回</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ProjectStack.Common.Card.CardMetaRegistrationHelper.html">CardMetaRegistrationHelper</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -197,33 +199,29 @@ CardMetaRegistrationHelper 类
 
 
 
+  <a id="ProjectStack_Game_LoadingProgressChangedEventArgs_Progress_" data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs.Progress*"></a>
 
-
-
-
-  <a id="ProjectStack_Common_Card_CardMetaRegistrationHelper_End_" data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper.End*"></a>
-
-  <h3 id="ProjectStack_Common_Card_CardMetaRegistrationHelper_End" data-uid="ProjectStack.Common.Card.CardMetaRegistrationHelper.End">
-  End()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMetaRegistrationHelper.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Game_LoadingProgressChangedEventArgs_Progress" data-uid="ProjectStack.Game.LoadingProgressChangedEventArgs.Progress">
+  Progress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IServiceCollection End()</code></pre>
+    <pre><code class="lang-csharp hljs">public float Progress { get; }</code></pre>
   </div>
 
 
-  <h4 class="section">返回</h4>
+
+
+
+  <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
-
-
-
 
 
 
@@ -236,7 +234,7 @@ CardMetaRegistrationHelper 类
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMetaRegistrationHelper.cs/#L7" class="edit-link">编辑本文</a>
+          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L127" class="edit-link">编辑本文</a>
         </div>
 
 
