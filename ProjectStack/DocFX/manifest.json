@@ -32,6 +32,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Attributes.AttributeHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Attributes.AttributeHolder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Attributes.AttributeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Attributes.AttributeManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Attributes.AttributeModifier.ModifierType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Attributes.AttributeModifier.ModifierType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Attributes.AttributeModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Attributes.AttributeModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Attributes.ButiInCardAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Attributes.ButiInCardAttributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.CardTest.yml",
       "output": {
         ".html": {
