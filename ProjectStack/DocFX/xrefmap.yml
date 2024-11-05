@@ -1717,32 +1717,6 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.Ntj
   nameWithType: Card.Ntj
-- uid: ProjectStack.Component.Card.OnCardAreaEntered(Godot.Area2D)
-  name: OnCardAreaEntered(Area2D)
-  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardAreaEntered_Godot_Area2D_
-  commentId: M:ProjectStack.Component.Card.OnCardAreaEntered(Godot.Area2D)
-  fullName: ProjectStack.Component.Card.OnCardAreaEntered(Godot.Area2D)
-  nameWithType: Card.OnCardAreaEntered(Area2D)
-- uid: ProjectStack.Component.Card.OnCardAreaEntered*
-  name: OnCardAreaEntered
-  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardAreaEntered_
-  commentId: Overload:ProjectStack.Component.Card.OnCardAreaEntered
-  isSpec: "True"
-  fullName: ProjectStack.Component.Card.OnCardAreaEntered
-  nameWithType: Card.OnCardAreaEntered
-- uid: ProjectStack.Component.Card.OnCardAreaExited(Godot.Area2D)
-  name: OnCardAreaExited(Area2D)
-  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardAreaExited_Godot_Area2D_
-  commentId: M:ProjectStack.Component.Card.OnCardAreaExited(Godot.Area2D)
-  fullName: ProjectStack.Component.Card.OnCardAreaExited(Godot.Area2D)
-  nameWithType: Card.OnCardAreaExited(Area2D)
-- uid: ProjectStack.Component.Card.OnCardAreaExited*
-  name: OnCardAreaExited
-  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardAreaExited_
-  commentId: Overload:ProjectStack.Component.Card.OnCardAreaExited
-  isSpec: "True"
-  fullName: ProjectStack.Component.Card.OnCardAreaExited
-  nameWithType: Card.OnCardAreaExited
 - uid: ProjectStack.Component.Card.OnCardStackChanged
   name: OnCardStackChanged()
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardStackChanged
