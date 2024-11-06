@@ -292,48 +292,48 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Attributes.AttributeModifier.Value
   nameWithType: AttributeModifier.Value
-- uid: ProjectStack.Attributes.ButiInCardAttributes
-  name: ButiInCardAttributes
-  href: api/ProjectStack.Attributes.ButiInCardAttributes.html
-  commentId: T:ProjectStack.Attributes.ButiInCardAttributes
-  fullName: ProjectStack.Attributes.ButiInCardAttributes
-  nameWithType: ButiInCardAttributes
-- uid: ProjectStack.Attributes.ButiInCardAttributes.Attack
+- uid: ProjectStack.Attributes.BuiltnCardAttributes
+  name: BuiltnCardAttributes
+  href: api/ProjectStack.Attributes.BuiltnCardAttributes.html
+  commentId: T:ProjectStack.Attributes.BuiltnCardAttributes
+  fullName: ProjectStack.Attributes.BuiltnCardAttributes
+  nameWithType: BuiltnCardAttributes
+- uid: ProjectStack.Attributes.BuiltnCardAttributes.Attack
   name: Attack
-  href: api/ProjectStack.Attributes.ButiInCardAttributes.html#ProjectStack_Attributes_ButiInCardAttributes_Attack
-  commentId: F:ProjectStack.Attributes.ButiInCardAttributes.Attack
-  fullName: ProjectStack.Attributes.ButiInCardAttributes.Attack
-  nameWithType: ButiInCardAttributes.Attack
-- uid: ProjectStack.Attributes.ButiInCardAttributes.AttackSpeed
+  href: api/ProjectStack.Attributes.BuiltnCardAttributes.html#ProjectStack_Attributes_BuiltnCardAttributes_Attack
+  commentId: F:ProjectStack.Attributes.BuiltnCardAttributes.Attack
+  fullName: ProjectStack.Attributes.BuiltnCardAttributes.Attack
+  nameWithType: BuiltnCardAttributes.Attack
+- uid: ProjectStack.Attributes.BuiltnCardAttributes.AttackSpeed
   name: AttackSpeed
-  href: api/ProjectStack.Attributes.ButiInCardAttributes.html#ProjectStack_Attributes_ButiInCardAttributes_AttackSpeed
-  commentId: F:ProjectStack.Attributes.ButiInCardAttributes.AttackSpeed
-  fullName: ProjectStack.Attributes.ButiInCardAttributes.AttackSpeed
-  nameWithType: ButiInCardAttributes.AttackSpeed
-- uid: ProjectStack.Attributes.ButiInCardAttributes.Defense
+  href: api/ProjectStack.Attributes.BuiltnCardAttributes.html#ProjectStack_Attributes_BuiltnCardAttributes_AttackSpeed
+  commentId: F:ProjectStack.Attributes.BuiltnCardAttributes.AttackSpeed
+  fullName: ProjectStack.Attributes.BuiltnCardAttributes.AttackSpeed
+  nameWithType: BuiltnCardAttributes.AttackSpeed
+- uid: ProjectStack.Attributes.BuiltnCardAttributes.Defense
   name: Defense
-  href: api/ProjectStack.Attributes.ButiInCardAttributes.html#ProjectStack_Attributes_ButiInCardAttributes_Defense
-  commentId: F:ProjectStack.Attributes.ButiInCardAttributes.Defense
-  fullName: ProjectStack.Attributes.ButiInCardAttributes.Defense
-  nameWithType: ButiInCardAttributes.Defense
-- uid: ProjectStack.Attributes.ButiInCardAttributes.Health
+  href: api/ProjectStack.Attributes.BuiltnCardAttributes.html#ProjectStack_Attributes_BuiltnCardAttributes_Defense
+  commentId: F:ProjectStack.Attributes.BuiltnCardAttributes.Defense
+  fullName: ProjectStack.Attributes.BuiltnCardAttributes.Defense
+  nameWithType: BuiltnCardAttributes.Defense
+- uid: ProjectStack.Attributes.BuiltnCardAttributes.Health
   name: Health
-  href: api/ProjectStack.Attributes.ButiInCardAttributes.html#ProjectStack_Attributes_ButiInCardAttributes_Health
-  commentId: F:ProjectStack.Attributes.ButiInCardAttributes.Health
-  fullName: ProjectStack.Attributes.ButiInCardAttributes.Health
-  nameWithType: ButiInCardAttributes.Health
-- uid: ProjectStack.Attributes.ButiInCardAttributes.Range
+  href: api/ProjectStack.Attributes.BuiltnCardAttributes.html#ProjectStack_Attributes_BuiltnCardAttributes_Health
+  commentId: F:ProjectStack.Attributes.BuiltnCardAttributes.Health
+  fullName: ProjectStack.Attributes.BuiltnCardAttributes.Health
+  nameWithType: BuiltnCardAttributes.Health
+- uid: ProjectStack.Attributes.BuiltnCardAttributes.Range
   name: Range
-  href: api/ProjectStack.Attributes.ButiInCardAttributes.html#ProjectStack_Attributes_ButiInCardAttributes_Range
-  commentId: F:ProjectStack.Attributes.ButiInCardAttributes.Range
-  fullName: ProjectStack.Attributes.ButiInCardAttributes.Range
-  nameWithType: ButiInCardAttributes.Range
-- uid: ProjectStack.Attributes.ButiInCardAttributes.Speed
+  href: api/ProjectStack.Attributes.BuiltnCardAttributes.html#ProjectStack_Attributes_BuiltnCardAttributes_Range
+  commentId: F:ProjectStack.Attributes.BuiltnCardAttributes.Range
+  fullName: ProjectStack.Attributes.BuiltnCardAttributes.Range
+  nameWithType: BuiltnCardAttributes.Range
+- uid: ProjectStack.Attributes.BuiltnCardAttributes.Speed
   name: Speed
-  href: api/ProjectStack.Attributes.ButiInCardAttributes.html#ProjectStack_Attributes_ButiInCardAttributes_Speed
-  commentId: F:ProjectStack.Attributes.ButiInCardAttributes.Speed
-  fullName: ProjectStack.Attributes.ButiInCardAttributes.Speed
-  nameWithType: ButiInCardAttributes.Speed
+  href: api/ProjectStack.Attributes.BuiltnCardAttributes.html#ProjectStack_Attributes_BuiltnCardAttributes_Speed
+  commentId: F:ProjectStack.Attributes.BuiltnCardAttributes.Speed
+  fullName: ProjectStack.Attributes.BuiltnCardAttributes.Speed
+  nameWithType: BuiltnCardAttributes.Speed
 - uid: ProjectStack.CardTest
   name: CardTest
   href: api/ProjectStack.CardTest.html
@@ -1835,6 +1835,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.BottomCards
   nameWithType: Card.BottomCards
+- uid: ProjectStack.Component.Card.CanDrag
+  name: CanDrag()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_CanDrag
+  commentId: M:ProjectStack.Component.Card.CanDrag
+  fullName: ProjectStack.Component.Card.CanDrag()
+  nameWithType: Card.CanDrag()
+- uid: ProjectStack.Component.Card.CanDrag*
+  name: CanDrag
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_CanDrag_
+  commentId: Overload:ProjectStack.Component.Card.CanDrag
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.CanDrag
+  nameWithType: Card.CanDrag
 - uid: ProjectStack.Component.Card.CardMeta
   name: CardMeta
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_CardMeta
@@ -2085,6 +2098,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.Ntj
   nameWithType: Card.Ntj
+- uid: ProjectStack.Component.Card.OnAssemble
+  name: OnAssemble()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnAssemble
+  commentId: M:ProjectStack.Component.Card.OnAssemble
+  fullName: ProjectStack.Component.Card.OnAssemble()
+  nameWithType: Card.OnAssemble()
+- uid: ProjectStack.Component.Card.OnAssemble*
+  name: OnAssemble
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnAssemble_
+  commentId: Overload:ProjectStack.Component.Card.OnAssemble
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.OnAssemble
+  nameWithType: Card.OnAssemble
 - uid: ProjectStack.Component.Card.OnCardStackChanged
   name: OnCardStackChanged()
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnCardStackChanged
@@ -2098,6 +2124,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.OnCardStackChanged
   nameWithType: Card.OnCardStackChanged
+- uid: ProjectStack.Component.Card.OnClick
+  name: OnClick()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnClick
+  commentId: M:ProjectStack.Component.Card.OnClick
+  fullName: ProjectStack.Component.Card.OnClick()
+  nameWithType: Card.OnClick()
+- uid: ProjectStack.Component.Card.OnClick*
+  name: OnClick
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnClick_
+  commentId: Overload:ProjectStack.Component.Card.OnClick
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.OnClick
+  nameWithType: Card.OnClick
 - uid: ProjectStack.Component.Card.OnDrag
   name: OnDrag
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnDrag
@@ -2111,6 +2150,45 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.OnDrag
   nameWithType: Card.OnDrag
+- uid: ProjectStack.Component.Card.OnDraging
+  name: OnDraging()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnDraging
+  commentId: M:ProjectStack.Component.Card.OnDraging
+  fullName: ProjectStack.Component.Card.OnDraging()
+  nameWithType: Card.OnDraging()
+- uid: ProjectStack.Component.Card.OnDraging*
+  name: OnDraging
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnDraging_
+  commentId: Overload:ProjectStack.Component.Card.OnDraging
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.OnDraging
+  nameWithType: Card.OnDraging
+- uid: ProjectStack.Component.Card.OnDrop
+  name: OnDrop()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnDrop
+  commentId: M:ProjectStack.Component.Card.OnDrop
+  fullName: ProjectStack.Component.Card.OnDrop()
+  nameWithType: Card.OnDrop()
+- uid: ProjectStack.Component.Card.OnDrop*
+  name: OnDrop
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnDrop_
+  commentId: Overload:ProjectStack.Component.Card.OnDrop
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.OnDrop
+  nameWithType: Card.OnDrop
+- uid: ProjectStack.Component.Card.OnHover
+  name: OnHover()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnHover
+  commentId: M:ProjectStack.Component.Card.OnHover
+  fullName: ProjectStack.Component.Card.OnHover()
+  nameWithType: Card.OnHover()
+- uid: ProjectStack.Component.Card.OnHover*
+  name: OnHover
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnHover_
+  commentId: Overload:ProjectStack.Component.Card.OnHover
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.OnHover
+  nameWithType: Card.OnHover
 - uid: ProjectStack.Component.Card.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
   name: OnPropertyChanged(PropertyChangedEventArgs)
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_
@@ -2168,6 +2246,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.OnReady
   nameWithType: Card.OnReady
+- uid: ProjectStack.Component.Card.OnRecipeMatch
+  name: OnRecipeMatch()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnRecipeMatch
+  commentId: M:ProjectStack.Component.Card.OnRecipeMatch
+  fullName: ProjectStack.Component.Card.OnRecipeMatch()
+  nameWithType: Card.OnRecipeMatch()
+- uid: ProjectStack.Component.Card.OnRecipeMatch*
+  name: OnRecipeMatch
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_OnRecipeMatch_
+  commentId: Overload:ProjectStack.Component.Card.OnRecipeMatch
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.OnRecipeMatch
+  nameWithType: Card.OnRecipeMatch
 - uid: ProjectStack.Component.Card.Panel
   name: Panel
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Panel

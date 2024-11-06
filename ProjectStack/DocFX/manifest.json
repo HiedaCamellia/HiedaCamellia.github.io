@@ -72,10 +72,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Attributes.ButiInCardAttributes.yml",
+      "source_relative_path": "api/ProjectStack.Attributes.BuiltnCardAttributes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectStack.Attributes.ButiInCardAttributes.html"
+          "relative_path": "api/ProjectStack.Attributes.BuiltnCardAttributes.html"
         }
       },
       "version": ""
