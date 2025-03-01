@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -56,7 +56,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -115,13 +115,107 @@ public class Game : Node2D</code></pre>
   <dl class="typelist inheritance">
     <dt>继承</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">GodotObject</span></div>
       <div><span class="xref">Node</span></div>
       <div><span class="xref">CanvasItem</span></div>
       <div><span class="xref">Node2D</span></div>
       <div><span class="xref">Game</span></div>
     </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">字段
+</h2>
+
+
+
+  <h3 id="ProjectStack_Game_ActiveLevel" data-uid="ProjectStack.Game.ActiveLevel">
+  ActiveLevel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Level? ActiveLevel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">字段值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ProjectStack.Core.Level.html">Level</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ProjectStack_Game_LoadedLevel" data-uid="ProjectStack.Game.LoadedLevel">
+  LoadedLevel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; LoadedLevel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">字段值</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ProjectStack_Game_SaveName" data-uid="ProjectStack.Game.SaveName">
+  SaveName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SaveName</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">字段值</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
   </dl>
 
 
@@ -140,7 +234,7 @@ public class Game : Node2D</code></pre>
 
   <h3 id="ProjectStack_Game_Default" data-uid="ProjectStack.Game.Default">
   Default
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -236,14 +330,14 @@ additional instance state in this blackboard.</p>
 
   <h3 id="ProjectStack_Game_Recipes" data-uid="ProjectStack.Game.Recipes">
   Recipes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IImmutableList&lt;IRecipe&gt; Recipes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IImmutableList&lt;CardIdMatchRecipe&gt; Recipes { get; }</code></pre>
   </div>
 
 
@@ -252,7 +346,38 @@ additional instance state in this blackboard.</p>
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.immutable.iimmutablelist-1">IImmutableList</a>&lt;<a class="xref" href="ProjectStack.Common.Recipe.IRecipe.html">IRecipe</a>&gt;</dt>
+    <dt><span class="xref">IImmutableList</span>&lt;<a class="xref" href="ProjectStack.Common.Recipe.CardIdMatchRecipe.html">CardIdMatchRecipe</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_SavePath_" data-uid="ProjectStack.Game.SavePath*"></a>
+
+  <h3 id="ProjectStack_Game_SavePath" data-uid="ProjectStack.Game.SavePath">
+  SavePath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SavePath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -267,7 +392,7 @@ additional instance state in this blackboard.</p>
 
   <h3 id="ProjectStack_Game_ServiceProvider" data-uid="ProjectStack.Game.ServiceProvider">
   ServiceProvider
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -283,7 +408,7 @@ additional instance state in this blackboard.</p>
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dt><span class="xref">IServiceProvider</span></dt>
     <dd></dd>
   </dl>
 
@@ -296,6 +421,189 @@ additional instance state in this blackboard.</p>
 
   <h2 class="section" id="methods">方法
 </h2>
+
+
+  <a id="ProjectStack_Game_ChangeLevel_" data-uid="ProjectStack.Game.ChangeLevel*"></a>
+
+  <h3 id="ProjectStack_Game_ChangeLevel_System_String_" data-uid="ProjectStack.Game.ChangeLevel(System.String)">
+  ChangeLevel(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeLevel(string levelname)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>levelname</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_GetGodotClassPropertyValue_" data-uid="ProjectStack.Game.GetGodotClassPropertyValue*"></a>
+
+  <h3 id="ProjectStack_Game_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Game.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+  GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the value of a property contained in this class.
+This method is used by Godot to retrieve property values.
+Do not call or override this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool GetGodotClassPropertyValue(in godot_string_name name, out godot_variant value)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <span class="xref">godot_string_name</span></dt>
+    <dd><p>Name of the property to get.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">godot_variant</span></dt>
+    <dd><p>Value of the property if it was found.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if a property with the given name was found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_GetKeylessRegistry_" data-uid="ProjectStack.Game.GetKeylessRegistry*"></a>
+
+  <h3 id="ProjectStack_Game_GetKeylessRegistry__1" data-uid="ProjectStack.Game.GetKeylessRegistry``1">
+  GetKeylessRegistry&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeylessRegistry&lt;T&gt; GetKeylessRegistry&lt;T&gt;()</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ProjectStack.Registration.KeylessRegistry-1.html">KeylessRegistry</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_GetLevel_" data-uid="ProjectStack.Game.GetLevel*"></a>
+
+  <h3 id="ProjectStack_Game_GetLevel_System_String_" data-uid="ProjectStack.Game.GetLevel(System.String)">
+  GetLevel(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Level? GetLevel(string levelname)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>levelname</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ProjectStack.Core.Level.html">Level</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_GetRegistry_" data-uid="ProjectStack.Game.GetRegistry*"></a>
+
+  <h3 id="ProjectStack_Game_GetRegistry__1" data-uid="ProjectStack.Game.GetRegistry``1">
+  GetRegistry&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Registry&lt;T&gt; GetRegistry&lt;T&gt;()</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ProjectStack.Registration.Registry-1.html">Registry</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 
   <a id="ProjectStack_Game_HasGodotClassMethod_" data-uid="ProjectStack.Game.HasGodotClassMethod*"></a>
@@ -324,7 +632,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -370,7 +678,43 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_LoadLevel_" data-uid="ProjectStack.Game.LoadLevel*"></a>
+
+  <h3 id="ProjectStack_Game_LoadLevel_System_String_" data-uid="ProjectStack.Game.LoadLevel(System.String)">
+  LoadLevel(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Error LoadLevel(string levelname)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>levelname</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Error</span></dt>
     <dd></dd>
   </dl>
 
@@ -388,7 +732,7 @@ Do not call or override this method.</p>
 
   <h3 id="ProjectStack_Game_OnReady" data-uid="ProjectStack.Game.OnReady">
   OnReady()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Notification received when the node is ready.</p>
@@ -481,11 +825,127 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
 
 
+  <a id="ProjectStack_Game_SaveLevel_" data-uid="ProjectStack.Game.SaveLevel*"></a>
+
+  <h3 id="ProjectStack_Game_SaveLevel_System_String_" data-uid="ProjectStack.Game.SaveLevel(System.String)">
+  SaveLevel(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Error SaveLevel(string levelname)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>levelname</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Error</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_SetGodotClassPropertyValue_" data-uid="ProjectStack.Game.SetGodotClassPropertyValue*"></a>
+
+  <h3 id="ProjectStack_Game_SetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Game.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+  SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set the value of a property contained in this class.
+This method is used by Godot to assign property values.
+Do not call or override this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool SetGodotClassPropertyValue(in godot_string_name name, in godot_variant value)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <span class="xref">godot_string_name</span></dt>
+    <dd><p>Name of the property to set.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">godot_variant</span></dt>
+    <dd><p>Value to set the property to if it was found.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if a property with the given name was found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Game_UnloadLevel_" data-uid="ProjectStack.Game.UnloadLevel*"></a>
+
+  <h3 id="ProjectStack_Game_UnloadLevel_System_String_" data-uid="ProjectStack.Game.UnloadLevel(System.String)">
+  UnloadLevel(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Error UnloadLevel(string levelname)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>levelname</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Error</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="ProjectStack_Game_Value_" data-uid="ProjectStack.Game.Value*"></a>
 
   <h3 id="ProjectStack_Game_Value" data-uid="ProjectStack.Game.Value">
   Value()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Value that is provided by the provider.</p>
@@ -499,7 +959,7 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dt><span class="xref">IServiceProvider</span></dt>
     <dd></dd>
   </dl>
 
@@ -517,21 +977,19 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
   <h3 id="ProjectStack_Game__Notification_System_Int32_" data-uid="ProjectStack.Game._Notification(System.Int32)">
   _Notification(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Called when the object receives a notification, which can be identified in <code class="paramref">what</code> by comparing it with a constant. See also <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Notification(int, bool)</a>.</p>
+  <div class="markdown level1 summary"><p>Called when the object receives a notification, which can be identified in <code class="paramref">what</code> by comparing it with a constant. See also <span class="xref">Godot.GodotObject.Notification(int, bool)</span>.</p>
 <p>
-  <pre><code class="lang-csharp">public override void _Notification(int what)
-  {
-      if (what == NotificationPredelete)
-      {
-          GD.Print("Goodbye!");
-      }
-  }</code></pre>
-
-<p>
-  <b>Note:</b> The base <span class="xref">Godot.GodotObject</span> defines a few notifications (<span class="xref">Godot.GodotObject.NotificationPostinitialize</span> and <span class="xref">Godot.GodotObject.NotificationPredelete</span>). Inheriting classes such as <span class="xref">Godot.Node</span> define a lot more notifications, which are also received by this method.</p>
+   <pre><code class="lang-csharp">public override void _Notification(int what)
+   {
+       if (what == NotificationPredelete)
+       {
+           GD.Print("Goodbye!");
+       }
+   }</code></pre>
+<p><b>Note:</b> The base <span class="xref">Godot.GodotObject</span> defines a few notifications (<span class="xref">Godot.GodotObject.NotificationPostinitialize</span> and <span class="xref">Godot.GodotObject.NotificationPredelete</span>). Inheriting classes such as <span class="xref">Godot.Node</span> define a lot more notifications, which are also received by this method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -541,7 +999,7 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>what</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>what</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -563,7 +1021,7 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
   <h3 id="ProjectStack_Game_LoadingProgressChanged" data-uid="ProjectStack.Game.LoadingProgressChanged">
   LoadingProgressChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/Game.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>加载进度变化事件</p>
@@ -581,7 +1039,7 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
   <h4 class="section">事件类型</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="ProjectStack.Game.html">Game</a>.<a class="xref" href="ProjectStack.Game.LoadingProgressChangedEventArgs.html">LoadingProgressChangedEventArgs</a>&gt;</dt>
+    <dt><span class="xref">EventHandler</span>&lt;<a class="xref" href="ProjectStack.Game.html">Game</a>.<a class="xref" href="ProjectStack.Game.LoadingProgressChangedEventArgs.html">LoadingProgressChangedEventArgs</a>&gt;</dt>
     <dd></dd>
   </dl>
 

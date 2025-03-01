@@ -436,6 +436,22 @@ references:
   commentId: T:ProjectStack.Command.CommandAdapter
   fullName: ProjectStack.Command.CommandAdapter
   nameWithType: CommandAdapter
+- uid: ProjectStack.Command.CommandAdapter.ChangeLevel(System.String)
+  name: ChangeLevel(string)
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_ChangeLevel_System_String_
+  commentId: M:ProjectStack.Command.CommandAdapter.ChangeLevel(System.String)
+  name.vb: ChangeLevel(String)
+  fullName: ProjectStack.Command.CommandAdapter.ChangeLevel(string)
+  fullName.vb: ProjectStack.Command.CommandAdapter.ChangeLevel(String)
+  nameWithType: CommandAdapter.ChangeLevel(string)
+  nameWithType.vb: CommandAdapter.ChangeLevel(String)
+- uid: ProjectStack.Command.CommandAdapter.ChangeLevel*
+  name: ChangeLevel
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_ChangeLevel_
+  commentId: Overload:ProjectStack.Command.CommandAdapter.ChangeLevel
+  isSpec: "True"
+  fullName: ProjectStack.Command.CommandAdapter.ChangeLevel
+  nameWithType: CommandAdapter.ChangeLevel
 - uid: ProjectStack.Command.CommandAdapter.CloseEditor
   name: CloseEditor()
   href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_CloseEditor
@@ -563,6 +579,22 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Command.CommandAdapter.InvokeGodotClassMethod
   nameWithType: CommandAdapter.InvokeGodotClassMethod
+- uid: ProjectStack.Command.CommandAdapter.LoadLevel(System.String)
+  name: LoadLevel(string)
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_LoadLevel_System_String_
+  commentId: M:ProjectStack.Command.CommandAdapter.LoadLevel(System.String)
+  name.vb: LoadLevel(String)
+  fullName: ProjectStack.Command.CommandAdapter.LoadLevel(string)
+  fullName.vb: ProjectStack.Command.CommandAdapter.LoadLevel(String)
+  nameWithType: CommandAdapter.LoadLevel(string)
+  nameWithType.vb: CommandAdapter.LoadLevel(String)
+- uid: ProjectStack.Command.CommandAdapter.LoadLevel*
+  name: LoadLevel
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_LoadLevel_
+  commentId: Overload:ProjectStack.Command.CommandAdapter.LoadLevel
+  isSpec: "True"
+  fullName: ProjectStack.Command.CommandAdapter.LoadLevel
+  nameWithType: CommandAdapter.LoadLevel
 - uid: ProjectStack.Command.CommandAdapter.Metatype
   name: Metatype
   href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_Metatype
@@ -628,6 +660,38 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Command.CommandAdapter.SaveGodotObjectData
   nameWithType: CommandAdapter.SaveGodotObjectData
+- uid: ProjectStack.Command.CommandAdapter.SaveLevel(System.String)
+  name: SaveLevel(string)
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_SaveLevel_System_String_
+  commentId: M:ProjectStack.Command.CommandAdapter.SaveLevel(System.String)
+  name.vb: SaveLevel(String)
+  fullName: ProjectStack.Command.CommandAdapter.SaveLevel(string)
+  fullName.vb: ProjectStack.Command.CommandAdapter.SaveLevel(String)
+  nameWithType: CommandAdapter.SaveLevel(string)
+  nameWithType.vb: CommandAdapter.SaveLevel(String)
+- uid: ProjectStack.Command.CommandAdapter.SaveLevel*
+  name: SaveLevel
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_SaveLevel_
+  commentId: Overload:ProjectStack.Command.CommandAdapter.SaveLevel
+  isSpec: "True"
+  fullName: ProjectStack.Command.CommandAdapter.SaveLevel
+  nameWithType: CommandAdapter.SaveLevel
+- uid: ProjectStack.Command.CommandAdapter.UnloadLevel(System.String)
+  name: UnloadLevel(string)
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_UnloadLevel_System_String_
+  commentId: M:ProjectStack.Command.CommandAdapter.UnloadLevel(System.String)
+  name.vb: UnloadLevel(String)
+  fullName: ProjectStack.Command.CommandAdapter.UnloadLevel(string)
+  fullName.vb: ProjectStack.Command.CommandAdapter.UnloadLevel(String)
+  nameWithType: CommandAdapter.UnloadLevel(string)
+  nameWithType.vb: CommandAdapter.UnloadLevel(String)
+- uid: ProjectStack.Command.CommandAdapter.UnloadLevel*
+  name: UnloadLevel
+  href: api/ProjectStack.Command.CommandAdapter.html#ProjectStack_Command_CommandAdapter_UnloadLevel_
+  commentId: Overload:ProjectStack.Command.CommandAdapter.UnloadLevel
+  isSpec: "True"
+  fullName: ProjectStack.Command.CommandAdapter.UnloadLevel
+  nameWithType: CommandAdapter.UnloadLevel
 - uid: ProjectStack.Common
   name: ProjectStack.Common
   href: api/ProjectStack.Common.html
@@ -646,25 +710,6 @@ references:
   commentId: T:ProjectStack.Common.Card.CardMeta
   fullName: ProjectStack.Common.Card.CardMeta
   nameWithType: CardMeta
-- uid: ProjectStack.Common.Card.CardMeta.#ctor(ProjectStack.Common.ResourceLocation,System.String,System.String,ProjectStack.Common.ResourceLocation)
-  name: CardMeta(ResourceLocation, string, string, ResourceLocation)
-  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta__ctor_ProjectStack_Common_ResourceLocation_System_String_System_String_ProjectStack_Common_ResourceLocation_
-  commentId: M:ProjectStack.Common.Card.CardMeta.#ctor(ProjectStack.Common.ResourceLocation,System.String,System.String,ProjectStack.Common.ResourceLocation)
-  name.vb: New(ResourceLocation, String, String, ResourceLocation)
-  fullName: ProjectStack.Common.Card.CardMeta.CardMeta(ProjectStack.Common.ResourceLocation, string, string, ProjectStack.Common.ResourceLocation)
-  fullName.vb: ProjectStack.Common.Card.CardMeta.New(ProjectStack.Common.ResourceLocation, String, String, ProjectStack.Common.ResourceLocation)
-  nameWithType: CardMeta.CardMeta(ResourceLocation, string, string, ResourceLocation)
-  nameWithType.vb: CardMeta.New(ResourceLocation, String, String, ResourceLocation)
-- uid: ProjectStack.Common.Card.CardMeta.#ctor*
-  name: CardMeta
-  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta__ctor_
-  commentId: Overload:ProjectStack.Common.Card.CardMeta.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.Common.Card.CardMeta.CardMeta
-  fullName.vb: ProjectStack.Common.Card.CardMeta.New
-  nameWithType: CardMeta.CardMeta
-  nameWithType.vb: CardMeta.New
 - uid: ProjectStack.Common.Card.CardMeta.Create(System.String)
   name: Create(string)
   href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Create_System_String_
@@ -694,6 +739,51 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Common.Card.CardMeta.Description
   nameWithType: CardMeta.Description
+- uid: ProjectStack.Common.Card.CardMeta.Deserialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  name: Deserialize(FriendlyNtjObject)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Deserialize_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_
+  commentId: M:ProjectStack.Common.Card.CardMeta.Deserialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  fullName: ProjectStack.Common.Card.CardMeta.Deserialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  nameWithType: CardMeta.Deserialize(FriendlyNtjObject)
+- uid: ProjectStack.Common.Card.CardMeta.Deserialize*
+  name: Deserialize
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Deserialize_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.Deserialize
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.Deserialize
+  nameWithType: CardMeta.Deserialize
+- uid: ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name: GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name.vb: GetGodotClassPropertyValue(godot_string_name, godot_variant)
+  fullName: ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue(in Godot.NativeInterop.godot_string_name, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.godot_variant)
+  nameWithType: CardMeta.GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  nameWithType.vb: CardMeta.GetGodotClassPropertyValue(godot_string_name, godot_variant)
+- uid: ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue*
+  name: GetGodotClassPropertyValue
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_GetGodotClassPropertyValue_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue
+  nameWithType: CardMeta.GetGodotClassPropertyValue
+- uid: ProjectStack.Common.Card.CardMeta.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name: HasGodotClassMethod(in godot_string_name)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__
+  commentId: M:ProjectStack.Common.Card.CardMeta.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
+  name.vb: HasGodotClassMethod(godot_string_name)
+  fullName: ProjectStack.Common.Card.CardMeta.HasGodotClassMethod(in Godot.NativeInterop.godot_string_name)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.HasGodotClassMethod(Godot.NativeInterop.godot_string_name)
+  nameWithType: CardMeta.HasGodotClassMethod(in godot_string_name)
+  nameWithType.vb: CardMeta.HasGodotClassMethod(godot_string_name)
+- uid: ProjectStack.Common.Card.CardMeta.HasGodotClassMethod*
+  name: HasGodotClassMethod
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_HasGodotClassMethod_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.HasGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.HasGodotClassMethod
+  nameWithType: CardMeta.HasGodotClassMethod
 - uid: ProjectStack.Common.Card.CardMeta.Id
   name: Id
   href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Id
@@ -707,6 +797,22 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Common.Card.CardMeta.Id
   nameWithType: CardMeta.Id
+- uid: ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name: InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)
+  name.vb: InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+  fullName: ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod(in Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant)
+  nameWithType: CardMeta.InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  nameWithType.vb: CardMeta.InvokeGodotClassMethod(godot_string_name, NativeVariantPtrArgs, godot_variant)
+- uid: ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod*
+  name: InvokeGodotClassMethod
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_InvokeGodotClassMethod_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod
+  nameWithType: CardMeta.InvokeGodotClassMethod
 - uid: ProjectStack.Common.Card.CardMeta.Name
   name: Name
   href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Name
@@ -720,6 +826,287 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Common.Card.CardMeta.Name
   nameWithType: CardMeta.Name
+- uid: ProjectStack.Common.Card.CardMeta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_
+  commentId: M:ProjectStack.Common.Card.CardMeta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  fullName: ProjectStack.Common.Card.CardMeta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType: CardMeta.OnPropertyChanged(PropertyChangedEventArgs)
+- uid: ProjectStack.Common.Card.CardMeta.OnPropertyChanged(System.String)
+  name: OnPropertyChanged(string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_OnPropertyChanged_System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.OnPropertyChanged(System.String)
+  name.vb: OnPropertyChanged(String)
+  fullName: ProjectStack.Common.Card.CardMeta.OnPropertyChanged(string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.OnPropertyChanged(String)
+  nameWithType: CardMeta.OnPropertyChanged(string?)
+  nameWithType.vb: CardMeta.OnPropertyChanged(String)
+- uid: ProjectStack.Common.Card.CardMeta.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_OnPropertyChanged_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.OnPropertyChanged
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.OnPropertyChanged
+  nameWithType: CardMeta.OnPropertyChanged
+- uid: ProjectStack.Common.Card.CardMeta.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  name: OnPropertyChanging(PropertyChangingEventArgs)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_OnPropertyChanging_System_ComponentModel_PropertyChangingEventArgs_
+  commentId: M:ProjectStack.Common.Card.CardMeta.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  fullName: ProjectStack.Common.Card.CardMeta.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)
+  nameWithType: CardMeta.OnPropertyChanging(PropertyChangingEventArgs)
+- uid: ProjectStack.Common.Card.CardMeta.OnPropertyChanging(System.String)
+  name: OnPropertyChanging(string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_OnPropertyChanging_System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.OnPropertyChanging(System.String)
+  name.vb: OnPropertyChanging(String)
+  fullName: ProjectStack.Common.Card.CardMeta.OnPropertyChanging(string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.OnPropertyChanging(String)
+  nameWithType: CardMeta.OnPropertyChanging(string?)
+  nameWithType.vb: CardMeta.OnPropertyChanging(String)
+- uid: ProjectStack.Common.Card.CardMeta.OnPropertyChanging*
+  name: OnPropertyChanging
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_OnPropertyChanging_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.OnPropertyChanging
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.OnPropertyChanging
+  nameWithType: CardMeta.OnPropertyChanging
+- uid: ProjectStack.Common.Card.CardMeta.Parse(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  name: Parse(FriendlyNtjObject)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Parse_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_
+  commentId: M:ProjectStack.Common.Card.CardMeta.Parse(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  fullName: ProjectStack.Common.Card.CardMeta.Parse(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  nameWithType: CardMeta.Parse(FriendlyNtjObject)
+- uid: ProjectStack.Common.Card.CardMeta.Parse*
+  name: Parse
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Parse_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.Parse
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.Parse
+  nameWithType: CardMeta.Parse
+- uid: ProjectStack.Common.Card.CardMeta.PropertyChanged
+  name: PropertyChanged
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged
+  commentId: E:ProjectStack.Common.Card.CardMeta.PropertyChanged
+  fullName: ProjectStack.Common.Card.CardMeta.PropertyChanged
+  nameWithType: CardMeta.PropertyChanged
+- uid: ProjectStack.Common.Card.CardMeta.PropertyChanging
+  name: PropertyChanging
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging
+  commentId: E:ProjectStack.Common.Card.CardMeta.PropertyChanging
+  fullName: ProjectStack.Common.Card.CardMeta.PropertyChanging
+  nameWithType: CardMeta.PropertyChanging
+- uid: ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: RestoreGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: CardMeta.RestoreGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData*
+  name: RestoreGodotObjectData
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_RestoreGodotObjectData_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData
+  nameWithType: CardMeta.RestoreGodotObjectData
+- uid: ProjectStack.Common.Card.CardMeta.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  name: SaveGodotObjectData(GodotSerializationInfo)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Common.Card.CardMeta.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: CardMeta.SaveGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Common.Card.CardMeta.SaveGodotObjectData*
+  name: SaveGodotObjectData
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SaveGodotObjectData_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.SaveGodotObjectData
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.SaveGodotObjectData
+  nameWithType: CardMeta.SaveGodotObjectData
+- uid: ProjectStack.Common.Card.CardMeta.Serialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  name: Serialize(FriendlyNtjObject)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Serialize_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_
+  commentId: M:ProjectStack.Common.Card.CardMeta.Serialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  fullName: ProjectStack.Common.Card.CardMeta.Serialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  nameWithType: CardMeta.Serialize(FriendlyNtjObject)
+- uid: ProjectStack.Common.Card.CardMeta.Serialize*
+  name: Serialize
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Serialize_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.Serialize
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.Serialize
+  nameWithType: CardMeta.Serialize
+- uid: ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name: SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name.vb: SetGodotClassPropertyValue(godot_string_name, godot_variant)
+  fullName: ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue(in Godot.NativeInterop.godot_string_name, in Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.godot_variant)
+  nameWithType: CardMeta.SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
+  nameWithType.vb: CardMeta.SetGodotClassPropertyValue(godot_string_name, godot_variant)
+- uid: ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue*
+  name: SetGodotClassPropertyValue
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetGodotClassPropertyValue_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue
+  nameWithType: CardMeta.SetGodotClassPropertyValue
+- uid: ProjectStack.Common.Card.CardMeta.SetProperty*
+  name: SetProperty
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.SetProperty
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.SetProperty
+  nameWithType: CardMeta.SetProperty
+- uid: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)
+  name: SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, Action<Task?>, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(TaskNotifier, Task, Action(Of Task), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ref ProjectStack.Common.Card.CardMeta.TaskNotifier?, System.Threading.Tasks.Task?, System.Action<System.Threading.Tasks.Task?>, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier, System.Threading.Tasks.Task, System.Action(Of System.Threading.Tasks.Task), String)
+  nameWithType: CardMeta.SetPropertyAndNotifyOnCompletion(ref CardMeta.TaskNotifier?, Task?, Action<Task?>, string?)
+  nameWithType.vb: CardMeta.SetPropertyAndNotifyOnCompletion(CardMeta.TaskNotifier, Task, Action(Of Task), String)
+- uid: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier@,System.Threading.Tasks.Task,System.String)
+  name: SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task_System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier@,System.Threading.Tasks.Task,System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(TaskNotifier, Task, String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ref ProjectStack.Common.Card.CardMeta.TaskNotifier?, System.Threading.Tasks.Task?, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier, System.Threading.Tasks.Task, String)
+  nameWithType: CardMeta.SetPropertyAndNotifyOnCompletion(ref CardMeta.TaskNotifier?, Task?, string?)
+  nameWithType.vb: CardMeta.SetPropertyAndNotifyOnCompletion(CardMeta.TaskNotifier, Task, String)
+- uid: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion*
+  name: SetPropertyAndNotifyOnCompletion
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion
+  isSpec: "True"
+  fullName: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion
+  nameWithType: CardMeta.SetPropertyAndNotifyOnCompletion
+- uid: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Common.Card.CardMeta.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)
+  name: SetPropertyAndNotifyOnCompletion<T>(ref TaskNotifier<T>?, Task<T>?, Action<Task<T>?>, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Common_Card_CardMeta_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Common.Card.CardMeta.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(Of T)(TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion<T>(ref ProjectStack.Common.Card.CardMeta.TaskNotifier<T>?, System.Threading.Tasks.Task<T>?, System.Action<System.Threading.Tasks.Task<T>?>, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(Of T)(ProjectStack.Common.Card.CardMeta.TaskNotifier(Of T), System.Threading.Tasks.Task(Of T), System.Action(Of System.Threading.Tasks.Task(Of T)), String)
+  nameWithType: CardMeta.SetPropertyAndNotifyOnCompletion<T>(ref CardMeta.TaskNotifier<T>?, Task<T>?, Action<Task<T>?>, string?)
+  nameWithType.vb: CardMeta.SetPropertyAndNotifyOnCompletion(Of T)(CardMeta.TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
+- uid: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Common.Card.CardMeta.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)
+  name: SetPropertyAndNotifyOnCompletion<T>(ref TaskNotifier<T>?, Task<T>?, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Common_Card_CardMeta_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Common.Card.CardMeta.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)
+  name.vb: SetPropertyAndNotifyOnCompletion(Of T)(TaskNotifier(Of T), Task(Of T), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion<T>(ref ProjectStack.Common.Card.CardMeta.TaskNotifier<T>?, System.Threading.Tasks.Task<T>?, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(Of T)(ProjectStack.Common.Card.CardMeta.TaskNotifier(Of T), System.Threading.Tasks.Task(Of T), String)
+  nameWithType: CardMeta.SetPropertyAndNotifyOnCompletion<T>(ref CardMeta.TaskNotifier<T>?, Task<T>?, string?)
+  nameWithType.vb: CardMeta.SetPropertyAndNotifyOnCompletion(Of T)(CardMeta.TaskNotifier(Of T), Task(Of T), String)
+- uid: ProjectStack.Common.Card.CardMeta.SetProperty``1(``0,``0,System.Action{``0},System.String)
+  name: SetProperty<T>(T, T, Action<T>, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0___0_System_Action___0__System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetProperty``1(``0,``0,System.Action{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, Action(Of T), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetProperty<T>(T, T, System.Action<T>, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetProperty(Of T)(T, T, System.Action(Of T), String)
+  nameWithType: CardMeta.SetProperty<T>(T, T, Action<T>, string?)
+  nameWithType.vb: CardMeta.SetProperty(Of T)(T, T, Action(Of T), String)
+- uid: ProjectStack.Common.Card.CardMeta.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)
+  name: SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0___0_System_Collections_Generic_IEqualityComparer___0__System_Action___0__System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, IEqualityComparer(Of T), Action(Of T), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetProperty<T>(T, T, System.Collections.Generic.IEqualityComparer<T>, System.Action<T>, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetProperty(Of T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), System.Action(Of T), String)
+  nameWithType: CardMeta.SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string?)
+  nameWithType.vb: CardMeta.SetProperty(Of T)(T, T, IEqualityComparer(Of T), Action(Of T), String)
+- uid: ProjectStack.Common.Card.CardMeta.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)
+  name: SetProperty<T>(ref T, T, IEqualityComparer<T>, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_Collections_Generic_IEqualityComparer___0__System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)
+  name.vb: SetProperty(Of T)(T, T, IEqualityComparer(Of T), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetProperty<T>(ref T, T, System.Collections.Generic.IEqualityComparer<T>, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetProperty(Of T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), String)
+  nameWithType: CardMeta.SetProperty<T>(ref T, T, IEqualityComparer<T>, string?)
+  nameWithType.vb: CardMeta.SetProperty(Of T)(T, T, IEqualityComparer(Of T), String)
+- uid: ProjectStack.Common.Card.CardMeta.SetProperty``1(``0@,``0,System.String)
+  name: SetProperty<T>(ref T, T, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetProperty``1(``0@,``0,System.String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetProperty<T>(ref T, T, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetProperty(Of T)(T, T, String)
+  nameWithType: CardMeta.SetProperty<T>(ref T, T, string?)
+  nameWithType.vb: CardMeta.SetProperty(Of T)(T, T, String)
+- uid: ProjectStack.Common.Card.CardMeta.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)
+  name: SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__2___1___1_System_Collections_Generic_IEqualityComparer___1____0_System_Action___0___1__System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)
+  name.vb: SetProperty(Of TModel, T)(T, T, IEqualityComparer(Of T), TModel, Action(Of TModel, T), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetProperty<TModel, T>(T, T, System.Collections.Generic.IEqualityComparer<T>, TModel, System.Action<TModel, T>, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetProperty(Of TModel, T)(T, T, System.Collections.Generic.IEqualityComparer(Of T), TModel, System.Action(Of TModel, T), String)
+  nameWithType: CardMeta.SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string?)
+  nameWithType.vb: CardMeta.SetProperty(Of TModel, T)(T, T, IEqualityComparer(Of T), TModel, Action(Of TModel, T), String)
+- uid: ProjectStack.Common.Card.CardMeta.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)
+  name: SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string?)
+  href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__2___1___1___0_System_Action___0___1__System_String_
+  commentId: M:ProjectStack.Common.Card.CardMeta.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)
+  name.vb: SetProperty(Of TModel, T)(T, T, TModel, Action(Of TModel, T), String)
+  fullName: ProjectStack.Common.Card.CardMeta.SetProperty<TModel, T>(T, T, TModel, System.Action<TModel, T>, string?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.SetProperty(Of TModel, T)(T, T, TModel, System.Action(Of TModel, T), String)
+  nameWithType: CardMeta.SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string?)
+  nameWithType.vb: CardMeta.SetProperty(Of TModel, T)(T, T, TModel, Action(Of TModel, T), String)
+- uid: ProjectStack.Common.Card.CardMeta.TaskNotifier
+  name: CardMeta.TaskNotifier
+  href: api/ProjectStack.Common.Card.CardMeta.TaskNotifier.html
+  commentId: T:ProjectStack.Common.Card.CardMeta.TaskNotifier
+  fullName: ProjectStack.Common.Card.CardMeta.TaskNotifier
+  nameWithType: CardMeta.TaskNotifier
+- uid: ProjectStack.Common.Card.CardMeta.TaskNotifier.op_Implicit(ProjectStack.Common.Card.CardMeta.TaskNotifier)~System.Threading.Tasks.Task
+  name: implicit operator Task?(TaskNotifier?)
+  href: api/ProjectStack.Common.Card.CardMeta.TaskNotifier.html#ProjectStack_Common_Card_CardMeta_TaskNotifier_op_Implicit_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task
+  commentId: M:ProjectStack.Common.Card.CardMeta.TaskNotifier.op_Implicit(ProjectStack.Common.Card.CardMeta.TaskNotifier)~System.Threading.Tasks.Task
+  name.vb: CType(TaskNotifier)
+  fullName: ProjectStack.Common.Card.CardMeta.TaskNotifier.implicit operator System.Threading.Tasks.Task?(ProjectStack.Common.Card.CardMeta.TaskNotifier?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.TaskNotifier.CType(ProjectStack.Common.Card.CardMeta.TaskNotifier)
+  nameWithType: CardMeta.TaskNotifier.implicit operator Task?(CardMeta.TaskNotifier?)
+  nameWithType.vb: CardMeta.TaskNotifier.CType(CardMeta.TaskNotifier)
+- uid: ProjectStack.Common.Card.CardMeta.TaskNotifier.op_Implicit*
+  name: implicit operator
+  href: api/ProjectStack.Common.Card.CardMeta.TaskNotifier.html#ProjectStack_Common_Card_CardMeta_TaskNotifier_op_Implicit_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.TaskNotifier.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectStack.Common.Card.CardMeta.TaskNotifier.implicit operator
+  fullName.vb: ProjectStack.Common.Card.CardMeta.TaskNotifier.CType
+  nameWithType: CardMeta.TaskNotifier.implicit operator
+  nameWithType.vb: CardMeta.TaskNotifier.CType
+- uid: ProjectStack.Common.Card.CardMeta.TaskNotifier`1
+  name: CardMeta.TaskNotifier<T>
+  href: api/ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html
+  commentId: T:ProjectStack.Common.Card.CardMeta.TaskNotifier`1
+  name.vb: CardMeta.TaskNotifier(Of T)
+  fullName: ProjectStack.Common.Card.CardMeta.TaskNotifier<T>
+  fullName.vb: ProjectStack.Common.Card.CardMeta.TaskNotifier(Of T)
+  nameWithType: CardMeta.TaskNotifier<T>
+  nameWithType.vb: CardMeta.TaskNotifier(Of T)
+- uid: ProjectStack.Common.Card.CardMeta.TaskNotifier`1.op_Implicit(ProjectStack.Common.Card.CardMeta.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}
+  name: implicit operator Task<T>?(TaskNotifier<T>?)
+  href: api/ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html#ProjectStack_Common_Card_CardMeta_TaskNotifier_1_op_Implicit_ProjectStack_Common_Card_CardMeta_TaskNotifier__0___System_Threading_Tasks_Task__0_
+  commentId: M:ProjectStack.Common.Card.CardMeta.TaskNotifier`1.op_Implicit(ProjectStack.Common.Card.CardMeta.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}
+  name.vb: CType(TaskNotifier(Of T))
+  fullName: ProjectStack.Common.Card.CardMeta.TaskNotifier<T>.implicit operator System.Threading.Tasks.Task<T>?(ProjectStack.Common.Card.CardMeta.TaskNotifier<T>?)
+  fullName.vb: ProjectStack.Common.Card.CardMeta.TaskNotifier(Of T).CType(ProjectStack.Common.Card.CardMeta.TaskNotifier(Of T))
+  nameWithType: CardMeta.TaskNotifier<T>.implicit operator Task<T>?(CardMeta.TaskNotifier<T>?)
+  nameWithType.vb: CardMeta.TaskNotifier(Of T).CType(CardMeta.TaskNotifier(Of T))
+- uid: ProjectStack.Common.Card.CardMeta.TaskNotifier`1.op_Implicit*
+  name: implicit operator
+  href: api/ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html#ProjectStack_Common_Card_CardMeta_TaskNotifier_1_op_Implicit_
+  commentId: Overload:ProjectStack.Common.Card.CardMeta.TaskNotifier`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectStack.Common.Card.CardMeta.TaskNotifier<T>.implicit operator
+  fullName.vb: ProjectStack.Common.Card.CardMeta.TaskNotifier(Of T).CType
+  nameWithType: CardMeta.TaskNotifier<T>.implicit operator
+  nameWithType.vb: CardMeta.TaskNotifier(Of T).CType
 - uid: ProjectStack.Common.Card.CardMeta.Type
   name: Type
   href: api/ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_Type
@@ -891,13 +1278,13 @@ references:
   nameWithType: AbstractRecipe<TRecipeInput>.Matchs
   nameWithType.vb: AbstractRecipe(Of TRecipeInput).Matchs
 - uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Type
-  name: Type()
+  name: Type
   href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Type
-  commentId: M:ProjectStack.Common.Recipe.AbstractRecipe`1.Type
-  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Type()
-  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Type()
-  nameWithType: AbstractRecipe<TRecipeInput>.Type()
-  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Type()
+  commentId: P:ProjectStack.Common.Recipe.AbstractRecipe`1.Type
+  fullName: ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>.Type
+  fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Type
+  nameWithType: AbstractRecipe<TRecipeInput>.Type
+  nameWithType.vb: AbstractRecipe(Of TRecipeInput).Type
 - uid: ProjectStack.Common.Recipe.AbstractRecipe`1.Type*
   name: Type
   href: api/ProjectStack.Common.Recipe.AbstractRecipe-1.html#ProjectStack_Common_Recipe_AbstractRecipe_1_Type_
@@ -907,96 +1294,105 @@ references:
   fullName.vb: ProjectStack.Common.Recipe.AbstractRecipe(Of TRecipeInput).Type
   nameWithType: AbstractRecipe<TRecipeInput>.Type
   nameWithType.vb: AbstractRecipe(Of TRecipeInput).Type
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe
-  name: CardMetaMatchRecipe
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html
-  commentId: T:ProjectStack.Common.Recipe.CardMetaMatchRecipe
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe
-  nameWithType: CardMetaMatchRecipe
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)
-  name: CardMetaMatchRecipe(IList<CardMeta>, IList<CardMeta>, bool)
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe__ctor_System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Collections_Generic_IList_ProjectStack_Common_Card_CardMeta__System_Boolean_
-  commentId: M:ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor(System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Collections.Generic.IList{ProjectStack.Common.Card.CardMeta},System.Boolean)
-  name.vb: New(IList(Of CardMeta), IList(Of CardMeta), Boolean)
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardMetaMatchRecipe(System.Collections.Generic.IList<ProjectStack.Common.Card.CardMeta>, System.Collections.Generic.IList<ProjectStack.Common.Card.CardMeta>, bool)
-  fullName.vb: ProjectStack.Common.Recipe.CardMetaMatchRecipe.New(System.Collections.Generic.IList(Of ProjectStack.Common.Card.CardMeta), System.Collections.Generic.IList(Of ProjectStack.Common.Card.CardMeta), Boolean)
-  nameWithType: CardMetaMatchRecipe.CardMetaMatchRecipe(IList<CardMeta>, IList<CardMeta>, bool)
-  nameWithType.vb: CardMetaMatchRecipe.New(IList(Of CardMeta), IList(Of CardMeta), Boolean)
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor*
-  name: CardMetaMatchRecipe
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe__ctor_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.#ctor
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe
+  name: CardIdMatchRecipe
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html
+  commentId: T:ProjectStack.Common.Recipe.CardIdMatchRecipe
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe
+  nameWithType: CardIdMatchRecipe
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.#ctor
+  name: CardIdMatchRecipe()
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe__ctor
+  commentId: M:ProjectStack.Common.Recipe.CardIdMatchRecipe.#ctor
+  name.vb: New()
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.CardIdMatchRecipe()
+  fullName.vb: ProjectStack.Common.Recipe.CardIdMatchRecipe.New()
+  nameWithType: CardIdMatchRecipe.CardIdMatchRecipe()
+  nameWithType.vb: CardIdMatchRecipe.New()
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.#ctor(System.Collections.Generic.List{ProjectStack.Common.ResourceLocation},System.Collections.Generic.List{ProjectStack.Common.ResourceLocation},System.Boolean)
+  name: CardIdMatchRecipe(List<ResourceLocation>, List<ResourceLocation>, bool)
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe__ctor_System_Collections_Generic_List_ProjectStack_Common_ResourceLocation__System_Collections_Generic_List_ProjectStack_Common_ResourceLocation__System_Boolean_
+  commentId: M:ProjectStack.Common.Recipe.CardIdMatchRecipe.#ctor(System.Collections.Generic.List{ProjectStack.Common.ResourceLocation},System.Collections.Generic.List{ProjectStack.Common.ResourceLocation},System.Boolean)
+  name.vb: New(List(Of ResourceLocation), List(Of ResourceLocation), Boolean)
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.CardIdMatchRecipe(System.Collections.Generic.List<ProjectStack.Common.ResourceLocation>, System.Collections.Generic.List<ProjectStack.Common.ResourceLocation>, bool)
+  fullName.vb: ProjectStack.Common.Recipe.CardIdMatchRecipe.New(System.Collections.Generic.List(Of ProjectStack.Common.ResourceLocation), System.Collections.Generic.List(Of ProjectStack.Common.ResourceLocation), Boolean)
+  nameWithType: CardIdMatchRecipe.CardIdMatchRecipe(List<ResourceLocation>, List<ResourceLocation>, bool)
+  nameWithType.vb: CardIdMatchRecipe.New(List(Of ResourceLocation), List(Of ResourceLocation), Boolean)
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.#ctor*
+  name: CardIdMatchRecipe
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe__ctor_
+  commentId: Overload:ProjectStack.Common.Recipe.CardIdMatchRecipe.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardMetaMatchRecipe
-  fullName.vb: ProjectStack.Common.Recipe.CardMetaMatchRecipe.New
-  nameWithType: CardMetaMatchRecipe.CardMetaMatchRecipe
-  nameWithType.vb: CardMetaMatchRecipe.New
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.CardIdMatchRecipe
+  fullName.vb: ProjectStack.Common.Recipe.CardIdMatchRecipe.New
+  nameWithType: CardIdMatchRecipe.CardIdMatchRecipe
+  nameWithType.vb: CardIdMatchRecipe.New
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.CardViewCount
   name: CardViewCount
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_CardViewCount
-  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
-  nameWithType: CardMetaMatchRecipe.CardViewCount
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount*
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_CardViewCount
+  commentId: P:ProjectStack.Common.Recipe.CardIdMatchRecipe.CardViewCount
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.CardViewCount
+  nameWithType: CardIdMatchRecipe.CardViewCount
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.CardViewCount*
   name: CardViewCount
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_CardViewCount_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_CardViewCount_
+  commentId: Overload:ProjectStack.Common.Recipe.CardIdMatchRecipe.CardViewCount
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.CardViewCount
-  nameWithType: CardMetaMatchRecipe.CardViewCount
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.CardViewCount
+  nameWithType: CardIdMatchRecipe.CardViewCount
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
   name: Execute(ICardStack)
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_Execute_ProjectStack_Common_Card_ICardStack_
-  commentId: M:ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
-  nameWithType: CardMetaMatchRecipe.Execute(ICardStack)
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute*
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_Execute_ProjectStack_Common_Card_ICardStack_
+  commentId: M:ProjectStack.Common.Recipe.CardIdMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.Execute(ProjectStack.Common.Card.ICardStack)
+  nameWithType: CardIdMatchRecipe.Execute(ICardStack)
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.Execute*
   name: Execute
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_Execute_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_Execute_
+  commentId: Overload:ProjectStack.Common.Recipe.CardIdMatchRecipe.Execute
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.Execute
-  nameWithType: CardMetaMatchRecipe.Execute
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.Execute
+  nameWithType: CardIdMatchRecipe.Execute
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.IsNeedOrder
   name: IsNeedOrder
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_IsNeedOrder
-  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
-  nameWithType: CardMetaMatchRecipe.IsNeedOrder
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder*
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_IsNeedOrder
+  commentId: P:ProjectStack.Common.Recipe.CardIdMatchRecipe.IsNeedOrder
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.IsNeedOrder
+  nameWithType: CardIdMatchRecipe.IsNeedOrder
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.IsNeedOrder*
   name: IsNeedOrder
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_IsNeedOrder_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_IsNeedOrder_
+  commentId: Overload:ProjectStack.Common.Recipe.CardIdMatchRecipe.IsNeedOrder
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.IsNeedOrder
-  nameWithType: CardMetaMatchRecipe.IsNeedOrder
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
-  name: ProducedCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_ProducedCardMetas
-  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
-  nameWithType: CardMetaMatchRecipe.ProducedCardMetas
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas*
-  name: ProducedCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_ProducedCardMetas_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.IsNeedOrder
+  nameWithType: CardIdMatchRecipe.IsNeedOrder
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.ProducedCardIds
+  name: ProducedCardIds
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_ProducedCardIds
+  commentId: P:ProjectStack.Common.Recipe.CardIdMatchRecipe.ProducedCardIds
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.ProducedCardIds
+  nameWithType: CardIdMatchRecipe.ProducedCardIds
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.ProducedCardIds*
+  name: ProducedCardIds
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_ProducedCardIds_
+  commentId: Overload:ProjectStack.Common.Recipe.CardIdMatchRecipe.ProducedCardIds
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.ProducedCardMetas
-  nameWithType: CardMetaMatchRecipe.ProducedCardMetas
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
-  name: RequiredCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_RequiredCardMetas
-  commentId: P:ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
-  nameWithType: CardMetaMatchRecipe.RequiredCardMetas
-- uid: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas*
-  name: RequiredCardMetas
-  href: api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html#ProjectStack_Common_Recipe_CardMetaMatchRecipe_RequiredCardMetas_
-  commentId: Overload:ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.ProducedCardIds
+  nameWithType: CardIdMatchRecipe.ProducedCardIds
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.RequiredCardIds
+  name: RequiredCardIds
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_RequiredCardIds
+  commentId: P:ProjectStack.Common.Recipe.CardIdMatchRecipe.RequiredCardIds
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.RequiredCardIds
+  nameWithType: CardIdMatchRecipe.RequiredCardIds
+- uid: ProjectStack.Common.Recipe.CardIdMatchRecipe.RequiredCardIds*
+  name: RequiredCardIds
+  href: api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html#ProjectStack_Common_Recipe_CardIdMatchRecipe_RequiredCardIds_
+  commentId: Overload:ProjectStack.Common.Recipe.CardIdMatchRecipe.RequiredCardIds
   isSpec: "True"
-  fullName: ProjectStack.Common.Recipe.CardMetaMatchRecipe.RequiredCardMetas
-  nameWithType: CardMetaMatchRecipe.RequiredCardMetas
+  fullName: ProjectStack.Common.Recipe.CardIdMatchRecipe.RequiredCardIds
+  nameWithType: CardIdMatchRecipe.RequiredCardIds
 - uid: ProjectStack.Common.Recipe.IRecipe
   name: IRecipe
   href: api/ProjectStack.Common.Recipe.IRecipe.html
@@ -1588,25 +1984,6 @@ references:
   commentId: T:ProjectStack.Common.ResourceLocation
   fullName: ProjectStack.Common.ResourceLocation
   nameWithType: ResourceLocation
-- uid: ProjectStack.Common.ResourceLocation.#ctor(System.String,System.String)
-  name: ResourceLocation(string, string)
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation__ctor_System_String_System_String_
-  commentId: M:ProjectStack.Common.ResourceLocation.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: ProjectStack.Common.ResourceLocation.ResourceLocation(string, string)
-  fullName.vb: ProjectStack.Common.ResourceLocation.New(String, String)
-  nameWithType: ResourceLocation.ResourceLocation(string, string)
-  nameWithType.vb: ResourceLocation.New(String, String)
-- uid: ProjectStack.Common.ResourceLocation.#ctor*
-  name: ResourceLocation
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation__ctor_
-  commentId: Overload:ProjectStack.Common.ResourceLocation.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ProjectStack.Common.ResourceLocation.ResourceLocation
-  fullName.vb: ProjectStack.Common.ResourceLocation.New
-  nameWithType: ResourceLocation.ResourceLocation
-  nameWithType.vb: ResourceLocation.New
 - uid: ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath(System.String)
   name: DefaultNamespaceAndPath(string)
   href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_DefaultNamespaceAndPath_System_String_
@@ -1623,61 +2000,50 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath
   nameWithType: ResourceLocation.DefaultNamespaceAndPath
-- uid: ProjectStack.Common.ResourceLocation.EMPTY
-  name: EMPTY
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_EMPTY
-  commentId: P:ProjectStack.Common.ResourceLocation.EMPTY
-  fullName: ProjectStack.Common.ResourceLocation.EMPTY
-  nameWithType: ResourceLocation.EMPTY
-- uid: ProjectStack.Common.ResourceLocation.EMPTY*
-  name: EMPTY
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_EMPTY_
-  commentId: Overload:ProjectStack.Common.ResourceLocation.EMPTY
+- uid: ProjectStack.Common.ResourceLocation.Empty
+  name: Empty
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Empty
+  commentId: F:ProjectStack.Common.ResourceLocation.Empty
+  fullName: ProjectStack.Common.ResourceLocation.Empty
+  nameWithType: ResourceLocation.Empty
+- uid: ProjectStack.Common.ResourceLocation.Equals(ProjectStack.Common.ResourceLocation)
+  name: Equals(ResourceLocation?)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Equals_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Common.ResourceLocation.Equals(ProjectStack.Common.ResourceLocation)
+  name.vb: Equals(ResourceLocation)
+  fullName: ProjectStack.Common.ResourceLocation.Equals(ProjectStack.Common.ResourceLocation?)
+  fullName.vb: ProjectStack.Common.ResourceLocation.Equals(ProjectStack.Common.ResourceLocation)
+  nameWithType: ResourceLocation.Equals(ResourceLocation?)
+  nameWithType.vb: ResourceLocation.Equals(ResourceLocation)
+- uid: ProjectStack.Common.ResourceLocation.Equals(System.Object)
+  name: Equals(object?)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Equals_System_Object_
+  commentId: M:ProjectStack.Common.ResourceLocation.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ProjectStack.Common.ResourceLocation.Equals(object?)
+  fullName.vb: ProjectStack.Common.ResourceLocation.Equals(Object)
+  nameWithType: ResourceLocation.Equals(object?)
+  nameWithType.vb: ResourceLocation.Equals(Object)
+- uid: ProjectStack.Common.ResourceLocation.Equals*
+  name: Equals
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_Equals_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.Equals
   isSpec: "True"
-  fullName: ProjectStack.Common.ResourceLocation.EMPTY
-  nameWithType: ResourceLocation.EMPTY
-- uid: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(System.String,System.String)
-  name: FromNamespaceAndPath(string, string)
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_FromNamespaceAndPath_System_String_System_String_
-  commentId: M:ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(System.String,System.String)
-  name.vb: FromNamespaceAndPath(String, String)
-  fullName: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(string, string)
-  fullName.vb: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(String, String)
-  nameWithType: ResourceLocation.FromNamespaceAndPath(string, string)
-  nameWithType.vb: ResourceLocation.FromNamespaceAndPath(String, String)
-- uid: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath*
-  name: FromNamespaceAndPath
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_FromNamespaceAndPath_
-  commentId: Overload:ProjectStack.Common.ResourceLocation.FromNamespaceAndPath
+  fullName: ProjectStack.Common.ResourceLocation.Equals
+  nameWithType: ResourceLocation.Equals
+- uid: ProjectStack.Common.ResourceLocation.GetHashCode
+  name: GetHashCode()
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetHashCode
+  commentId: M:ProjectStack.Common.ResourceLocation.GetHashCode
+  fullName: ProjectStack.Common.ResourceLocation.GetHashCode()
+  nameWithType: ResourceLocation.GetHashCode()
+- uid: ProjectStack.Common.ResourceLocation.GetHashCode*
+  name: GetHashCode
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetHashCode_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.GetHashCode
   isSpec: "True"
-  fullName: ProjectStack.Common.ResourceLocation.FromNamespaceAndPath
-  nameWithType: ResourceLocation.FromNamespaceAndPath
-- uid: ProjectStack.Common.ResourceLocation.GetNamespace
-  name: GetNamespace
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetNamespace
-  commentId: P:ProjectStack.Common.ResourceLocation.GetNamespace
-  fullName: ProjectStack.Common.ResourceLocation.GetNamespace
-  nameWithType: ResourceLocation.GetNamespace
-- uid: ProjectStack.Common.ResourceLocation.GetNamespace*
-  name: GetNamespace
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetNamespace_
-  commentId: Overload:ProjectStack.Common.ResourceLocation.GetNamespace
-  isSpec: "True"
-  fullName: ProjectStack.Common.ResourceLocation.GetNamespace
-  nameWithType: ResourceLocation.GetNamespace
-- uid: ProjectStack.Common.ResourceLocation.GetPath
-  name: GetPath
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetPath
-  commentId: P:ProjectStack.Common.ResourceLocation.GetPath
-  fullName: ProjectStack.Common.ResourceLocation.GetPath
-  nameWithType: ResourceLocation.GetPath
-- uid: ProjectStack.Common.ResourceLocation.GetPath*
-  name: GetPath
-  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetPath_
-  commentId: Overload:ProjectStack.Common.ResourceLocation.GetPath
-  isSpec: "True"
-  fullName: ProjectStack.Common.ResourceLocation.GetPath
-  nameWithType: ResourceLocation.GetPath
+  fullName: ProjectStack.Common.ResourceLocation.GetHashCode
+  nameWithType: ResourceLocation.GetHashCode
 - uid: ProjectStack.Common.ResourceLocation.GetResLoc
   name: GetResLoc()
   href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_GetResLoc
@@ -1778,6 +2144,44 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Common.ResourceLocation.ToString
   nameWithType: ResourceLocation.ToString
+- uid: ProjectStack.Common.ResourceLocation.op_Equality(ProjectStack.Common.ResourceLocation,ProjectStack.Common.ResourceLocation)
+  name: operator ==(ResourceLocation?, ResourceLocation?)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_op_Equality_ProjectStack_Common_ResourceLocation_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Common.ResourceLocation.op_Equality(ProjectStack.Common.ResourceLocation,ProjectStack.Common.ResourceLocation)
+  name.vb: =(ResourceLocation, ResourceLocation)
+  fullName: ProjectStack.Common.ResourceLocation.operator ==(ProjectStack.Common.ResourceLocation?, ProjectStack.Common.ResourceLocation?)
+  fullName.vb: ProjectStack.Common.ResourceLocation.=(ProjectStack.Common.ResourceLocation, ProjectStack.Common.ResourceLocation)
+  nameWithType: ResourceLocation.operator ==(ResourceLocation?, ResourceLocation?)
+  nameWithType.vb: ResourceLocation.=(ResourceLocation, ResourceLocation)
+- uid: ProjectStack.Common.ResourceLocation.op_Equality*
+  name: operator ==
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_op_Equality_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: ProjectStack.Common.ResourceLocation.operator ==
+  fullName.vb: ProjectStack.Common.ResourceLocation.=
+  nameWithType: ResourceLocation.operator ==
+  nameWithType.vb: ResourceLocation.=
+- uid: ProjectStack.Common.ResourceLocation.op_Inequality(ProjectStack.Common.ResourceLocation,ProjectStack.Common.ResourceLocation)
+  name: operator !=(ResourceLocation?, ResourceLocation?)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_op_Inequality_ProjectStack_Common_ResourceLocation_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Common.ResourceLocation.op_Inequality(ProjectStack.Common.ResourceLocation,ProjectStack.Common.ResourceLocation)
+  name.vb: <>(ResourceLocation, ResourceLocation)
+  fullName: ProjectStack.Common.ResourceLocation.operator !=(ProjectStack.Common.ResourceLocation?, ProjectStack.Common.ResourceLocation?)
+  fullName.vb: ProjectStack.Common.ResourceLocation.<>(ProjectStack.Common.ResourceLocation, ProjectStack.Common.ResourceLocation)
+  nameWithType: ResourceLocation.operator !=(ResourceLocation?, ResourceLocation?)
+  nameWithType.vb: ResourceLocation.<>(ResourceLocation, ResourceLocation)
+- uid: ProjectStack.Common.ResourceLocation.op_Inequality*
+  name: operator !=
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_op_Inequality_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: ProjectStack.Common.ResourceLocation.operator !=
+  fullName.vb: ProjectStack.Common.ResourceLocation.<>
+  nameWithType: ResourceLocation.operator !=
+  nameWithType.vb: ResourceLocation.<>
 - uid: ProjectStack.Component
   name: ProjectStack.Component
   href: api/ProjectStack.Component.html
@@ -1919,6 +2323,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.CurrentStack
   nameWithType: Card.CurrentStack
+- uid: ProjectStack.Component.Card.Deserialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  name: Deserialize(FriendlyNtjObject)
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Deserialize_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_
+  commentId: M:ProjectStack.Component.Card.Deserialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  fullName: ProjectStack.Component.Card.Deserialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  nameWithType: Card.Deserialize(FriendlyNtjObject)
+- uid: ProjectStack.Component.Card.Deserialize*
+  name: Deserialize
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Deserialize_
+  commentId: Overload:ProjectStack.Component.Card.Deserialize
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.Deserialize
+  nameWithType: Card.Deserialize
 - uid: ProjectStack.Component.Card.ForceMotion
   name: ForceMotion
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_ForceMotion
@@ -1966,6 +2383,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.GetCardsInRadius
   nameWithType: Card.GetCardsInRadius
+- uid: ProjectStack.Component.Card.GetCollidingCards(Godot.ShapeCast2D)
+  name: GetCollidingCards(ShapeCast2D)
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetCollidingCards_Godot_ShapeCast2D_
+  commentId: M:ProjectStack.Component.Card.GetCollidingCards(Godot.ShapeCast2D)
+  fullName: ProjectStack.Component.Card.GetCollidingCards(Godot.ShapeCast2D)
+  nameWithType: Card.GetCollidingCards(ShapeCast2D)
+- uid: ProjectStack.Component.Card.GetCollidingCards*
+  name: GetCollidingCards
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetCollidingCards_
+  commentId: Overload:ProjectStack.Component.Card.GetCollidingCards
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.GetCollidingCards
+  nameWithType: Card.GetCollidingCards
 - uid: ProjectStack.Component.Card.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
   name: GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
@@ -1988,6 +2418,15 @@ references:
   commentId: M:ProjectStack.Component.Card.GetNearestSameCard(ProjectStack.Component.Card)
   fullName: ProjectStack.Component.Card.GetNearestSameCard(ProjectStack.Component.Card)
   nameWithType: Card.GetNearestSameCard(Card)
+- uid: ProjectStack.Component.Card.GetNearestSameCard(System.Collections.Immutable.IImmutableList{ProjectStack.Component.Card},ProjectStack.Component.Card)
+  name: GetNearestSameCard(IImmutableList<Card>, Card)
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetNearestSameCard_System_Collections_Immutable_IImmutableList_ProjectStack_Component_Card__ProjectStack_Component_Card_
+  commentId: M:ProjectStack.Component.Card.GetNearestSameCard(System.Collections.Immutable.IImmutableList{ProjectStack.Component.Card},ProjectStack.Component.Card)
+  name.vb: GetNearestSameCard(IImmutableList(Of Card), Card)
+  fullName: ProjectStack.Component.Card.GetNearestSameCard(System.Collections.Immutable.IImmutableList<ProjectStack.Component.Card>, ProjectStack.Component.Card)
+  fullName.vb: ProjectStack.Component.Card.GetNearestSameCard(System.Collections.Immutable.IImmutableList(Of ProjectStack.Component.Card), ProjectStack.Component.Card)
+  nameWithType: Card.GetNearestSameCard(IImmutableList<Card>, Card)
+  nameWithType.vb: Card.GetNearestSameCard(IImmutableList(Of Card), Card)
 - uid: ProjectStack.Component.Card.GetNearestSameCard*
   name: GetNearestSameCard
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_GetNearestSameCard_
@@ -2059,6 +2498,25 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.IsUppest
   nameWithType: Card.IsUppest
+- uid: ProjectStack.Component.Card.Load
+  name: Load()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Load
+  commentId: M:ProjectStack.Component.Card.Load
+  fullName: ProjectStack.Component.Card.Load()
+  nameWithType: Card.Load()
+- uid: ProjectStack.Component.Card.Load*
+  name: Load
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Load_
+  commentId: Overload:ProjectStack.Component.Card.Load
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.Load
+  nameWithType: Card.Load
+- uid: ProjectStack.Component.Card.Loaded
+  name: Loaded
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Loaded
+  commentId: F:ProjectStack.Component.Card.Loaded
+  fullName: ProjectStack.Component.Card.Loaded
+  nameWithType: Card.Loaded
 - uid: ProjectStack.Component.Card.Metatype
   name: Metatype
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Metatype
@@ -2323,6 +2781,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.RootCard
   nameWithType: Card.RootCard
+- uid: ProjectStack.Component.Card.Save
+  name: Save()
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Save
+  commentId: M:ProjectStack.Component.Card.Save
+  fullName: ProjectStack.Component.Card.Save()
+  nameWithType: Card.Save()
+- uid: ProjectStack.Component.Card.Save*
+  name: Save
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Save_
+  commentId: Overload:ProjectStack.Component.Card.Save
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.Save
+  nameWithType: Card.Save
 - uid: ProjectStack.Component.Card.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
   name: SaveGodotObjectData(GodotSerializationInfo)
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
@@ -2336,6 +2807,19 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Component.Card.SaveGodotObjectData
   nameWithType: Card.SaveGodotObjectData
+- uid: ProjectStack.Component.Card.Serialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  name: Serialize(FriendlyNtjObject)
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Serialize_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_
+  commentId: M:ProjectStack.Component.Card.Serialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  fullName: ProjectStack.Component.Card.Serialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  nameWithType: Card.Serialize(FriendlyNtjObject)
+- uid: ProjectStack.Component.Card.Serialize*
+  name: Serialize
+  href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_Serialize_
+  commentId: Overload:ProjectStack.Component.Card.Serialize
+  isSpec: "True"
+  fullName: ProjectStack.Component.Card.Serialize
+  nameWithType: Card.Serialize
 - uid: ProjectStack.Component.Card.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
   name: SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
   href: api/ProjectStack.Component.Card.html#ProjectStack_Component_Card_SetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
@@ -3044,108 +3528,448 @@ references:
   commentId: N:ProjectStack.Core
   fullName: ProjectStack.Core
   nameWithType: ProjectStack.Core
-- uid: ProjectStack.Core.CardMgr
-  name: CardMgr
-  href: api/ProjectStack.Core.CardMgr.html
-  commentId: T:ProjectStack.Core.CardMgr
-  fullName: ProjectStack.Core.CardMgr
-  nameWithType: CardMgr
-- uid: ProjectStack.Core.CardMgr.#ctor
-  name: CardMgr()
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr__ctor
-  commentId: M:ProjectStack.Core.CardMgr.#ctor
+- uid: ProjectStack.Core.FrozenGameResource`1
+  name: FrozenGameResource<T>
+  href: api/ProjectStack.Core.FrozenGameResource-1.html
+  commentId: T:ProjectStack.Core.FrozenGameResource`1
+  name.vb: FrozenGameResource(Of T)
+  fullName: ProjectStack.Core.FrozenGameResource<T>
+  fullName.vb: ProjectStack.Core.FrozenGameResource(Of T)
+  nameWithType: FrozenGameResource<T>
+  nameWithType.vb: FrozenGameResource(Of T)
+- uid: ProjectStack.Core.FrozenGameResource`1.Count
+  name: Count
+  href: api/ProjectStack.Core.FrozenGameResource-1.html#ProjectStack_Core_FrozenGameResource_1_Count
+  commentId: P:ProjectStack.Core.FrozenGameResource`1.Count
+  fullName: ProjectStack.Core.FrozenGameResource<T>.Count
+  fullName.vb: ProjectStack.Core.FrozenGameResource(Of T).Count
+  nameWithType: FrozenGameResource<T>.Count
+  nameWithType.vb: FrozenGameResource(Of T).Count
+- uid: ProjectStack.Core.FrozenGameResource`1.Count*
+  name: Count
+  href: api/ProjectStack.Core.FrozenGameResource-1.html#ProjectStack_Core_FrozenGameResource_1_Count_
+  commentId: Overload:ProjectStack.Core.FrozenGameResource`1.Count
+  isSpec: "True"
+  fullName: ProjectStack.Core.FrozenGameResource<T>.Count
+  fullName.vb: ProjectStack.Core.FrozenGameResource(Of T).Count
+  nameWithType: FrozenGameResource<T>.Count
+  nameWithType.vb: FrozenGameResource(Of T).Count
+- uid: ProjectStack.Core.FrozenGameResource`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/ProjectStack.Core.FrozenGameResource-1.html#ProjectStack_Core_FrozenGameResource_1_GetEnumerator
+  commentId: M:ProjectStack.Core.FrozenGameResource`1.GetEnumerator
+  fullName: ProjectStack.Core.FrozenGameResource<T>.GetEnumerator()
+  fullName.vb: ProjectStack.Core.FrozenGameResource(Of T).GetEnumerator()
+  nameWithType: FrozenGameResource<T>.GetEnumerator()
+  nameWithType.vb: FrozenGameResource(Of T).GetEnumerator()
+- uid: ProjectStack.Core.FrozenGameResource`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/ProjectStack.Core.FrozenGameResource-1.html#ProjectStack_Core_FrozenGameResource_1_GetEnumerator_
+  commentId: Overload:ProjectStack.Core.FrozenGameResource`1.GetEnumerator
+  isSpec: "True"
+  fullName: ProjectStack.Core.FrozenGameResource<T>.GetEnumerator
+  fullName.vb: ProjectStack.Core.FrozenGameResource(Of T).GetEnumerator
+  nameWithType: FrozenGameResource<T>.GetEnumerator
+  nameWithType.vb: FrozenGameResource(Of T).GetEnumerator
+- uid: ProjectStack.Core.GameResource`1
+  name: GameResource<T>
+  href: api/ProjectStack.Core.GameResource-1.html
+  commentId: T:ProjectStack.Core.GameResource`1
+  name.vb: GameResource(Of T)
+  fullName: ProjectStack.Core.GameResource<T>
+  fullName.vb: ProjectStack.Core.GameResource(Of T)
+  nameWithType: GameResource<T>
+  nameWithType.vb: GameResource(Of T)
+- uid: ProjectStack.Core.GameResource`1.Add(`0)
+  name: Add(T)
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Add__0_
+  commentId: M:ProjectStack.Core.GameResource`1.Add(`0)
+  fullName: ProjectStack.Core.GameResource<T>.Add(T)
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Add(T)
+  nameWithType: GameResource<T>.Add(T)
+  nameWithType.vb: GameResource(Of T).Add(T)
+- uid: ProjectStack.Core.GameResource`1.Add*
+  name: Add
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Add_
+  commentId: Overload:ProjectStack.Core.GameResource`1.Add
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.Add
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Add
+  nameWithType: GameResource<T>.Add
+  nameWithType.vb: GameResource(Of T).Add
+- uid: ProjectStack.Core.GameResource`1.Clear
+  name: Clear()
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Clear
+  commentId: M:ProjectStack.Core.GameResource`1.Clear
+  fullName: ProjectStack.Core.GameResource<T>.Clear()
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Clear()
+  nameWithType: GameResource<T>.Clear()
+  nameWithType.vb: GameResource(Of T).Clear()
+- uid: ProjectStack.Core.GameResource`1.Clear*
+  name: Clear
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Clear_
+  commentId: Overload:ProjectStack.Core.GameResource`1.Clear
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.Clear
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Clear
+  nameWithType: GameResource<T>.Clear
+  nameWithType.vb: GameResource(Of T).Clear
+- uid: ProjectStack.Core.GameResource`1.Contains(`0)
+  name: Contains(T)
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Contains__0_
+  commentId: M:ProjectStack.Core.GameResource`1.Contains(`0)
+  fullName: ProjectStack.Core.GameResource<T>.Contains(T)
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Contains(T)
+  nameWithType: GameResource<T>.Contains(T)
+  nameWithType.vb: GameResource(Of T).Contains(T)
+- uid: ProjectStack.Core.GameResource`1.Contains*
+  name: Contains
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Contains_
+  commentId: Overload:ProjectStack.Core.GameResource`1.Contains
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.Contains
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Contains
+  nameWithType: GameResource<T>.Contains
+  nameWithType.vb: GameResource(Of T).Contains
+- uid: ProjectStack.Core.GameResource`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], int)
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_CopyTo__0___System_Int32_
+  commentId: M:ProjectStack.Core.GameResource`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Integer)
+  fullName: ProjectStack.Core.GameResource<T>.CopyTo(T[], int)
+  fullName.vb: ProjectStack.Core.GameResource(Of T).CopyTo(T(), Integer)
+  nameWithType: GameResource<T>.CopyTo(T[], int)
+  nameWithType.vb: GameResource(Of T).CopyTo(T(), Integer)
+- uid: ProjectStack.Core.GameResource`1.CopyTo*
+  name: CopyTo
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_CopyTo_
+  commentId: Overload:ProjectStack.Core.GameResource`1.CopyTo
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.CopyTo
+  fullName.vb: ProjectStack.Core.GameResource(Of T).CopyTo
+  nameWithType: GameResource<T>.CopyTo
+  nameWithType.vb: GameResource(Of T).CopyTo
+- uid: ProjectStack.Core.GameResource`1.Count
+  name: Count
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Count
+  commentId: P:ProjectStack.Core.GameResource`1.Count
+  fullName: ProjectStack.Core.GameResource<T>.Count
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Count
+  nameWithType: GameResource<T>.Count
+  nameWithType.vb: GameResource(Of T).Count
+- uid: ProjectStack.Core.GameResource`1.Count*
+  name: Count
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Count_
+  commentId: Overload:ProjectStack.Core.GameResource`1.Count
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.Count
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Count
+  nameWithType: GameResource<T>.Count
+  nameWithType.vb: GameResource(Of T).Count
+- uid: ProjectStack.Core.GameResource`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_GetEnumerator
+  commentId: M:ProjectStack.Core.GameResource`1.GetEnumerator
+  fullName: ProjectStack.Core.GameResource<T>.GetEnumerator()
+  fullName.vb: ProjectStack.Core.GameResource(Of T).GetEnumerator()
+  nameWithType: GameResource<T>.GetEnumerator()
+  nameWithType.vb: GameResource(Of T).GetEnumerator()
+- uid: ProjectStack.Core.GameResource`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_GetEnumerator_
+  commentId: Overload:ProjectStack.Core.GameResource`1.GetEnumerator
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.GetEnumerator
+  fullName.vb: ProjectStack.Core.GameResource(Of T).GetEnumerator
+  nameWithType: GameResource<T>.GetEnumerator
+  nameWithType.vb: GameResource(Of T).GetEnumerator
+- uid: ProjectStack.Core.GameResource`1.IsReadOnly
+  name: IsReadOnly
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_IsReadOnly
+  commentId: P:ProjectStack.Core.GameResource`1.IsReadOnly
+  fullName: ProjectStack.Core.GameResource<T>.IsReadOnly
+  fullName.vb: ProjectStack.Core.GameResource(Of T).IsReadOnly
+  nameWithType: GameResource<T>.IsReadOnly
+  nameWithType.vb: GameResource(Of T).IsReadOnly
+- uid: ProjectStack.Core.GameResource`1.IsReadOnly*
+  name: IsReadOnly
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_IsReadOnly_
+  commentId: Overload:ProjectStack.Core.GameResource`1.IsReadOnly
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.IsReadOnly
+  fullName.vb: ProjectStack.Core.GameResource(Of T).IsReadOnly
+  nameWithType: GameResource<T>.IsReadOnly
+  nameWithType.vb: GameResource(Of T).IsReadOnly
+- uid: ProjectStack.Core.GameResource`1.Remove(`0)
+  name: Remove(T)
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Remove__0_
+  commentId: M:ProjectStack.Core.GameResource`1.Remove(`0)
+  fullName: ProjectStack.Core.GameResource<T>.Remove(T)
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Remove(T)
+  nameWithType: GameResource<T>.Remove(T)
+  nameWithType.vb: GameResource(Of T).Remove(T)
+- uid: ProjectStack.Core.GameResource`1.Remove*
+  name: Remove
+  href: api/ProjectStack.Core.GameResource-1.html#ProjectStack_Core_GameResource_1_Remove_
+  commentId: Overload:ProjectStack.Core.GameResource`1.Remove
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResource<T>.Remove
+  fullName.vb: ProjectStack.Core.GameResource(Of T).Remove
+  nameWithType: GameResource<T>.Remove
+  nameWithType.vb: GameResource(Of T).Remove
+- uid: ProjectStack.Core.GameResources
+  name: GameResources
+  href: api/ProjectStack.Core.GameResources.html
+  commentId: T:ProjectStack.Core.GameResources
+  fullName: ProjectStack.Core.GameResources
+  nameWithType: GameResources
+- uid: ProjectStack.Core.GameResources.Add(ProjectStack.Core.IGameResource)
+  name: Add(IGameResource)
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Add_ProjectStack_Core_IGameResource_
+  commentId: M:ProjectStack.Core.GameResources.Add(ProjectStack.Core.IGameResource)
+  fullName: ProjectStack.Core.GameResources.Add(ProjectStack.Core.IGameResource)
+  nameWithType: GameResources.Add(IGameResource)
+- uid: ProjectStack.Core.GameResources.Add*
+  name: Add
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Add_
+  commentId: Overload:ProjectStack.Core.GameResources.Add
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.Add
+  nameWithType: GameResources.Add
+- uid: ProjectStack.Core.GameResources.Clear
+  name: Clear()
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Clear
+  commentId: M:ProjectStack.Core.GameResources.Clear
+  fullName: ProjectStack.Core.GameResources.Clear()
+  nameWithType: GameResources.Clear()
+- uid: ProjectStack.Core.GameResources.Clear*
+  name: Clear
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Clear_
+  commentId: Overload:ProjectStack.Core.GameResources.Clear
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.Clear
+  nameWithType: GameResources.Clear
+- uid: ProjectStack.Core.GameResources.Contains(ProjectStack.Core.IGameResource)
+  name: Contains(IGameResource)
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Contains_ProjectStack_Core_IGameResource_
+  commentId: M:ProjectStack.Core.GameResources.Contains(ProjectStack.Core.IGameResource)
+  fullName: ProjectStack.Core.GameResources.Contains(ProjectStack.Core.IGameResource)
+  nameWithType: GameResources.Contains(IGameResource)
+- uid: ProjectStack.Core.GameResources.Contains*
+  name: Contains
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Contains_
+  commentId: Overload:ProjectStack.Core.GameResources.Contains
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.Contains
+  nameWithType: GameResources.Contains
+- uid: ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource[],System.Int32)
+  name: CopyTo(IGameResource[], int)
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_CopyTo_ProjectStack_Core_IGameResource___System_Int32_
+  commentId: M:ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource[],System.Int32)
+  name.vb: CopyTo(IGameResource(), Integer)
+  fullName: ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource[], int)
+  fullName.vb: ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource(), Integer)
+  nameWithType: GameResources.CopyTo(IGameResource[], int)
+  nameWithType.vb: GameResources.CopyTo(IGameResource(), Integer)
+- uid: ProjectStack.Core.GameResources.CopyTo*
+  name: CopyTo
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_CopyTo_
+  commentId: Overload:ProjectStack.Core.GameResources.CopyTo
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.CopyTo
+  nameWithType: GameResources.CopyTo
+- uid: ProjectStack.Core.GameResources.Count
+  name: Count
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Count
+  commentId: P:ProjectStack.Core.GameResources.Count
+  fullName: ProjectStack.Core.GameResources.Count
+  nameWithType: GameResources.Count
+- uid: ProjectStack.Core.GameResources.Count*
+  name: Count
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Count_
+  commentId: Overload:ProjectStack.Core.GameResources.Count
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.Count
+  nameWithType: GameResources.Count
+- uid: ProjectStack.Core.GameResources.GetEnumerator
+  name: GetEnumerator()
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_GetEnumerator
+  commentId: M:ProjectStack.Core.GameResources.GetEnumerator
+  fullName: ProjectStack.Core.GameResources.GetEnumerator()
+  nameWithType: GameResources.GetEnumerator()
+- uid: ProjectStack.Core.GameResources.GetEnumerator*
+  name: GetEnumerator
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_GetEnumerator_
+  commentId: Overload:ProjectStack.Core.GameResources.GetEnumerator
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.GetEnumerator
+  nameWithType: GameResources.GetEnumerator
+- uid: ProjectStack.Core.GameResources.IsReadOnly
+  name: IsReadOnly
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_IsReadOnly
+  commentId: P:ProjectStack.Core.GameResources.IsReadOnly
+  fullName: ProjectStack.Core.GameResources.IsReadOnly
+  nameWithType: GameResources.IsReadOnly
+- uid: ProjectStack.Core.GameResources.IsReadOnly*
+  name: IsReadOnly
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_IsReadOnly_
+  commentId: Overload:ProjectStack.Core.GameResources.IsReadOnly
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.IsReadOnly
+  nameWithType: GameResources.IsReadOnly
+- uid: ProjectStack.Core.GameResources.Remove(ProjectStack.Core.IGameResource)
+  name: Remove(IGameResource)
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Remove_ProjectStack_Core_IGameResource_
+  commentId: M:ProjectStack.Core.GameResources.Remove(ProjectStack.Core.IGameResource)
+  fullName: ProjectStack.Core.GameResources.Remove(ProjectStack.Core.IGameResource)
+  nameWithType: GameResources.Remove(IGameResource)
+- uid: ProjectStack.Core.GameResources.Remove*
+  name: Remove
+  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Remove_
+  commentId: Overload:ProjectStack.Core.GameResources.Remove
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResources.Remove
+  nameWithType: GameResources.Remove
+- uid: ProjectStack.Core.IGameResource
+  name: IGameResource
+  href: api/ProjectStack.Core.IGameResource.html
+  commentId: T:ProjectStack.Core.IGameResource
+  fullName: ProjectStack.Core.IGameResource
+  nameWithType: IGameResource
+- uid: ProjectStack.Core.Level
+  name: Level
+  href: api/ProjectStack.Core.Level.html
+  commentId: T:ProjectStack.Core.Level
+  fullName: ProjectStack.Core.Level
+  nameWithType: Level
+- uid: ProjectStack.Core.Level.#ctor
+  name: Level()
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level__ctor
+  commentId: M:ProjectStack.Core.Level.#ctor
   name.vb: New()
-  fullName: ProjectStack.Core.CardMgr.CardMgr()
-  fullName.vb: ProjectStack.Core.CardMgr.New()
-  nameWithType: CardMgr.CardMgr()
-  nameWithType.vb: CardMgr.New()
-- uid: ProjectStack.Core.CardMgr.#ctor*
-  name: CardMgr
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr__ctor_
-  commentId: Overload:ProjectStack.Core.CardMgr.#ctor
+  fullName: ProjectStack.Core.Level.Level()
+  fullName.vb: ProjectStack.Core.Level.New()
+  nameWithType: Level.Level()
+  nameWithType.vb: Level.New()
+- uid: ProjectStack.Core.Level.#ctor*
+  name: Level
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level__ctor_
+  commentId: Overload:ProjectStack.Core.Level.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: ProjectStack.Core.CardMgr.CardMgr
-  fullName.vb: ProjectStack.Core.CardMgr.New
-  nameWithType: CardMgr.CardMgr
-  nameWithType.vb: CardMgr.New
-- uid: ProjectStack.Core.CardMgr.AddAttribute(ProjectStack.Attributes.AttributeHolder)
+  fullName: ProjectStack.Core.Level.Level
+  fullName.vb: ProjectStack.Core.Level.New
+  nameWithType: Level.Level
+  nameWithType.vb: Level.New
+- uid: ProjectStack.Core.Level.AddAttribute(ProjectStack.Attributes.AttributeHolder)
   name: AddAttribute(AttributeHolder)
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_AddAttribute_ProjectStack_Attributes_AttributeHolder_
-  commentId: M:ProjectStack.Core.CardMgr.AddAttribute(ProjectStack.Attributes.AttributeHolder)
-  fullName: ProjectStack.Core.CardMgr.AddAttribute(ProjectStack.Attributes.AttributeHolder)
-  nameWithType: CardMgr.AddAttribute(AttributeHolder)
-- uid: ProjectStack.Core.CardMgr.AddAttribute*
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_AddAttribute_ProjectStack_Attributes_AttributeHolder_
+  commentId: M:ProjectStack.Core.Level.AddAttribute(ProjectStack.Attributes.AttributeHolder)
+  fullName: ProjectStack.Core.Level.AddAttribute(ProjectStack.Attributes.AttributeHolder)
+  nameWithType: Level.AddAttribute(AttributeHolder)
+- uid: ProjectStack.Core.Level.AddAttribute*
   name: AddAttribute
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_AddAttribute_
-  commentId: Overload:ProjectStack.Core.CardMgr.AddAttribute
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_AddAttribute_
+  commentId: Overload:ProjectStack.Core.Level.AddAttribute
   isSpec: "True"
-  fullName: ProjectStack.Core.CardMgr.AddAttribute
-  nameWithType: CardMgr.AddAttribute
-- uid: ProjectStack.Core.CardMgr.GetAttribute(ProjectStack.Attributes.AttributeHolder)
+  fullName: ProjectStack.Core.Level.AddAttribute
+  nameWithType: Level.AddAttribute
+- uid: ProjectStack.Core.Level.GetAttribute(ProjectStack.Attributes.AttributeHolder)
   name: GetAttribute(AttributeHolder)
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_GetAttribute_ProjectStack_Attributes_AttributeHolder_
-  commentId: M:ProjectStack.Core.CardMgr.GetAttribute(ProjectStack.Attributes.AttributeHolder)
-  fullName: ProjectStack.Core.CardMgr.GetAttribute(ProjectStack.Attributes.AttributeHolder)
-  nameWithType: CardMgr.GetAttribute(AttributeHolder)
-- uid: ProjectStack.Core.CardMgr.GetAttribute(ProjectStack.Common.ResourceLocation)
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_GetAttribute_ProjectStack_Attributes_AttributeHolder_
+  commentId: M:ProjectStack.Core.Level.GetAttribute(ProjectStack.Attributes.AttributeHolder)
+  fullName: ProjectStack.Core.Level.GetAttribute(ProjectStack.Attributes.AttributeHolder)
+  nameWithType: Level.GetAttribute(AttributeHolder)
+- uid: ProjectStack.Core.Level.GetAttribute(ProjectStack.Common.ResourceLocation)
   name: GetAttribute(ResourceLocation)
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_GetAttribute_ProjectStack_Common_ResourceLocation_
-  commentId: M:ProjectStack.Core.CardMgr.GetAttribute(ProjectStack.Common.ResourceLocation)
-  fullName: ProjectStack.Core.CardMgr.GetAttribute(ProjectStack.Common.ResourceLocation)
-  nameWithType: CardMgr.GetAttribute(ResourceLocation)
-- uid: ProjectStack.Core.CardMgr.GetAttribute*
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_GetAttribute_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Core.Level.GetAttribute(ProjectStack.Common.ResourceLocation)
+  fullName: ProjectStack.Core.Level.GetAttribute(ProjectStack.Common.ResourceLocation)
+  nameWithType: Level.GetAttribute(ResourceLocation)
+- uid: ProjectStack.Core.Level.GetAttribute*
   name: GetAttribute
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_GetAttribute_
-  commentId: Overload:ProjectStack.Core.CardMgr.GetAttribute
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_GetAttribute_
+  commentId: Overload:ProjectStack.Core.Level.GetAttribute
   isSpec: "True"
-  fullName: ProjectStack.Core.CardMgr.GetAttribute
-  nameWithType: CardMgr.GetAttribute
-- uid: ProjectStack.Core.CardMgr.RemoveAttribute(ProjectStack.Common.ResourceLocation)
+  fullName: ProjectStack.Core.Level.GetAttribute
+  nameWithType: Level.GetAttribute
+- uid: ProjectStack.Core.Level.RemoveAttribute(ProjectStack.Common.ResourceLocation)
   name: RemoveAttribute(ResourceLocation)
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_RemoveAttribute_ProjectStack_Common_ResourceLocation_
-  commentId: M:ProjectStack.Core.CardMgr.RemoveAttribute(ProjectStack.Common.ResourceLocation)
-  fullName: ProjectStack.Core.CardMgr.RemoveAttribute(ProjectStack.Common.ResourceLocation)
-  nameWithType: CardMgr.RemoveAttribute(ResourceLocation)
-- uid: ProjectStack.Core.CardMgr.RemoveAttribute*
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_RemoveAttribute_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Core.Level.RemoveAttribute(ProjectStack.Common.ResourceLocation)
+  fullName: ProjectStack.Core.Level.RemoveAttribute(ProjectStack.Common.ResourceLocation)
+  nameWithType: Level.RemoveAttribute(ResourceLocation)
+- uid: ProjectStack.Core.Level.RemoveAttribute*
   name: RemoveAttribute
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_RemoveAttribute_
-  commentId: Overload:ProjectStack.Core.CardMgr.RemoveAttribute
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_RemoveAttribute_
+  commentId: Overload:ProjectStack.Core.Level.RemoveAttribute
   isSpec: "True"
-  fullName: ProjectStack.Core.CardMgr.RemoveAttribute
-  nameWithType: CardMgr.RemoveAttribute
-- uid: ProjectStack.Core.CardMgr.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Core.Level.RemoveAttribute
+  nameWithType: Level.RemoveAttribute
+- uid: ProjectStack.Core.Level.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
   name: RestoreGodotObjectData(GodotSerializationInfo)
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
-  commentId: M:ProjectStack.Core.CardMgr.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
-  fullName: ProjectStack.Core.CardMgr.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
-  nameWithType: CardMgr.RestoreGodotObjectData(GodotSerializationInfo)
-- uid: ProjectStack.Core.CardMgr.RestoreGodotObjectData*
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Core.Level.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Core.Level.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: Level.RestoreGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Core.Level.RestoreGodotObjectData*
   name: RestoreGodotObjectData
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_RestoreGodotObjectData_
-  commentId: Overload:ProjectStack.Core.CardMgr.RestoreGodotObjectData
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_RestoreGodotObjectData_
+  commentId: Overload:ProjectStack.Core.Level.RestoreGodotObjectData
   isSpec: "True"
-  fullName: ProjectStack.Core.CardMgr.RestoreGodotObjectData
-  nameWithType: CardMgr.RestoreGodotObjectData
-- uid: ProjectStack.Core.CardMgr.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Core.Level.RestoreGodotObjectData
+  nameWithType: Level.RestoreGodotObjectData
+- uid: ProjectStack.Core.Level.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
   name: SaveGodotObjectData(GodotSerializationInfo)
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
-  commentId: M:ProjectStack.Core.CardMgr.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
-  fullName: ProjectStack.Core.CardMgr.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
-  nameWithType: CardMgr.SaveGodotObjectData(GodotSerializationInfo)
-- uid: ProjectStack.Core.CardMgr.SaveGodotObjectData*
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_
+  commentId: M:ProjectStack.Core.Level.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  fullName: ProjectStack.Core.Level.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)
+  nameWithType: Level.SaveGodotObjectData(GodotSerializationInfo)
+- uid: ProjectStack.Core.Level.SaveGodotObjectData*
   name: SaveGodotObjectData
-  href: api/ProjectStack.Core.CardMgr.html#ProjectStack_Core_CardMgr_SaveGodotObjectData_
-  commentId: Overload:ProjectStack.Core.CardMgr.SaveGodotObjectData
+  href: api/ProjectStack.Core.Level.html#ProjectStack_Core_Level_SaveGodotObjectData_
+  commentId: Overload:ProjectStack.Core.Level.SaveGodotObjectData
   isSpec: "True"
-  fullName: ProjectStack.Core.CardMgr.SaveGodotObjectData
-  nameWithType: CardMgr.SaveGodotObjectData
+  fullName: ProjectStack.Core.Level.SaveGodotObjectData
+  nameWithType: Level.SaveGodotObjectData
 - uid: ProjectStack.Core.ServiceCollectionExtension
   name: ServiceCollectionExtension
   href: api/ProjectStack.Core.ServiceCollectionExtension.html
   commentId: T:ProjectStack.Core.ServiceCollectionExtension
   fullName: ProjectStack.Core.ServiceCollectionExtension
   nameWithType: ServiceCollectionExtension
+- uid: ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry*
+  name: AddKeylessRegistry
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_AddKeylessRegistry_
+  commentId: Overload:ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry
+  isSpec: "True"
+  fullName: ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry
+  nameWithType: ServiceCollectionExtension.AddKeylessRegistry
+- uid: ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{ProjectStack.Registration.KeylessRegistry{``0}})
+  name: AddKeylessRegistry<T>(IServiceCollection, Action<KeylessRegistry<T>>?)
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_AddKeylessRegistry__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_ProjectStack_Registration_KeylessRegistry___0___
+  commentId: M:ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{ProjectStack.Registration.KeylessRegistry{``0}})
+  name.vb: AddKeylessRegistry(Of T)(IServiceCollection, Action(Of KeylessRegistry(Of T)))
+  fullName: ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry<T>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<ProjectStack.Registration.KeylessRegistry<T>>?)
+  fullName.vb: ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry(Of T)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of ProjectStack.Registration.KeylessRegistry(Of T)))
+  nameWithType: ServiceCollectionExtension.AddKeylessRegistry<T>(IServiceCollection, Action<KeylessRegistry<T>>?)
+  nameWithType.vb: ServiceCollectionExtension.AddKeylessRegistry(Of T)(IServiceCollection, Action(Of KeylessRegistry(Of T)))
+- uid: ProjectStack.Core.ServiceCollectionExtension.AddRegistry*
+  name: AddRegistry
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_AddRegistry_
+  commentId: Overload:ProjectStack.Core.ServiceCollectionExtension.AddRegistry
+  isSpec: "True"
+  fullName: ProjectStack.Core.ServiceCollectionExtension.AddRegistry
+  nameWithType: ServiceCollectionExtension.AddRegistry
+- uid: ProjectStack.Core.ServiceCollectionExtension.AddRegistry``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{ProjectStack.Registration.Registry{``0}})
+  name: AddRegistry<T>(IServiceCollection, Action<Registry<T>>?)
+  href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_AddRegistry__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_ProjectStack_Registration_Registry___0___
+  commentId: M:ProjectStack.Core.ServiceCollectionExtension.AddRegistry``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{ProjectStack.Registration.Registry{``0}})
+  name.vb: AddRegistry(Of T)(IServiceCollection, Action(Of Registry(Of T)))
+  fullName: ProjectStack.Core.ServiceCollectionExtension.AddRegistry<T>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<ProjectStack.Registration.Registry<T>>?)
+  fullName.vb: ProjectStack.Core.ServiceCollectionExtension.AddRegistry(Of T)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of ProjectStack.Registration.Registry(Of T)))
+  nameWithType: ServiceCollectionExtension.AddRegistry<T>(IServiceCollection, Action<Registry<T>>?)
+  nameWithType.vb: ServiceCollectionExtension.AddRegistry(Of T)(IServiceCollection, Action(Of Registry(Of T)))
 - uid: ProjectStack.Core.ServiceCollectionExtension.ConfigureHoveredItemInfoDisplay(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name: ConfigureHoveredItemInfoDisplay(IServiceCollection)
   href: api/ProjectStack.Core.ServiceCollectionExtension.html#ProjectStack_Core_ServiceCollectionExtension_ConfigureHoveredItemInfoDisplay_Microsoft_Extensions_DependencyInjection_IServiceCollection_
@@ -3842,6 +4666,28 @@ references:
   commentId: T:ProjectStack.Game
   fullName: ProjectStack.Game
   nameWithType: Game
+- uid: ProjectStack.Game.ActiveLevel
+  name: ActiveLevel
+  href: api/ProjectStack.Game.html#ProjectStack_Game_ActiveLevel
+  commentId: F:ProjectStack.Game.ActiveLevel
+  fullName: ProjectStack.Game.ActiveLevel
+  nameWithType: Game.ActiveLevel
+- uid: ProjectStack.Game.ChangeLevel(System.String)
+  name: ChangeLevel(string)
+  href: api/ProjectStack.Game.html#ProjectStack_Game_ChangeLevel_System_String_
+  commentId: M:ProjectStack.Game.ChangeLevel(System.String)
+  name.vb: ChangeLevel(String)
+  fullName: ProjectStack.Game.ChangeLevel(string)
+  fullName.vb: ProjectStack.Game.ChangeLevel(String)
+  nameWithType: Game.ChangeLevel(string)
+  nameWithType.vb: Game.ChangeLevel(String)
+- uid: ProjectStack.Game.ChangeLevel*
+  name: ChangeLevel
+  href: api/ProjectStack.Game.html#ProjectStack_Game_ChangeLevel_
+  commentId: Overload:ProjectStack.Game.ChangeLevel
+  isSpec: "True"
+  fullName: ProjectStack.Game.ChangeLevel
+  nameWithType: Game.ChangeLevel
 - uid: ProjectStack.Game.Default
   name: Default
   href: api/ProjectStack.Game.html#ProjectStack_Game_Default
@@ -3855,6 +4701,70 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Game.Default
   nameWithType: Game.Default
+- uid: ProjectStack.Game.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name: GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Game.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name.vb: GetGodotClassPropertyValue(godot_string_name, godot_variant)
+  fullName: ProjectStack.Game.GetGodotClassPropertyValue(in Godot.NativeInterop.godot_string_name, out Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Game.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.godot_variant)
+  nameWithType: Game.GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  nameWithType.vb: Game.GetGodotClassPropertyValue(godot_string_name, godot_variant)
+- uid: ProjectStack.Game.GetGodotClassPropertyValue*
+  name: GetGodotClassPropertyValue
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetGodotClassPropertyValue_
+  commentId: Overload:ProjectStack.Game.GetGodotClassPropertyValue
+  isSpec: "True"
+  fullName: ProjectStack.Game.GetGodotClassPropertyValue
+  nameWithType: Game.GetGodotClassPropertyValue
+- uid: ProjectStack.Game.GetKeylessRegistry*
+  name: GetKeylessRegistry
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetKeylessRegistry_
+  commentId: Overload:ProjectStack.Game.GetKeylessRegistry
+  isSpec: "True"
+  fullName: ProjectStack.Game.GetKeylessRegistry
+  nameWithType: Game.GetKeylessRegistry
+- uid: ProjectStack.Game.GetKeylessRegistry``1
+  name: GetKeylessRegistry<T>()
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetKeylessRegistry__1
+  commentId: M:ProjectStack.Game.GetKeylessRegistry``1
+  name.vb: GetKeylessRegistry(Of T)()
+  fullName: ProjectStack.Game.GetKeylessRegistry<T>()
+  fullName.vb: ProjectStack.Game.GetKeylessRegistry(Of T)()
+  nameWithType: Game.GetKeylessRegistry<T>()
+  nameWithType.vb: Game.GetKeylessRegistry(Of T)()
+- uid: ProjectStack.Game.GetLevel(System.String)
+  name: GetLevel(string)
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetLevel_System_String_
+  commentId: M:ProjectStack.Game.GetLevel(System.String)
+  name.vb: GetLevel(String)
+  fullName: ProjectStack.Game.GetLevel(string)
+  fullName.vb: ProjectStack.Game.GetLevel(String)
+  nameWithType: Game.GetLevel(string)
+  nameWithType.vb: Game.GetLevel(String)
+- uid: ProjectStack.Game.GetLevel*
+  name: GetLevel
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetLevel_
+  commentId: Overload:ProjectStack.Game.GetLevel
+  isSpec: "True"
+  fullName: ProjectStack.Game.GetLevel
+  nameWithType: Game.GetLevel
+- uid: ProjectStack.Game.GetRegistry*
+  name: GetRegistry
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetRegistry_
+  commentId: Overload:ProjectStack.Game.GetRegistry
+  isSpec: "True"
+  fullName: ProjectStack.Game.GetRegistry
+  nameWithType: Game.GetRegistry
+- uid: ProjectStack.Game.GetRegistry``1
+  name: GetRegistry<T>()
+  href: api/ProjectStack.Game.html#ProjectStack_Game_GetRegistry__1
+  commentId: M:ProjectStack.Game.GetRegistry``1
+  name.vb: GetRegistry(Of T)()
+  fullName: ProjectStack.Game.GetRegistry<T>()
+  fullName.vb: ProjectStack.Game.GetRegistry(Of T)()
+  nameWithType: Game.GetRegistry<T>()
+  nameWithType.vb: Game.GetRegistry(Of T)()
 - uid: ProjectStack.Game.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)
   name: HasGodotClassMethod(in godot_string_name)
   href: api/ProjectStack.Game.html#ProjectStack_Game_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__
@@ -3887,6 +4797,28 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Game.InvokeGodotClassMethod
   nameWithType: Game.InvokeGodotClassMethod
+- uid: ProjectStack.Game.LoadLevel(System.String)
+  name: LoadLevel(string)
+  href: api/ProjectStack.Game.html#ProjectStack_Game_LoadLevel_System_String_
+  commentId: M:ProjectStack.Game.LoadLevel(System.String)
+  name.vb: LoadLevel(String)
+  fullName: ProjectStack.Game.LoadLevel(string)
+  fullName.vb: ProjectStack.Game.LoadLevel(String)
+  nameWithType: Game.LoadLevel(string)
+  nameWithType.vb: Game.LoadLevel(String)
+- uid: ProjectStack.Game.LoadLevel*
+  name: LoadLevel
+  href: api/ProjectStack.Game.html#ProjectStack_Game_LoadLevel_
+  commentId: Overload:ProjectStack.Game.LoadLevel
+  isSpec: "True"
+  fullName: ProjectStack.Game.LoadLevel
+  nameWithType: Game.LoadLevel
+- uid: ProjectStack.Game.LoadedLevel
+  name: LoadedLevel
+  href: api/ProjectStack.Game.html#ProjectStack_Game_LoadedLevel
+  commentId: F:ProjectStack.Game.LoadedLevel
+  fullName: ProjectStack.Game.LoadedLevel
+  nameWithType: Game.LoadedLevel
 - uid: ProjectStack.Game.LoadingProgressChanged
   name: LoadingProgressChanged
   href: api/ProjectStack.Game.html#ProjectStack_Game_LoadingProgressChanged
@@ -4022,6 +4954,41 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Game.SaveGodotObjectData
   nameWithType: Game.SaveGodotObjectData
+- uid: ProjectStack.Game.SaveLevel(System.String)
+  name: SaveLevel(string)
+  href: api/ProjectStack.Game.html#ProjectStack_Game_SaveLevel_System_String_
+  commentId: M:ProjectStack.Game.SaveLevel(System.String)
+  name.vb: SaveLevel(String)
+  fullName: ProjectStack.Game.SaveLevel(string)
+  fullName.vb: ProjectStack.Game.SaveLevel(String)
+  nameWithType: Game.SaveLevel(string)
+  nameWithType.vb: Game.SaveLevel(String)
+- uid: ProjectStack.Game.SaveLevel*
+  name: SaveLevel
+  href: api/ProjectStack.Game.html#ProjectStack_Game_SaveLevel_
+  commentId: Overload:ProjectStack.Game.SaveLevel
+  isSpec: "True"
+  fullName: ProjectStack.Game.SaveLevel
+  nameWithType: Game.SaveLevel
+- uid: ProjectStack.Game.SaveName
+  name: SaveName
+  href: api/ProjectStack.Game.html#ProjectStack_Game_SaveName
+  commentId: F:ProjectStack.Game.SaveName
+  fullName: ProjectStack.Game.SaveName
+  nameWithType: Game.SaveName
+- uid: ProjectStack.Game.SavePath
+  name: SavePath
+  href: api/ProjectStack.Game.html#ProjectStack_Game_SavePath
+  commentId: P:ProjectStack.Game.SavePath
+  fullName: ProjectStack.Game.SavePath
+  nameWithType: Game.SavePath
+- uid: ProjectStack.Game.SavePath*
+  name: SavePath
+  href: api/ProjectStack.Game.html#ProjectStack_Game_SavePath_
+  commentId: Overload:ProjectStack.Game.SavePath
+  isSpec: "True"
+  fullName: ProjectStack.Game.SavePath
+  nameWithType: Game.SavePath
 - uid: ProjectStack.Game.ServiceProvider
   name: ServiceProvider
   href: api/ProjectStack.Game.html#ProjectStack_Game_ServiceProvider
@@ -4035,6 +5002,38 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Game.ServiceProvider
   nameWithType: Game.ServiceProvider
+- uid: ProjectStack.Game.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name: SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
+  href: api/ProjectStack.Game.html#ProjectStack_Game_SetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__
+  commentId: M:ProjectStack.Game.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)
+  name.vb: SetGodotClassPropertyValue(godot_string_name, godot_variant)
+  fullName: ProjectStack.Game.SetGodotClassPropertyValue(in Godot.NativeInterop.godot_string_name, in Godot.NativeInterop.godot_variant)
+  fullName.vb: ProjectStack.Game.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name, Godot.NativeInterop.godot_variant)
+  nameWithType: Game.SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
+  nameWithType.vb: Game.SetGodotClassPropertyValue(godot_string_name, godot_variant)
+- uid: ProjectStack.Game.SetGodotClassPropertyValue*
+  name: SetGodotClassPropertyValue
+  href: api/ProjectStack.Game.html#ProjectStack_Game_SetGodotClassPropertyValue_
+  commentId: Overload:ProjectStack.Game.SetGodotClassPropertyValue
+  isSpec: "True"
+  fullName: ProjectStack.Game.SetGodotClassPropertyValue
+  nameWithType: Game.SetGodotClassPropertyValue
+- uid: ProjectStack.Game.UnloadLevel(System.String)
+  name: UnloadLevel(string)
+  href: api/ProjectStack.Game.html#ProjectStack_Game_UnloadLevel_System_String_
+  commentId: M:ProjectStack.Game.UnloadLevel(System.String)
+  name.vb: UnloadLevel(String)
+  fullName: ProjectStack.Game.UnloadLevel(string)
+  fullName.vb: ProjectStack.Game.UnloadLevel(String)
+  nameWithType: Game.UnloadLevel(string)
+  nameWithType.vb: Game.UnloadLevel(String)
+- uid: ProjectStack.Game.UnloadLevel*
+  name: UnloadLevel
+  href: api/ProjectStack.Game.html#ProjectStack_Game_UnloadLevel_
+  commentId: Overload:ProjectStack.Game.UnloadLevel
+  isSpec: "True"
+  fullName: ProjectStack.Game.UnloadLevel
+  nameWithType: Game.UnloadLevel
 - uid: ProjectStack.Game.Value
   name: Value()
   href: api/ProjectStack.Game.html#ProjectStack_Game_Value
@@ -4224,6 +5223,275 @@ references:
   commentId: N:ProjectStack.NamedTagsBaseOnJson
   fullName: ProjectStack.NamedTagsBaseOnJson
   nameWithType: ProjectStack.NamedTagsBaseOnJson
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject
+  name: FriendlyNtjObject
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html
+  commentId: T:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject
+  nameWithType: FriendlyNtjObject
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsJsonObject
+  name: AsJsonObject()
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_AsJsonObject
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsJsonObject
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsJsonObject()
+  nameWithType: FriendlyNtjObject.AsJsonObject()
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsJsonObject*
+  name: AsJsonObject
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_AsJsonObject_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsJsonObject
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsJsonObject
+  nameWithType: FriendlyNtjObject.AsJsonObject
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsString
+  name: AsString()
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_AsString
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsString
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsString()
+  nameWithType: FriendlyNtjObject.AsString()
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsString*
+  name: AsString
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_AsString_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsString
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.AsString
+  nameWithType: FriendlyNtjObject.AsString
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Empty
+  name: Empty()
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Empty
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Empty
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Empty()
+  nameWithType: FriendlyNtjObject.Empty()
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Empty*
+  name: Empty
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Empty_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Empty
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Empty
+  nameWithType: FriendlyNtjObject.Empty
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.FromJsonObject(System.Text.Json.Nodes.JsonObject)
+  name: FromJsonObject(JsonObject)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_FromJsonObject_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.FromJsonObject(System.Text.Json.Nodes.JsonObject)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.FromJsonObject(System.Text.Json.Nodes.JsonObject)
+  nameWithType: FriendlyNtjObject.FromJsonObject(JsonObject)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.FromJsonObject*
+  name: FromJsonObject
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_FromJsonObject_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.FromJsonObject
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.FromJsonObject
+  nameWithType: FriendlyNtjObject.FromJsonObject
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Get*
+  name: Get
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Get_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Get
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Get
+  nameWithType: FriendlyNtjObject.Get
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetArray(System.String)
+  name: GetArray(string)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetArray_System_String_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetArray(System.String)
+  name.vb: GetArray(String)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetArray(string)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetArray(String)
+  nameWithType: FriendlyNtjObject.GetArray(string)
+  nameWithType.vb: FriendlyNtjObject.GetArray(String)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetArray*
+  name: GetArray
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetArray_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetArray
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetArray
+  nameWithType: FriendlyNtjObject.GetArray
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetFriendlyNtjObject(System.String)
+  name: GetFriendlyNtjObject(string)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetFriendlyNtjObject_System_String_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetFriendlyNtjObject(System.String)
+  name.vb: GetFriendlyNtjObject(String)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetFriendlyNtjObject(string)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetFriendlyNtjObject(String)
+  nameWithType: FriendlyNtjObject.GetFriendlyNtjObject(string)
+  nameWithType.vb: FriendlyNtjObject.GetFriendlyNtjObject(String)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetFriendlyNtjObject*
+  name: GetFriendlyNtjObject
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetFriendlyNtjObject_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetFriendlyNtjObject
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetFriendlyNtjObject
+  nameWithType: FriendlyNtjObject.GetFriendlyNtjObject
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetObject(System.String)
+  name: GetObject(string)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetObject_System_String_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetObject(System.String)
+  name.vb: GetObject(String)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetObject(string)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetObject(String)
+  nameWithType: FriendlyNtjObject.GetObject(string)
+  nameWithType.vb: FriendlyNtjObject.GetObject(String)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetObject*
+  name: GetObject
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetObject_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetObject
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetObject
+  nameWithType: FriendlyNtjObject.GetObject
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetResourceLocation(System.String)
+  name: GetResourceLocation(string)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetResourceLocation_System_String_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetResourceLocation(System.String)
+  name.vb: GetResourceLocation(String)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetResourceLocation(string)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetResourceLocation(String)
+  nameWithType: FriendlyNtjObject.GetResourceLocation(string)
+  nameWithType.vb: FriendlyNtjObject.GetResourceLocation(String)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetResourceLocation*
+  name: GetResourceLocation
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_GetResourceLocation_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetResourceLocation
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.GetResourceLocation
+  nameWithType: FriendlyNtjObject.GetResourceLocation
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Get``1(System.String)
+  name: Get<T>(string)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Get__1_System_String_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Get``1(System.String)
+  name.vb: Get(Of T)(String)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Get<T>(string)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Get(Of T)(String)
+  nameWithType: FriendlyNtjObject.Get<T>(string)
+  nameWithType.vb: FriendlyNtjObject.Get(Of T)(String)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Ntj
+  name: Ntj
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Ntj
+  commentId: P:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Ntj
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Ntj
+  nameWithType: FriendlyNtjObject.Ntj
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Ntj*
+  name: Ntj
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Ntj_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Ntj
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Ntj
+  nameWithType: FriendlyNtjObject.Ntj
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.PraseString(System.String)
+  name: PraseString(string)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_PraseString_System_String_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.PraseString(System.String)
+  name.vb: PraseString(String)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.PraseString(string)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.PraseString(String)
+  nameWithType: FriendlyNtjObject.PraseString(string)
+  nameWithType.vb: FriendlyNtjObject.PraseString(String)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.PraseString*
+  name: PraseString
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_PraseString_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.PraseString
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.PraseString
+  nameWithType: FriendlyNtjObject.PraseString
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Boolean)
+  name: Write(string, bool)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_System_String_System_Boolean_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Boolean)
+  name.vb: Write(String, Boolean)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(string, bool)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(String, Boolean)
+  nameWithType: FriendlyNtjObject.Write(string, bool)
+  nameWithType.vb: FriendlyNtjObject.Write(String, Boolean)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Double)
+  name: Write(string, double)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_System_String_System_Double_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Double)
+  name.vb: Write(String, Double)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(string, double)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(String, Double)
+  nameWithType: FriendlyNtjObject.Write(string, double)
+  nameWithType.vb: FriendlyNtjObject.Write(String, Double)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Int32)
+  name: Write(string, int)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_System_String_System_Int32_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Int32)
+  name.vb: Write(String, Integer)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(string, int)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(String, Integer)
+  nameWithType: FriendlyNtjObject.Write(string, int)
+  nameWithType.vb: FriendlyNtjObject.Write(String, Integer)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Single)
+  name: Write(string, float)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_System_String_System_Single_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Single)
+  name.vb: Write(String, Single)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(string, float)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(String, Single)
+  nameWithType: FriendlyNtjObject.Write(string, float)
+  nameWithType.vb: FriendlyNtjObject.Write(String, Single)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.String)
+  name: Write(string, string)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_System_String_System_String_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.String)
+  name.vb: Write(String, String)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(string, string)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(String, String)
+  nameWithType: FriendlyNtjObject.Write(string, string)
+  nameWithType.vb: FriendlyNtjObject.Write(String, String)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Text.Json.Nodes.JsonArray)
+  name: Write(string, JsonArray)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_System_String_System_Text_Json_Nodes_JsonArray_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Text.Json.Nodes.JsonArray)
+  name.vb: Write(String, JsonArray)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(string, System.Text.Json.Nodes.JsonArray)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(String, System.Text.Json.Nodes.JsonArray)
+  nameWithType: FriendlyNtjObject.Write(string, JsonArray)
+  nameWithType.vb: FriendlyNtjObject.Write(String, JsonArray)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Text.Json.Nodes.JsonObject)
+  name: Write(string, JsonObject)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: Write(String, JsonObject)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(string, System.Text.Json.Nodes.JsonObject)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write(String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: FriendlyNtjObject.Write(string, JsonObject)
+  nameWithType.vb: FriendlyNtjObject.Write(String, JsonObject)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write*
+  name: Write
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_Write_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.Write
+  nameWithType: FriendlyNtjObject.Write
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteFriendlyNtjObject(System.String,ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  name: WriteFriendlyNtjObject(string, FriendlyNtjObject)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_WriteFriendlyNtjObject_System_String_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteFriendlyNtjObject(System.String,ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  name.vb: WriteFriendlyNtjObject(String, FriendlyNtjObject)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteFriendlyNtjObject(string, ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteFriendlyNtjObject(String, ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)
+  nameWithType: FriendlyNtjObject.WriteFriendlyNtjObject(string, FriendlyNtjObject)
+  nameWithType.vb: FriendlyNtjObject.WriteFriendlyNtjObject(String, FriendlyNtjObject)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteFriendlyNtjObject*
+  name: WriteFriendlyNtjObject
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_WriteFriendlyNtjObject_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteFriendlyNtjObject
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteFriendlyNtjObject
+  nameWithType: FriendlyNtjObject.WriteFriendlyNtjObject
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteResourceLocation(System.String,ProjectStack.Common.ResourceLocation)
+  name: WriteResourceLocation(string, ResourceLocation)
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_WriteResourceLocation_System_String_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteResourceLocation(System.String,ProjectStack.Common.ResourceLocation)
+  name.vb: WriteResourceLocation(String, ResourceLocation)
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteResourceLocation(string, ProjectStack.Common.ResourceLocation)
+  fullName.vb: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteResourceLocation(String, ProjectStack.Common.ResourceLocation)
+  nameWithType: FriendlyNtjObject.WriteResourceLocation(string, ResourceLocation)
+  nameWithType.vb: FriendlyNtjObject.WriteResourceLocation(String, ResourceLocation)
+- uid: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteResourceLocation*
+  name: WriteResourceLocation
+  href: api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html#ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_WriteResourceLocation_
+  commentId: Overload:ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteResourceLocation
+  isSpec: "True"
+  fullName: ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.WriteResourceLocation
+  nameWithType: FriendlyNtjObject.WriteResourceLocation
 - uid: ProjectStack.NamedTagsBaseOnJson.INtjObject
   name: INtjObject
   href: api/ProjectStack.NamedTagsBaseOnJson.INtjObject.html
@@ -4243,6 +5511,256 @@ references:
   isSpec: "True"
   fullName: ProjectStack.NamedTagsBaseOnJson.INtjObject.Ntj
   nameWithType: INtjObject.Ntj
+- uid: ProjectStack.Registration
+  name: ProjectStack.Registration
+  href: api/ProjectStack.Registration.html
+  commentId: N:ProjectStack.Registration
+  fullName: ProjectStack.Registration
+  nameWithType: ProjectStack.Registration
+- uid: ProjectStack.Registration.KeylessRegistry`1
+  name: KeylessRegistry<T>
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html
+  commentId: T:ProjectStack.Registration.KeylessRegistry`1
+  name.vb: KeylessRegistry(Of T)
+  fullName: ProjectStack.Registration.KeylessRegistry<T>
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T)
+  nameWithType: KeylessRegistry<T>
+  nameWithType.vb: KeylessRegistry(Of T)
+- uid: ProjectStack.Registration.KeylessRegistry`1.Count
+  name: Count
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_Count
+  commentId: P:ProjectStack.Registration.KeylessRegistry`1.Count
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.Count
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).Count
+  nameWithType: KeylessRegistry<T>.Count
+  nameWithType.vb: KeylessRegistry(Of T).Count
+- uid: ProjectStack.Registration.KeylessRegistry`1.Count*
+  name: Count
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_Count_
+  commentId: Overload:ProjectStack.Registration.KeylessRegistry`1.Count
+  isSpec: "True"
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.Count
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).Count
+  nameWithType: KeylessRegistry<T>.Count
+  nameWithType.vb: KeylessRegistry(Of T).Count
+- uid: ProjectStack.Registration.KeylessRegistry`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_GetEnumerator
+  commentId: M:ProjectStack.Registration.KeylessRegistry`1.GetEnumerator
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.GetEnumerator()
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).GetEnumerator()
+  nameWithType: KeylessRegistry<T>.GetEnumerator()
+  nameWithType.vb: KeylessRegistry(Of T).GetEnumerator()
+- uid: ProjectStack.Registration.KeylessRegistry`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_GetEnumerator_
+  commentId: Overload:ProjectStack.Registration.KeylessRegistry`1.GetEnumerator
+  isSpec: "True"
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.GetEnumerator
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).GetEnumerator
+  nameWithType: KeylessRegistry<T>.GetEnumerator
+  nameWithType.vb: KeylessRegistry(Of T).GetEnumerator
+- uid: ProjectStack.Registration.KeylessRegistry`1.Item(System.Int32)
+  name: this[int]
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_Item_System_Int32_
+  commentId: P:ProjectStack.Registration.KeylessRegistry`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.this[int]
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).this[](Integer)
+  nameWithType: KeylessRegistry<T>.this[int]
+  nameWithType.vb: KeylessRegistry(Of T).this[](Integer)
+- uid: ProjectStack.Registration.KeylessRegistry`1.Item*
+  name: this
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_Item_
+  commentId: Overload:ProjectStack.Registration.KeylessRegistry`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.this
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).this[]
+  nameWithType: KeylessRegistry<T>.this
+  nameWithType.vb: KeylessRegistry(Of T).this[]
+- uid: ProjectStack.Registration.KeylessRegistry`1.Register(`0)
+  name: Register(T)
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_Register__0_
+  commentId: M:ProjectStack.Registration.KeylessRegistry`1.Register(`0)
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.Register(T)
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).Register(T)
+  nameWithType: KeylessRegistry<T>.Register(T)
+  nameWithType.vb: KeylessRegistry(Of T).Register(T)
+- uid: ProjectStack.Registration.KeylessRegistry`1.Register*
+  name: Register
+  href: api/ProjectStack.Registration.KeylessRegistry-1.html#ProjectStack_Registration_KeylessRegistry_1_Register_
+  commentId: Overload:ProjectStack.Registration.KeylessRegistry`1.Register
+  isSpec: "True"
+  fullName: ProjectStack.Registration.KeylessRegistry<T>.Register
+  fullName.vb: ProjectStack.Registration.KeylessRegistry(Of T).Register
+  nameWithType: KeylessRegistry<T>.Register
+  nameWithType.vb: KeylessRegistry(Of T).Register
+- uid: ProjectStack.Registration.Registry`1
+  name: Registry<T>
+  href: api/ProjectStack.Registration.Registry-1.html
+  commentId: T:ProjectStack.Registration.Registry`1
+  name.vb: Registry(Of T)
+  fullName: ProjectStack.Registration.Registry<T>
+  fullName.vb: ProjectStack.Registration.Registry(Of T)
+  nameWithType: Registry<T>
+  nameWithType.vb: Registry(Of T)
+- uid: ProjectStack.Registration.Registry`1.ContainsKey(ProjectStack.Common.ResourceLocation)
+  name: ContainsKey(ResourceLocation)
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_ContainsKey_ProjectStack_Common_ResourceLocation_
+  commentId: M:ProjectStack.Registration.Registry`1.ContainsKey(ProjectStack.Common.ResourceLocation)
+  fullName: ProjectStack.Registration.Registry<T>.ContainsKey(ProjectStack.Common.ResourceLocation)
+  fullName.vb: ProjectStack.Registration.Registry(Of T).ContainsKey(ProjectStack.Common.ResourceLocation)
+  nameWithType: Registry<T>.ContainsKey(ResourceLocation)
+  nameWithType.vb: Registry(Of T).ContainsKey(ResourceLocation)
+- uid: ProjectStack.Registration.Registry`1.ContainsKey*
+  name: ContainsKey
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_ContainsKey_
+  commentId: Overload:ProjectStack.Registration.Registry`1.ContainsKey
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.ContainsKey
+  fullName.vb: ProjectStack.Registration.Registry(Of T).ContainsKey
+  nameWithType: Registry<T>.ContainsKey
+  nameWithType.vb: Registry(Of T).ContainsKey
+- uid: ProjectStack.Registration.Registry`1.Count
+  name: Count
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Count
+  commentId: P:ProjectStack.Registration.Registry`1.Count
+  fullName: ProjectStack.Registration.Registry<T>.Count
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Count
+  nameWithType: Registry<T>.Count
+  nameWithType.vb: Registry(Of T).Count
+- uid: ProjectStack.Registration.Registry`1.Count*
+  name: Count
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Count_
+  commentId: Overload:ProjectStack.Registration.Registry`1.Count
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.Count
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Count
+  nameWithType: Registry<T>.Count
+  nameWithType.vb: Registry(Of T).Count
+- uid: ProjectStack.Registration.Registry`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_GetEnumerator
+  commentId: M:ProjectStack.Registration.Registry`1.GetEnumerator
+  fullName: ProjectStack.Registration.Registry<T>.GetEnumerator()
+  fullName.vb: ProjectStack.Registration.Registry(Of T).GetEnumerator()
+  nameWithType: Registry<T>.GetEnumerator()
+  nameWithType.vb: Registry(Of T).GetEnumerator()
+- uid: ProjectStack.Registration.Registry`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_GetEnumerator_
+  commentId: Overload:ProjectStack.Registration.Registry`1.GetEnumerator
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.GetEnumerator
+  fullName.vb: ProjectStack.Registration.Registry(Of T).GetEnumerator
+  nameWithType: Registry<T>.GetEnumerator
+  nameWithType.vb: Registry(Of T).GetEnumerator
+- uid: ProjectStack.Registration.Registry`1.Item(ProjectStack.Common.ResourceLocation)
+  name: this[ResourceLocation]
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Item_ProjectStack_Common_ResourceLocation_
+  commentId: P:ProjectStack.Registration.Registry`1.Item(ProjectStack.Common.ResourceLocation)
+  name.vb: this[](ResourceLocation)
+  fullName: ProjectStack.Registration.Registry<T>.this[ProjectStack.Common.ResourceLocation]
+  fullName.vb: ProjectStack.Registration.Registry(Of T).this[](ProjectStack.Common.ResourceLocation)
+  nameWithType: Registry<T>.this[ResourceLocation]
+  nameWithType.vb: Registry(Of T).this[](ResourceLocation)
+- uid: ProjectStack.Registration.Registry`1.Item*
+  name: this
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Item_
+  commentId: Overload:ProjectStack.Registration.Registry`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: ProjectStack.Registration.Registry<T>.this
+  fullName.vb: ProjectStack.Registration.Registry(Of T).this[]
+  nameWithType: Registry<T>.this
+  nameWithType.vb: Registry(Of T).this[]
+- uid: ProjectStack.Registration.Registry`1.Keys
+  name: Keys
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Keys
+  commentId: P:ProjectStack.Registration.Registry`1.Keys
+  fullName: ProjectStack.Registration.Registry<T>.Keys
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Keys
+  nameWithType: Registry<T>.Keys
+  nameWithType.vb: Registry(Of T).Keys
+- uid: ProjectStack.Registration.Registry`1.Keys*
+  name: Keys
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Keys_
+  commentId: Overload:ProjectStack.Registration.Registry`1.Keys
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.Keys
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Keys
+  nameWithType: Registry<T>.Keys
+  nameWithType.vb: Registry(Of T).Keys
+- uid: ProjectStack.Registration.Registry`1.Register(ProjectStack.Common.ResourceLocation,`0)
+  name: Register(ResourceLocation, T)
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Register_ProjectStack_Common_ResourceLocation__0_
+  commentId: M:ProjectStack.Registration.Registry`1.Register(ProjectStack.Common.ResourceLocation,`0)
+  fullName: ProjectStack.Registration.Registry<T>.Register(ProjectStack.Common.ResourceLocation, T)
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Register(ProjectStack.Common.ResourceLocation, T)
+  nameWithType: Registry<T>.Register(ResourceLocation, T)
+  nameWithType.vb: Registry(Of T).Register(ResourceLocation, T)
+- uid: ProjectStack.Registration.Registry`1.Register*
+  name: Register
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Register_
+  commentId: Overload:ProjectStack.Registration.Registry`1.Register
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.Register
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Register
+  nameWithType: Registry<T>.Register
+  nameWithType.vb: Registry(Of T).Register
+- uid: ProjectStack.Registration.Registry`1.TryGetValue(ProjectStack.Common.ResourceLocation,`0@)
+  name: TryGetValue(ResourceLocation, out T)
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_TryGetValue_ProjectStack_Common_ResourceLocation__0__
+  commentId: M:ProjectStack.Registration.Registry`1.TryGetValue(ProjectStack.Common.ResourceLocation,`0@)
+  name.vb: TryGetValue(ResourceLocation, T)
+  fullName: ProjectStack.Registration.Registry<T>.TryGetValue(ProjectStack.Common.ResourceLocation, out T)
+  fullName.vb: ProjectStack.Registration.Registry(Of T).TryGetValue(ProjectStack.Common.ResourceLocation, T)
+  nameWithType: Registry<T>.TryGetValue(ResourceLocation, out T)
+  nameWithType.vb: Registry(Of T).TryGetValue(ResourceLocation, T)
+- uid: ProjectStack.Registration.Registry`1.TryGetValue*
+  name: TryGetValue
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_TryGetValue_
+  commentId: Overload:ProjectStack.Registration.Registry`1.TryGetValue
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.TryGetValue
+  fullName.vb: ProjectStack.Registration.Registry(Of T).TryGetValue
+  nameWithType: Registry<T>.TryGetValue
+  nameWithType.vb: Registry(Of T).TryGetValue
+- uid: ProjectStack.Registration.Registry`1.TryRegister(ProjectStack.Common.ResourceLocation,`0)
+  name: TryRegister(ResourceLocation, T)
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_TryRegister_ProjectStack_Common_ResourceLocation__0_
+  commentId: M:ProjectStack.Registration.Registry`1.TryRegister(ProjectStack.Common.ResourceLocation,`0)
+  fullName: ProjectStack.Registration.Registry<T>.TryRegister(ProjectStack.Common.ResourceLocation, T)
+  fullName.vb: ProjectStack.Registration.Registry(Of T).TryRegister(ProjectStack.Common.ResourceLocation, T)
+  nameWithType: Registry<T>.TryRegister(ResourceLocation, T)
+  nameWithType.vb: Registry(Of T).TryRegister(ResourceLocation, T)
+- uid: ProjectStack.Registration.Registry`1.TryRegister*
+  name: TryRegister
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_TryRegister_
+  commentId: Overload:ProjectStack.Registration.Registry`1.TryRegister
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.TryRegister
+  fullName.vb: ProjectStack.Registration.Registry(Of T).TryRegister
+  nameWithType: Registry<T>.TryRegister
+  nameWithType.vb: Registry(Of T).TryRegister
+- uid: ProjectStack.Registration.Registry`1.Values
+  name: Values
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Values
+  commentId: P:ProjectStack.Registration.Registry`1.Values
+  fullName: ProjectStack.Registration.Registry<T>.Values
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Values
+  nameWithType: Registry<T>.Values
+  nameWithType.vb: Registry(Of T).Values
+- uid: ProjectStack.Registration.Registry`1.Values*
+  name: Values
+  href: api/ProjectStack.Registration.Registry-1.html#ProjectStack_Registration_Registry_1_Values_
+  commentId: Overload:ProjectStack.Registration.Registry`1.Values
+  isSpec: "True"
+  fullName: ProjectStack.Registration.Registry<T>.Values
+  fullName.vb: ProjectStack.Registration.Registry(Of T).Values
+  nameWithType: Registry<T>.Values
+  nameWithType.vb: Registry(Of T).Values
 - uid: ProjectStack.Resource
   name: ProjectStack.Resource
   href: api/ProjectStack.Resource.html

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
       <meta name="title" content="CardMeta 类
  | ProjectStack ">
       
-      
+      <meta name="description" content="An advanced  type. All classes in the engine inherit from Object. Each class may define new properties, methods or signals, which are available to all inheriting classes. For example, a  instance is able to call  because it inherits from . You can create new instances, using Object.new() in GDScript, or new GodotObject in C#. To delete an Object instance, call . This is necessary for most classes inheriting Object, because they do not manage memory on their own, and will otherwise cause memory leaks when no longer in use. There are a few classes that perform memory management. For example,  (and by extension ) deletes itself when no longer referenced, and  deletes its children when freed. Objects can have a  attached to them. Once the  is instantiated, it effectively acts as an extension to the base class, allowing it to define and inherit new properties, methods and signals. Inside a ,  may be overridden to customize properties in several ways. This allows them to be available to the editor, display as lists of options, sub-divide into groups, save on disk, etc. Scripting languages offer easier ways to customize properties, such as with the [annotation @GDScript.@export] annotation. Godot is very dynamic. An object&#39;s script, and therefore its properties, methods and signals, can be changed at run-time. Because of this, there can be occasions where, for example, a property required by a method may not exist. To prevent run-time errors, see methods such as , , , , , etc. Note that these methods are much slower than direct references. In GDScript, you can also check if a given property, method, or signal name exists in an object with the in operator:     var node = Node.new()    print(&quot;name&quot; in node)         # Prints true    print(&quot;get_parent&quot; in node)   # Prints true    print(&quot;tree_entered&quot; in node) # Prints true    print(&quot;unknown&quot; in node)      # Prints false Notifications are  constants commonly sent and received by objects. For example, on every rendered frame, the  notifies nodes inside the tree with a . The nodes receive it and may call  to update. To make use of notifications, see  and . Lastly, every object can also contain metadata (data about data).  can be useful to store information that the object itself does not depend on. To keep your code clean, making excessive use of metadata is discouraged. Note: Unlike references to a , references to an object stored in a variable can become invalid without being set to null. To check if an object has been deleted, do not compare it against null. Instead, use @GlobalScope.is_instance_valid. It&#39;s also recommended to inherit from  for classes storing data instead of . Note: The script is not exposed like most properties. To set or get an object&#39;s  in code, use  and , respectively.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/HiedaCamellia/ProjectStack/new/main/apiSpec/new?filename=ProjectStack_Common_Card_CardMeta.md&amp;value=---%0Auid%3A%20ProjectStack.Common.Card.CardMeta%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="本文内容">
       <meta name="loc:searchResultsCount" content="找到{count}个“{query}”的搜索结果">
       <meta name="loc:searchNoResults" content="没有找到“{query}”的搜索结果">
@@ -56,7 +56,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -92,7 +92,7 @@
 
   <h1 id="ProjectStack_Common_Card_CardMeta" data-uid="ProjectStack.Common.Card.CardMeta" class="text-break">
 CardMeta 类
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  
   </h1>
 
   <div class="facts text-secondary">
@@ -100,11 +100,30 @@ CardMeta 类
   <dl><dt>程序集</dt><dd>ProjectStack.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>An advanced <span class="xref">Godot.Variant</span> type. All classes in the engine inherit from Object. Each class may define new properties, methods or signals, which are available to all inheriting classes. For example, a <span class="xref">Godot.Sprite2D</span> instance is able to call <span class="xref">Godot.Node.AddChild(Godot.Node, bool, Godot.Node.InternalMode)</span> because it inherits from <span class="xref">Godot.Node</span>.</p>
+<p>You can create new instances, using <code>Object.new()</code> in GDScript, or <code>new GodotObject</code> in C#.</p>
+<p>To delete an Object instance, call <span class="xref">Godot.GodotObject.Free()</span>. This is necessary for most classes inheriting Object, because they do not manage memory on their own, and will otherwise cause memory leaks when no longer in use. There are a few classes that perform memory management. For example, <span class="xref">Godot.RefCounted</span> (and by extension <span class="xref">Godot.Resource</span>) deletes itself when no longer referenced, and <span class="xref">Godot.Node</span> deletes its children when freed.</p>
+<p>Objects can have a <span class="xref">Godot.Script</span> attached to them. Once the <span class="xref">Godot.Script</span> is instantiated, it effectively acts as an extension to the base class, allowing it to define and inherit new properties, methods and signals.</p>
+<p>Inside a <span class="xref">Godot.Script</span>, <span class="xref">Godot.GodotObject._GetPropertyList()</span> may be overridden to customize properties in several ways. This allows them to be available to the editor, display as lists of options, sub-divide into groups, save on disk, etc. Scripting languages offer easier ways to customize properties, such as with the [annotation @GDScript.@export] annotation.</p>
+<p>Godot is very dynamic. An object's script, and therefore its properties, methods and signals, can be changed at run-time. Because of this, there can be occasions where, for example, a property required by a method may not exist. To prevent run-time errors, see methods such as <span class="xref">Godot.GodotObject.Set(Godot.StringName, Godot.Variant)</span>, <span class="xref">Godot.GodotObject.Get(Godot.StringName)</span>, <span class="xref">Godot.GodotObject.Call(Godot.StringName, params Godot.Variant[])</span>, <span class="xref">Godot.GodotObject.HasMethod(Godot.StringName)</span>, <span class="xref">Godot.GodotObject.HasSignal(Godot.StringName)</span>, etc. Note that these methods are <b>much</b> slower than direct references.</p>
+<p>In GDScript, you can also check if a given property, method, or signal name exists in an object with the <code>in</code> operator:</p>
+<p>
+   <pre><code class="lang-csharp">var node = Node.new()
+   print("name" in node)         # Prints true
+   print("get_parent" in node)   # Prints true
+   print("tree_entered" in node) # Prints true
+   print("unknown" in node)      # Prints false</code></pre>
+<p>Notifications are <span class="xref">int</span> constants commonly sent and received by objects. For example, on every rendered frame, the <span class="xref">Godot.SceneTree</span> notifies nodes inside the tree with a <span class="xref">Godot.Node.NotificationProcess</span>. The nodes receive it and may call <span class="xref">Godot.Node._Process(double)</span> to update. To make use of notifications, see <span class="xref">Godot.GodotObject.Notification(int, bool)</span> and <span class="xref">Godot.GodotObject._Notification(int)</span>.</p>
+<p>Lastly, every object can also contain metadata (data about data). <span class="xref">Godot.GodotObject.SetMeta(Godot.StringName, Godot.Variant)</span> can be useful to store information that the object itself does not depend on. To keep your code clean, making excessive use of metadata is discouraged.</p>
+<p><b>Note:</b> Unlike references to a <span class="xref">Godot.RefCounted</span>, references to an object stored in a variable can become invalid without being set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>. To check if an object has been deleted, do <i>not</i> compare it against <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>. Instead, use <code>@GlobalScope.is_instance_valid</code>. It's also recommended to inherit from <span class="xref">Godot.RefCounted</span> for classes storing data instead of <span class="xref">Godot.GodotObject</span>.</p>
+<p><b>Note:</b> The <code>script</code> is not exposed like most properties. To set or get an object's <span class="xref">Godot.Script</span> in code, use <span class="xref">Godot.GodotObject.SetScript(Godot.Variant)</span> and <span class="xref">Godot.GodotObject.GetScript()</span>, respectively.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public record CardMeta</code></pre>
+    <pre><code class="lang-csharp hljs">[ObservableObject]
+[ScriptPath(&quot;res://src/scripts/Common/Card/CardMeta.cs&quot;)]
+public class CardMeta : GodotObject</code></pre>
   </div>
 
 
@@ -113,51 +132,11 @@ CardMeta 类
   <dl class="typelist inheritance">
     <dt>继承</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">GodotObject</span></div>
       <div><span class="xref">CardMeta</span></div>
     </dd>
   </dl>
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="constructors">构造函数
-</h2>
-
-
-  <a id="ProjectStack_Common_Card_CardMeta__ctor_" data-uid="ProjectStack.Common.Card.CardMeta.#ctor*"></a>
-
-  <h3 id="ProjectStack_Common_Card_CardMeta__ctor_ProjectStack_Common_ResourceLocation_System_String_System_String_ProjectStack_Common_ResourceLocation_" data-uid="ProjectStack.Common.Card.CardMeta.#ctor(ProjectStack.Common.ResourceLocation,System.String,System.String,ProjectStack.Common.ResourceLocation)">
-  CardMeta(ResourceLocation, string, string, ResourceLocation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L5"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CardMeta(ResourceLocation Id, string Name, string Description, ResourceLocation Type)</code></pre>
-  </div>
-
-  <h4 class="section">参数</h4>
-  <dl class="parameters">
-    <dt><code>Id</code> <a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
-    <dd></dd>
-    <dt><code>Name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>Description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>Type</code> <a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
 
 
 
@@ -175,14 +154,14 @@ CardMeta 类
 
   <h3 id="ProjectStack_Common_Card_CardMeta_Description" data-uid="ProjectStack.Common.Card.CardMeta.Description">
   Description
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Description { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Description { get; set; }</code></pre>
   </div>
 
 
@@ -191,7 +170,7 @@ CardMeta 类
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -206,14 +185,14 @@ CardMeta 类
 
   <h3 id="ProjectStack_Common_Card_CardMeta_Id" data-uid="ProjectStack.Common.Card.CardMeta.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ResourceLocation Id { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ResourceLocation Id { get; }</code></pre>
   </div>
 
 
@@ -237,14 +216,14 @@ CardMeta 类
 
   <h3 id="ProjectStack_Common_Card_CardMeta_Name" data-uid="ProjectStack.Common.Card.CardMeta.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
 
 
@@ -253,7 +232,7 @@ CardMeta 类
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -268,14 +247,14 @@ CardMeta 类
 
   <h3 id="ProjectStack_Common_Card_CardMeta_Type" data-uid="ProjectStack.Common.Card.CardMeta.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ResourceLocation Type { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ResourceLocation Type { get; set; }</code></pre>
   </div>
 
 
@@ -303,7 +282,7 @@ CardMeta 类
 
   <h3 id="ProjectStack_Common_Card_CardMeta_Create_System_String_" data-uid="ProjectStack.Common.Card.CardMeta.Create(System.String)">
   Create(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -315,7 +294,7 @@ CardMeta 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -335,11 +314,1221 @@ CardMeta 类
 
 
 
+  <a id="ProjectStack_Common_Card_CardMeta_Deserialize_" data-uid="ProjectStack.Common.Card.CardMeta.Deserialize*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_Deserialize_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_" data-uid="ProjectStack.Common.Card.CardMeta.Deserialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)">
+  Deserialize(FriendlyNtjObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Deserialize(FriendlyNtjObject j)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>j</code> <a class="xref" href="ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html">FriendlyNtjObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_GetGodotClassPropertyValue_" data-uid="ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_GetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Common.Card.CardMeta.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+  GetGodotClassPropertyValue(in godot_string_name, out godot_variant)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the value of a property contained in this class.
+This method is used by Godot to retrieve property values.
+Do not call or override this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool GetGodotClassPropertyValue(in godot_string_name name, out godot_variant value)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <span class="xref">godot_string_name</span></dt>
+    <dd><p>Name of the property to get.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">godot_variant</span></dt>
+    <dd><p>Value of the property if it was found.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if a property with the given name was found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_HasGodotClassMethod_" data-uid="ProjectStack.Common.Card.CardMeta.HasGodotClassMethod*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_HasGodotClassMethod_Godot_NativeInterop_godot_string_name__" data-uid="ProjectStack.Common.Card.CardMeta.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+  HasGodotClassMethod(in godot_string_name)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check if the type contains a method with the given name.
+This method is used by Godot to check if a method exists before invoking it.
+Do not call or override this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool HasGodotClassMethod(in godot_string_name method)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <span class="xref">godot_string_name</span></dt>
+    <dd><p>Name of the method to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_InvokeGodotClassMethod_" data-uid="ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_InvokeGodotClassMethod_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_NativeVariantPtrArgs_Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Common.Card.CardMeta.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+  InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes the method with the given name, using the given arguments.
+This method is used by Godot to invoke methods from the engine side.
+Do not call or override this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool InvokeGodotClassMethod(in godot_string_name method, NativeVariantPtrArgs args, out godot_variant ret)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <span class="xref">godot_string_name</span></dt>
+    <dd><p>Name of the method to invoke.</p>
+</dd>
+    <dt><code>args</code> <span class="xref">NativeVariantPtrArgs</span></dt>
+    <dd><p>Arguments to use with the invoked method.</p>
+</dd>
+    <dt><code>ret</code> <span class="xref">godot_variant</span></dt>
+    <dd><p>Value returned by the invoked method.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_OnPropertyChanged_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanged*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+  OnPropertyChanged(PropertyChangedEventArgs)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(PropertyChangedEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <span class="xref">PropertyChangedEventArgs</span></dt>
+    <dd><p>The input <span class="xref">System.ComponentModel.PropertyChangedEventArgs</span> instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_OnPropertyChanged_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanged*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_OnPropertyChanged_System_String_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanged(System.String)">
+  OnPropertyChanged(string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnPropertyChanged(string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_OnPropertyChanging_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanging*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_OnPropertyChanging_System_ComponentModel_PropertyChangingEventArgs_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanging(System.ComponentModel.PropertyChangingEventArgs)">
+  OnPropertyChanging(PropertyChangingEventArgs)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanging(PropertyChangingEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <span class="xref">PropertyChangingEventArgs</span></dt>
+    <dd><p>The input <span class="xref">System.ComponentModel.PropertyChangingEventArgs</span> instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_OnPropertyChanging_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanging*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_OnPropertyChanging_System_String_" data-uid="ProjectStack.Common.Card.CardMeta.OnPropertyChanging(System.String)">
+  OnPropertyChanging(string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnPropertyChanging(string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_Parse_" data-uid="ProjectStack.Common.Card.CardMeta.Parse*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_Parse_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_" data-uid="ProjectStack.Common.Card.CardMeta.Parse(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)">
+  Parse(FriendlyNtjObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CardMeta Parse(FriendlyNtjObject j)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>j</code> <a class="xref" href="ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html">FriendlyNtjObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ProjectStack.Common.Card.CardMeta.html">CardMeta</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_RestoreGodotObjectData_" data-uid="ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_RestoreGodotObjectData_Godot_Bridge_GodotSerializationInfo_" data-uid="ProjectStack.Common.Card.CardMeta.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+  RestoreGodotObjectData(GodotSerializationInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Restores this instance's state after reloading assemblies.
+Do not call or override this method.
+To add data to be saved and restored, implement <span class="xref">Godot.ISerializationListener</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RestoreGodotObjectData(GodotSerializationInfo info)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>info</code> <span class="xref">GodotSerializationInfo</span></dt>
+    <dd><p>Object that contains the previously saved data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SaveGodotObjectData_" data-uid="ProjectStack.Common.Card.CardMeta.SaveGodotObjectData*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SaveGodotObjectData_Godot_Bridge_GodotSerializationInfo_" data-uid="ProjectStack.Common.Card.CardMeta.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+  SaveGodotObjectData(GodotSerializationInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Saves this instance's state to be restored when reloading assemblies.
+Do not call or override this method.
+To add data to be saved and restored, implement <span class="xref">Godot.ISerializationListener</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SaveGodotObjectData(GodotSerializationInfo info)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>info</code> <span class="xref">GodotSerializationInfo</span></dt>
+    <dd><p>Object used to save the data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_Serialize_" data-uid="ProjectStack.Common.Card.CardMeta.Serialize*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_Serialize_ProjectStack_NamedTagsBaseOnJson_FriendlyNtjObject_" data-uid="ProjectStack.Common.Card.CardMeta.Serialize(ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject)">
+  Serialize(FriendlyNtjObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Serialize(FriendlyNtjObject j)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>j</code> <a class="xref" href="ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html">FriendlyNtjObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetGodotClassPropertyValue_" data-uid="ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetGodotClassPropertyValue_Godot_NativeInterop_godot_string_name__Godot_NativeInterop_godot_variant__" data-uid="ProjectStack.Common.Card.CardMeta.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+  SetGodotClassPropertyValue(in godot_string_name, in godot_variant)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set the value of a property contained in this class.
+This method is used by Godot to assign property values.
+Do not call or override this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool SetGodotClassPropertyValue(in godot_string_name name, in godot_variant value)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <span class="xref">godot_string_name</span></dt>
+    <dd><p>Name of the property to set.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">godot_variant</span></dt>
+    <dd><p>Value to set the property to if it was found.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if a property with the given name was found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)">
+  SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, Action&lt;Task?&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.
+This method is just like <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task_System_String_">SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)</a>,
+with the difference being an extra <span class="xref">System.Action&lt;T&gt;</span> parameter with a callback being invoked
+either immediately, if the new task has already completed or is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, or upon completion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion(ref CardMeta.TaskNotifier? taskNotifier, Task? newValue, Action&lt;Task?&gt; callback, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Common.Card.CardMeta.html">CardMeta</a>.<a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier.html">TaskNotifier</a></dt>
+    <dd><p>The field notifier to modify.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">Task</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;<span class="xref">Task</span>&gt;</dt>
+    <dd><p>A callback to invoke to update the property value.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task_System_Action_System_Threading_Tasks_Task__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> events are not raised
+if the current and new value for the target property are the same.</p>
+</div>
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task_System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion(ProjectStack.Common.Card.CardMeta.TaskNotifier@,System.Threading.Tasks.Task,System.String)">
+  SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.
+The behavior mirrors that of <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
+this method will also monitor the new value of the property (a generic <span class="xref">System.Threading.Tasks.Task</span>) and will also
+raise the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
+This can be used to update bindings observing that <span class="xref">System.Threading.Tasks.Task</span> or any of its properties.
+This method and its overload specifically rely on the <a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier.html">CardMeta.TaskNotifier</a> type, which needs
+to be used in the backing field for the target <span class="xref">System.Threading.Tasks.Task</span> property. The field doesn't need to be
+initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier.html">CardMeta.TaskNotifier</a>
+type also includes an implicit operator, so it can be assigned to any <span class="xref">System.Threading.Tasks.Task</span> instance directly.
+Here is a sample property declaration using this method:</p>
+<pre><code class="lang-csharp">private TaskNotifier myTask;
+
+public Task MyTask
+{
+    get =&gt; myTask;
+    private set =&gt; SetAndNotifyOnCompletion(ref myTask, value);
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion(ref CardMeta.TaskNotifier? taskNotifier, Task? newValue, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Common.Card.CardMeta.html">CardMeta</a>.<a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier.html">TaskNotifier</a></dt>
+    <dd><p>The field notifier to modify.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">Task</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_ProjectStack_Common_Card_CardMeta_TaskNotifier__System_Threading_Tasks_Task_System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> events are not raised if the current
+and new value for the target property are the same. The return value being <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> only
+indicates that the new value being assigned to <code class="paramref">taskNotifier</code> is different than the previous one,
+and it does not mean the new <span class="xref">System.Threading.Tasks.Task</span> instance passed as argument is in any particular state.</p>
+</div>
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Common_Card_CardMeta_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Common.Card.CardMeta.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)">
+  SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, Action&lt;Task&lt;T&gt;?&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.
+This method is just like <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Common_Card_CardMeta_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_">SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, string?)</a>,
+with the difference being an extra <span class="xref">System.Action&lt;T&gt;</span> parameter with a callback being invoked
+either immediately, if the new task has already completed or is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, or upon completion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref CardMeta.TaskNotifier&lt;T&gt;? taskNotifier, Task&lt;T&gt;? newValue, Action&lt;Task&lt;T&gt;?&gt; callback, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Common.Card.CardMeta.html">CardMeta</a>.<a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
+    <dd><p>The field notifier to modify.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">Task</span>&lt;T&gt;</dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;<span class="xref">Task</span>&lt;T&gt;&gt;</dt>
+    <dd><p>A callback to invoke to update the property value.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of result for the <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> to set and monitor.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Common_Card_CardMeta_TaskNotifier___0___System_Threading_Tasks_Task___0__System_Action_System_Threading_Tasks_Task___0___System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> events are not raised
+if the current and new value for the target property are the same.</p>
+</div>
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Common_Card_CardMeta_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetPropertyAndNotifyOnCompletion``1(ProjectStack.Common.Card.CardMeta.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)">
+  SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given field (which should be the backing
+field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a>
+event, updates the field and then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.
+The behavior mirrors that of <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
+this method will also monitor the new value of the property (a generic <span class="xref">System.Threading.Tasks.Task</span>) and will also
+raise the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
+This can be used to update bindings observing that <span class="xref">System.Threading.Tasks.Task</span> or any of its properties.
+This method and its overload specifically rely on the <a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html">CardMeta.TaskNotifier&lt;T&gt;</a> type, which needs
+to be used in the backing field for the target <span class="xref">System.Threading.Tasks.Task</span> property. The field doesn't need to be
+initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html">CardMeta.TaskNotifier&lt;T&gt;</a>
+type also includes an implicit operator, so it can be assigned to any <span class="xref">System.Threading.Tasks.Task</span> instance directly.
+Here is a sample property declaration using this method:</p>
+<pre><code class="lang-csharp">private TaskNotifier&lt;int&gt; myTask;
+
+public Task&lt;int&gt; MyTask
+{
+    get =&gt; myTask;
+    private set =&gt; SetAndNotifyOnCompletion(ref myTask, value);
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref CardMeta.TaskNotifier&lt;T&gt;? taskNotifier, Task&lt;T&gt;? newValue, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.Common.Card.CardMeta.html">CardMeta</a>.<a class="xref" href="ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
+    <dd><p>The field notifier to modify.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">Task</span>&lt;T&gt;</dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of result for the <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> to set and monitor.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="ProjectStack_Common_Card_CardMeta_SetPropertyAndNotifyOnCompletion__1_ProjectStack_Common_Card_CardMeta_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> events are not raised if the current
+and new value for the target property are the same. The return value being <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> only
+indicates that the new value being assigned to <code class="paramref">taskNotifier</code> is different than the previous one,
+and it does not mean the new <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> instance passed as argument is in any particular state.</p>
+</div>
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetProperty_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetProperty__1___0___0_System_Action___0__System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty``1(``0,``0,System.Action{``0},System.String)">
+  SetProperty&lt;T&gt;(T, T, Action&lt;T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
+raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.
+This overload is much less efficient than <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a> and it
+should only be used when the former is not viable (eg. when the target property being
+updated does not directly expose a backing field that can be passed by reference).
+For performance reasons, it is recommended to use a stateful callback if possible through
+the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__2___1___1___0_System_Action___0___1__System_String_">SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)</a> whenever possible
+instead of this overload, as that will allow the C# compiler to cache the input callback and
+reduce the memory allocations. More info on that overload are available in the related XML
+docs. This overload is here for completeness and in cases where that is not applicable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetProperty&lt;T&gt;(T oldValue, T newValue, Action&lt;T&gt; callback, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>oldValue</code> <span class="xref">T</span></dt>
+    <dd><p>The current property value.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;T&gt;</dt>
+    <dd><p>A callback to invoke to update the property value.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the property that changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="ProjectStack_Common_Card_CardMeta_SetProperty__1___0___0_System_Action___0__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> events are not raised
+if the current and new value for the target property are the same.</p>
+</div>
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetProperty_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetProperty__1___0___0_System_Collections_Generic_IEqualityComparer___0__System_Action___0__System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)">
+  SetProperty&lt;T&gt;(T, T, IEqualityComparer&lt;T&gt;, Action&lt;T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
+raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.
+See additional notes about this overload in <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0___0_System_Action___0__System_String_">SetProperty&lt;T&gt;(T, T, Action&lt;T&gt;, string?)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetProperty&lt;T&gt;(T oldValue, T newValue, IEqualityComparer&lt;T&gt; comparer, Action&lt;T&gt; callback, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>oldValue</code> <span class="xref">T</span></dt>
+    <dd><p>The current property value.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>comparer</code> <span class="xref">IEqualityComparer</span>&lt;T&gt;</dt>
+    <dd><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> instance to use to compare the input values.</p>
+</dd>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;T&gt;</dt>
+    <dd><p>A callback to invoke to update the property value.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the property that changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetProperty_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_Collections_Generic_IEqualityComparer___0__System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)">
+  SetProperty&lt;T&gt;(ref T, T, IEqualityComparer&lt;T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
+raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.
+See additional notes about this overload in <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetProperty&lt;T&gt;(ref T field, T newValue, IEqualityComparer&lt;T&gt; comparer, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>field</code> <span class="xref">T</span></dt>
+    <dd><p>The field storing the property's value.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>comparer</code> <span class="xref">IEqualityComparer</span>&lt;T&gt;</dt>
+    <dd><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> instance to use to compare the input values.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the property that changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetProperty_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty``1(``0@,``0,System.String)">
+  SetProperty&lt;T&gt;(ref T, T, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given property. If the value has changed,
+raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event, updates the property with the new
+value, then raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetProperty&lt;T&gt;(ref T field, T newValue, string? propertyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>field</code> <span class="xref">T</span></dt>
+    <dd><p>The field storing the property's value.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the property that changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> events are not raised
+if the current and new value for the target property are the same.</p>
+</div>
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetProperty_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetProperty__2___1___1_System_Collections_Generic_IEqualityComparer___1____0_System_Action___0___1__System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)">
+  SetProperty&lt;TModel, T&gt;(T, T, IEqualityComparer&lt;T&gt;, TModel, Action&lt;TModel, T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given nested property. If the value has changed,
+raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event, updates the property and then raises the
+<a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event. The behavior mirrors that of <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>,
+with the difference being that this method is used to relay properties from a wrapped model in the
+current instance. See additional notes about this overload in <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__2___1___1___0_System_Action___0___1__System_String_">SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetProperty&lt;TModel, T&gt;(T oldValue, T newValue, IEqualityComparer&lt;T&gt; comparer, TModel model, Action&lt;TModel, T&gt; callback, string? propertyName = null) where TModel : class</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>oldValue</code> <span class="xref">T</span></dt>
+    <dd><p>The current property value.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>comparer</code> <span class="xref">IEqualityComparer</span>&lt;T&gt;</dt>
+    <dd><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> instance to use to compare the input values.</p>
+</dd>
+    <dt><code>model</code> <span class="xref">TModel</span></dt>
+    <dd><p>The model containing the property being updated.</p>
+</dd>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;TModel, T&gt;</dt>
+    <dd><p>The callback to invoke to set the target property value, if a change has occurred.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>TModel</code></dt>
+    <dd><p>The type of model whose property (or field) to set.</p>
+</dd>
+    <dt><code>T</code></dt>
+    <dd><p>The type of property (or field) to set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_Card_CardMeta_SetProperty_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty*"></a>
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_SetProperty__2___1___1___0_System_Action___0___1__System_String_" data-uid="ProjectStack.Common.Card.CardMeta.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)">
+  SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares the current and new values for a given nested property. If the value has changed,
+raises the <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> event, updates the property and then raises the
+<a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> event. The behavior mirrors that of <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>,
+with the difference being that this method is used to relay properties from a wrapped model in the
+current instance. This type is useful when creating wrapping, bindable objects that operate over
+models that lack support for notification (eg. for CRUD operations).
+Suppose we have this model (eg. for a database row in a table):</p>
+<pre><code class="lang-csharp">public class Person
+{
+    public string Name { get; set; }
+}</code></pre>
+<p>We can then use a property to wrap instances of this type into our observable model (which supports
+notifications), injecting the notification to the properties of that model, like so:</p>
+<pre><code class="lang-csharp">[ObservableObject]
+public class BindablePerson
+{
+    public Model { get; }
+
+    public BindablePerson(Person model)
+    {
+        Model = model;
+    }
+
+    public string Name
+    {
+        get =&gt; Model.Name;
+        set =&gt; Set(Model.Name, value, Model, (model, name) =&gt; model.Name = name);
+    }
+}</code></pre>
+<p>This way we can then use the wrapping object in our application, and all those &quot;proxy&quot; properties will
+also raise notifications when changed. Note that this method is not meant to be a replacement for
+<a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, and it should only be used when relaying properties to a model that
+doesn't support notifications, and only if you can't implement notifications to that model directly (eg. by having
+it inherit from ObservableObject). The syntax relies on passing the target model and a stateless callback
+to allow the C# compiler to cache the function, which results in much better performance and no memory usage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetProperty&lt;TModel, T&gt;(T oldValue, T newValue, TModel model, Action&lt;TModel, T&gt; callback, string? propertyName = null) where TModel : class</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>oldValue</code> <span class="xref">T</span></dt>
+    <dd><p>The current property value.</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>The property's value after the change occurred.</p>
+</dd>
+    <dt><code>model</code> <span class="xref">TModel</span></dt>
+    <dd><p>The model containing the property being updated.</p>
+</dd>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;TModel, T&gt;</dt>
+    <dd><p>The callback to invoke to set the target property value, if a change has occurred.</p>
+</dd>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
+    <dd><p>(optional) The name of the property that changed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>TModel</code></dt>
+    <dd><p>The type of model whose property (or field) to set.</p>
+</dd>
+    <dt><code>T</code></dt>
+    <dd><p>The type of property (or field) to set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="ProjectStack_Common_Card_CardMeta_SetProperty__2___1___1___0_System_Action___0___1__System_String__remarks">备注</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.Common.Card.CardMeta.html#ProjectStack_Common_Card_CardMeta_PropertyChanged">PropertyChanged</a> events are not
+raised if the current and new value for the target property are the same.</p>
+</div>
+
+
+
+
+  <h2 class="section" id="events">事件
+</h2>
+
+
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_PropertyChanged" data-uid="ProjectStack.Common.Card.CardMeta.PropertyChanged">
+  PropertyChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">事件类型</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PropertyChangedEventHandler</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="ProjectStack_Common_Card_CardMeta_PropertyChanging" data-uid="ProjectStack.Common.Card.CardMeta.PropertyChanging">
+  PropertyChanging
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value is changing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangingEventHandler? PropertyChanging</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">事件类型</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PropertyChangingEventHandler</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/Card/CardMeta.cs/#L5" class="edit-link">编辑本文</a>
         </div>
 
 

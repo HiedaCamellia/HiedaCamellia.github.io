@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -56,7 +56,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -92,7 +92,7 @@
 
   <h1 id="ProjectStack_Core_ServiceCollectionExtension" data-uid="ProjectStack.Core.ServiceCollectionExtension" class="text-break">
 ServiceCollectionExtension 类
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -113,7 +113,7 @@ ServiceCollectionExtension 类
   <dl class="typelist inheritance">
     <dt>继承</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">ServiceCollectionExtension</span></div>
     </dd>
   </dl>
@@ -130,11 +130,97 @@ ServiceCollectionExtension 类
 </h2>
 
 
+  <a id="ProjectStack_Core_ServiceCollectionExtension_AddKeylessRegistry_" data-uid="ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry*"></a>
+
+  <h3 id="ProjectStack_Core_ServiceCollectionExtension_AddKeylessRegistry__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_ProjectStack_Registration_KeylessRegistry___0___" data-uid="ProjectStack.Core.ServiceCollectionExtension.AddKeylessRegistry``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{ProjectStack.Registration.KeylessRegistry{``0}})">
+  AddKeylessRegistry&lt;T&gt;(IServiceCollection, Action&lt;KeylessRegistry&lt;T&gt;&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddKeylessRegistry&lt;T&gt;(this IServiceCollection services, Action&lt;KeylessRegistry&lt;T&gt;&gt;? configure = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <span class="xref">IServiceCollection</span></dt>
+    <dd></dd>
+    <dt><code>configure</code> <span class="xref">Action</span>&lt;<a class="xref" href="ProjectStack.Registration.KeylessRegistry-1.html">KeylessRegistry</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IServiceCollection</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Core_ServiceCollectionExtension_AddRegistry_" data-uid="ProjectStack.Core.ServiceCollectionExtension.AddRegistry*"></a>
+
+  <h3 id="ProjectStack_Core_ServiceCollectionExtension_AddRegistry__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_ProjectStack_Registration_Registry___0___" data-uid="ProjectStack.Core.ServiceCollectionExtension.AddRegistry``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{ProjectStack.Registration.Registry{``0}})">
+  AddRegistry&lt;T&gt;(IServiceCollection, Action&lt;Registry&lt;T&gt;&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddRegistry&lt;T&gt;(this IServiceCollection services, Action&lt;Registry&lt;T&gt;&gt;? configure = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <span class="xref">IServiceCollection</span></dt>
+    <dd></dd>
+    <dt><code>configure</code> <span class="xref">Action</span>&lt;<a class="xref" href="ProjectStack.Registration.Registry-1.html">Registry</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IServiceCollection</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="ProjectStack_Core_ServiceCollectionExtension_ConfigureHoveredItemInfoDisplay_" data-uid="ProjectStack.Core.ServiceCollectionExtension.ConfigureHoveredItemInfoDisplay*"></a>
 
   <h3 id="ProjectStack_Core_ServiceCollectionExtension_ConfigureHoveredItemInfoDisplay_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="ProjectStack.Core.ServiceCollectionExtension.ConfigureHoveredItemInfoDisplay(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
   ConfigureHoveredItemInfoDisplay(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -146,7 +232,7 @@ ServiceCollectionExtension 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dt><code>services</code> <span class="xref">IServiceCollection</span></dt>
     <dd></dd>
   </dl>
 
@@ -170,7 +256,7 @@ ServiceCollectionExtension 类
 
   <h3 id="ProjectStack_Core_ServiceCollectionExtension_RegisterCardMetas_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="ProjectStack.Core.ServiceCollectionExtension.RegisterCardMetas(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
   RegisterCardMetas(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -182,7 +268,7 @@ ServiceCollectionExtension 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dt><code>services</code> <span class="xref">IServiceCollection</span></dt>
     <dd></dd>
   </dl>
 
@@ -206,7 +292,7 @@ ServiceCollectionExtension 类
 
   <h3 id="ProjectStack_Core_ServiceCollectionExtension_RegisterEditors_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="ProjectStack.Core.ServiceCollectionExtension.RegisterEditors(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
   RegisterEditors(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -218,7 +304,7 @@ ServiceCollectionExtension 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dt><code>services</code> <span class="xref">IServiceCollection</span></dt>
     <dd></dd>
   </dl>
 
@@ -242,7 +328,7 @@ ServiceCollectionExtension 类
 
   <h3 id="ProjectStack_Core_ServiceCollectionExtension_RegisterRecipes_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="ProjectStack.Core.ServiceCollectionExtension.RegisterRecipes(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
   RegisterRecipes(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -254,7 +340,7 @@ ServiceCollectionExtension 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dt><code>services</code> <span class="xref">IServiceCollection</span></dt>
     <dd></dd>
   </dl>
 
@@ -278,7 +364,7 @@ ServiceCollectionExtension 类
 
   <h3 id="ProjectStack_Core_ServiceCollectionExtension_RegisterTextureLoader_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="ProjectStack.Core.ServiceCollectionExtension.RegisterTextureLoader(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
   RegisterTextureLoader(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -290,7 +376,7 @@ ServiceCollectionExtension 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dt><code>services</code> <span class="xref">IServiceCollection</span></dt>
     <dd></dd>
   </dl>
 
@@ -314,7 +400,7 @@ ServiceCollectionExtension 类
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L10" class="edit-link">编辑本文</a>
+          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/ServiceCollectionExtension.cs/#L12" class="edit-link">编辑本文</a>
         </div>
 
 

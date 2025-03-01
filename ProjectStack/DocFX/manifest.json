@@ -38,7 +38,11 @@
           "relative_path": "api/ProjectStack.Attributes.AttributeHolder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Attributes.AttributeHolder",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -48,7 +52,11 @@
           "relative_path": "api/ProjectStack.Attributes.AttributeManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Attributes.AttributeManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -58,7 +66,11 @@
           "relative_path": "api/ProjectStack.Attributes.AttributeModifier.ModifierType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Attributes.AttributeModifier.ModifierType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -68,7 +80,11 @@
           "relative_path": "api/ProjectStack.Attributes.AttributeModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Attributes.AttributeModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -78,7 +94,11 @@
           "relative_path": "api/ProjectStack.Attributes.BuiltnCardAttributes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Attributes.BuiltnCardAttributes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -88,7 +108,11 @@
           "relative_path": "api/ProjectStack.Attributes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Attributes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -98,7 +122,11 @@
           "relative_path": "api/ProjectStack.CardTest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.CardTest",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -108,7 +136,11 @@
           "relative_path": "api/ProjectStack.Command.CommandAdapter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Command.CommandAdapter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -118,7 +150,39 @@
           "relative_path": "api/ProjectStack.Command.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Command",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Card.CardMeta.TaskNotifier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Card.CardMeta.TaskNotifier-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Card.CardMeta.TaskNotifier<T>",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Common.Card.CardMeta.TaskNotifier-1.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task%601\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Common.Card.CardMeta.TaskNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Common.Card.CardMeta.TaskNotifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Card.CardMeta.TaskNotifier",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Common.Card.CardMeta.TaskNotifier.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -128,7 +192,11 @@
           "relative_path": "api/ProjectStack.Common.Card.CardMeta.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Card.CardMeta",
+      "Summary": "<p>An advanced <xref href=\"Godot.Variant\" data-throw-if-not-resolved=\"false\"></xref> type. All classes in the engine inherit from Object. Each class may define new properties, methods or signals, which are available to all inheriting classes. For example, a <xref href=\"Godot.Sprite2D\" data-throw-if-not-resolved=\"false\"></xref> instance is able to call <xref href=\"Godot.Node.AddChild(Godot.Node%2cSystem.Boolean%2cGodot.Node.InternalMode)\" data-throw-if-not-resolved=\"false\"></xref> because it inherits from <xref href=\"Godot.Node\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>You can create new instances, using <code>Object.new()</code> in GDScript, or <code>new GodotObject</code> in C#.</p>\n<p>To delete an Object instance, call <xref href=\"Godot.GodotObject.Free\" data-throw-if-not-resolved=\"false\"></xref>. This is necessary for most classes inheriting Object, because they do not manage memory on their own, and will otherwise cause memory leaks when no longer in use. There are a few classes that perform memory management. For example, <xref href=\"Godot.RefCounted\" data-throw-if-not-resolved=\"false\"></xref> (and by extension <xref href=\"Godot.Resource\" data-throw-if-not-resolved=\"false\"></xref>) deletes itself when no longer referenced, and <xref href=\"Godot.Node\" data-throw-if-not-resolved=\"false\"></xref> deletes its children when freed.</p>\n<p>Objects can have a <xref href=\"Godot.Script\" data-throw-if-not-resolved=\"false\"></xref> attached to them. Once the <xref href=\"Godot.Script\" data-throw-if-not-resolved=\"false\"></xref> is instantiated, it effectively acts as an extension to the base class, allowing it to define and inherit new properties, methods and signals.</p>\n<p>Inside a <xref href=\"Godot.Script\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Godot.GodotObject._GetPropertyList\" data-throw-if-not-resolved=\"false\"></xref> may be overridden to customize properties in several ways. This allows them to be available to the editor, display as lists of options, sub-divide into groups, save on disk, etc. Scripting languages offer easier ways to customize properties, such as with the [annotation @GDScript.@export] annotation.</p>\n<p>Godot is very dynamic. An object's script, and therefore its properties, methods and signals, can be changed at run-time. Because of this, there can be occasions where, for example, a property required by a method may not exist. To prevent run-time errors, see methods such as <xref href=\"Godot.GodotObject.Set(Godot.StringName%2cGodot.Variant)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Godot.GodotObject.Get(Godot.StringName)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Godot.GodotObject.Call(Godot.StringName%2cGodot.Variant%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Godot.GodotObject.HasMethod(Godot.StringName)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Godot.GodotObject.HasSignal(Godot.StringName)\" data-throw-if-not-resolved=\"false\"></xref>, etc. Note that these methods are <b>much</b> slower than direct references.</p>\n<p>In GDScript, you can also check if a given property, method, or signal name exists in an object with the <code>in</code> operator:</p>\n<p>\n   <pre><code class=\"lang-csharp\">var node = Node.new()\n   print(\"name\" in node)         # Prints true\n   print(\"get_parent\" in node)   # Prints true\n   print(\"tree_entered\" in node) # Prints true\n   print(\"unknown\" in node)      # Prints false</code></pre>\n<p>Notifications are <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref> constants commonly sent and received by objects. For example, on every rendered frame, the <xref href=\"Godot.SceneTree\" data-throw-if-not-resolved=\"false\"></xref> notifies nodes inside the tree with a <xref href=\"Godot.Node.NotificationProcess\" data-throw-if-not-resolved=\"false\"></xref>. The nodes receive it and may call <xref href=\"Godot.Node._Process(System.Double)\" data-throw-if-not-resolved=\"false\"></xref> to update. To make use of notifications, see <xref href=\"Godot.GodotObject.Notification(System.Int32%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.GodotObject._Notification(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>Lastly, every object can also contain metadata (data about data). <xref href=\"Godot.GodotObject.SetMeta(Godot.StringName%2cGodot.Variant)\" data-throw-if-not-resolved=\"false\"></xref> can be useful to store information that the object itself does not depend on. To keep your code clean, making excessive use of metadata is discouraged.</p>\n<p><b>Note:</b> Unlike references to a <xref href=\"Godot.RefCounted\" data-throw-if-not-resolved=\"false\"></xref>, references to an object stored in a variable can become invalid without being set to <a href=\"https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null\">null</a>. To check if an object has been deleted, do <i>not</i> compare it against <a href=\"https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null\">null</a>. Instead, use <code>@GlobalScope.is_instance_valid</code>. It's also recommended to inherit from <xref href=\"Godot.RefCounted\" data-throw-if-not-resolved=\"false\"></xref> for classes storing data instead of <xref href=\"Godot.GodotObject\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p><b>Note:</b> The <code>script</code> is not exposed like most properties. To set or get an object's <xref href=\"Godot.Script\" data-throw-if-not-resolved=\"false\"></xref> in code, use <xref href=\"Godot.GodotObject.SetScript(Godot.Variant)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.GodotObject.GetScript\" data-throw-if-not-resolved=\"false\"></xref>, respectively.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +206,11 @@
           "relative_path": "api/ProjectStack.Common.Card.CardMetaRegistrationHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Card.CardMetaRegistrationHelper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -148,7 +220,11 @@
           "relative_path": "api/ProjectStack.Common.Card.CardStack.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Card.CardStack",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -158,7 +234,11 @@
           "relative_path": "api/ProjectStack.Common.Card.ICardStack.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Card.ICardStack",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -168,7 +248,11 @@
           "relative_path": "api/ProjectStack.Common.Card.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Card",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -178,17 +262,25 @@
           "relative_path": "api/ProjectStack.Common.Recipe.AbstractRecipe-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.AbstractRecipe<TRecipeInput>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.yml",
+      "source_relative_path": "api/ProjectStack.Common.Recipe.CardIdMatchRecipe.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectStack.Common.Recipe.CardMetaMatchRecipe.html"
+          "relative_path": "api/ProjectStack.Common.Recipe.CardIdMatchRecipe.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.CardIdMatchRecipe",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -198,7 +290,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.IRecipe.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.IRecipe",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -208,7 +304,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.IRecipeInput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.IRecipeInput",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -218,7 +318,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.RecipeInput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.RecipeInput",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -228,7 +332,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.RecipeOutput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.RecipeOutput",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -238,7 +346,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.RecipeRegistrationHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.RecipeRegistrationHelper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -248,7 +360,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.RecipeResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.RecipeResult",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -258,7 +374,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.ScriptRecipeInput.ScriptContext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -268,7 +388,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.ScriptRecipeInput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.ScriptRecipeInput",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -278,7 +402,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.Ingredient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.SimpleRecipe.Ingredient",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -288,7 +416,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.Product.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.SimpleRecipe.Product",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -298,7 +430,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.SimpleRecipe.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe.SimpleRecipe",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Common.Recipe.SimpleRecipe.yml\" sourcestartlinenumber=\"1\">表示配方的数据结构</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -308,7 +444,11 @@
           "relative_path": "api/ProjectStack.Common.Recipe.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.Recipe",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -318,7 +458,11 @@
           "relative_path": "api/ProjectStack.Common.ResourceLocation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common.ResourceLocation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -328,7 +472,11 @@
           "relative_path": "api/ProjectStack.Common.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Common",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -338,7 +486,11 @@
           "relative_path": "api/ProjectStack.Component.Card.TaskNotifier-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Component.Card.TaskNotifier<T>",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Component.Card.TaskNotifier-1.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task%601\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -348,7 +500,11 @@
           "relative_path": "api/ProjectStack.Component.Card.TaskNotifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Component.Card.TaskNotifier",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Component.Card.TaskNotifier.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -358,7 +514,11 @@
           "relative_path": "api/ProjectStack.Component.Card.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Component.Card",
+      "Summary": "<p>A 2D game object, with a transform (position, rotation, and scale). All 2D nodes, including physics objects and sprites, inherit from Node2D. Use Node2D as a parent node to move, scale and rotate children in a 2D project. Also gives control of the node's render order.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -368,7 +528,11 @@
           "relative_path": "api/ProjectStack.Component.InfoTab.TaskNotifier-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Component.InfoTab.TaskNotifier<T>",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Component.InfoTab.TaskNotifier-1.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task%601\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +542,11 @@
           "relative_path": "api/ProjectStack.Component.InfoTab.TaskNotifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Component.InfoTab.TaskNotifier",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Component.InfoTab.TaskNotifier.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -388,7 +556,11 @@
           "relative_path": "api/ProjectStack.Component.InfoTab.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Component.InfoTab",
+      "Summary": "<p>Base class for all UI-related nodes. <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.</p>\n<p>For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.Container\" data-throw-if-not-resolved=\"false\"></xref> nodes.</p>\n<p><b>User Interface nodes and input</b></p>\n<p>Godot propagates input events via viewports. Each <xref href=\"Godot.Viewport\" data-throw-if-not-resolved=\"false\"></xref> is responsible for propagating <xref href=\"Godot.InputEvent\" data-throw-if-not-resolved=\"false\"></xref>s to their child nodes. As the <xref href=\"Godot.SceneTree.Root\" data-throw-if-not-resolved=\"false\"></xref> is a <xref href=\"Godot.Window\" data-throw-if-not-resolved=\"false\"></xref>, this already happens automatically for all UI elements in your game.</p>\n<p>Input events are propagated through the <xref href=\"Godot.SceneTree\" data-throw-if-not-resolved=\"false\"></xref> from the root node to all child nodes by calling <xref href=\"Godot.Node._Input(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref>. For UI elements specifically, it makes more sense to override the virtual method <xref href=\"Godot.Control._GuiInput(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref>, which filters out unrelated input events, such as by checking z-order, <xref href=\"Godot.Control.MouseFilter\" data-throw-if-not-resolved=\"false\"></xref>, focus, or if the event was inside of the control's bounding box.</p>\n<p>Call <xref href=\"Godot.Control.AcceptEvent\" data-throw-if-not-resolved=\"false\"></xref> so no other node receives the event. Once you accept an input, it becomes handled so <xref href=\"Godot.Node._UnhandledInput(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref> will not process it.</p>\n<p>Only one <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node can be in focus. Only the node in focus will receive events. To get the focus, call <xref href=\"Godot.Control.GrabFocus\" data-throw-if-not-resolved=\"false\"></xref>. <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> nodes lose focus when another node grabs it, or if you hide the node in focus.</p>\n<p>Sets <xref href=\"Godot.Control.MouseFilter\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"Godot.Control.MouseFilterEnum.Ignore\" data-throw-if-not-resolved=\"false\"></xref> to tell a <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.</p>\n<p><xref href=\"Godot.Theme\" data-throw-if-not-resolved=\"false\"></xref> resources change the Control's appearance. If you change the <xref href=\"Godot.Theme\" data-throw-if-not-resolved=\"false\"></xref> on a <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node, it affects all of its children. To override some of the theme's parameters, call one of the <code>add_theme_*_override</code> methods, like <xref href=\"Godot.Control.AddThemeFontOverride(Godot.StringName%2cGodot.Font)\" data-throw-if-not-resolved=\"false\"></xref>. You can override the theme with the Inspector.</p>\n<p><b>Note:</b> Theme items are <i>not</i> <xref href=\"Godot.GodotObject\" data-throw-if-not-resolved=\"false\"></xref> properties. This means you can't access their values using <xref href=\"Godot.GodotObject.Get(Godot.StringName)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.GodotObject.Set(Godot.StringName%2cGodot.Variant)\" data-throw-if-not-resolved=\"false\"></xref>. Instead, use the <code>get_theme_*</code> and <code>add_theme_*_override</code> methods provided by this class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -398,17 +570,81 @@
           "relative_path": "api/ProjectStack.Component.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Component",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.CardMgr.yml",
+      "source_relative_path": "api/ProjectStack.Core.FrozenGameResource-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectStack.Core.CardMgr.html"
+          "relative_path": "api/ProjectStack.Core.FrozenGameResource-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core.FrozenGameResource<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Core.GameResource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Core.GameResource-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core.GameResource<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Core.GameResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Core.GameResources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core.GameResources",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Core.IGameResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Core.IGameResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core.IGameResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Core.Level.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Core.Level.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core.Level",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -418,7 +654,11 @@
           "relative_path": "api/ProjectStack.Core.ServiceCollectionExtension.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core.ServiceCollectionExtension",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -428,7 +668,11 @@
           "relative_path": "api/ProjectStack.Core.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -438,7 +682,11 @@
           "relative_path": "api/ProjectStack.Editor.CardMetaEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.CardMetaEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -448,7 +696,11 @@
           "relative_path": "api/ProjectStack.Editor.CardMetaEditorModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.CardMetaEditorModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -458,7 +710,11 @@
           "relative_path": "api/ProjectStack.Editor.EditorRegistrationHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.EditorRegistrationHelper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -468,7 +724,11 @@
           "relative_path": "api/ProjectStack.Editor.IEditorModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.IEditorModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -478,7 +738,11 @@
           "relative_path": "api/ProjectStack.Editor.ISingleTypeEditorModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.ISingleTypeEditorModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -488,7 +752,11 @@
           "relative_path": "api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.SingleTypeEditor.TaskNotifier<T>",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier-1.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task%601\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -498,7 +766,11 @@
           "relative_path": "api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.SingleTypeEditor.TaskNotifier",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Editor.SingleTypeEditor.TaskNotifier.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -508,7 +780,11 @@
           "relative_path": "api/ProjectStack.Editor.SingleTypeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor.SingleTypeEditor",
+      "Summary": "<p>Base class for all UI-related nodes. <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.</p>\n<p>For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.Container\" data-throw-if-not-resolved=\"false\"></xref> nodes.</p>\n<p><b>User Interface nodes and input</b></p>\n<p>Godot propagates input events via viewports. Each <xref href=\"Godot.Viewport\" data-throw-if-not-resolved=\"false\"></xref> is responsible for propagating <xref href=\"Godot.InputEvent\" data-throw-if-not-resolved=\"false\"></xref>s to their child nodes. As the <xref href=\"Godot.SceneTree.Root\" data-throw-if-not-resolved=\"false\"></xref> is a <xref href=\"Godot.Window\" data-throw-if-not-resolved=\"false\"></xref>, this already happens automatically for all UI elements in your game.</p>\n<p>Input events are propagated through the <xref href=\"Godot.SceneTree\" data-throw-if-not-resolved=\"false\"></xref> from the root node to all child nodes by calling <xref href=\"Godot.Node._Input(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref>. For UI elements specifically, it makes more sense to override the virtual method <xref href=\"Godot.Control._GuiInput(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref>, which filters out unrelated input events, such as by checking z-order, <xref href=\"Godot.Control.MouseFilter\" data-throw-if-not-resolved=\"false\"></xref>, focus, or if the event was inside of the control's bounding box.</p>\n<p>Call <xref href=\"Godot.Control.AcceptEvent\" data-throw-if-not-resolved=\"false\"></xref> so no other node receives the event. Once you accept an input, it becomes handled so <xref href=\"Godot.Node._UnhandledInput(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref> will not process it.</p>\n<p>Only one <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node can be in focus. Only the node in focus will receive events. To get the focus, call <xref href=\"Godot.Control.GrabFocus\" data-throw-if-not-resolved=\"false\"></xref>. <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> nodes lose focus when another node grabs it, or if you hide the node in focus.</p>\n<p>Sets <xref href=\"Godot.Control.MouseFilter\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"Godot.Control.MouseFilterEnum.Ignore\" data-throw-if-not-resolved=\"false\"></xref> to tell a <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.</p>\n<p><xref href=\"Godot.Theme\" data-throw-if-not-resolved=\"false\"></xref> resources change the Control's appearance. If you change the <xref href=\"Godot.Theme\" data-throw-if-not-resolved=\"false\"></xref> on a <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node, it affects all of its children. To override some of the theme's parameters, call one of the <code>add_theme_*_override</code> methods, like <xref href=\"Godot.Control.AddThemeFontOverride(Godot.StringName%2cGodot.Font)\" data-throw-if-not-resolved=\"false\"></xref>. You can override the theme with the Inspector.</p>\n<p><b>Note:</b> Theme items are <i>not</i> <xref href=\"Godot.GodotObject\" data-throw-if-not-resolved=\"false\"></xref> properties. This means you can't access their values using <xref href=\"Godot.GodotObject.Get(Godot.StringName)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.GodotObject.Set(Godot.StringName%2cGodot.Variant)\" data-throw-if-not-resolved=\"false\"></xref>. Instead, use the <code>get_theme_*</code> and <code>add_theme_*_override</code> methods provided by this class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -518,7 +794,11 @@
           "relative_path": "api/ProjectStack.Editor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Editor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -528,7 +808,11 @@
           "relative_path": "api/ProjectStack.Game.LoadingProgressChangedEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Game.LoadingProgressChangedEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -538,7 +822,11 @@
           "relative_path": "api/ProjectStack.Game.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Game",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -548,7 +836,11 @@
           "relative_path": "api/ProjectStack.Launcher.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Launcher",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -558,7 +850,25 @@
           "relative_path": "api/ProjectStack.Main.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Main",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.NamedTagsBaseOnJson.FriendlyNtjObject",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -568,7 +878,11 @@
           "relative_path": "api/ProjectStack.NamedTagsBaseOnJson.INtjObject.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.NamedTagsBaseOnJson.INtjObject",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -578,7 +892,53 @@
           "relative_path": "api/ProjectStack.NamedTagsBaseOnJson.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.NamedTagsBaseOnJson",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Registration.KeylessRegistry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Registration.KeylessRegistry-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Registration.KeylessRegistry<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Registration.Registry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Registration.Registry-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Registration.Registry<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Registration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Registration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -588,7 +948,11 @@
           "relative_path": "api/ProjectStack.Resource.TextureLoader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Resource.TextureLoader",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -598,7 +962,11 @@
           "relative_path": "api/ProjectStack.Resource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Resource",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -608,7 +976,11 @@
           "relative_path": "api/ProjectStack.ResourceEditor.TaskNotifier-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.ResourceEditor.TaskNotifier<T>",
+      "Summary": "<p sourcefile=\"api/ProjectStack.ResourceEditor.TaskNotifier-1.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task%601\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -618,7 +990,11 @@
           "relative_path": "api/ProjectStack.ResourceEditor.TaskNotifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.ResourceEditor.TaskNotifier",
+      "Summary": "<p sourcefile=\"api/ProjectStack.ResourceEditor.TaskNotifier.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -628,7 +1004,11 @@
           "relative_path": "api/ProjectStack.ResourceEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.ResourceEditor",
+      "Summary": "<p>Base class for all UI-related nodes. <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.</p>\n<p>For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.Container\" data-throw-if-not-resolved=\"false\"></xref> nodes.</p>\n<p><b>User Interface nodes and input</b></p>\n<p>Godot propagates input events via viewports. Each <xref href=\"Godot.Viewport\" data-throw-if-not-resolved=\"false\"></xref> is responsible for propagating <xref href=\"Godot.InputEvent\" data-throw-if-not-resolved=\"false\"></xref>s to their child nodes. As the <xref href=\"Godot.SceneTree.Root\" data-throw-if-not-resolved=\"false\"></xref> is a <xref href=\"Godot.Window\" data-throw-if-not-resolved=\"false\"></xref>, this already happens automatically for all UI elements in your game.</p>\n<p>Input events are propagated through the <xref href=\"Godot.SceneTree\" data-throw-if-not-resolved=\"false\"></xref> from the root node to all child nodes by calling <xref href=\"Godot.Node._Input(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref>. For UI elements specifically, it makes more sense to override the virtual method <xref href=\"Godot.Control._GuiInput(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref>, which filters out unrelated input events, such as by checking z-order, <xref href=\"Godot.Control.MouseFilter\" data-throw-if-not-resolved=\"false\"></xref>, focus, or if the event was inside of the control's bounding box.</p>\n<p>Call <xref href=\"Godot.Control.AcceptEvent\" data-throw-if-not-resolved=\"false\"></xref> so no other node receives the event. Once you accept an input, it becomes handled so <xref href=\"Godot.Node._UnhandledInput(Godot.InputEvent)\" data-throw-if-not-resolved=\"false\"></xref> will not process it.</p>\n<p>Only one <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node can be in focus. Only the node in focus will receive events. To get the focus, call <xref href=\"Godot.Control.GrabFocus\" data-throw-if-not-resolved=\"false\"></xref>. <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> nodes lose focus when another node grabs it, or if you hide the node in focus.</p>\n<p>Sets <xref href=\"Godot.Control.MouseFilter\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"Godot.Control.MouseFilterEnum.Ignore\" data-throw-if-not-resolved=\"false\"></xref> to tell a <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.</p>\n<p><xref href=\"Godot.Theme\" data-throw-if-not-resolved=\"false\"></xref> resources change the Control's appearance. If you change the <xref href=\"Godot.Theme\" data-throw-if-not-resolved=\"false\"></xref> on a <xref href=\"Godot.Control\" data-throw-if-not-resolved=\"false\"></xref> node, it affects all of its children. To override some of the theme's parameters, call one of the <code>add_theme_*_override</code> methods, like <xref href=\"Godot.Control.AddThemeFontOverride(Godot.StringName%2cGodot.Font)\" data-throw-if-not-resolved=\"false\"></xref>. You can override the theme with the Inspector.</p>\n<p><b>Note:</b> Theme items are <i>not</i> <xref href=\"Godot.GodotObject\" data-throw-if-not-resolved=\"false\"></xref> properties. This means you can't access their values using <xref href=\"Godot.GodotObject.Get(Godot.StringName)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Godot.GodotObject.Set(Godot.StringName%2cGodot.Variant)\" data-throw-if-not-resolved=\"false\"></xref>. Instead, use the <code>get_theme_*</code> and <code>add_theme_*_override</code> methods provided by this class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +1018,11 @@
           "relative_path": "api/ProjectStack.UserInterface.HoveredItemInfoDisplay.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.UserInterface.HoveredItemInfoDisplay",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -648,7 +1032,11 @@
           "relative_path": "api/ProjectStack.UserInterface.HoveredItemInfoDisplayRegistrationHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.UserInterface.HoveredItemInfoDisplayRegistrationHelper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -658,7 +1046,11 @@
           "relative_path": "api/ProjectStack.UserInterface.HoveredItemInfoProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.UserInterface.HoveredItemInfoProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -668,7 +1060,11 @@
           "relative_path": "api/ProjectStack.UserInterface.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.UserInterface",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -678,7 +1074,11 @@
           "relative_path": "api/ProjectStack.Util.FileSystemHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Util.FileSystemHelper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -688,7 +1088,11 @@
           "relative_path": "api/ProjectStack.Util.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Util",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -698,7 +1102,11 @@
           "relative_path": "api/ProjectStack.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack",
+      "Summary": null
     },
     {
       "type": "Toc",

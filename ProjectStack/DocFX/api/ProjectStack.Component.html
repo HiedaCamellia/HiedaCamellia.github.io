@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -56,7 +56,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -104,40 +104,36 @@
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="ProjectStack.Component.Card.TaskNotifier.html">Card.TaskNotifier</a></dt>
-      <dd><p>A wrapping class that can hold a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> value.</p>
+      <dd><p>A wrapping class that can hold a <span class="xref">System.Threading.Tasks.Task</span> value.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="ProjectStack.Component.Card.TaskNotifier-1.html">Card.TaskNotifier&lt;T&gt;</a></dt>
-      <dd><p>A wrapping class that can hold a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task&lt;TResult&gt;</a> value.</p>
+      <dd><p>A wrapping class that can hold a <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> value.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="ProjectStack.Component.InfoTab.html">InfoTab</a></dt>
       <dd><p>Base class for all UI-related nodes. <span class="xref">Godot.Control</span> features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.</p>
 <p>For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from <span class="xref">Godot.Control</span> and <span class="xref">Godot.Container</span> nodes.</p>
-<p>
-  <b>User Interface nodes and input</b>
-</p>
+<p><b>User Interface nodes and input</b></p>
 <p>Godot propagates input events via viewports. Each <span class="xref">Godot.Viewport</span> is responsible for propagating <span class="xref">Godot.InputEvent</span>s to their child nodes. As the <span class="xref">Godot.SceneTree.Root</span> is a <span class="xref">Godot.Window</span>, this already happens automatically for all UI elements in your game.</p>
 <p>Input events are propagated through the <span class="xref">Godot.SceneTree</span> from the root node to all child nodes by calling <span class="xref">Godot.Node._Input(Godot.InputEvent)</span>. For UI elements specifically, it makes more sense to override the virtual method <span class="xref">Godot.Control._GuiInput(Godot.InputEvent)</span>, which filters out unrelated input events, such as by checking z-order, <span class="xref">Godot.Control.MouseFilter</span>, focus, or if the event was inside of the control's bounding box.</p>
 <p>Call <span class="xref">Godot.Control.AcceptEvent()</span> so no other node receives the event. Once you accept an input, it becomes handled so <span class="xref">Godot.Node._UnhandledInput(Godot.InputEvent)</span> will not process it.</p>
 <p>Only one <span class="xref">Godot.Control</span> node can be in focus. Only the node in focus will receive events. To get the focus, call <span class="xref">Godot.Control.GrabFocus()</span>. <span class="xref">Godot.Control</span> nodes lose focus when another node grabs it, or if you hide the node in focus.</p>
 <p>Sets <span class="xref">Godot.Control.MouseFilter</span> to <span class="xref">Godot.Control.MouseFilterEnum.Ignore</span> to tell a <span class="xref">Godot.Control</span> node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.</p>
-<p>
-  <span class="xref">Godot.Theme</span> resources change the Control's appearance. If you change the <span class="xref">Godot.Theme</span> on a <span class="xref">Godot.Control</span> node, it affects all of its children. To override some of the theme's parameters, call one of the <code>add_theme_*_override</code> methods, like <span class="xref">Godot.Control.AddThemeFontOverride(Godot.StringName, Godot.Font)</span>. You can override the theme with the Inspector.</p>
-<p>
-  <b>Note:</b> Theme items are <i>not</i><span class="xref">Godot.GodotObject</span> properties. This means you can't access their values using <span class="xref">Godot.GodotObject.Get(Godot.StringName)</span> and <span class="xref">Godot.GodotObject.Set(Godot.StringName, Godot.Variant)</span>. Instead, use the <code>get_theme_*</code> and <code>add_theme_*_override</code> methods provided by this class.</p>
+<p><span class="xref">Godot.Theme</span> resources change the Control's appearance. If you change the <span class="xref">Godot.Theme</span> on a <span class="xref">Godot.Control</span> node, it affects all of its children. To override some of the theme's parameters, call one of the <code>add_theme_*_override</code> methods, like <span class="xref">Godot.Control.AddThemeFontOverride(Godot.StringName, Godot.Font)</span>. You can override the theme with the Inspector.</p>
+<p><b>Note:</b> Theme items are <i>not</i> <span class="xref">Godot.GodotObject</span> properties. This means you can't access their values using <span class="xref">Godot.GodotObject.Get(Godot.StringName)</span> and <span class="xref">Godot.GodotObject.Set(Godot.StringName, Godot.Variant)</span>. Instead, use the <code>get_theme_*</code> and <code>add_theme_*_override</code> methods provided by this class.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier.html">InfoTab.TaskNotifier</a></dt>
-      <dd><p>A wrapping class that can hold a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> value.</p>
+      <dd><p>A wrapping class that can hold a <span class="xref">System.Threading.Tasks.Task</span> value.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="ProjectStack.Component.InfoTab.TaskNotifier-1.html">InfoTab.TaskNotifier&lt;T&gt;</a></dt>
-      <dd><p>A wrapping class that can hold a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task&lt;TResult&gt;</a> value.</p>
+      <dd><p>A wrapping class that can hold a <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> value.</p>
 </dd>
     </dl>
 

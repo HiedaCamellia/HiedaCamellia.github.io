@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
       <meta name="title" content="ResourceEditor 类
  | ProjectStack ">
       
-      <meta name="description" content="Base class for all UI-related nodes.  features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change. For more information on Godot&#39;s UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you&#39;ll need a mix of UI elements that inherit from  and  nodes.    User Interface nodes and input  Godot propagates input events via viewports. Each  is responsible for propagating s to their child nodes. As the  is a , this already happens automatically for all UI elements in your game. Input events are propagated through the  from the root node to all child nodes by calling . For UI elements specifically, it makes more sense to override the virtual method , which filters out unrelated input events, such as by checking z-order, , focus, or if the event was inside of the control&#39;s bounding box. Call  so no other node receives the event. Once you accept an input, it becomes handled so  will not process it. Only one  node can be in focus. Only the node in focus will receive events. To get the focus, call .  nodes lose focus when another node grabs it, or if you hide the node in focus. Sets  to  to tell a  node to ignore mouse or touch events. You&#39;ll need it if you place an icon on top of a button.     resources change the Control&#39;s appearance. If you change the  on a  node, it affects all of its children. To override some of the theme&#39;s parameters, call one of the add_theme_*_override methods, like . You can override the theme with the Inspector.    Note: Theme items are not properties. This means you can&#39;t access their values using  and . Instead, use the get_theme_* and add_theme_*_override methods provided by this class.">
+      <meta name="description" content="Base class for all UI-related nodes.  features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change. For more information on Godot&#39;s UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you&#39;ll need a mix of UI elements that inherit from  and  nodes. User Interface nodes and input Godot propagates input events via viewports. Each  is responsible for propagating s to their child nodes. As the  is a , this already happens automatically for all UI elements in your game. Input events are propagated through the  from the root node to all child nodes by calling . For UI elements specifically, it makes more sense to override the virtual method , which filters out unrelated input events, such as by checking z-order, , focus, or if the event was inside of the control&#39;s bounding box. Call  so no other node receives the event. Once you accept an input, it becomes handled so  will not process it. Only one  node can be in focus. Only the node in focus will receive events. To get the focus, call .  nodes lose focus when another node grabs it, or if you hide the node in focus. Sets  to  to tell a  node to ignore mouse or touch events. You&#39;ll need it if you place an icon on top of a button.  resources change the Control&#39;s appearance. If you change the  on a  node, it affects all of its children. To override some of the theme&#39;s parameters, call one of the add_theme_*_override methods, like . You can override the theme with the Inspector. Note: Theme items are not  properties. This means you can&#39;t access their values using  and . Instead, use the get_theme_* and add_theme_*_override methods provided by this class.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -56,7 +56,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -102,18 +102,14 @@ ResourceEditor 类
 
   <div class="markdown summary"><p>Base class for all UI-related nodes. <span class="xref">Godot.Control</span> features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.</p>
 <p>For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from <span class="xref">Godot.Control</span> and <span class="xref">Godot.Container</span> nodes.</p>
-<p>
-  <b>User Interface nodes and input</b>
-</p>
+<p><b>User Interface nodes and input</b></p>
 <p>Godot propagates input events via viewports. Each <span class="xref">Godot.Viewport</span> is responsible for propagating <span class="xref">Godot.InputEvent</span>s to their child nodes. As the <span class="xref">Godot.SceneTree.Root</span> is a <span class="xref">Godot.Window</span>, this already happens automatically for all UI elements in your game.</p>
 <p>Input events are propagated through the <span class="xref">Godot.SceneTree</span> from the root node to all child nodes by calling <span class="xref">Godot.Node._Input(Godot.InputEvent)</span>. For UI elements specifically, it makes more sense to override the virtual method <span class="xref">Godot.Control._GuiInput(Godot.InputEvent)</span>, which filters out unrelated input events, such as by checking z-order, <span class="xref">Godot.Control.MouseFilter</span>, focus, or if the event was inside of the control's bounding box.</p>
 <p>Call <span class="xref">Godot.Control.AcceptEvent()</span> so no other node receives the event. Once you accept an input, it becomes handled so <span class="xref">Godot.Node._UnhandledInput(Godot.InputEvent)</span> will not process it.</p>
 <p>Only one <span class="xref">Godot.Control</span> node can be in focus. Only the node in focus will receive events. To get the focus, call <span class="xref">Godot.Control.GrabFocus()</span>. <span class="xref">Godot.Control</span> nodes lose focus when another node grabs it, or if you hide the node in focus.</p>
 <p>Sets <span class="xref">Godot.Control.MouseFilter</span> to <span class="xref">Godot.Control.MouseFilterEnum.Ignore</span> to tell a <span class="xref">Godot.Control</span> node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.</p>
-<p>
-  <span class="xref">Godot.Theme</span> resources change the Control's appearance. If you change the <span class="xref">Godot.Theme</span> on a <span class="xref">Godot.Control</span> node, it affects all of its children. To override some of the theme's parameters, call one of the <code>add_theme_*_override</code> methods, like <span class="xref">Godot.Control.AddThemeFontOverride(Godot.StringName, Godot.Font)</span>. You can override the theme with the Inspector.</p>
-<p>
-  <b>Note:</b> Theme items are <i>not</i><span class="xref">Godot.GodotObject</span> properties. This means you can't access their values using <span class="xref">Godot.GodotObject.Get(Godot.StringName)</span> and <span class="xref">Godot.GodotObject.Set(Godot.StringName, Godot.Variant)</span>. Instead, use the <code>get_theme_*</code> and <code>add_theme_*_override</code> methods provided by this class.</p>
+<p><span class="xref">Godot.Theme</span> resources change the Control's appearance. If you change the <span class="xref">Godot.Theme</span> on a <span class="xref">Godot.Control</span> node, it affects all of its children. To override some of the theme's parameters, call one of the <code>add_theme_*_override</code> methods, like <span class="xref">Godot.Control.AddThemeFontOverride(Godot.StringName, Godot.Font)</span>. You can override the theme with the Inspector.</p>
+<p><b>Note:</b> Theme items are <i>not</i> <span class="xref">Godot.GodotObject</span> properties. This means you can't access their values using <span class="xref">Godot.GodotObject.Get(Godot.StringName)</span> and <span class="xref">Godot.GodotObject.Set(Godot.StringName, Godot.Variant)</span>. Instead, use the <code>get_theme_*</code> and <code>add_theme_*_override</code> methods provided by this class.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -130,7 +126,7 @@ public class ResourceEditor : Control</code></pre>
   <dl class="typelist inheritance">
     <dt>继承</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">GodotObject</span></div>
       <div><span class="xref">Node</span></div>
       <div><span class="xref">CanvasItem</span></div>
@@ -155,7 +151,7 @@ public class ResourceEditor : Control</code></pre>
 
   <h3 id="ProjectStack_ResourceEditor_Game" data-uid="ProjectStack.ResourceEditor.Game">
   Game
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -251,7 +247,7 @@ additional instance state in this blackboard.</p>
 
   <h3 id="ProjectStack_ResourceEditor_ResourceTypeList" data-uid="ProjectStack.ResourceEditor.ResourceTypeList">
   ResourceTypeList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -282,7 +278,7 @@ additional instance state in this blackboard.</p>
 
   <h3 id="ProjectStack_ResourceEditor_ResourceTypes" data-uid="ProjectStack.ResourceEditor.ResourceTypes">
   ResourceTypes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -298,7 +294,7 @@ additional instance state in this blackboard.</p>
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">IReadOnlyList</span>&lt;<span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -342,7 +338,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if a property with the given name was found.</p>
 </dd>
   </dl>
@@ -383,7 +379,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -429,7 +425,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -460,8 +456,8 @@ Do not call or override this method.</p>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs">PropertyChangedEventArgs</a></dt>
-    <dd><p>The input <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs">PropertyChangedEventArgs</a> instance.</p>
+    <dt><code>e</code> <span class="xref">PropertyChangedEventArgs</span></dt>
+    <dd><p>The input <span class="xref">System.ComponentModel.PropertyChangedEventArgs</span> instance.</p>
 </dd>
   </dl>
 
@@ -493,7 +489,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
@@ -526,8 +522,8 @@ Do not call or override this method.</p>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangingeventargs">PropertyChangingEventArgs</a></dt>
-    <dd><p>The input <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangingeventargs">PropertyChangingEventArgs</a> instance.</p>
+    <dt><code>e</code> <span class="xref">PropertyChangingEventArgs</span></dt>
+    <dd><p>The input <span class="xref">System.ComponentModel.PropertyChangingEventArgs</span> instance.</p>
 </dd>
   </dl>
 
@@ -559,7 +555,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
@@ -656,7 +652,7 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
 event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
 This method is just like <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion_ProjectStack_ResourceEditor_TaskNotifier__System_Threading_Tasks_Task_System_String_">SetPropertyAndNotifyOnCompletion(ref TaskNotifier?, Task?, string?)</a>,
-with the difference being an extra <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action&lt;T&gt;</a> parameter with a callback being invoked
+with the difference being an extra <span class="xref">System.Action&lt;T&gt;</span> parameter with a callback being invoked
 either immediately, if the new task has already completed or is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, or upon completion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -670,20 +666,20 @@ either immediately, if the new task has already completed or is <a href="https:/
     <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">TaskNotifier</a></dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
-    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><code>newValue</code> <span class="xref">Task</span></dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;<span class="xref">Task</span>&gt;</dt>
     <dd><p>A callback to invoke to update the property value.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -713,13 +709,13 @@ if the current and new value for the target property are the same.</p>
 field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
 event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
 The behavior mirrors that of <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
-this method will also monitor the new value of the property (a generic <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>) and will also
+this method will also monitor the new value of the property (a generic <span class="xref">System.Threading.Tasks.Task</span>) and will also
 raise the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
-This can be used to update bindings observing that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> or any of its properties.
+This can be used to update bindings observing that <span class="xref">System.Threading.Tasks.Task</span> or any of its properties.
 This method and its overload specifically rely on the <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">ResourceEditor.TaskNotifier</a> type, which needs
-to be used in the backing field for the target <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> property. The field doesn't need to be
+to be used in the backing field for the target <span class="xref">System.Threading.Tasks.Task</span> property. The field doesn't need to be
 initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">ResourceEditor.TaskNotifier</a>
-type also includes an implicit operator, so it can be assigned to any <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> instance directly.
+type also includes an implicit operator, so it can be assigned to any <span class="xref">System.Threading.Tasks.Task</span> instance directly.
 Here is a sample property declaration using this method:</p>
 <pre><code class="lang-csharp">private TaskNotifier myTask;
 
@@ -740,17 +736,17 @@ public Task MyTask
     <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier.html">TaskNotifier</a></dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
-    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><code>newValue</code> <span class="xref">Task</span></dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -765,7 +761,7 @@ public Task MyTask
   <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised if the current
 and new value for the target property are the same. The return value being <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> only
 indicates that the new value being assigned to <code class="paramref">taskNotifier</code> is different than the previous one,
-and it does not mean the new <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> instance passed as argument is in any particular state.</p>
+and it does not mean the new <span class="xref">System.Threading.Tasks.Task</span> instance passed as argument is in any particular state.</p>
 </div>
 
 
@@ -782,7 +778,7 @@ and it does not mean the new <a class="xref" href="https://learn.microsoft.com/d
 field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
 event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
 This method is just like <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetPropertyAndNotifyOnCompletion__1_ProjectStack_ResourceEditor_TaskNotifier___0___System_Threading_Tasks_Task___0__System_String_">SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref TaskNotifier&lt;T&gt;?, Task&lt;T&gt;?, string?)</a>,
-with the difference being an extra <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action&lt;T&gt;</a> parameter with a callback being invoked
+with the difference being an extra <span class="xref">System.Action&lt;T&gt;</span> parameter with a callback being invoked
 either immediately, if the new task has already completed or is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, or upon completion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -796,20 +792,20 @@ either immediately, if the new task has already completed or is <a href="https:/
     <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
-    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dt><code>newValue</code> <span class="xref">Task</span>&lt;T&gt;</dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;&gt;</dt>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;<span class="xref">Task</span>&lt;T&gt;&gt;</dt>
     <dd><p>A callback to invoke to update the property value.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -817,7 +813,7 @@ either immediately, if the new task has already completed or is <a href="https:/
   <h4 class="section">类型参数</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd><p>The type of result for the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task&lt;TResult&gt;</a> to set and monitor.</p>
+    <dd><p>The type of result for the <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> to set and monitor.</p>
 </dd>
   </dl>
 
@@ -845,13 +841,13 @@ if the current and new value for the target property are the same.</p>
 field for a property). If the value has changed, raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a>
 event, updates the field and then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> event.
 The behavior mirrors that of <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_SetProperty__1___0____0_System_String_">SetProperty&lt;T&gt;(ref T, T, string?)</a>, with the difference being that
-this method will also monitor the new value of the property (a generic <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>) and will also
+this method will also monitor the new value of the property (a generic <span class="xref">System.Threading.Tasks.Task</span>) and will also
 raise the <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> again for the target property when it completes.
-This can be used to update bindings observing that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> or any of its properties.
+This can be used to update bindings observing that <span class="xref">System.Threading.Tasks.Task</span> or any of its properties.
 This method and its overload specifically rely on the <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">ResourceEditor.TaskNotifier&lt;T&gt;</a> type, which needs
-to be used in the backing field for the target <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> property. The field doesn't need to be
+to be used in the backing field for the target <span class="xref">System.Threading.Tasks.Task</span> property. The field doesn't need to be
 initialized, as this method will take care of doing that automatically. The <a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">ResourceEditor.TaskNotifier&lt;T&gt;</a>
-type also includes an implicit operator, so it can be assigned to any <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> instance directly.
+type also includes an implicit operator, so it can be assigned to any <span class="xref">System.Threading.Tasks.Task</span> instance directly.
 Here is a sample property declaration using this method:</p>
 <pre><code class="lang-csharp">private TaskNotifier&lt;int&gt; myTask;
 
@@ -872,17 +868,17 @@ public Task&lt;int&gt; MyTask
     <dt><code>taskNotifier</code> <a class="xref" href="ProjectStack.ResourceEditor.html">ResourceEditor</a>.<a class="xref" href="ProjectStack.ResourceEditor.TaskNotifier-1.html">TaskNotifier</a>&lt;T&gt;</dt>
     <dd><p>The field notifier to modify.</p>
 </dd>
-    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dt><code>newValue</code> <span class="xref">Task</span>&lt;T&gt;</dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -890,7 +886,7 @@ public Task&lt;int&gt; MyTask
   <h4 class="section">类型参数</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd><p>The type of result for the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task&lt;TResult&gt;</a> to set and monitor.</p>
+    <dd><p>The type of result for the <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> to set and monitor.</p>
 </dd>
   </dl>
 
@@ -903,7 +899,7 @@ public Task&lt;int&gt; MyTask
   <div class="markdown level1 remarks"><p>The <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanging">PropertyChanging</a> and <a class="xref" href="ProjectStack.ResourceEditor.html#ProjectStack_ResourceEditor_PropertyChanged">PropertyChanged</a> events are not raised if the current
 and new value for the target property are the same. The return value being <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> only
 indicates that the new value being assigned to <code class="paramref">taskNotifier</code> is different than the previous one,
-and it does not mean the new <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task&lt;TResult&gt;</a> instance passed as argument is in any particular state.</p>
+and it does not mean the new <span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span> instance passed as argument is in any particular state.</p>
 </div>
 
 
@@ -942,17 +938,17 @@ docs. This overload is here for completeness and in cases where that is not appl
     <dt><code>newValue</code> <span class="xref">T</span></dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;T&gt;</dt>
     <dd><p>A callback to invoke to update the property value.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -1003,20 +999,20 @@ See additional notes about this overload in <a class="xref" href="ProjectStack.R
     <dt><code>newValue</code> <span class="xref">T</span></dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
-    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer&lt;T&gt;</a> instance to use to compare the input values.</p>
+    <dt><code>comparer</code> <span class="xref">IEqualityComparer</span>&lt;T&gt;</dt>
+    <dd><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> instance to use to compare the input values.</p>
 </dd>
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;T&gt;</dt>
     <dd><p>A callback to invoke to update the property value.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -1063,17 +1059,17 @@ See additional notes about this overload in <a class="xref" href="ProjectStack.R
     <dt><code>newValue</code> <span class="xref">T</span></dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
-    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer&lt;T&gt;</a> instance to use to compare the input values.</p>
+    <dt><code>comparer</code> <span class="xref">IEqualityComparer</span>&lt;T&gt;</dt>
+    <dd><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> instance to use to compare the input values.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -1119,14 +1115,14 @@ value, then raises the <a class="xref" href="ProjectStack.ResourceEditor.html#Pr
     <dt><code>newValue</code> <span class="xref">T</span></dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -1178,23 +1174,23 @@ current instance. See additional notes about this overload in <a class="xref" hr
     <dt><code>newValue</code> <span class="xref">T</span></dt>
     <dd><p>The property's value after the change occurred.</p>
 </dd>
-    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
-    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer&lt;T&gt;</a> instance to use to compare the input values.</p>
+    <dt><code>comparer</code> <span class="xref">IEqualityComparer</span>&lt;T&gt;</dt>
+    <dd><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> instance to use to compare the input values.</p>
 </dd>
     <dt><code>model</code> <span class="xref">TModel</span></dt>
     <dd><p>The model containing the property being updated.</p>
 </dd>
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;TModel, T&gt;</dt>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;TModel, T&gt;</dt>
     <dd><p>The callback to invoke to set the target property value, if a change has occurred.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -1278,17 +1274,17 @@ to allow the C# compiler to cache the function, which results in much better per
     <dt><code>model</code> <span class="xref">TModel</span></dt>
     <dd><p>The model containing the property being updated.</p>
 </dd>
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;TModel, T&gt;</dt>
+    <dt><code>callback</code> <span class="xref">Action</span>&lt;TModel, T&gt;</dt>
     <dd><p>The callback to invoke to set the target property value, if a change has occurred.</p>
 </dd>
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>propertyName</code> <span class="xref">string</span></dt>
     <dd><p>(optional) The name of the property that changed.</p>
 </dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property was changed, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
 </dd>
   </dl>
@@ -1320,21 +1316,19 @@ raised if the current and new value for the target property are the same.</p>
 
   <h3 id="ProjectStack_ResourceEditor__Notification_System_Int32_" data-uid="ProjectStack.ResourceEditor._Notification(System.Int32)">
   _Notification(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Called when the object receives a notification, which can be identified in <code class="paramref">what</code> by comparing it with a constant. See also <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Notification(int, bool)</a>.</p>
+  <div class="markdown level1 summary"><p>Called when the object receives a notification, which can be identified in <code class="paramref">what</code> by comparing it with a constant. See also <span class="xref">Godot.GodotObject.Notification(int, bool)</span>.</p>
 <p>
-  <pre><code class="lang-csharp">public override void _Notification(int what)
-  {
-      if (what == NotificationPredelete)
-      {
-          GD.Print("Goodbye!");
-      }
-  }</code></pre>
-
-<p>
-  <b>Note:</b> The base <span class="xref">Godot.GodotObject</span> defines a few notifications (<span class="xref">Godot.GodotObject.NotificationPostinitialize</span> and <span class="xref">Godot.GodotObject.NotificationPredelete</span>). Inheriting classes such as <span class="xref">Godot.Node</span> define a lot more notifications, which are also received by this method.</p>
+   <pre><code class="lang-csharp">public override void _Notification(int what)
+   {
+       if (what == NotificationPredelete)
+       {
+           GD.Print("Goodbye!");
+       }
+   }</code></pre>
+<p><b>Note:</b> The base <span class="xref">Godot.GodotObject</span> defines a few notifications (<span class="xref">Godot.GodotObject.NotificationPostinitialize</span> and <span class="xref">Godot.GodotObject.NotificationPredelete</span>). Inheriting classes such as <span class="xref">Godot.Node</span> define a lot more notifications, which are also received by this method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1344,7 +1338,7 @@ raised if the current and new value for the target property are the same.</p>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>what</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>what</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -1363,14 +1357,13 @@ raised if the current and new value for the target property are the same.</p>
 
   <h3 id="ProjectStack_ResourceEditor__Process_System_Double_" data-uid="ProjectStack.ResourceEditor._Process(System.Double)">
   _Process(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called during the processing step of the main loop. Processing happens at every frame and as fast as possible, so the <code class="paramref">delta</code> time since the previous frame is not constant. <code class="paramref">delta</code> is in seconds.</p>
-<p>It is only called if processing is enabled, which is done automatically if this method is overridden, and can be toggled with <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">SetProcess(bool)</a>.</p>
-<p>Corresponds to the <span class="xref">Godot.Node.NotificationProcess</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>.</p>
-<p>
-  <b>Note:</b> This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).</p>
+<p>It is only called if processing is enabled, which is done automatically if this method is overridden, and can be toggled with <span class="xref">Godot.Node.SetProcess(bool)</span>.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationProcess</span> notification in <span class="xref">Godot.GodotObject._Notification(int)</span>.</p>
+<p><b>Note:</b> This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1380,7 +1373,7 @@ raised if the current and new value for the target property are the same.</p>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dt><code>delta</code> <span class="xref">double</span></dt>
     <dd></dd>
   </dl>
 
@@ -1399,14 +1392,13 @@ raised if the current and new value for the target property are the same.</p>
 
   <h3 id="ProjectStack_ResourceEditor__Ready" data-uid="ProjectStack.ResourceEditor._Ready">
   _Ready()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/ResourceEditor.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the node is "ready", i.e. when both the node and its children have entered the scene tree. If the node has children, their <span class="xref">Godot.Node._Ready()</span> callbacks get triggered first, and the parent node will receive the ready notification afterwards.</p>
-<p>Corresponds to the <span class="xref">Godot.Node.NotificationReady</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>. See also the <code>@onready</code> annotation for variables.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationReady</span> notification in <span class="xref">Godot.GodotObject._Notification(int)</span>. See also the <code>@onready</code> annotation for variables.</p>
 <p>Usually used for initialization. For even earlier initialization, <span class="xref">Godot.GodotObject.GodotObject()</span> may be used. See also <span class="xref">Godot.Node._EnterTree()</span>.</p>
-<p>
-  <b>Note:</b> This method may be called only once for each node. After removing a node from the scene tree and adding it again, <span class="xref">Godot.Node._Ready()</span> will <b>not</b> be called a second time. This can be bypassed by requesting another call with <span class="xref">Godot.Node.RequestReady()</span>, which may be called anywhere before adding the node again.</p>
+<p><b>Note:</b> This method may be called only once for each node. After removing a node from the scene tree and adding it again, <span class="xref">Godot.Node._Ready()</span> will <b>not</b> be called a second time. This can be bypassed by requesting another call with <span class="xref">Godot.Node.RequestReady()</span>, which may be called anywhere before adding the node again.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1451,7 +1443,7 @@ raised if the current and new value for the target property are the same.</p>
 
   <h4 class="section">事件类型</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dt><span class="xref">PropertyChangedEventHandler</span></dt>
     <dd></dd>
   </dl>
 
@@ -1482,7 +1474,7 @@ raised if the current and new value for the target property are the same.</p>
 
   <h4 class="section">事件类型</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangingeventhandler">PropertyChangingEventHandler</a></dt>
+    <dt><span class="xref">PropertyChangingEventHandler</span></dt>
     <dd></dd>
   </dl>
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -56,7 +56,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -92,7 +92,7 @@
 
   <h1 id="ProjectStack_Common_ResourceLocation" data-uid="ProjectStack.Common.ResourceLocation" class="text-break">
 ResourceLocation 类
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -104,7 +104,7 @@ ResourceLocation 类
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public record ResourceLocation</code></pre>
+    <pre><code class="lang-csharp hljs">public class ResourceLocation : ObservableValidator</code></pre>
   </div>
 
 
@@ -113,7 +113,9 @@ ResourceLocation 类
   <dl class="typelist inheritance">
     <dt>继承</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableValidator</span></div>
       <div><span class="xref">ResourceLocation</span></div>
     </dd>
   </dl>
@@ -126,34 +128,31 @@ ResourceLocation 类
 
 
 
-  <h2 class="section" id="constructors">构造函数
+  <h2 class="section" id="fields">字段
 </h2>
 
 
-  <a id="ProjectStack_Common_ResourceLocation__ctor_" data-uid="ProjectStack.Common.ResourceLocation.#ctor*"></a>
 
-  <h3 id="ProjectStack_Common_ResourceLocation__ctor_System_String_System_String_" data-uid="ProjectStack.Common.ResourceLocation.#ctor(System.String,System.String)">
-  ResourceLocation(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Common_ResourceLocation_Empty" data-uid="ProjectStack.Common.ResourceLocation.Empty">
+  Empty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ResourceLocation(string Namespace, string Path)</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly ResourceLocation Empty</code></pre>
   </div>
 
-  <h4 class="section">参数</h4>
+
+
+
+  <h4 class="section">字段值</h4>
   <dl class="parameters">
-    <dt><code>Namespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>Path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
     <dd></dd>
   </dl>
-
-
-
 
 
 
@@ -167,111 +166,20 @@ ResourceLocation 类
 </h2>
 
 
-  <a id="ProjectStack_Common_ResourceLocation_EMPTY_" data-uid="ProjectStack.Common.ResourceLocation.EMPTY*"></a>
-
-  <h3 id="ProjectStack_Common_ResourceLocation_EMPTY" data-uid="ProjectStack.Common.ResourceLocation.EMPTY">
-  EMPTY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ResourceLocation EMPTY { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">属性值</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="ProjectStack_Common_ResourceLocation_GetNamespace_" data-uid="ProjectStack.Common.ResourceLocation.GetNamespace*"></a>
-
-  <h3 id="ProjectStack_Common_ResourceLocation_GetNamespace" data-uid="ProjectStack.Common.ResourceLocation.GetNamespace">
-  GetNamespace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L22"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetNamespace { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">属性值</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="ProjectStack_Common_ResourceLocation_GetPath_" data-uid="ProjectStack.Common.ResourceLocation.GetPath*"></a>
-
-  <h3 id="ProjectStack_Common_ResourceLocation_GetPath" data-uid="ProjectStack.Common.ResourceLocation.GetPath">
-  GetPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetPath { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">属性值</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="ProjectStack_Common_ResourceLocation_Namespace_" data-uid="ProjectStack.Common.ResourceLocation.Namespace*"></a>
 
   <h3 id="ProjectStack_Common_ResourceLocation_Namespace" data-uid="ProjectStack.Common.ResourceLocation.Namespace">
   Namespace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Namespace { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+[RegularExpression(&quot;^[a-z0-9_]+$&quot;)]
+public string Namespace { get; init; }</code></pre>
   </div>
 
 
@@ -280,7 +188,7 @@ ResourceLocation 类
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -295,14 +203,16 @@ ResourceLocation 类
 
   <h3 id="ProjectStack_Common_ResourceLocation_Path" data-uid="ProjectStack.Common.ResourceLocation.Path">
   Path
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Path { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+[RegularExpression(&quot;^[a-z0-9_/]+$&quot;)]
+public string Path { get; init; }</code></pre>
   </div>
 
 
@@ -311,7 +221,7 @@ ResourceLocation 类
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -330,7 +240,7 @@ ResourceLocation 类
 
   <h3 id="ProjectStack_Common_ResourceLocation_DefaultNamespaceAndPath_System_String_" data-uid="ProjectStack.Common.ResourceLocation.DefaultNamespaceAndPath(System.String)">
   DefaultNamespaceAndPath(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -342,7 +252,7 @@ ResourceLocation 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -362,32 +272,105 @@ ResourceLocation 类
 
 
 
-  <a id="ProjectStack_Common_ResourceLocation_FromNamespaceAndPath_" data-uid="ProjectStack.Common.ResourceLocation.FromNamespaceAndPath*"></a>
+  <a id="ProjectStack_Common_ResourceLocation_Equals_" data-uid="ProjectStack.Common.ResourceLocation.Equals*"></a>
 
-  <h3 id="ProjectStack_Common_ResourceLocation_FromNamespaceAndPath_System_String_System_String_" data-uid="ProjectStack.Common.ResourceLocation.FromNamespaceAndPath(System.String,System.String)">
-  FromNamespaceAndPath(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ProjectStack_Common_ResourceLocation_Equals_ProjectStack_Common_ResourceLocation_" data-uid="ProjectStack.Common.ResourceLocation.Equals(ProjectStack.Common.ResourceLocation)">
+  Equals(ResourceLocation?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ResourceLocation FromNamespaceAndPath(string @namespace, string path)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Equals(ResourceLocation? other)</code></pre>
   </div>
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>namespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dt><code>other</code> <a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
-    <dd></dd>
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_ResourceLocation_Equals_" data-uid="ProjectStack.Common.ResourceLocation.Equals*"></a>
+
+  <h3 id="ProjectStack_Common_ResourceLocation_Equals_System_Object_" data-uid="ProjectStack.Common.ResourceLocation.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">object</span></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_ResourceLocation_GetHashCode_" data-uid="ProjectStack.Common.ResourceLocation.GetHashCode*"></a>
+
+  <h3 id="ProjectStack_Common_ResourceLocation_GetHashCode" data-uid="ProjectStack.Common.ResourceLocation.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
   </dl>
 
 
@@ -404,7 +387,7 @@ ResourceLocation 类
 
   <h3 id="ProjectStack_Common_ResourceLocation_GetResLoc" data-uid="ProjectStack.Common.ResourceLocation.GetResLoc">
   GetResLoc()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -417,7 +400,7 @@ ResourceLocation 类
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -435,7 +418,7 @@ ResourceLocation 类
 
   <h3 id="ProjectStack_Common_ResourceLocation_GetResLocWithPath_System_String_" data-uid="ProjectStack.Common.ResourceLocation.GetResLocWithPath(System.String)">
   GetResLocWithPath(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -447,13 +430,13 @@ ResourceLocation 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>p</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>p</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -471,7 +454,7 @@ ResourceLocation 类
 
   <h3 id="ProjectStack_Common_ResourceLocation_GetResLocWithoutPrefix_System_String_" data-uid="ProjectStack.Common.ResourceLocation.GetResLocWithoutPrefix(System.String)">
   GetResLocWithoutPrefix(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -483,13 +466,13 @@ ResourceLocation 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>p</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>p</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -507,7 +490,7 @@ ResourceLocation 类
 
   <h3 id="ProjectStack_Common_ResourceLocation_Parse_System_String_" data-uid="ProjectStack.Common.ResourceLocation.Parse(System.String)">
   Parse(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -519,7 +502,7 @@ ResourceLocation 类
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>fullPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>fullPath</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -543,7 +526,7 @@ ResourceLocation 类
 
   <h3 id="ProjectStack_Common_ResourceLocation_ToString" data-uid="ProjectStack.Common.ResourceLocation.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
@@ -557,9 +540,89 @@ ResourceLocation 类
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd><p>A string that represents the current object.</p>
 </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">运算符
+</h2>
+
+
+  <a id="ProjectStack_Common_ResourceLocation_op_Equality_" data-uid="ProjectStack.Common.ResourceLocation.op_Equality*"></a>
+
+  <h3 id="ProjectStack_Common_ResourceLocation_op_Equality_ProjectStack_Common_ResourceLocation_ProjectStack_Common_ResourceLocation_" data-uid="ProjectStack.Common.ResourceLocation.op_Equality(ProjectStack.Common.ResourceLocation,ProjectStack.Common.ResourceLocation)">
+  operator ==(ResourceLocation?, ResourceLocation?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(ResourceLocation? left, ResourceLocation? right)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Common_ResourceLocation_op_Inequality_" data-uid="ProjectStack.Common.ResourceLocation.op_Inequality*"></a>
+
+  <h3 id="ProjectStack_Common_ResourceLocation_op_Inequality_ProjectStack_Common_ResourceLocation_ProjectStack_Common_ResourceLocation_" data-uid="ProjectStack.Common.ResourceLocation.op_Inequality(ProjectStack.Common.ResourceLocation,ProjectStack.Common.ResourceLocation)">
+  operator !=(ResourceLocation?, ResourceLocation?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(ResourceLocation? left, ResourceLocation? right)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="ProjectStack.Common.ResourceLocation.html">ResourceLocation</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
   </dl>
 
 
@@ -576,7 +639,7 @@ ResourceLocation 类
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L5" class="edit-link">编辑本文</a>
+          <a href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Common/ResourceLocation.cs/#L34" class="edit-link">编辑本文</a>
         </div>
 
 

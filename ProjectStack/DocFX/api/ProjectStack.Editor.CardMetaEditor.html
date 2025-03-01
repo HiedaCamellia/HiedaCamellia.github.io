@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -56,7 +56,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -115,7 +115,7 @@ public class CardMetaEditor : SingleTypeEditor</code></pre>
   <dl class="typelist inheritance">
     <dt>继承</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">GodotObject</span></div>
       <div><span class="xref">Node</span></div>
       <div><span class="xref">CanvasItem</span></div>
@@ -324,7 +324,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if a property with the given name was found.</p>
 </dd>
   </dl>
@@ -365,7 +365,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -411,7 +411,7 @@ Do not call or override this method.</p>
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -429,7 +429,7 @@ Do not call or override this method.</p>
 
   <h3 id="ProjectStack_Editor_CardMetaEditor_OnReady" data-uid="ProjectStack.Editor.CardMetaEditor.OnReady">
   OnReady()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Editor/CardMetaEditor.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Editor/CardMetaEditor.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Notification received when the node is ready.</p>
@@ -529,18 +529,16 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
   <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Editor/CardMetaEditor.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Called when the object receives a notification, which can be identified in <code class="paramref">what</code> by comparing it with a constant. See also <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Notification(int, bool)</a>.</p>
+  <div class="markdown level1 summary"><p>Called when the object receives a notification, which can be identified in <code class="paramref">what</code> by comparing it with a constant. See also <span class="xref">Godot.GodotObject.Notification(int, bool)</span>.</p>
 <p>
-  <pre><code class="lang-csharp">public override void _Notification(int what)
-  {
-      if (what == NotificationPredelete)
-      {
-          GD.Print("Goodbye!");
-      }
-  }</code></pre>
-
-<p>
-  <b>Note:</b> The base <span class="xref">Godot.GodotObject</span> defines a few notifications (<span class="xref">Godot.GodotObject.NotificationPostinitialize</span> and <span class="xref">Godot.GodotObject.NotificationPredelete</span>). Inheriting classes such as <span class="xref">Godot.Node</span> define a lot more notifications, which are also received by this method.</p>
+   <pre><code class="lang-csharp">public override void _Notification(int what)
+   {
+       if (what == NotificationPredelete)
+       {
+           GD.Print("Goodbye!");
+       }
+   }</code></pre>
+<p><b>Note:</b> The base <span class="xref">Godot.GodotObject</span> defines a few notifications (<span class="xref">Godot.GodotObject.NotificationPostinitialize</span> and <span class="xref">Godot.GodotObject.NotificationPredelete</span>). Inheriting classes such as <span class="xref">Godot.Node</span> define a lot more notifications, which are also received by this method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -550,7 +548,7 @@ To add data to be saved and restored, implement <span class="xref">Godot.ISerial
 
   <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><code>what</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>what</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
