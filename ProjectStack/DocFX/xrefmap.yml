@@ -2163,6 +2163,25 @@ references:
   fullName.vb: ProjectStack.Common.ResourceLocation.=
   nameWithType: ResourceLocation.operator ==
   nameWithType.vb: ResourceLocation.=
+- uid: ProjectStack.Common.ResourceLocation.op_Implicit(ProjectStack.Common.ResourceLocation)~System.String
+  name: implicit operator string(ResourceLocation)
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_op_Implicit_ProjectStack_Common_ResourceLocation__System_String
+  commentId: M:ProjectStack.Common.ResourceLocation.op_Implicit(ProjectStack.Common.ResourceLocation)~System.String
+  name.vb: CType(ResourceLocation)
+  fullName: ProjectStack.Common.ResourceLocation.implicit operator string(ProjectStack.Common.ResourceLocation)
+  fullName.vb: ProjectStack.Common.ResourceLocation.CType(ProjectStack.Common.ResourceLocation)
+  nameWithType: ResourceLocation.implicit operator string(ResourceLocation)
+  nameWithType.vb: ResourceLocation.CType(ResourceLocation)
+- uid: ProjectStack.Common.ResourceLocation.op_Implicit*
+  name: implicit operator
+  href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_op_Implicit_
+  commentId: Overload:ProjectStack.Common.ResourceLocation.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectStack.Common.ResourceLocation.implicit operator
+  fullName.vb: ProjectStack.Common.ResourceLocation.CType
+  nameWithType: ResourceLocation.implicit operator
+  nameWithType.vb: ResourceLocation.CType
 - uid: ProjectStack.Common.ResourceLocation.op_Inequality(ProjectStack.Common.ResourceLocation,ProjectStack.Common.ResourceLocation)
   name: operator !=(ResourceLocation?, ResourceLocation?)
   href: api/ProjectStack.Common.ResourceLocation.html#ProjectStack_Common_ResourceLocation_op_Inequality_ProjectStack_Common_ResourceLocation_ProjectStack_Common_ResourceLocation_
@@ -3571,6 +3590,165 @@ references:
   fullName.vb: ProjectStack.Core.FrozenGameResource(Of T).GetEnumerator
   nameWithType: FrozenGameResource<T>.GetEnumerator
   nameWithType.vb: FrozenGameResource(Of T).GetEnumerator
+- uid: ProjectStack.Core.GameResourceCollection
+  name: GameResourceCollection
+  href: api/ProjectStack.Core.GameResourceCollection.html
+  commentId: T:ProjectStack.Core.GameResourceCollection
+  fullName: ProjectStack.Core.GameResourceCollection
+  nameWithType: GameResourceCollection
+- uid: ProjectStack.Core.GameResourceCollection.Add*
+  name: Add
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Add_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.Add
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.Add
+  nameWithType: GameResourceCollection.Add
+- uid: ProjectStack.Core.GameResourceCollection.Add``1(System.String,System.Func{ProjectStack.Core.IGameResourceCollection,System.String,``0})
+  name: Add<T>(string, Func<IGameResourceCollection, string, T>)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Add__1_System_String_System_Func_ProjectStack_Core_IGameResourceCollection_System_String___0__
+  commentId: M:ProjectStack.Core.GameResourceCollection.Add``1(System.String,System.Func{ProjectStack.Core.IGameResourceCollection,System.String,``0})
+  name.vb: Add(Of T)(String, Func(Of IGameResourceCollection, String, T))
+  fullName: ProjectStack.Core.GameResourceCollection.Add<T>(string, System.Func<ProjectStack.Core.IGameResourceCollection, string, T>)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.Add(Of T)(String, System.Func(Of ProjectStack.Core.IGameResourceCollection, String, T))
+  nameWithType: GameResourceCollection.Add<T>(string, Func<IGameResourceCollection, string, T>)
+  nameWithType.vb: GameResourceCollection.Add(Of T)(String, Func(Of IGameResourceCollection, String, T))
+- uid: ProjectStack.Core.GameResourceCollection.Add``1(System.String,``0)
+  name: Add<T>(string, T)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Add__1_System_String___0_
+  commentId: M:ProjectStack.Core.GameResourceCollection.Add``1(System.String,``0)
+  name.vb: Add(Of T)(String, T)
+  fullName: ProjectStack.Core.GameResourceCollection.Add<T>(string, T)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.Add(Of T)(String, T)
+  nameWithType: GameResourceCollection.Add<T>(string, T)
+  nameWithType.vb: GameResourceCollection.Add(Of T)(String, T)
+- uid: ProjectStack.Core.GameResourceCollection.Clear*
+  name: Clear
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Clear_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.Clear
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.Clear
+  nameWithType: GameResourceCollection.Clear
+- uid: ProjectStack.Core.GameResourceCollection.Clear``1
+  name: Clear<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Clear__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.Clear``1
+  name.vb: Clear(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.Clear<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.Clear(Of T)()
+  nameWithType: GameResourceCollection.Clear<T>()
+  nameWithType.vb: GameResourceCollection.Clear(Of T)()
+- uid: ProjectStack.Core.GameResourceCollection.ContainsKey*
+  name: ContainsKey
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_ContainsKey_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.ContainsKey
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.ContainsKey
+  nameWithType: GameResourceCollection.ContainsKey
+- uid: ProjectStack.Core.GameResourceCollection.ContainsKey``1(System.String)
+  name: ContainsKey<T>(string)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_ContainsKey__1_System_String_
+  commentId: M:ProjectStack.Core.GameResourceCollection.ContainsKey``1(System.String)
+  name.vb: ContainsKey(Of T)(String)
+  fullName: ProjectStack.Core.GameResourceCollection.ContainsKey<T>(string)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.ContainsKey(Of T)(String)
+  nameWithType: GameResourceCollection.ContainsKey<T>(string)
+  nameWithType.vb: GameResourceCollection.ContainsKey(Of T)(String)
+- uid: ProjectStack.Core.GameResourceCollection.Get*
+  name: Get
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Get_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.Get
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.Get
+  nameWithType: GameResourceCollection.Get
+- uid: ProjectStack.Core.GameResourceCollection.Get``1(System.String)
+  name: Get<T>(string)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Get__1_System_String_
+  commentId: M:ProjectStack.Core.GameResourceCollection.Get``1(System.String)
+  name.vb: Get(Of T)(String)
+  fullName: ProjectStack.Core.GameResourceCollection.Get<T>(string)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.Get(Of T)(String)
+  nameWithType: GameResourceCollection.Get<T>(string)
+  nameWithType.vb: GameResourceCollection.Get(Of T)(String)
+- uid: ProjectStack.Core.GameResourceCollection.KeysOf*
+  name: KeysOf
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_KeysOf_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.KeysOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.KeysOf
+  nameWithType: GameResourceCollection.KeysOf
+- uid: ProjectStack.Core.GameResourceCollection.KeysOf``1
+  name: KeysOf<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_KeysOf__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.KeysOf``1
+  name.vb: KeysOf(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.KeysOf<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.KeysOf(Of T)()
+  nameWithType: GameResourceCollection.KeysOf<T>()
+  nameWithType.vb: GameResourceCollection.KeysOf(Of T)()
+- uid: ProjectStack.Core.GameResourceCollection.Only*
+  name: Only
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Only_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.Only
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.Only
+  nameWithType: GameResourceCollection.Only
+- uid: ProjectStack.Core.GameResourceCollection.Only``1
+  name: Only<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Only__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.Only``1
+  name.vb: Only(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.Only<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.Only(Of T)()
+  nameWithType: GameResourceCollection.Only<T>()
+  nameWithType.vb: GameResourceCollection.Only(Of T)()
+- uid: ProjectStack.Core.GameResourceCollection.Remove*
+  name: Remove
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Remove_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.Remove
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.Remove
+  nameWithType: GameResourceCollection.Remove
+- uid: ProjectStack.Core.GameResourceCollection.Remove``1(System.String)
+  name: Remove<T>(string)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Remove__1_System_String_
+  commentId: M:ProjectStack.Core.GameResourceCollection.Remove``1(System.String)
+  name.vb: Remove(Of T)(String)
+  fullName: ProjectStack.Core.GameResourceCollection.Remove<T>(string)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.Remove(Of T)(String)
+  nameWithType: GameResourceCollection.Remove<T>(string)
+  nameWithType.vb: GameResourceCollection.Remove(Of T)(String)
+- uid: ProjectStack.Core.GameResourceCollection.TryAdd*
+  name: TryAdd
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_TryAdd_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.TryAdd
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.TryAdd
+  nameWithType: GameResourceCollection.TryAdd
+- uid: ProjectStack.Core.GameResourceCollection.TryAdd``1(System.String,``0)
+  name: TryAdd<T>(string, T)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_TryAdd__1_System_String___0_
+  commentId: M:ProjectStack.Core.GameResourceCollection.TryAdd``1(System.String,``0)
+  name.vb: TryAdd(Of T)(String, T)
+  fullName: ProjectStack.Core.GameResourceCollection.TryAdd<T>(string, T)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.TryAdd(Of T)(String, T)
+  nameWithType: GameResourceCollection.TryAdd<T>(string, T)
+  nameWithType.vb: GameResourceCollection.TryAdd(Of T)(String, T)
+- uid: ProjectStack.Core.GameResourceCollection.ValuesOf*
+  name: ValuesOf
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_ValuesOf_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.ValuesOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.ValuesOf
+  nameWithType: GameResourceCollection.ValuesOf
+- uid: ProjectStack.Core.GameResourceCollection.ValuesOf``1
+  name: ValuesOf<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_ValuesOf__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.ValuesOf``1
+  name.vb: ValuesOf(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.ValuesOf<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.ValuesOf(Of T)()
+  nameWithType: GameResourceCollection.ValuesOf<T>()
+  nameWithType.vb: GameResourceCollection.ValuesOf(Of T)()
 - uid: ProjectStack.Core.GameResource`1
   name: GameResource<T>
   href: api/ProjectStack.Core.GameResource-1.html
@@ -3717,125 +3895,171 @@ references:
   fullName.vb: ProjectStack.Core.GameResource(Of T).Remove
   nameWithType: GameResource<T>.Remove
   nameWithType.vb: GameResource(Of T).Remove
-- uid: ProjectStack.Core.GameResources
-  name: GameResources
-  href: api/ProjectStack.Core.GameResources.html
-  commentId: T:ProjectStack.Core.GameResources
-  fullName: ProjectStack.Core.GameResources
-  nameWithType: GameResources
-- uid: ProjectStack.Core.GameResources.Add(ProjectStack.Core.IGameResource)
-  name: Add(IGameResource)
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Add_ProjectStack_Core_IGameResource_
-  commentId: M:ProjectStack.Core.GameResources.Add(ProjectStack.Core.IGameResource)
-  fullName: ProjectStack.Core.GameResources.Add(ProjectStack.Core.IGameResource)
-  nameWithType: GameResources.Add(IGameResource)
-- uid: ProjectStack.Core.GameResources.Add*
-  name: Add
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Add_
-  commentId: Overload:ProjectStack.Core.GameResources.Add
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.Add
-  nameWithType: GameResources.Add
-- uid: ProjectStack.Core.GameResources.Clear
-  name: Clear()
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Clear
-  commentId: M:ProjectStack.Core.GameResources.Clear
-  fullName: ProjectStack.Core.GameResources.Clear()
-  nameWithType: GameResources.Clear()
-- uid: ProjectStack.Core.GameResources.Clear*
-  name: Clear
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Clear_
-  commentId: Overload:ProjectStack.Core.GameResources.Clear
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.Clear
-  nameWithType: GameResources.Clear
-- uid: ProjectStack.Core.GameResources.Contains(ProjectStack.Core.IGameResource)
-  name: Contains(IGameResource)
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Contains_ProjectStack_Core_IGameResource_
-  commentId: M:ProjectStack.Core.GameResources.Contains(ProjectStack.Core.IGameResource)
-  fullName: ProjectStack.Core.GameResources.Contains(ProjectStack.Core.IGameResource)
-  nameWithType: GameResources.Contains(IGameResource)
-- uid: ProjectStack.Core.GameResources.Contains*
-  name: Contains
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Contains_
-  commentId: Overload:ProjectStack.Core.GameResources.Contains
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.Contains
-  nameWithType: GameResources.Contains
-- uid: ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource[],System.Int32)
-  name: CopyTo(IGameResource[], int)
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_CopyTo_ProjectStack_Core_IGameResource___System_Int32_
-  commentId: M:ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource[],System.Int32)
-  name.vb: CopyTo(IGameResource(), Integer)
-  fullName: ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource[], int)
-  fullName.vb: ProjectStack.Core.GameResources.CopyTo(ProjectStack.Core.IGameResource(), Integer)
-  nameWithType: GameResources.CopyTo(IGameResource[], int)
-  nameWithType.vb: GameResources.CopyTo(IGameResource(), Integer)
-- uid: ProjectStack.Core.GameResources.CopyTo*
-  name: CopyTo
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_CopyTo_
-  commentId: Overload:ProjectStack.Core.GameResources.CopyTo
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.CopyTo
-  nameWithType: GameResources.CopyTo
-- uid: ProjectStack.Core.GameResources.Count
-  name: Count
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Count
-  commentId: P:ProjectStack.Core.GameResources.Count
-  fullName: ProjectStack.Core.GameResources.Count
-  nameWithType: GameResources.Count
-- uid: ProjectStack.Core.GameResources.Count*
-  name: Count
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Count_
-  commentId: Overload:ProjectStack.Core.GameResources.Count
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.Count
-  nameWithType: GameResources.Count
-- uid: ProjectStack.Core.GameResources.GetEnumerator
-  name: GetEnumerator()
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_GetEnumerator
-  commentId: M:ProjectStack.Core.GameResources.GetEnumerator
-  fullName: ProjectStack.Core.GameResources.GetEnumerator()
-  nameWithType: GameResources.GetEnumerator()
-- uid: ProjectStack.Core.GameResources.GetEnumerator*
-  name: GetEnumerator
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_GetEnumerator_
-  commentId: Overload:ProjectStack.Core.GameResources.GetEnumerator
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.GetEnumerator
-  nameWithType: GameResources.GetEnumerator
-- uid: ProjectStack.Core.GameResources.IsReadOnly
-  name: IsReadOnly
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_IsReadOnly
-  commentId: P:ProjectStack.Core.GameResources.IsReadOnly
-  fullName: ProjectStack.Core.GameResources.IsReadOnly
-  nameWithType: GameResources.IsReadOnly
-- uid: ProjectStack.Core.GameResources.IsReadOnly*
-  name: IsReadOnly
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_IsReadOnly_
-  commentId: Overload:ProjectStack.Core.GameResources.IsReadOnly
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.IsReadOnly
-  nameWithType: GameResources.IsReadOnly
-- uid: ProjectStack.Core.GameResources.Remove(ProjectStack.Core.IGameResource)
-  name: Remove(IGameResource)
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Remove_ProjectStack_Core_IGameResource_
-  commentId: M:ProjectStack.Core.GameResources.Remove(ProjectStack.Core.IGameResource)
-  fullName: ProjectStack.Core.GameResources.Remove(ProjectStack.Core.IGameResource)
-  nameWithType: GameResources.Remove(IGameResource)
-- uid: ProjectStack.Core.GameResources.Remove*
-  name: Remove
-  href: api/ProjectStack.Core.GameResources.html#ProjectStack_Core_GameResources_Remove_
-  commentId: Overload:ProjectStack.Core.GameResources.Remove
-  isSpec: "True"
-  fullName: ProjectStack.Core.GameResources.Remove
-  nameWithType: GameResources.Remove
 - uid: ProjectStack.Core.IGameResource
   name: IGameResource
   href: api/ProjectStack.Core.IGameResource.html
   commentId: T:ProjectStack.Core.IGameResource
   fullName: ProjectStack.Core.IGameResource
   nameWithType: IGameResource
+- uid: ProjectStack.Core.IGameResourceCollection
+  name: IGameResourceCollection
+  href: api/ProjectStack.Core.IGameResourceCollection.html
+  commentId: T:ProjectStack.Core.IGameResourceCollection
+  fullName: ProjectStack.Core.IGameResourceCollection
+  nameWithType: IGameResourceCollection
+- uid: ProjectStack.Core.IGameResourceCollection.Add*
+  name: Add
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Add_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.Add
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.Add
+  nameWithType: IGameResourceCollection.Add
+- uid: ProjectStack.Core.IGameResourceCollection.Add``1(System.String,System.Func{ProjectStack.Core.IGameResourceCollection,System.String,``0})
+  name: Add<T>(string, Func<IGameResourceCollection, string, T>)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Add__1_System_String_System_Func_ProjectStack_Core_IGameResourceCollection_System_String___0__
+  commentId: M:ProjectStack.Core.IGameResourceCollection.Add``1(System.String,System.Func{ProjectStack.Core.IGameResourceCollection,System.String,``0})
+  name.vb: Add(Of T)(String, Func(Of IGameResourceCollection, String, T))
+  fullName: ProjectStack.Core.IGameResourceCollection.Add<T>(string, System.Func<ProjectStack.Core.IGameResourceCollection, string, T>)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.Add(Of T)(String, System.Func(Of ProjectStack.Core.IGameResourceCollection, String, T))
+  nameWithType: IGameResourceCollection.Add<T>(string, Func<IGameResourceCollection, string, T>)
+  nameWithType.vb: IGameResourceCollection.Add(Of T)(String, Func(Of IGameResourceCollection, String, T))
+- uid: ProjectStack.Core.IGameResourceCollection.Add``1(System.String,``0)
+  name: Add<T>(string, T)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Add__1_System_String___0_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.Add``1(System.String,``0)
+  name.vb: Add(Of T)(String, T)
+  fullName: ProjectStack.Core.IGameResourceCollection.Add<T>(string, T)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.Add(Of T)(String, T)
+  nameWithType: IGameResourceCollection.Add<T>(string, T)
+  nameWithType.vb: IGameResourceCollection.Add(Of T)(String, T)
+- uid: ProjectStack.Core.IGameResourceCollection.Clear*
+  name: Clear
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Clear_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.Clear
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.Clear
+  nameWithType: IGameResourceCollection.Clear
+- uid: ProjectStack.Core.IGameResourceCollection.Clear``1
+  name: Clear<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Clear__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.Clear``1
+  name.vb: Clear(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.Clear<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.Clear(Of T)()
+  nameWithType: IGameResourceCollection.Clear<T>()
+  nameWithType.vb: IGameResourceCollection.Clear(Of T)()
+- uid: ProjectStack.Core.IGameResourceCollection.ContainsKey*
+  name: ContainsKey
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_ContainsKey_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.ContainsKey
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.ContainsKey
+  nameWithType: IGameResourceCollection.ContainsKey
+- uid: ProjectStack.Core.IGameResourceCollection.ContainsKey``1(System.String)
+  name: ContainsKey<T>(string)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_ContainsKey__1_System_String_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.ContainsKey``1(System.String)
+  name.vb: ContainsKey(Of T)(String)
+  fullName: ProjectStack.Core.IGameResourceCollection.ContainsKey<T>(string)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.ContainsKey(Of T)(String)
+  nameWithType: IGameResourceCollection.ContainsKey<T>(string)
+  nameWithType.vb: IGameResourceCollection.ContainsKey(Of T)(String)
+- uid: ProjectStack.Core.IGameResourceCollection.Get*
+  name: Get
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Get_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.Get
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.Get
+  nameWithType: IGameResourceCollection.Get
+- uid: ProjectStack.Core.IGameResourceCollection.Get``1(System.String)
+  name: Get<T>(string)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Get__1_System_String_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.Get``1(System.String)
+  name.vb: Get(Of T)(String)
+  fullName: ProjectStack.Core.IGameResourceCollection.Get<T>(string)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.Get(Of T)(String)
+  nameWithType: IGameResourceCollection.Get<T>(string)
+  nameWithType.vb: IGameResourceCollection.Get(Of T)(String)
+- uid: ProjectStack.Core.IGameResourceCollection.KeysOf*
+  name: KeysOf
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_KeysOf_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.KeysOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.KeysOf
+  nameWithType: IGameResourceCollection.KeysOf
+- uid: ProjectStack.Core.IGameResourceCollection.KeysOf``1
+  name: KeysOf<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_KeysOf__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.KeysOf``1
+  name.vb: KeysOf(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.KeysOf<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.KeysOf(Of T)()
+  nameWithType: IGameResourceCollection.KeysOf<T>()
+  nameWithType.vb: IGameResourceCollection.KeysOf(Of T)()
+- uid: ProjectStack.Core.IGameResourceCollection.Only*
+  name: Only
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Only_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.Only
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.Only
+  nameWithType: IGameResourceCollection.Only
+- uid: ProjectStack.Core.IGameResourceCollection.Only``1
+  name: Only<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Only__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.Only``1
+  name.vb: Only(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.Only<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.Only(Of T)()
+  nameWithType: IGameResourceCollection.Only<T>()
+  nameWithType.vb: IGameResourceCollection.Only(Of T)()
+- uid: ProjectStack.Core.IGameResourceCollection.Remove*
+  name: Remove
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Remove_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.Remove
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.Remove
+  nameWithType: IGameResourceCollection.Remove
+- uid: ProjectStack.Core.IGameResourceCollection.Remove``1(System.String)
+  name: Remove<T>(string)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Remove__1_System_String_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.Remove``1(System.String)
+  name.vb: Remove(Of T)(String)
+  fullName: ProjectStack.Core.IGameResourceCollection.Remove<T>(string)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.Remove(Of T)(String)
+  nameWithType: IGameResourceCollection.Remove<T>(string)
+  nameWithType.vb: IGameResourceCollection.Remove(Of T)(String)
+- uid: ProjectStack.Core.IGameResourceCollection.TryAdd*
+  name: TryAdd
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_TryAdd_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.TryAdd
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.TryAdd
+  nameWithType: IGameResourceCollection.TryAdd
+- uid: ProjectStack.Core.IGameResourceCollection.TryAdd``1(System.String,``0)
+  name: TryAdd<T>(string, T)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_TryAdd__1_System_String___0_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.TryAdd``1(System.String,``0)
+  name.vb: TryAdd(Of T)(String, T)
+  fullName: ProjectStack.Core.IGameResourceCollection.TryAdd<T>(string, T)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.TryAdd(Of T)(String, T)
+  nameWithType: IGameResourceCollection.TryAdd<T>(string, T)
+  nameWithType.vb: IGameResourceCollection.TryAdd(Of T)(String, T)
+- uid: ProjectStack.Core.IGameResourceCollection.ValuesOf*
+  name: ValuesOf
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_ValuesOf_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.ValuesOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.ValuesOf
+  nameWithType: IGameResourceCollection.ValuesOf
+- uid: ProjectStack.Core.IGameResourceCollection.ValuesOf``1
+  name: ValuesOf<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_ValuesOf__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.ValuesOf``1
+  name.vb: ValuesOf(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.ValuesOf<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.ValuesOf(Of T)()
+  nameWithType: IGameResourceCollection.ValuesOf<T>()
+  nameWithType.vb: IGameResourceCollection.ValuesOf(Of T)()
 - uid: ProjectStack.Core.Level
   name: Level
   href: api/ProjectStack.Core.Level.html

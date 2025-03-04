@@ -606,16 +606,16 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.GameResources.yml",
+      "source_relative_path": "api/ProjectStack.Core.GameResourceCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectStack.Core.GameResources.html"
+          "relative_path": "api/ProjectStack.Core.GameResourceCollection.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "ProjectStack.Core.GameResources",
+      "Title": "ProjectStack.Core.GameResourceCollection",
       "Summary": null
     },
     {
@@ -631,6 +631,20 @@
       "IsMRef": true,
       "Title": "ProjectStack.Core.IGameResource",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.Core.IGameResourceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.Core.IGameResourceCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.Core.IGameResourceCollection",
+      "Summary": "<p sourcefile=\"api/ProjectStack.Core.IGameResourceCollection.yml\" sourcestartlinenumber=\"1\">表示一个游戏资源集合，允许通过类型和唯一标识符存储和检索资源。</p>\n"
     },
     {
       "type": "ManagedReference",
