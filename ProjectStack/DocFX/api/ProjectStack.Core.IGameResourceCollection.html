@@ -124,6 +124,45 @@ IGameResourceCollection 接口
 </h2>
 
 
+  <a id="ProjectStack_Core_IGameResourceCollection_AddKeyless_" data-uid="ProjectStack.Core.IGameResourceCollection.AddKeyless*"></a>
+
+  <h3 id="ProjectStack_Core_IGameResourceCollection_AddKeyless__1___0_" data-uid="ProjectStack.Core.IGameResourceCollection.AddKeyless``1(``0)">
+  AddKeyless&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加无键的指定类型资源。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddKeyless&lt;T&gt;(T item) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd><p>要添加的资源实例。</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>资源的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="ProjectStack_Core_IGameResourceCollection_Add_" data-uid="ProjectStack.Core.IGameResourceCollection.Add*"></a>
 
   <h3 id="ProjectStack_Core_IGameResourceCollection_Add__1_System_String_System_Func_ProjectStack_Core_IGameResourceCollection_System_String___0__" data-uid="ProjectStack.Core.IGameResourceCollection.Add``1(System.String,System.Func{ProjectStack.Core.IGameResourceCollection,System.String,``0})">
@@ -220,11 +259,44 @@ IGameResourceCollection 接口
 
 
 
+  <a id="ProjectStack_Core_IGameResourceCollection_ClearKeyless_" data-uid="ProjectStack.Core.IGameResourceCollection.ClearKeyless*"></a>
+
+  <h3 id="ProjectStack_Core_IGameResourceCollection_ClearKeyless__1" data-uid="ProjectStack.Core.IGameResourceCollection.ClearKeyless``1">
+  ClearKeyless&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从集合中移除指定类型的所有无键资源。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ClearKeyless&lt;T&gt;() where T : class</code></pre>
+  </div>
+
+
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>资源的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="ProjectStack_Core_IGameResourceCollection_Clear_" data-uid="ProjectStack.Core.IGameResourceCollection.Clear*"></a>
 
   <h3 id="ProjectStack_Core_IGameResourceCollection_Clear__1" data-uid="ProjectStack.Core.IGameResourceCollection.Clear``1">
   Clear&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>清除集合中指定类型的所有资源。</p>
@@ -257,7 +329,7 @@ IGameResourceCollection 接口
 
   <h3 id="ProjectStack_Core_IGameResourceCollection_ContainsKey__1_System_String_" data-uid="ProjectStack.Core.IGameResourceCollection.ContainsKey``1(System.String)">
   ContainsKey&lt;T&gt;(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>检查集合中是否包含指定类型的资源。</p>
@@ -349,11 +421,50 @@ IGameResourceCollection 接口
 
 
 
+  <a id="ProjectStack_Core_IGameResourceCollection_KeylessItemsOf_" data-uid="ProjectStack.Core.IGameResourceCollection.KeylessItemsOf*"></a>
+
+  <h3 id="ProjectStack_Core_IGameResourceCollection_KeylessItemsOf__1" data-uid="ProjectStack.Core.IGameResourceCollection.KeylessItemsOf``1">
+  KeylessItemsOf&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取集合中指定类型的所有无键资源实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyCollection&lt;T&gt; KeylessItemsOf&lt;T&gt;() where T : class</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IReadOnlyCollection</span>&lt;T&gt;</dt>
+    <dd><p>包含所有无键资源实例的集合。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>资源的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="ProjectStack_Core_IGameResourceCollection_KeysOf_" data-uid="ProjectStack.Core.IGameResourceCollection.KeysOf*"></a>
 
   <h3 id="ProjectStack_Core_IGameResourceCollection_KeysOf__1" data-uid="ProjectStack.Core.IGameResourceCollection.KeysOf``1">
   KeysOf&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取集合中指定类型的所有资源的唯一标识符。</p>
@@ -361,13 +472,13 @@ IGameResourceCollection 接口
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ICollection&lt;string&gt; KeysOf&lt;T&gt;() where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;string&gt; KeysOf&lt;T&gt;() where T : class</code></pre>
   </div>
 
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><span class="xref">ICollection</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dt><span class="xref">IReadOnlyList</span>&lt;<span class="xref">string</span>&gt;</dt>
     <dd><p>包含所有资源标识符的集合。</p>
 </dd>
   </dl>
@@ -427,11 +538,93 @@ IGameResourceCollection 接口
 
 
 
+  <a id="ProjectStack_Core_IGameResourceCollection_RemoveKeyless_" data-uid="ProjectStack.Core.IGameResourceCollection.RemoveKeyless*"></a>
+
+  <h3 id="ProjectStack_Core_IGameResourceCollection_RemoveKeyless__1___0_" data-uid="ProjectStack.Core.IGameResourceCollection.RemoveKeyless``1(``0)">
+  RemoveKeyless&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从集合中移除指定类型的无键资源。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RemoveKeyless&lt;T&gt;(T item) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd><p>要移除的资源。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>资源的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Core_IGameResourceCollection_RemoveSingleton_" data-uid="ProjectStack.Core.IGameResourceCollection.RemoveSingleton*"></a>
+
+  <h3 id="ProjectStack_Core_IGameResourceCollection_RemoveSingleton__1" data-uid="ProjectStack.Core.IGameResourceCollection.RemoveSingleton``1">
+  RemoveSingleton&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从集合中移除指定类型的单例资源。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RemoveSingleton&lt;T&gt;() where T : class</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>资源的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="ProjectStack_Core_IGameResourceCollection_Remove_" data-uid="ProjectStack.Core.IGameResourceCollection.Remove*"></a>
 
   <h3 id="ProjectStack_Core_IGameResourceCollection_Remove__1_System_String_" data-uid="ProjectStack.Core.IGameResourceCollection.Remove``1(System.String)">
   Remove&lt;T&gt;(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>从集合中移除指定类型的资源。</p>
@@ -455,6 +648,45 @@ IGameResourceCollection 接口
     <dd><p>如果成功移除资源，则为 <code>true</code>；否则为 <code>false</code>。</p>
 </dd>
   </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>资源的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ProjectStack_Core_IGameResourceCollection_SetSingleton_" data-uid="ProjectStack.Core.IGameResourceCollection.SetSingleton*"></a>
+
+  <h3 id="ProjectStack_Core_IGameResourceCollection_SetSingleton__1___0_" data-uid="ProjectStack.Core.IGameResourceCollection.SetSingleton``1(``0)">
+  SetSingleton&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置指定类型的单例资源。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetSingleton&lt;T&gt;(T item) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd><p>要设置的资源单例。</p>
+</dd>
+  </dl>
+
 
   <h4 class="section">类型参数</h4>
   <dl class="parameters">
@@ -524,7 +756,7 @@ IGameResourceCollection 接口
 
   <h3 id="ProjectStack_Core_IGameResourceCollection_ValuesOf__1" data-uid="ProjectStack.Core.IGameResourceCollection.ValuesOf``1">
   ValuesOf&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HiedaCamellia/ProjectStack/blob/main/ProjectStack/src/scripts/Core/GameResourceCollection.cs/#L132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取集合中指定类型的所有资源实例。</p>
@@ -532,13 +764,13 @@ IGameResourceCollection 接口
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ICollection&lt;T&gt; ValuesOf&lt;T&gt;() where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;T&gt; ValuesOf&lt;T&gt;() where T : class</code></pre>
   </div>
 
 
   <h4 class="section">返回</h4>
   <dl class="parameters">
-    <dt><span class="xref">ICollection</span>&lt;T&gt;</dt>
+    <dt><span class="xref">IReadOnlyList</span>&lt;T&gt;</dt>
     <dd><p>包含所有资源实例的集合。</p>
 </dd>
   </dl>

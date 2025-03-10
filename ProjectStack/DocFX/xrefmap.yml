@@ -3603,6 +3603,22 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.GameResourceCollection.Add
   nameWithType: GameResourceCollection.Add
+- uid: ProjectStack.Core.GameResourceCollection.AddKeyless*
+  name: AddKeyless
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_AddKeyless_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.AddKeyless
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.AddKeyless
+  nameWithType: GameResourceCollection.AddKeyless
+- uid: ProjectStack.Core.GameResourceCollection.AddKeyless``1(``0)
+  name: AddKeyless<T>(T)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_AddKeyless__1___0_
+  commentId: M:ProjectStack.Core.GameResourceCollection.AddKeyless``1(``0)
+  name.vb: AddKeyless(Of T)(T)
+  fullName: ProjectStack.Core.GameResourceCollection.AddKeyless<T>(T)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.AddKeyless(Of T)(T)
+  nameWithType: GameResourceCollection.AddKeyless<T>(T)
+  nameWithType.vb: GameResourceCollection.AddKeyless(Of T)(T)
 - uid: ProjectStack.Core.GameResourceCollection.Add``1(System.String,System.Func{ProjectStack.Core.IGameResourceCollection,System.String,``0})
   name: Add<T>(string, Func<IGameResourceCollection, string, T>)
   href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Add__1_System_String_System_Func_ProjectStack_Core_IGameResourceCollection_System_String___0__
@@ -3628,6 +3644,22 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.GameResourceCollection.Clear
   nameWithType: GameResourceCollection.Clear
+- uid: ProjectStack.Core.GameResourceCollection.ClearKeyless*
+  name: ClearKeyless
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_ClearKeyless_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.ClearKeyless
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.ClearKeyless
+  nameWithType: GameResourceCollection.ClearKeyless
+- uid: ProjectStack.Core.GameResourceCollection.ClearKeyless``1
+  name: ClearKeyless<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_ClearKeyless__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.ClearKeyless``1
+  name.vb: ClearKeyless(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.ClearKeyless<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.ClearKeyless(Of T)()
+  nameWithType: GameResourceCollection.ClearKeyless<T>()
+  nameWithType.vb: GameResourceCollection.ClearKeyless(Of T)()
 - uid: ProjectStack.Core.GameResourceCollection.Clear``1
   name: Clear<T>()
   href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Clear__1
@@ -3669,6 +3701,22 @@ references:
   fullName.vb: ProjectStack.Core.GameResourceCollection.Get(Of T)(String)
   nameWithType: GameResourceCollection.Get<T>(string)
   nameWithType.vb: GameResourceCollection.Get(Of T)(String)
+- uid: ProjectStack.Core.GameResourceCollection.KeylessItemsOf*
+  name: KeylessItemsOf
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_KeylessItemsOf_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.KeylessItemsOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.KeylessItemsOf
+  nameWithType: GameResourceCollection.KeylessItemsOf
+- uid: ProjectStack.Core.GameResourceCollection.KeylessItemsOf``1
+  name: KeylessItemsOf<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_KeylessItemsOf__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.KeylessItemsOf``1
+  name.vb: KeylessItemsOf(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.KeylessItemsOf<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.KeylessItemsOf(Of T)()
+  nameWithType: GameResourceCollection.KeylessItemsOf<T>()
+  nameWithType.vb: GameResourceCollection.KeylessItemsOf(Of T)()
 - uid: ProjectStack.Core.GameResourceCollection.KeysOf*
   name: KeysOf
   href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_KeysOf_
@@ -3708,6 +3756,38 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.GameResourceCollection.Remove
   nameWithType: GameResourceCollection.Remove
+- uid: ProjectStack.Core.GameResourceCollection.RemoveKeyless*
+  name: RemoveKeyless
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_RemoveKeyless_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.RemoveKeyless
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.RemoveKeyless
+  nameWithType: GameResourceCollection.RemoveKeyless
+- uid: ProjectStack.Core.GameResourceCollection.RemoveKeyless``1(``0)
+  name: RemoveKeyless<T>(T)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_RemoveKeyless__1___0_
+  commentId: M:ProjectStack.Core.GameResourceCollection.RemoveKeyless``1(``0)
+  name.vb: RemoveKeyless(Of T)(T)
+  fullName: ProjectStack.Core.GameResourceCollection.RemoveKeyless<T>(T)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.RemoveKeyless(Of T)(T)
+  nameWithType: GameResourceCollection.RemoveKeyless<T>(T)
+  nameWithType.vb: GameResourceCollection.RemoveKeyless(Of T)(T)
+- uid: ProjectStack.Core.GameResourceCollection.RemoveSingleton*
+  name: RemoveSingleton
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_RemoveSingleton_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.RemoveSingleton
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.RemoveSingleton
+  nameWithType: GameResourceCollection.RemoveSingleton
+- uid: ProjectStack.Core.GameResourceCollection.RemoveSingleton``1
+  name: RemoveSingleton<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_RemoveSingleton__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.RemoveSingleton``1
+  name.vb: RemoveSingleton(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.RemoveSingleton<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.RemoveSingleton(Of T)()
+  nameWithType: GameResourceCollection.RemoveSingleton<T>()
+  nameWithType.vb: GameResourceCollection.RemoveSingleton(Of T)()
 - uid: ProjectStack.Core.GameResourceCollection.Remove``1(System.String)
   name: Remove<T>(string)
   href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_Remove__1_System_String_
@@ -3717,6 +3797,22 @@ references:
   fullName.vb: ProjectStack.Core.GameResourceCollection.Remove(Of T)(String)
   nameWithType: GameResourceCollection.Remove<T>(string)
   nameWithType.vb: GameResourceCollection.Remove(Of T)(String)
+- uid: ProjectStack.Core.GameResourceCollection.SetSingleton*
+  name: SetSingleton
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_SetSingleton_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.SetSingleton
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.SetSingleton
+  nameWithType: GameResourceCollection.SetSingleton
+- uid: ProjectStack.Core.GameResourceCollection.SetSingleton``1(``0)
+  name: SetSingleton<T>(T)
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_SetSingleton__1___0_
+  commentId: M:ProjectStack.Core.GameResourceCollection.SetSingleton``1(``0)
+  name.vb: SetSingleton(Of T)(T)
+  fullName: ProjectStack.Core.GameResourceCollection.SetSingleton<T>(T)
+  fullName.vb: ProjectStack.Core.GameResourceCollection.SetSingleton(Of T)(T)
+  nameWithType: GameResourceCollection.SetSingleton<T>(T)
+  nameWithType.vb: GameResourceCollection.SetSingleton(Of T)(T)
 - uid: ProjectStack.Core.GameResourceCollection.TryAdd*
   name: TryAdd
   href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_TryAdd_
@@ -3914,6 +4010,22 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.IGameResourceCollection.Add
   nameWithType: IGameResourceCollection.Add
+- uid: ProjectStack.Core.IGameResourceCollection.AddKeyless*
+  name: AddKeyless
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_AddKeyless_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.AddKeyless
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.AddKeyless
+  nameWithType: IGameResourceCollection.AddKeyless
+- uid: ProjectStack.Core.IGameResourceCollection.AddKeyless``1(``0)
+  name: AddKeyless<T>(T)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_AddKeyless__1___0_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.AddKeyless``1(``0)
+  name.vb: AddKeyless(Of T)(T)
+  fullName: ProjectStack.Core.IGameResourceCollection.AddKeyless<T>(T)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.AddKeyless(Of T)(T)
+  nameWithType: IGameResourceCollection.AddKeyless<T>(T)
+  nameWithType.vb: IGameResourceCollection.AddKeyless(Of T)(T)
 - uid: ProjectStack.Core.IGameResourceCollection.Add``1(System.String,System.Func{ProjectStack.Core.IGameResourceCollection,System.String,``0})
   name: Add<T>(string, Func<IGameResourceCollection, string, T>)
   href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Add__1_System_String_System_Func_ProjectStack_Core_IGameResourceCollection_System_String___0__
@@ -3939,6 +4051,22 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.IGameResourceCollection.Clear
   nameWithType: IGameResourceCollection.Clear
+- uid: ProjectStack.Core.IGameResourceCollection.ClearKeyless*
+  name: ClearKeyless
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_ClearKeyless_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.ClearKeyless
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.ClearKeyless
+  nameWithType: IGameResourceCollection.ClearKeyless
+- uid: ProjectStack.Core.IGameResourceCollection.ClearKeyless``1
+  name: ClearKeyless<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_ClearKeyless__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.ClearKeyless``1
+  name.vb: ClearKeyless(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.ClearKeyless<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.ClearKeyless(Of T)()
+  nameWithType: IGameResourceCollection.ClearKeyless<T>()
+  nameWithType.vb: IGameResourceCollection.ClearKeyless(Of T)()
 - uid: ProjectStack.Core.IGameResourceCollection.Clear``1
   name: Clear<T>()
   href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Clear__1
@@ -3980,6 +4108,22 @@ references:
   fullName.vb: ProjectStack.Core.IGameResourceCollection.Get(Of T)(String)
   nameWithType: IGameResourceCollection.Get<T>(string)
   nameWithType.vb: IGameResourceCollection.Get(Of T)(String)
+- uid: ProjectStack.Core.IGameResourceCollection.KeylessItemsOf*
+  name: KeylessItemsOf
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_KeylessItemsOf_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.KeylessItemsOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.KeylessItemsOf
+  nameWithType: IGameResourceCollection.KeylessItemsOf
+- uid: ProjectStack.Core.IGameResourceCollection.KeylessItemsOf``1
+  name: KeylessItemsOf<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_KeylessItemsOf__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.KeylessItemsOf``1
+  name.vb: KeylessItemsOf(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.KeylessItemsOf<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.KeylessItemsOf(Of T)()
+  nameWithType: IGameResourceCollection.KeylessItemsOf<T>()
+  nameWithType.vb: IGameResourceCollection.KeylessItemsOf(Of T)()
 - uid: ProjectStack.Core.IGameResourceCollection.KeysOf*
   name: KeysOf
   href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_KeysOf_
@@ -4019,6 +4163,38 @@ references:
   isSpec: "True"
   fullName: ProjectStack.Core.IGameResourceCollection.Remove
   nameWithType: IGameResourceCollection.Remove
+- uid: ProjectStack.Core.IGameResourceCollection.RemoveKeyless*
+  name: RemoveKeyless
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_RemoveKeyless_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.RemoveKeyless
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.RemoveKeyless
+  nameWithType: IGameResourceCollection.RemoveKeyless
+- uid: ProjectStack.Core.IGameResourceCollection.RemoveKeyless``1(``0)
+  name: RemoveKeyless<T>(T)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_RemoveKeyless__1___0_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.RemoveKeyless``1(``0)
+  name.vb: RemoveKeyless(Of T)(T)
+  fullName: ProjectStack.Core.IGameResourceCollection.RemoveKeyless<T>(T)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.RemoveKeyless(Of T)(T)
+  nameWithType: IGameResourceCollection.RemoveKeyless<T>(T)
+  nameWithType.vb: IGameResourceCollection.RemoveKeyless(Of T)(T)
+- uid: ProjectStack.Core.IGameResourceCollection.RemoveSingleton*
+  name: RemoveSingleton
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_RemoveSingleton_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.RemoveSingleton
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.RemoveSingleton
+  nameWithType: IGameResourceCollection.RemoveSingleton
+- uid: ProjectStack.Core.IGameResourceCollection.RemoveSingleton``1
+  name: RemoveSingleton<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_RemoveSingleton__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.RemoveSingleton``1
+  name.vb: RemoveSingleton(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.RemoveSingleton<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.RemoveSingleton(Of T)()
+  nameWithType: IGameResourceCollection.RemoveSingleton<T>()
+  nameWithType.vb: IGameResourceCollection.RemoveSingleton(Of T)()
 - uid: ProjectStack.Core.IGameResourceCollection.Remove``1(System.String)
   name: Remove<T>(string)
   href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_Remove__1_System_String_
@@ -4028,6 +4204,22 @@ references:
   fullName.vb: ProjectStack.Core.IGameResourceCollection.Remove(Of T)(String)
   nameWithType: IGameResourceCollection.Remove<T>(string)
   nameWithType.vb: IGameResourceCollection.Remove(Of T)(String)
+- uid: ProjectStack.Core.IGameResourceCollection.SetSingleton*
+  name: SetSingleton
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_SetSingleton_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.SetSingleton
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.SetSingleton
+  nameWithType: IGameResourceCollection.SetSingleton
+- uid: ProjectStack.Core.IGameResourceCollection.SetSingleton``1(``0)
+  name: SetSingleton<T>(T)
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_SetSingleton__1___0_
+  commentId: M:ProjectStack.Core.IGameResourceCollection.SetSingleton``1(``0)
+  name.vb: SetSingleton(Of T)(T)
+  fullName: ProjectStack.Core.IGameResourceCollection.SetSingleton<T>(T)
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.SetSingleton(Of T)(T)
+  nameWithType: IGameResourceCollection.SetSingleton<T>(T)
+  nameWithType.vb: IGameResourceCollection.SetSingleton(Of T)(T)
 - uid: ProjectStack.Core.IGameResourceCollection.TryAdd*
   name: TryAdd
   href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_TryAdd_
