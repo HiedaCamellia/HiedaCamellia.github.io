@@ -116,20 +116,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.CardTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.CardTest.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "ProjectStack.CardTest",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Command.CommandAdapter.yml",
       "output": {
         ".html": {
@@ -578,34 +564,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.FrozenGameResource-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Core.FrozenGameResource-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "ProjectStack.Core.FrozenGameResource<T>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.GameResource-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Core.GameResource-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "ProjectStack.Core.GameResource<T>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectStack.Core.GameResourceCollection.yml",
       "output": {
         ".html": {
@@ -616,20 +574,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "ProjectStack.Core.GameResourceCollection",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectStack.Core.IGameResource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectStack.Core.IGameResource.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "ProjectStack.Core.IGameResource",
       "Summary": null
     },
     {
@@ -1106,6 +1050,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "ProjectStack.Util",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.test.src.CardTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.test.src.CardTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.test.src.CardTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectStack.test.src.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectStack.test.src.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProjectStack.test.src",
       "Summary": null
     },
     {
