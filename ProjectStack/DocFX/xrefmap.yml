@@ -3680,6 +3680,22 @@ references:
   fullName.vb: ProjectStack.Core.GameResourceCollection.SetSingleton(Of T)(T)
   nameWithType: GameResourceCollection.SetSingleton<T>(T)
   nameWithType.vb: GameResourceCollection.SetSingleton(Of T)(T)
+- uid: ProjectStack.Core.GameResourceCollection.SingletonOf*
+  name: SingletonOf
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_SingletonOf_
+  commentId: Overload:ProjectStack.Core.GameResourceCollection.SingletonOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.GameResourceCollection.SingletonOf
+  nameWithType: GameResourceCollection.SingletonOf
+- uid: ProjectStack.Core.GameResourceCollection.SingletonOf``1
+  name: SingletonOf<T>()
+  href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_SingletonOf__1
+  commentId: M:ProjectStack.Core.GameResourceCollection.SingletonOf``1
+  name.vb: SingletonOf(Of T)()
+  fullName: ProjectStack.Core.GameResourceCollection.SingletonOf<T>()
+  fullName.vb: ProjectStack.Core.GameResourceCollection.SingletonOf(Of T)()
+  nameWithType: GameResourceCollection.SingletonOf<T>()
+  nameWithType.vb: GameResourceCollection.SingletonOf(Of T)()
 - uid: ProjectStack.Core.GameResourceCollection.TryAdd*
   name: TryAdd
   href: api/ProjectStack.Core.GameResourceCollection.html#ProjectStack_Core_GameResourceCollection_TryAdd_
@@ -3935,6 +3951,22 @@ references:
   fullName.vb: ProjectStack.Core.IGameResourceCollection.SetSingleton(Of T)(T)
   nameWithType: IGameResourceCollection.SetSingleton<T>(T)
   nameWithType.vb: IGameResourceCollection.SetSingleton(Of T)(T)
+- uid: ProjectStack.Core.IGameResourceCollection.SingletonOf*
+  name: SingletonOf
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_SingletonOf_
+  commentId: Overload:ProjectStack.Core.IGameResourceCollection.SingletonOf
+  isSpec: "True"
+  fullName: ProjectStack.Core.IGameResourceCollection.SingletonOf
+  nameWithType: IGameResourceCollection.SingletonOf
+- uid: ProjectStack.Core.IGameResourceCollection.SingletonOf``1
+  name: SingletonOf<T>()
+  href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_SingletonOf__1
+  commentId: M:ProjectStack.Core.IGameResourceCollection.SingletonOf``1
+  name.vb: SingletonOf(Of T)()
+  fullName: ProjectStack.Core.IGameResourceCollection.SingletonOf<T>()
+  fullName.vb: ProjectStack.Core.IGameResourceCollection.SingletonOf(Of T)()
+  nameWithType: IGameResourceCollection.SingletonOf<T>()
+  nameWithType.vb: IGameResourceCollection.SingletonOf(Of T)()
 - uid: ProjectStack.Core.IGameResourceCollection.TryAdd*
   name: TryAdd
   href: api/ProjectStack.Core.IGameResourceCollection.html#ProjectStack_Core_IGameResourceCollection_TryAdd_
